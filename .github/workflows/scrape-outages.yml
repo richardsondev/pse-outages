@@ -1,0 +1,25 @@
+name: Scrape latest data
+
+on:
+  push:
+  workflow_dispatch:
+  schedule:
+    - cron:  '9,29,49 * * * *'
+
+jobs:
+  scheduled:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out repo
+      uses: actions/checkout@v2
+    - name: Fetch latest data
+      run: |-
+        curl https://www.pse.com/api/sitecore/OutageMap/AnonymoussMapListView | jq . > outages.json
+    - name: Commit and push if it changed
+      run: |-
+        git config user.name "outage-detector"
+        git config user.email "actions@users.noreply.github.com"
+        git add -A
+        timestamp=$(date -u)
+        git commit -m "Latest data as of ${timestamp}" || exit 0
+        git push
