@@ -1,7 +1,7 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 100,
-    "OutageCount": 11
+    "CustomerAfftectedCount": 103,
+    "OutageCount": 12
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -682,17 +682,17 @@
           },
           {
             "Name": "Cause",
-            "Value": "Under Investigation",
+            "Value": "Bird Or Animal",
             "NoDisplay": false
           },
           {
             "Name": "Status",
-            "Value": "Outage reported",
+            "Value": "Waiting for repairs",
             "NoDisplay": false
           },
           {
             "Name": "Last updated",
-            "Value": "03/07 10:15 AM",
+            "Value": "03/07 11:25 AM",
             "NoDisplay": false
           }
         ],
@@ -934,6 +934,91 @@
         "Max": {
           "Latitude": "47.51926",
           "Longitude": "-122.05115"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "03/07 11:16 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "03/07 01:30 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "3",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last updated",
+            "Value": "03/07 11:25 AM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.33424",
+          "Longitude": "-122.51286",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Vashon",
+          "Id": "699218-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.33427",
+          "Longitude": "-122.51272"
+        },
+        {
+          "Latitude": "47.33426",
+          "Longitude": "-122.51265"
+        },
+        {
+          "Latitude": "47.33417",
+          "Longitude": "-122.51268"
+        },
+        {
+          "Latitude": "47.33422",
+          "Longitude": "-122.51300"
+        },
+        {
+          "Latitude": "47.33423",
+          "Longitude": "-122.51306"
+        },
+        {
+          "Latitude": "47.33432",
+          "Longitude": "-122.51303"
+        },
+        {
+          "Latitude": "47.33427",
+          "Longitude": "-122.51272"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.33422",
+          "Longitude": "-122.51298"
+        },
+        "Max": {
+          "Latitude": "47.33427",
+          "Longitude": "-122.51273"
         }
       }
     },
