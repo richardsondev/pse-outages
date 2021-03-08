@@ -1,7 +1,7 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 90,
-    "OutageCount": 13
+    "CustomerAfftectedCount": 99,
+    "OutageCount": 15
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -354,6 +354,83 @@
         "Attributes": [
           {
             "Name": "Start time",
+            "Value": "03/08 11:29 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "03/08 01:30 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "1",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last updated",
+            "Value": "03/08 11:35 AM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.33472",
+          "Longitude": "-122.31030",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Federal Way",
+          "Id": "699382-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.33476",
+          "Longitude": "-122.31024"
+        },
+        {
+          "Latitude": "47.33467",
+          "Longitude": "-122.31024"
+        },
+        {
+          "Latitude": "47.33467",
+          "Longitude": "-122.31037"
+        },
+        {
+          "Latitude": "47.33476",
+          "Longitude": "-122.31037"
+        },
+        {
+          "Latitude": "47.33476",
+          "Longitude": "-122.31024"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.33472",
+          "Longitude": "-122.31030"
+        },
+        "Max": {
+          "Latitude": "47.33472",
+          "Longitude": "-122.31030"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
             "Value": "03/08 11:18 AM",
             "NoDisplay": false
           },
@@ -467,12 +544,12 @@
           },
           {
             "Name": "Status",
-            "Value": "Crew assigned",
+            "Value": "Repair crew onsite",
             "NoDisplay": false
           },
           {
             "Name": "Last updated",
-            "Value": "03/08 10:00 AM",
+            "Value": "03/08 11:40 AM",
             "NoDisplay": false
           }
         ],
@@ -621,6 +698,123 @@
         "Max": {
           "Latitude": "47.77300",
           "Longitude": "-122.25601"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "03/08 11:33 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "03/08 02:00 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "8",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last updated",
+            "Value": "03/08 11:40 AM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.04901",
+          "Longitude": "-122.92360",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Northwest Olympia",
+          "Id": "699383-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.04862",
+          "Longitude": "-122.92326"
+        },
+        {
+          "Latitude": "47.04862",
+          "Longitude": "-122.92392"
+        },
+        {
+          "Latitude": "47.04867",
+          "Longitude": "-122.92399"
+        },
+        {
+          "Latitude": "47.04867",
+          "Longitude": "-122.92399"
+        },
+        {
+          "Latitude": "47.04935",
+          "Longitude": "-122.92396"
+        },
+        {
+          "Latitude": "47.04935",
+          "Longitude": "-122.92396"
+        },
+        {
+          "Latitude": "47.04949",
+          "Longitude": "-122.92395"
+        },
+        {
+          "Latitude": "47.04953",
+          "Longitude": "-122.92385"
+        },
+        {
+          "Latitude": "47.04953",
+          "Longitude": "-122.92385"
+        },
+        {
+          "Latitude": "47.04924",
+          "Longitude": "-122.92321"
+        },
+        {
+          "Latitude": "47.04920",
+          "Longitude": "-122.92318"
+        },
+        {
+          "Latitude": "47.04920",
+          "Longitude": "-122.92318"
+        },
+        {
+          "Latitude": "47.04866",
+          "Longitude": "-122.92320"
+        },
+        {
+          "Latitude": "47.04862",
+          "Longitude": "-122.92326"
+        },
+        {
+          "Latitude": "47.04862",
+          "Longitude": "-122.92326"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.04865",
+          "Longitude": "-122.92392"
+        },
+        "Max": {
+          "Latitude": "47.04950",
+          "Longitude": "-122.92326"
         }
       }
     },
@@ -796,17 +990,17 @@
           },
           {
             "Name": "Cause",
-            "Value": "Under Investigation",
+            "Value": "Equipment Failure",
             "NoDisplay": false
           },
           {
             "Name": "Status",
-            "Value": "Outage reported",
+            "Value": "Waiting for repairs",
             "NoDisplay": false
           },
           {
             "Name": "Last updated",
-            "Value": "03/08 11:30 AM",
+            "Value": "03/08 11:35 AM",
             "NoDisplay": false
           }
         ],
@@ -816,7 +1010,7 @@
           "MapType": "Outage",
           "PinType": "Outage",
           "Title": "Redmond",
-          "Id": "699368-1",
+          "Id": "699368-2",
           "PlannedOutage": false
         }
       },
