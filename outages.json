@@ -1,7 +1,7 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 2,
-    "OutageCount": 2
+    "CustomerAfftectedCount": 3,
+    "OutageCount": 3
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -146,6 +146,83 @@
         "Max": {
           "Latitude": "48.72087",
           "Longitude": "-122.51448"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "03/09 05:46 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "03/09 08:00 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "1",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last updated",
+            "Value": "03/09 05:50 AM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.66236",
+          "Longitude": "-122.12589",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Southeast Redmond",
+          "Id": "699434-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.66241",
+          "Longitude": "-122.12582"
+        },
+        {
+          "Latitude": "47.66232",
+          "Longitude": "-122.12582"
+        },
+        {
+          "Latitude": "47.66232",
+          "Longitude": "-122.12595"
+        },
+        {
+          "Latitude": "47.66241",
+          "Longitude": "-122.12596"
+        },
+        {
+          "Latitude": "47.66241",
+          "Longitude": "-122.12582"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.66236",
+          "Longitude": "-122.12589"
+        },
+        "Max": {
+          "Latitude": "47.66236",
+          "Longitude": "-122.12589"
         }
       }
     }
