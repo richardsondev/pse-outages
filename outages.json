@@ -1,7 +1,7 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 91,
-    "OutageCount": 9
+    "CustomerAfftectedCount": 93,
+    "OutageCount": 10
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -25,17 +25,17 @@
           },
           {
             "Name": "Cause",
-            "Value": "Under Investigation",
+            "Value": "Customer Equipment",
             "NoDisplay": false
           },
           {
             "Name": "Status",
-            "Value": "Outage reported",
+            "Value": "Waiting for repairs",
             "NoDisplay": false
           },
           {
             "Name": "Last updated",
-            "Value": "03/09 01:35 PM",
+            "Value": "03/09 03:10 PM",
             "NoDisplay": false
           }
         ],
@@ -446,6 +446,91 @@
         "Attributes": [
           {
             "Name": "Start time",
+            "Value": "03/09 03:00 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "03/09 05:30 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "2",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last updated",
+            "Value": "03/09 03:15 PM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "48.88370",
+          "Longitude": "-122.30770",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Everson",
+          "Id": "699540-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "48.88343",
+          "Longitude": "-122.30759"
+        },
+        {
+          "Latitude": "48.88339",
+          "Longitude": "-122.30758"
+        },
+        {
+          "Latitude": "48.88338",
+          "Longitude": "-122.30771"
+        },
+        {
+          "Latitude": "48.88396",
+          "Longitude": "-122.30782"
+        },
+        {
+          "Latitude": "48.88401",
+          "Longitude": "-122.30783"
+        },
+        {
+          "Latitude": "48.88402",
+          "Longitude": "-122.30769"
+        },
+        {
+          "Latitude": "48.88343",
+          "Longitude": "-122.30759"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "48.88343",
+          "Longitude": "-122.30774"
+        },
+        "Max": {
+          "Latitude": "48.88397",
+          "Longitude": "-122.30767"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
             "Value": "03/09 12:29 PM",
             "NoDisplay": false
           },
@@ -707,12 +792,12 @@
           },
           {
             "Name": "Status",
-            "Value": "Crew assigned",
+            "Value": "Repair crew onsite",
             "NoDisplay": false
           },
           {
             "Name": "Last updated",
-            "Value": "03/09 01:05 PM",
+            "Value": "03/09 03:15 PM",
             "NoDisplay": false
           }
         ],
