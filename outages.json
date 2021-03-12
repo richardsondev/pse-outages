@@ -1,6 +1,6 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 79,
+    "CustomerAfftectedCount": 83,
     "OutageCount": 6
   },
   "CustomerProfile": null,
@@ -199,12 +199,12 @@
           },
           {
             "Name": "Status",
-            "Value": "Waiting for repairs",
+            "Value": "Crew assigned",
             "NoDisplay": false
           },
           {
             "Name": "Last updated",
-            "Value": "03/12 01:15 PM",
+            "Value": "03/12 01:30 PM",
             "NoDisplay": false
           }
         ],
@@ -364,6 +364,103 @@
         "Attributes": [
           {
             "Name": "Start time",
+            "Value": "03/12 01:35 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "03/12 04:00 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "5",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last updated",
+            "Value": "03/12 01:45 PM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.48957",
+          "Longitude": "-122.22497",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Renton",
+          "Id": "700149-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.48943",
+          "Longitude": "-122.22527"
+        },
+        {
+          "Latitude": "47.48963",
+          "Longitude": "-122.22531"
+        },
+        {
+          "Latitude": "47.48968",
+          "Longitude": "-122.22526"
+        },
+        {
+          "Latitude": "47.48968",
+          "Longitude": "-122.22526"
+        },
+        {
+          "Latitude": "47.48976",
+          "Longitude": "-122.22472"
+        },
+        {
+          "Latitude": "47.48972",
+          "Longitude": "-122.22464"
+        },
+        {
+          "Latitude": "47.48945",
+          "Longitude": "-122.22467"
+        },
+        {
+          "Latitude": "47.48941",
+          "Longitude": "-122.22473"
+        },
+        {
+          "Latitude": "47.48939",
+          "Longitude": "-122.22520"
+        },
+        {
+          "Latitude": "47.48943",
+          "Longitude": "-122.22527"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.48943",
+          "Longitude": "-122.22524"
+        },
+        "Max": {
+          "Latitude": "47.48972",
+          "Longitude": "-122.22471"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
             "Value": "03/09 09:12 PM",
             "NoDisplay": false
           },
@@ -452,83 +549,6 @@
         "Max": {
           "Latitude": "47.62828",
           "Longitude": "-122.17045"
-        }
-      }
-    },
-    {
-      "DataProvider": {
-        "Attributes": [
-          {
-            "Name": "Start time",
-            "Value": "03/12 12:26 PM",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Est. restoration time",
-            "Value": "03/12 02:30 PM",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Customers impacted",
-            "Value": "1",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Cause",
-            "Value": "Under Investigation",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Status",
-            "Value": "Outage reported",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Last updated",
-            "Value": "03/12 12:35 PM",
-            "NoDisplay": false
-          }
-        ],
-        "PointOfInterest": {
-          "Latitude": "46.91726",
-          "Longitude": "-122.63484",
-          "MapType": "Outage",
-          "PinType": "Outage",
-          "Title": "Yelm",
-          "Id": "700140-1",
-          "PlannedOutage": false
-        }
-      },
-      "Polygon": [
-        {
-          "Latitude": "46.91731",
-          "Longitude": "-122.63477"
-        },
-        {
-          "Latitude": "46.91722",
-          "Longitude": "-122.63477"
-        },
-        {
-          "Latitude": "46.91722",
-          "Longitude": "-122.63490"
-        },
-        {
-          "Latitude": "46.91731",
-          "Longitude": "-122.63491"
-        },
-        {
-          "Latitude": "46.91731",
-          "Longitude": "-122.63477"
-        }
-      ],
-      "BoundingBox": {
-        "Min": {
-          "Latitude": "46.91726",
-          "Longitude": "-122.63484"
-        },
-        "Max": {
-          "Latitude": "46.91726",
-          "Longitude": "-122.63484"
         }
       }
     }
