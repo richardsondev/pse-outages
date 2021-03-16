@@ -1,10 +1,82 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 191,
+    "CustomerAfftectedCount": 189,
     "OutageCount": 10
   },
   "CustomerProfile": null,
   "PseMap": [
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "03/16 11:37 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "1",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Scheduled Outage",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Repair crew onsite",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last updated",
+            "Value": "03/16 11:40 AM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.63402",
+          "Longitude": "-122.76874",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Bremerton",
+          "Id": "692865-1",
+          "PlannedOutage": true
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.63406",
+          "Longitude": "-122.76867"
+        },
+        {
+          "Latitude": "47.63397",
+          "Longitude": "-122.76867"
+        },
+        {
+          "Latitude": "47.63397",
+          "Longitude": "-122.76880"
+        },
+        {
+          "Latitude": "47.63406",
+          "Longitude": "-122.76880"
+        },
+        {
+          "Latitude": "47.63406",
+          "Longitude": "-122.76867"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.63402",
+          "Longitude": "-122.76873"
+        },
+        "Max": {
+          "Latitude": "47.63402",
+          "Longitude": "-122.76873"
+        }
+      }
+    },
     {
       "DataProvider": {
         "Attributes": [
@@ -117,17 +189,17 @@
           },
           {
             "Name": "Cause",
-            "Value": "Under Investigation",
+            "Value": "Equipment Failure",
             "NoDisplay": false
           },
           {
             "Name": "Status",
-            "Value": "Outage reported",
+            "Value": "Waiting for repairs",
             "NoDisplay": false
           },
           {
             "Name": "Last updated",
-            "Value": "03/16 10:30 AM",
+            "Value": "03/16 11:35 AM",
             "NoDisplay": false
           }
         ],
@@ -137,7 +209,7 @@
           "MapType": "Outage",
           "PinType": "Outage",
           "Title": "Indianola",
-          "Id": "700748-1",
+          "Id": "700748-2",
           "PlannedOutage": false
         }
       },
@@ -741,103 +813,6 @@
         "Max": {
           "Latitude": "47.14524",
           "Longitude": "-122.26138"
-        }
-      }
-    },
-    {
-      "DataProvider": {
-        "Attributes": [
-          {
-            "Name": "Start time",
-            "Value": "03/16 05:53 AM",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Est. restoration time",
-            "Value": "03/16 12:00 PM",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Customers impacted",
-            "Value": "3",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Cause",
-            "Value": "Equipment Failure",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Status",
-            "Value": "Repair crew onsite",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Last updated",
-            "Value": "03/16 10:00 AM",
-            "NoDisplay": false
-          }
-        ],
-        "PointOfInterest": {
-          "Latitude": "47.47754",
-          "Longitude": "-122.22323",
-          "MapType": "Outage",
-          "PinType": "Outage",
-          "Title": "Renton",
-          "Id": "700718-2",
-          "PlannedOutage": false
-        }
-      },
-      "Polygon": [
-        {
-          "Latitude": "47.47736",
-          "Longitude": "-122.22350"
-        },
-        {
-          "Latitude": "47.47766",
-          "Longitude": "-122.22340"
-        },
-        {
-          "Latitude": "47.47769",
-          "Longitude": "-122.22333"
-        },
-        {
-          "Latitude": "47.47766",
-          "Longitude": "-122.22292"
-        },
-        {
-          "Latitude": "47.47763",
-          "Longitude": "-122.22286"
-        },
-        {
-          "Latitude": "47.47758",
-          "Longitude": "-122.22288"
-        },
-        {
-          "Latitude": "47.47758",
-          "Longitude": "-122.22288"
-        },
-        {
-          "Latitude": "47.47731",
-          "Longitude": "-122.22339"
-        },
-        {
-          "Latitude": "47.47731",
-          "Longitude": "-122.22347"
-        },
-        {
-          "Latitude": "47.47736",
-          "Longitude": "-122.22350"
-        }
-      ],
-      "BoundingBox": {
-        "Min": {
-          "Latitude": "47.47735",
-          "Longitude": "-122.22343"
-        },
-        "Max": {
-          "Latitude": "47.47765",
-          "Longitude": "-122.22293"
         }
       }
     },
