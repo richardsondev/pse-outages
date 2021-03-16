@@ -1,7 +1,7 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 133,
-    "OutageCount": 4
+    "CustomerAfftectedCount": 135,
+    "OutageCount": 5
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -87,7 +87,7 @@
           },
           {
             "Name": "Est. restoration time",
-            "Value": "03/16 11:00 AM",
+            "Value": "03/16 10:00 AM",
             "NoDisplay": false
           },
           {
@@ -102,12 +102,12 @@
           },
           {
             "Name": "Status",
-            "Value": "Crew assigned",
+            "Value": "Repair crew onsite",
             "NoDisplay": false
           },
           {
             "Name": "Last updated",
-            "Value": "03/16 08:15 AM",
+            "Value": "03/16 08:40 AM",
             "NoDisplay": false
           }
         ],
@@ -409,6 +409,78 @@
         "Max": {
           "Latitude": "47.12509",
           "Longitude": "-122.55386"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "03/16 08:26 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "2",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Scheduled Outage",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Repair crew onsite",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last updated",
+            "Value": "03/16 08:35 AM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.13449",
+          "Longitude": "-122.53909",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Tacoma",
+          "Id": "700730-1",
+          "PlannedOutage": true
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.13453",
+          "Longitude": "-122.53903"
+        },
+        {
+          "Latitude": "47.13444",
+          "Longitude": "-122.53902"
+        },
+        {
+          "Latitude": "47.13444",
+          "Longitude": "-122.53916"
+        },
+        {
+          "Latitude": "47.13453",
+          "Longitude": "-122.53916"
+        },
+        {
+          "Latitude": "47.13453",
+          "Longitude": "-122.53903"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.13449",
+          "Longitude": "-122.53909"
+        },
+        "Max": {
+          "Latitude": "47.13449",
+          "Longitude": "-122.53909"
         }
       }
     }
