@@ -1,7 +1,7 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 205,
-    "OutageCount": 10,
+    "CustomerAfftectedCount": 200,
+    "OutageCount": 9,
     "LastUpdatedDatetime": "03/16 04:50 PM"
   },
   "CustomerProfile": null,
@@ -126,7 +126,7 @@
           },
           {
             "Name": "Status",
-            "Value": "Crew assigned",
+            "Value": "Repair crew onsite",
             "NoDisplay": false
           },
           {
@@ -136,7 +136,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "03/19 06:05 AM",
+            "Value": "03/19 09:05 AM",
             "NoDisplay": false
           },
           {
@@ -376,7 +376,7 @@
           },
           {
             "Name": "Status",
-            "Value": "Waiting for repairs",
+            "Value": "Crew assigned",
             "NoDisplay": false
           },
           {
@@ -386,7 +386,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "03/19 06:05 AM",
+            "Value": "03/19 09:30 AM",
             "NoDisplay": false
           },
           {
@@ -401,7 +401,7 @@
           "MapType": "Outage",
           "PinType": "Outage",
           "Title": "Northwest Olympia",
-          "Id": "701165-1",
+          "Id": "701165-2",
           "PlannedOutage": false
         }
       },
@@ -616,6 +616,78 @@
         "Attributes": [
           {
             "Name": "Start time",
+            "Value": "03/19 09:22 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "1",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Repair crew onsite",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Scheduled Outage",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "03/19 09:30 AM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "46.95255",
+          "Longitude": "-122.94106",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Olympia",
+          "Id": "673855-1",
+          "PlannedOutage": true
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "46.95259",
+          "Longitude": "-122.94100"
+        },
+        {
+          "Latitude": "46.95250",
+          "Longitude": "-122.94100"
+        },
+        {
+          "Latitude": "46.95250",
+          "Longitude": "-122.94113"
+        },
+        {
+          "Latitude": "46.95259",
+          "Longitude": "-122.94113"
+        },
+        {
+          "Latitude": "46.95259",
+          "Longitude": "-122.94100"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "46.95254",
+          "Longitude": "-122.94106"
+        },
+        "Max": {
+          "Latitude": "46.95254",
+          "Longitude": "-122.94106"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
             "Value": "03/16 04:47 PM",
             "NoDisplay": false
           },
@@ -708,176 +780,6 @@
         "Attributes": [
           {
             "Name": "Start time",
-            "Value": "03/19 08:20 AM",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Customers impacted",
-            "Value": "1",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Status",
-            "Value": "Outage reported",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Cause",
-            "Value": "Under Investigation",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Last update",
-            "Value": "03/19 08:25 AM",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Est. restoration time",
-            "Value": "03/19 10:30 AM",
-            "NoDisplay": false
-          }
-        ],
-        "PointOfInterest": {
-          "Latitude": "47.49139",
-          "Longitude": "-122.10437",
-          "MapType": "Outage",
-          "PinType": "Outage",
-          "Title": "Renton",
-          "Id": "701183-1",
-          "PlannedOutage": false
-        }
-      },
-      "Polygon": [
-        {
-          "Latitude": "47.49144",
-          "Longitude": "-122.10431"
-        },
-        {
-          "Latitude": "47.49135",
-          "Longitude": "-122.10430"
-        },
-        {
-          "Latitude": "47.49135",
-          "Longitude": "-122.10444"
-        },
-        {
-          "Latitude": "47.49144",
-          "Longitude": "-122.10444"
-        },
-        {
-          "Latitude": "47.49144",
-          "Longitude": "-122.10431"
-        }
-      ],
-      "BoundingBox": {
-        "Min": {
-          "Latitude": "47.49139",
-          "Longitude": "-122.10437"
-        },
-        "Max": {
-          "Latitude": "47.49139",
-          "Longitude": "-122.10437"
-        }
-      }
-    },
-    {
-      "DataProvider": {
-        "Attributes": [
-          {
-            "Name": "Start time",
-            "Value": "03/19 07:46 AM",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Customers impacted",
-            "Value": "5",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Status",
-            "Value": "Outage reported",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Cause",
-            "Value": "Under Investigation",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Last update",
-            "Value": "03/19 07:50 AM",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Est. restoration time",
-            "Value": "03/19 10:00 AM",
-            "NoDisplay": false
-          }
-        ],
-        "PointOfInterest": {
-          "Latitude": "47.67221",
-          "Longitude": "-122.17403",
-          "MapType": "Outage",
-          "PinType": "Outage",
-          "Title": "South Rose Hill",
-          "Id": "701178-1",
-          "PlannedOutage": false
-        }
-      },
-      "Polygon": [
-        {
-          "Latitude": "47.67196",
-          "Longitude": "-122.17389"
-        },
-        {
-          "Latitude": "47.67212",
-          "Longitude": "-122.17437"
-        },
-        {
-          "Latitude": "47.67215",
-          "Longitude": "-122.17441"
-        },
-        {
-          "Latitude": "47.67231",
-          "Longitude": "-122.17443"
-        },
-        {
-          "Latitude": "47.67236",
-          "Longitude": "-122.17437"
-        },
-        {
-          "Latitude": "47.67239",
-          "Longitude": "-122.17369"
-        },
-        {
-          "Latitude": "47.67233",
-          "Longitude": "-122.17362"
-        },
-        {
-          "Latitude": "47.67199",
-          "Longitude": "-122.17380"
-        },
-        {
-          "Latitude": "47.67196",
-          "Longitude": "-122.17389"
-        }
-      ],
-      "BoundingBox": {
-        "Min": {
-          "Latitude": "47.67199",
-          "Longitude": "-122.17435"
-        },
-        "Max": {
-          "Latitude": "47.67234",
-          "Longitude": "-122.17368"
-        }
-      }
-    },
-    {
-      "DataProvider": {
-        "Attributes": [
-          {
-            "Name": "Start time",
             "Value": "03/19 08:17 AM",
             "NoDisplay": false
           },
@@ -888,7 +790,7 @@
           },
           {
             "Name": "Status",
-            "Value": "Outage reported",
+            "Value": "Waiting for repairs",
             "NoDisplay": false
           },
           {
@@ -898,7 +800,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "03/19 08:25 AM",
+            "Value": "03/19 09:05 AM",
             "NoDisplay": false
           },
           {
