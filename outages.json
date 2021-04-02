@@ -1,11 +1,91 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 24,
-    "OutageCount": 2,
+    "CustomerAfftectedCount": 47,
+    "OutageCount": 4,
     "LastUpdatedDatetime": "04/02 08:10 AM"
   },
   "CustomerProfile": null,
   "PseMap": [
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "04/02 08:42 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "3",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Repair crew onsite",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Scheduled Outage",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "04/02 08:45 AM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "48.53030",
+          "Longitude": "-121.90691",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Concrete",
+          "Id": "701065-1",
+          "PlannedOutage": true
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "48.53070",
+          "Longitude": "-121.90615"
+        },
+        {
+          "Latitude": "48.53072",
+          "Longitude": "-121.90609"
+        },
+        {
+          "Latitude": "48.53065",
+          "Longitude": "-121.90602"
+        },
+        {
+          "Latitude": "48.52990",
+          "Longitude": "-121.90766"
+        },
+        {
+          "Latitude": "48.52988",
+          "Longitude": "-121.90771"
+        },
+        {
+          "Latitude": "48.52995",
+          "Longitude": "-121.90779"
+        },
+        {
+          "Latitude": "48.53070",
+          "Longitude": "-121.90615"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "48.52994",
+          "Longitude": "-121.90770"
+        },
+        "Max": {
+          "Latitude": "48.53066",
+          "Longitude": "-121.90611"
+        }
+      }
+    },
     {
       "DataProvider": {
         "Attributes": [
@@ -217,6 +297,78 @@
         "Max": {
           "Latitude": "47.71767",
           "Longitude": "-122.24852"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "04/02 08:35 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "20",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Repair crew onsite",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Scheduled Outage",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "04/02 08:40 AM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.44597",
+          "Longitude": "-122.18398",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Renton",
+          "Id": "703242-1",
+          "PlannedOutage": true
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.44602",
+          "Longitude": "-122.18392"
+        },
+        {
+          "Latitude": "47.44593",
+          "Longitude": "-122.18392"
+        },
+        {
+          "Latitude": "47.44592",
+          "Longitude": "-122.18405"
+        },
+        {
+          "Latitude": "47.44601",
+          "Longitude": "-122.18405"
+        },
+        {
+          "Latitude": "47.44602",
+          "Longitude": "-122.18392"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.44597",
+          "Longitude": "-122.18398"
+        },
+        "Max": {
+          "Latitude": "47.44597",
+          "Longitude": "-122.18398"
         }
       }
     }
