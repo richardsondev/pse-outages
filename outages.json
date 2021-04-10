@@ -1,6 +1,6 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 100,
+    "CustomerAfftectedCount": 101,
     "OutageCount": 5,
     "LastUpdatedDatetime": "04/07 07:20 PM"
   },
@@ -151,6 +151,99 @@
         "Attributes": [
           {
             "Name": "Start time",
+            "Value": "04/10 12:23 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "3",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Crew assigned",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Equipment Failure",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "04/10 12:35 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "04/10 06:30 PM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "48.41763",
+          "Longitude": "-122.55392",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "La Conner",
+          "Id": "704233-2",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "48.41738",
+          "Longitude": "-122.55403"
+        },
+        {
+          "Latitude": "48.41759",
+          "Longitude": "-122.55406"
+        },
+        {
+          "Latitude": "48.41761",
+          "Longitude": "-122.55406"
+        },
+        {
+          "Latitude": "48.41792",
+          "Longitude": "-122.55385"
+        },
+        {
+          "Latitude": "48.41794",
+          "Longitude": "-122.55377"
+        },
+        {
+          "Latitude": "48.41789",
+          "Longitude": "-122.55372"
+        },
+        {
+          "Latitude": "48.41738",
+          "Longitude": "-122.55389"
+        },
+        {
+          "Latitude": "48.41734",
+          "Longitude": "-122.55396"
+        },
+        {
+          "Latitude": "48.41738",
+          "Longitude": "-122.55403"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "48.41738",
+          "Longitude": "-122.55399"
+        },
+        "Max": {
+          "Latitude": "48.41790",
+          "Longitude": "-122.55379"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
             "Value": "04/10 09:55 AM",
             "NoDisplay": false
           },
@@ -292,91 +385,6 @@
         "Max": {
           "Latitude": "47.64904",
           "Longitude": "-122.13548"
-        }
-      }
-    },
-    {
-      "DataProvider": {
-        "Attributes": [
-          {
-            "Name": "Start time",
-            "Value": "04/10 11:20 AM",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Customers impacted",
-            "Value": "2",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Status",
-            "Value": "Outage reported",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Cause",
-            "Value": "Under Investigation",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Last update",
-            "Value": "04/10 11:25 AM",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Est. restoration time",
-            "Value": "04/10 01:30 PM",
-            "NoDisplay": false
-          }
-        ],
-        "PointOfInterest": {
-          "Latitude": "47.69699",
-          "Longitude": "-122.67353",
-          "MapType": "Outage",
-          "PinType": "Outage",
-          "Title": "Poulsbo",
-          "Id": "704229-1",
-          "PlannedOutage": false
-        }
-      },
-      "Polygon": [
-        {
-          "Latitude": "47.69682",
-          "Longitude": "-122.67221"
-        },
-        {
-          "Latitude": "47.69681",
-          "Longitude": "-122.67215"
-        },
-        {
-          "Latitude": "47.69672",
-          "Longitude": "-122.67218"
-        },
-        {
-          "Latitude": "47.69716",
-          "Longitude": "-122.67484"
-        },
-        {
-          "Latitude": "47.69717",
-          "Longitude": "-122.67491"
-        },
-        {
-          "Latitude": "47.69726",
-          "Longitude": "-122.67488"
-        },
-        {
-          "Latitude": "47.69682",
-          "Longitude": "-122.67221"
-        }
-      ],
-      "BoundingBox": {
-        "Min": {
-          "Latitude": "47.69674",
-          "Longitude": "-122.67481"
-        },
-        "Max": {
-          "Latitude": "47.69725",
-          "Longitude": "-122.67224"
         }
       }
     },
