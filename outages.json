@@ -1,7 +1,7 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 135,
-    "OutageCount": 9,
+    "CustomerAfftectedCount": 136,
+    "OutageCount": 10,
     "LastUpdatedDatetime": "04/15 02:40 PM"
   },
   "CustomerProfile": null,
@@ -93,22 +93,22 @@
           },
           {
             "Name": "Status",
-            "Value": "Outage reported",
+            "Value": "Waiting for repairs",
             "NoDisplay": false
           },
           {
             "Name": "Cause",
-            "Value": "Under Investigation",
+            "Value": "Trees/Vegetation",
             "NoDisplay": false
           },
           {
             "Name": "Last update",
-            "Value": "04/19 02:40 PM",
+            "Value": "04/19 02:45 PM",
             "NoDisplay": false
           },
           {
             "Name": "Est. restoration time",
-            "Value": "04/19 05:00 PM",
+            "Value": "04/19 06:00 PM",
             "NoDisplay": false
           }
         ],
@@ -708,6 +708,83 @@
         "Max": {
           "Latitude": "47.58037",
           "Longitude": "-122.90905"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "04/19 02:40 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "1",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "04/19 02:45 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "04/19 05:00 PM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "48.98665",
+          "Longitude": "-122.24236",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Sumas",
+          "Id": "705667-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "48.98670",
+          "Longitude": "-122.24230"
+        },
+        {
+          "Latitude": "48.98661",
+          "Longitude": "-122.24229"
+        },
+        {
+          "Latitude": "48.98661",
+          "Longitude": "-122.24243"
+        },
+        {
+          "Latitude": "48.98670",
+          "Longitude": "-122.24243"
+        },
+        {
+          "Latitude": "48.98670",
+          "Longitude": "-122.24230"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "48.98665",
+          "Longitude": "-122.24236"
+        },
+        "Max": {
+          "Latitude": "48.98665",
+          "Longitude": "-122.24236"
         }
       }
     },
