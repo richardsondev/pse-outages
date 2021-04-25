@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 794,
+    "CustomerAfftectedCount": 780,
     "OutageCount": 7,
-    "LastUpdatedDatetime": "04/25 01:52 AM"
+    "LastUpdatedDatetime": "04/25 02:32 AM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -21,17 +21,17 @@
           },
           {
             "Name": "Status",
-            "Value": "Outage reported",
+            "Value": "Waiting for repairs",
             "NoDisplay": false
           },
           {
             "Name": "Cause",
-            "Value": "Under Investigation",
+            "Value": "Equipment Failure",
             "NoDisplay": false
           },
           {
             "Name": "Last update",
-            "Value": "04/25 01:25 AM",
+            "Value": "04/25 02:20 AM",
             "NoDisplay": false
           },
           {
@@ -46,7 +46,7 @@
           "MapType": "Outage",
           "PinType": "Outage",
           "Title": "Central Houghton",
-          "Id": "706402-1",
+          "Id": "706402-2",
           "PlannedOutage": false
         }
       },
@@ -128,6 +128,91 @@
         "Max": {
           "Latitude": "47.64780",
           "Longitude": "-122.19731"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "04/25 02:13 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "2",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Waiting for repairs",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Car/Equip Accident",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "04/25 02:20 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "To Be Determined",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "48.90285",
+          "Longitude": "-122.51864",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Ferndale",
+          "Id": "706398-2",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "48.90214",
+          "Longitude": "-122.51970"
+        },
+        {
+          "Latitude": "48.90211",
+          "Longitude": "-122.51975"
+        },
+        {
+          "Latitude": "48.90217",
+          "Longitude": "-122.51984"
+        },
+        {
+          "Latitude": "48.90357",
+          "Longitude": "-122.51757"
+        },
+        {
+          "Latitude": "48.90360",
+          "Longitude": "-122.51753"
+        },
+        {
+          "Latitude": "48.90354",
+          "Longitude": "-122.51743"
+        },
+        {
+          "Latitude": "48.90214",
+          "Longitude": "-122.51970"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "48.90217",
+          "Longitude": "-122.51975"
+        },
+        "Max": {
+          "Latitude": "48.90354",
+          "Longitude": "-122.51753"
         }
       }
     },
@@ -620,91 +705,6 @@
         "Attributes": [
           {
             "Name": "Start time",
-            "Value": "04/24 02:00 PM",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Customers impacted",
-            "Value": "16",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Status",
-            "Value": "Waiting for repairs",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Cause",
-            "Value": "Equipment Failure",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Last update",
-            "Value": "04/24 11:50 PM",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Est. restoration time",
-            "Value": "To Be Determined",
-            "NoDisplay": false
-          }
-        ],
-        "PointOfInterest": {
-          "Latitude": "47.42311",
-          "Longitude": "-122.28593",
-          "MapType": "Outage",
-          "PinType": "Outage",
-          "Title": "SeaTac",
-          "Id": "706362-1",
-          "PlannedOutage": false
-        }
-      },
-      "Polygon": [
-        {
-          "Latitude": "47.42322",
-          "Longitude": "-122.28572"
-        },
-        {
-          "Latitude": "47.42324",
-          "Longitude": "-122.28566"
-        },
-        {
-          "Latitude": "47.42315",
-          "Longitude": "-122.28561"
-        },
-        {
-          "Latitude": "47.42300",
-          "Longitude": "-122.28613"
-        },
-        {
-          "Latitude": "47.42298",
-          "Longitude": "-122.28619"
-        },
-        {
-          "Latitude": "47.42306",
-          "Longitude": "-122.28625"
-        },
-        {
-          "Latitude": "47.42322",
-          "Longitude": "-122.28572"
-        }
-      ],
-      "BoundingBox": {
-        "Min": {
-          "Latitude": "47.42304",
-          "Longitude": "-122.28616"
-        },
-        "Max": {
-          "Latitude": "47.42318",
-          "Longitude": "-122.28570"
-        }
-      }
-    },
-    {
-      "DataProvider": {
-        "Attributes": [
-          {
-            "Name": "Start time",
             "Value": "04/24 11:07 PM",
             "NoDisplay": false
           },
@@ -781,5 +781,5 @@
       }
     }
   ],
-  "LastUpdated": "2021-04-25T08:52:52+00:00"
+  "LastUpdated": "2021-04-25T09:32:52+00:00"
 }
