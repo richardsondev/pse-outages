@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 1760,
-    "OutageCount": 4,
-    "LastUpdatedDatetime": "04/26 03:32 AM"
+    "CustomerAfftectedCount": 1761,
+    "OutageCount": 5,
+    "LastUpdatedDatetime": "04/26 03:52 AM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -21,17 +21,17 @@
           },
           {
             "Name": "Status",
-            "Value": "Outage reported",
+            "Value": "Waiting for repairs",
             "NoDisplay": false
           },
           {
             "Name": "Cause",
-            "Value": "Under Investigation",
+            "Value": "Car/Equip Accident",
             "NoDisplay": false
           },
           {
             "Name": "Last update",
-            "Value": "04/26 03:15 AM",
+            "Value": "04/26 03:40 AM",
             "NoDisplay": false
           },
           {
@@ -196,6 +196,83 @@
         "Max": {
           "Latitude": "47.32254",
           "Longitude": "-122.18999"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "04/26 03:34 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "1",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "04/26 03:40 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "04/26 06:00 AM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.27282",
+          "Longitude": "-122.22685",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Auburn",
+          "Id": "706495-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.27287",
+          "Longitude": "-122.22678"
+        },
+        {
+          "Latitude": "47.27278",
+          "Longitude": "-122.22678"
+        },
+        {
+          "Latitude": "47.27278",
+          "Longitude": "-122.22691"
+        },
+        {
+          "Latitude": "47.27287",
+          "Longitude": "-122.22692"
+        },
+        {
+          "Latitude": "47.27287",
+          "Longitude": "-122.22678"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.27282",
+          "Longitude": "-122.22685"
+        },
+        "Max": {
+          "Latitude": "47.27282",
+          "Longitude": "-122.22685"
         }
       }
     },
@@ -503,5 +580,5 @@
       }
     }
   ],
-  "LastUpdated": "2021-04-26T10:32:52+00:00"
+  "LastUpdated": "2021-04-26T10:52:52+00:00"
 }
