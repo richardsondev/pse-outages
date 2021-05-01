@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 98,
-    "OutageCount": 5,
-    "LastUpdatedDatetime": "04/30 10:02 PM"
+    "CustomerAfftectedCount": 99,
+    "OutageCount": 6,
+    "LastUpdatedDatetime": "04/30 10:52 PM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -88,6 +88,83 @@
         "Attributes": [
           {
             "Name": "Start time",
+            "Value": "04/30 10:42 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "1",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "04/30 10:50 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "05/01 01:00 AM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.80530",
+          "Longitude": "-122.50462",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Kingston",
+          "Id": "707432-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.80535",
+          "Longitude": "-122.50456"
+        },
+        {
+          "Latitude": "47.80526",
+          "Longitude": "-122.50456"
+        },
+        {
+          "Latitude": "47.80525",
+          "Longitude": "-122.50469"
+        },
+        {
+          "Latitude": "47.80534",
+          "Longitude": "-122.50469"
+        },
+        {
+          "Latitude": "47.80535",
+          "Longitude": "-122.50456"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.80530",
+          "Longitude": "-122.50462"
+        },
+        "Max": {
+          "Latitude": "47.80530",
+          "Longitude": "-122.50462"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
             "Value": "04/30 01:32 PM",
             "NoDisplay": false
           },
@@ -108,12 +185,12 @@
           },
           {
             "Name": "Last update",
-            "Value": "04/30 07:25 PM",
+            "Value": "04/30 10:50 PM",
             "NoDisplay": false
           },
           {
             "Name": "Est. restoration time",
-            "Value": "04/30 11:00 PM",
+            "Value": "05/01 04:00 AM",
             "NoDisplay": false
           }
         ],
@@ -231,7 +308,7 @@
           },
           {
             "Name": "Status",
-            "Value": "Waiting for repairs",
+            "Value": "Crew assigned",
             "NoDisplay": false
           },
           {
@@ -241,7 +318,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "04/30 10:00 PM",
+            "Value": "04/30 10:20 PM",
             "NoDisplay": false
           },
           {
@@ -255,8 +332,8 @@
           "Longitude": "-122.59072",
           "MapType": "Outage",
           "PinType": "Outage",
-          "Title": "Poulsbo",
-          "Id": "707430-1",
+          "Title": "Port Gamble",
+          "Id": "707430-2",
           "PlannedOutage": false
         }
       },
@@ -463,5 +540,5 @@
       }
     }
   ],
-  "LastUpdated": "2021-05-01T05:02:52+00:00"
+  "LastUpdated": "2021-05-01T05:52:52+00:00"
 }
