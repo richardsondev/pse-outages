@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 86,
-    "OutageCount": 3,
-    "LastUpdatedDatetime": "05/03 08:32 AM"
+    "CustomerAfftectedCount": 90,
+    "OutageCount": 4,
+    "LastUpdatedDatetime": "05/03 08:57 AM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -21,17 +21,17 @@
           },
           {
             "Name": "Status",
-            "Value": "Outage reported",
+            "Value": "Waiting for repairs",
             "NoDisplay": false
           },
           {
             "Name": "Cause",
-            "Value": "Under Investigation",
+            "Value": "Bird Or Animal",
             "NoDisplay": false
           },
           {
             "Name": "Last update",
-            "Value": "05/03 08:00 AM",
+            "Value": "05/03 08:50 AM",
             "NoDisplay": false
           },
           {
@@ -46,7 +46,7 @@
           "MapType": "Outage",
           "PinType": "Outage",
           "Title": "Carnation",
-          "Id": "707591-1",
+          "Id": "707591-2",
           "PlannedOutage": false
         }
       },
@@ -136,6 +136,103 @@
         "Max": {
           "Latitude": "47.68914",
           "Longitude": "-121.90977"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "05/03 08:28 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "4",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "05/03 08:35 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "05/03 10:30 AM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.48863",
+          "Longitude": "-122.06628",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Issaquah",
+          "Id": "707598-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.48815",
+          "Longitude": "-122.06612"
+        },
+        {
+          "Latitude": "47.48822",
+          "Longitude": "-122.06673"
+        },
+        {
+          "Latitude": "47.48827",
+          "Longitude": "-122.06679"
+        },
+        {
+          "Latitude": "47.48913",
+          "Longitude": "-122.06642"
+        },
+        {
+          "Latitude": "47.48916",
+          "Longitude": "-122.06634"
+        },
+        {
+          "Latitude": "47.48916",
+          "Longitude": "-122.06634"
+        },
+        {
+          "Latitude": "47.48904",
+          "Longitude": "-122.06587"
+        },
+        {
+          "Latitude": "47.48899",
+          "Longitude": "-122.06583"
+        },
+        {
+          "Latitude": "47.48819",
+          "Longitude": "-122.06605"
+        },
+        {
+          "Latitude": "47.48815",
+          "Longitude": "-122.06612"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.48819",
+          "Longitude": "-122.06672"
+        },
+        "Max": {
+          "Latitude": "47.48913",
+          "Longitude": "-122.06590"
         }
       }
     },
@@ -289,5 +386,5 @@
       }
     }
   ],
-  "LastUpdated": "2021-05-03T15:32:52+00:00"
+  "LastUpdated": "2021-05-03T15:57:52+00:00"
 }
