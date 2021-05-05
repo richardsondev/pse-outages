@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 11,
-    "OutageCount": 2,
-    "LastUpdatedDatetime": "05/05 05:42 AM"
+    "CustomerAfftectedCount": 12,
+    "OutageCount": 3,
+    "LastUpdatedDatetime": "05/05 06:07 AM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -83,6 +83,83 @@
         "Attributes": [
           {
             "Name": "Start time",
+            "Value": "05/05 05:56 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "1",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "05/05 06:00 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "05/05 08:00 AM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.26867",
+          "Longitude": "-122.05138",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Enumclaw",
+          "Id": "707879-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.26871",
+          "Longitude": "-122.05131"
+        },
+        {
+          "Latitude": "47.26862",
+          "Longitude": "-122.05131"
+        },
+        {
+          "Latitude": "47.26862",
+          "Longitude": "-122.05144"
+        },
+        {
+          "Latitude": "47.26871",
+          "Longitude": "-122.05144"
+        },
+        {
+          "Latitude": "47.26871",
+          "Longitude": "-122.05131"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.26867",
+          "Longitude": "-122.05138"
+        },
+        "Max": {
+          "Latitude": "47.26867",
+          "Longitude": "-122.05138"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
             "Value": "05/03 08:19 AM",
             "NoDisplay": false
           },
@@ -151,5 +228,5 @@
       }
     }
   ],
-  "LastUpdated": "2021-05-05T12:42:52+00:00"
+  "LastUpdated": "2021-05-05T13:07:52+00:00"
 }
