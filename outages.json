@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 591,
-    "OutageCount": 9,
-    "LastUpdatedDatetime": "05/04 07:52 PM"
+    "CustomerAfftectedCount": 592,
+    "OutageCount": 10,
+    "LastUpdatedDatetime": "05/04 08:32 PM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -186,17 +186,17 @@
           },
           {
             "Name": "Status",
-            "Value": "Outage reported",
+            "Value": "Waiting for repairs",
             "NoDisplay": false
           },
           {
             "Name": "Cause",
-            "Value": "Under Investigation",
+            "Value": "Equipment Failure",
             "NoDisplay": false
           },
           {
             "Name": "Last update",
-            "Value": "05/04 07:40 PM",
+            "Value": "05/04 08:30 PM",
             "NoDisplay": false
           },
           {
@@ -604,6 +604,83 @@
         "Attributes": [
           {
             "Name": "Start time",
+            "Value": "05/04 08:22 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "1",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "05/04 08:30 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "05/04 10:30 PM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.62081",
+          "Longitude": "-122.02641",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Sammamish",
+          "Id": "707870-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.62086",
+          "Longitude": "-122.02635"
+        },
+        {
+          "Latitude": "47.62077",
+          "Longitude": "-122.02634"
+        },
+        {
+          "Latitude": "47.62076",
+          "Longitude": "-122.02648"
+        },
+        {
+          "Latitude": "47.62085",
+          "Longitude": "-122.02648"
+        },
+        {
+          "Latitude": "47.62086",
+          "Longitude": "-122.02635"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.62081",
+          "Longitude": "-122.02641"
+        },
+        "Max": {
+          "Latitude": "47.62081",
+          "Longitude": "-122.02641"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
             "Value": "05/03 08:19 AM",
             "NoDisplay": false
           },
@@ -850,5 +927,5 @@
       }
     }
   ],
-  "LastUpdated": "2021-05-05T02:52:52+00:00"
+  "LastUpdated": "2021-05-05T03:32:52+00:00"
 }
