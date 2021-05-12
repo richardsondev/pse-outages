@@ -2,7 +2,7 @@
   "Common": {
     "CustomerAfftectedCount": 83,
     "OutageCount": 7,
-    "LastUpdatedDatetime": "05/12 02:27 PM"
+    "LastUpdatedDatetime": "05/12 02:42 PM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -98,17 +98,17 @@
           },
           {
             "Name": "Status",
-            "Value": "Outage reported",
+            "Value": "Waiting for repairs",
             "NoDisplay": false
           },
           {
             "Name": "Cause",
-            "Value": "Under Investigation",
+            "Value": "Equipment Failure",
             "NoDisplay": false
           },
           {
             "Name": "Last update",
-            "Value": "05/12 02:15 PM",
+            "Value": "05/12 02:30 PM",
             "NoDisplay": false
           },
           {
@@ -207,7 +207,7 @@
           },
           {
             "Name": "Status",
-            "Value": "Crew assigned",
+            "Value": "Repair crew onsite",
             "NoDisplay": false
           },
           {
@@ -217,7 +217,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "05/12 12:55 PM",
+            "Value": "05/12 02:30 PM",
             "NoDisplay": false
           },
           {
@@ -314,91 +314,6 @@
         "Attributes": [
           {
             "Name": "Start time",
-            "Value": "05/12 10:51 AM",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Customers impacted",
-            "Value": "2",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Status",
-            "Value": "Waiting for repairs",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Cause",
-            "Value": "Bird Or Animal",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Last update",
-            "Value": "05/12 01:15 PM",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Est. restoration time",
-            "Value": "05/12 03:00 PM",
-            "NoDisplay": false
-          }
-        ],
-        "PointOfInterest": {
-          "Latitude": "47.72633",
-          "Longitude": "-122.23541",
-          "MapType": "Outage",
-          "PinType": "Outage",
-          "Title": "Inglewood-Finn Hill",
-          "Id": "709048-1",
-          "PlannedOutage": false
-        }
-      },
-      "Polygon": [
-        {
-          "Latitude": "47.72628",
-          "Longitude": "-122.23555"
-        },
-        {
-          "Latitude": "47.72627",
-          "Longitude": "-122.23562"
-        },
-        {
-          "Latitude": "47.72636",
-          "Longitude": "-122.23562"
-        },
-        {
-          "Latitude": "47.72638",
-          "Longitude": "-122.23528"
-        },
-        {
-          "Latitude": "47.72638",
-          "Longitude": "-122.23521"
-        },
-        {
-          "Latitude": "47.72629",
-          "Longitude": "-122.23520"
-        },
-        {
-          "Latitude": "47.72628",
-          "Longitude": "-122.23555"
-        }
-      ],
-      "BoundingBox": {
-        "Min": {
-          "Latitude": "47.72632",
-          "Longitude": "-122.23555"
-        },
-        "Max": {
-          "Latitude": "47.72633",
-          "Longitude": "-122.23527"
-        }
-      }
-    },
-    {
-      "DataProvider": {
-        "Attributes": [
-          {
-            "Name": "Start time",
             "Value": "05/12 12:24 PM",
             "NoDisplay": false
           },
@@ -468,6 +383,91 @@
         "Max": {
           "Latitude": "48.96439",
           "Longitude": "-122.42835"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "05/12 02:33 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "2",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "05/12 02:40 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "05/12 05:00 PM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.49341",
+          "Longitude": "-122.74360",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Port Orchard",
+          "Id": "709088-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.49348",
+          "Longitude": "-122.74492"
+        },
+        {
+          "Latitude": "47.49349",
+          "Longitude": "-122.74498"
+        },
+        {
+          "Latitude": "47.49357",
+          "Longitude": "-122.74497"
+        },
+        {
+          "Latitude": "47.49333",
+          "Longitude": "-122.74228"
+        },
+        {
+          "Latitude": "47.49333",
+          "Longitude": "-122.74221"
+        },
+        {
+          "Latitude": "47.49324",
+          "Longitude": "-122.74223"
+        },
+        {
+          "Latitude": "47.49348",
+          "Longitude": "-122.74492"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.49324",
+          "Longitude": "-122.74490"
+        },
+        "Max": {
+          "Latitude": "47.49357",
+          "Longitude": "-122.74230"
         }
       }
     },
@@ -678,5 +678,5 @@
       }
     }
   ],
-  "LastUpdated": "2021-05-12T21:27:52+00:00"
+  "LastUpdated": "2021-05-12T21:42:52+00:00"
 }
