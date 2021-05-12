@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 175,
-    "OutageCount": 7,
-    "LastUpdatedDatetime": "05/12 07:52 AM"
+    "CustomerAfftectedCount": 176,
+    "OutageCount": 8,
+    "LastUpdatedDatetime": "05/12 08:32 AM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -162,17 +162,17 @@
           },
           {
             "Name": "Status",
-            "Value": "Outage reported",
+            "Value": "Waiting for repairs",
             "NoDisplay": false
           },
           {
             "Name": "Cause",
-            "Value": "Under Investigation",
+            "Value": "Bird Or Animal",
             "NoDisplay": false
           },
           {
             "Name": "Last update",
-            "Value": "05/12 07:00 AM",
+            "Value": "05/12 08:25 AM",
             "NoDisplay": false
           },
           {
@@ -459,6 +459,83 @@
         "Attributes": [
           {
             "Name": "Start time",
+            "Value": "05/12 08:00 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "1",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "05/12 08:05 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "05/12 10:00 AM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.37160",
+          "Longitude": "-122.03693",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Maple Valley",
+          "Id": "709021-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.37164",
+          "Longitude": "-122.03687"
+        },
+        {
+          "Latitude": "47.37155",
+          "Longitude": "-122.03686"
+        },
+        {
+          "Latitude": "47.37155",
+          "Longitude": "-122.03700"
+        },
+        {
+          "Latitude": "47.37164",
+          "Longitude": "-122.03700"
+        },
+        {
+          "Latitude": "47.37164",
+          "Longitude": "-122.03687"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.37160",
+          "Longitude": "-122.03693"
+        },
+        "Max": {
+          "Latitude": "47.37160",
+          "Longitude": "-122.03693"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
             "Value": "05/12 06:14 AM",
             "NoDisplay": false
           },
@@ -479,12 +556,12 @@
           },
           {
             "Name": "Last update",
-            "Value": "05/12 07:40 AM",
+            "Value": "05/12 08:10 AM",
             "NoDisplay": false
           },
           {
             "Name": "Est. restoration time",
-            "Value": "05/12 08:30 AM",
+            "Value": "05/12 09:30 AM",
             "NoDisplay": false
           }
         ],
@@ -805,5 +882,5 @@
       }
     }
   ],
-  "LastUpdated": "2021-05-12T14:52:52+00:00"
+  "LastUpdated": "2021-05-12T15:32:52+00:00"
 }
