@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 4,
-    "OutageCount": 2,
-    "LastUpdatedDatetime": "05/13 06:12 AM"
+    "CustomerAfftectedCount": 5,
+    "OutageCount": 3,
+    "LastUpdatedDatetime": "05/13 06:47 AM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -96,6 +96,83 @@
         "Attributes": [
           {
             "Name": "Start time",
+            "Value": "05/13 06:06 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "1",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "05/13 06:15 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "05/13 08:30 AM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "48.97668",
+          "Longitude": "-123.05156",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Point Roberts",
+          "Id": "709142-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "48.97672",
+          "Longitude": "-123.05150"
+        },
+        {
+          "Latitude": "48.97663",
+          "Longitude": "-123.05149"
+        },
+        {
+          "Latitude": "48.97663",
+          "Longitude": "-123.05163"
+        },
+        {
+          "Latitude": "48.97672",
+          "Longitude": "-123.05163"
+        },
+        {
+          "Latitude": "48.97672",
+          "Longitude": "-123.05150"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "48.97668",
+          "Longitude": "-123.05156"
+        },
+        "Max": {
+          "Latitude": "48.97668",
+          "Longitude": "-123.05156"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
             "Value": "05/12 11:43 PM",
             "NoDisplay": false
           },
@@ -177,5 +254,5 @@
       }
     }
   ],
-  "LastUpdated": "2021-05-13T13:12:52+00:00"
+  "LastUpdated": "2021-05-13T13:47:52+00:00"
 }
