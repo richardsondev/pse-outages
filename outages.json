@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 8,
-    "OutageCount": 3,
-    "LastUpdatedDatetime": "05/17 06:47 AM"
+    "CustomerAfftectedCount": 9,
+    "OutageCount": 4,
+    "LastUpdatedDatetime": "05/17 07:27 AM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -11,12 +11,12 @@
         "Attributes": [
           {
             "Name": "Start time",
-            "Value": "05/17 06:36 AM",
+            "Value": "05/17 06:43 AM",
             "NoDisplay": false
           },
           {
             "Name": "Customers impacted",
-            "Value": "2",
+            "Value": "1",
             "NoDisplay": false
           },
           {
@@ -31,7 +31,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "05/17 06:45 AM",
+            "Value": "05/17 06:50 AM",
             "NoDisplay": false
           },
           {
@@ -41,12 +41,89 @@
           }
         ],
         "PointOfInterest": {
+          "Latitude": "48.84868",
+          "Longitude": "-122.59377",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Ferndale",
+          "Id": "709616-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "48.84873",
+          "Longitude": "-122.59371"
+        },
+        {
+          "Latitude": "48.84864",
+          "Longitude": "-122.59370"
+        },
+        {
+          "Latitude": "48.84864",
+          "Longitude": "-122.59384"
+        },
+        {
+          "Latitude": "48.84873",
+          "Longitude": "-122.59384"
+        },
+        {
+          "Latitude": "48.84873",
+          "Longitude": "-122.59371"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "48.84868",
+          "Longitude": "-122.59377"
+        },
+        "Max": {
+          "Latitude": "48.84868",
+          "Longitude": "-122.59377"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "05/17 07:09 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "2",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Waiting for repairs",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "05/17 07:20 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "05/17 09:30 AM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
           "Latitude": "48.85168",
           "Longitude": "-122.62502",
           "MapType": "Outage",
           "PinType": "Outage",
           "Title": "Ferndale",
-          "Id": "709615-1",
+          "Id": "709618-1",
           "PlannedOutage": false
         }
       },
@@ -194,17 +271,17 @@
           },
           {
             "Name": "Status",
-            "Value": "Outage reported",
+            "Value": "Waiting for repairs",
             "NoDisplay": false
           },
           {
             "Name": "Cause",
-            "Value": "Under Investigation",
+            "Value": "Equipment Failure",
             "NoDisplay": false
           },
           {
             "Name": "Last update",
-            "Value": "05/17 06:15 AM",
+            "Value": "05/17 07:15 AM",
             "NoDisplay": false
           },
           {
@@ -265,5 +342,5 @@
       }
     }
   ],
-  "LastUpdated": "2021-05-17T13:47:52+00:00"
+  "LastUpdated": "2021-05-17T14:27:52+00:00"
 }
