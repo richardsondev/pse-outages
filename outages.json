@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 9,
-    "OutageCount": 4,
-    "LastUpdatedDatetime": "05/17 12:02 AM"
+    "CustomerAfftectedCount": 10,
+    "OutageCount": 5,
+    "LastUpdatedDatetime": "05/17 12:32 AM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -21,7 +21,7 @@
           },
           {
             "Name": "Status",
-            "Value": "Waiting for repairs",
+            "Value": "Crew assigned",
             "NoDisplay": false
           },
           {
@@ -31,7 +31,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "05/17 12:00 AM",
+            "Value": "05/17 12:05 AM",
             "NoDisplay": false
           },
           {
@@ -176,6 +176,83 @@
         "Max": {
           "Latitude": "47.82270",
           "Longitude": "-122.63686"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "05/17 12:06 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "1",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "05/17 12:10 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "05/17 02:30 AM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.14510",
+          "Longitude": "-122.26889",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Puyallup",
+          "Id": "709599-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.14515",
+          "Longitude": "-122.26883"
+        },
+        {
+          "Latitude": "47.14506",
+          "Longitude": "-122.26883"
+        },
+        {
+          "Latitude": "47.14506",
+          "Longitude": "-122.26896"
+        },
+        {
+          "Latitude": "47.14515",
+          "Longitude": "-122.26896"
+        },
+        {
+          "Latitude": "47.14515",
+          "Longitude": "-122.26883"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.14510",
+          "Longitude": "-122.26889"
+        },
+        "Max": {
+          "Latitude": "47.14510",
+          "Longitude": "-122.26889"
         }
       }
     },
@@ -357,5 +434,5 @@
       }
     }
   ],
-  "LastUpdated": "2021-05-17T07:02:52+00:00"
+  "LastUpdated": "2021-05-17T07:32:52+00:00"
 }
