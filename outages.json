@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 576,
-    "OutageCount": 11,
-    "LastUpdatedDatetime": "05/18 07:42 AM"
+    "CustomerAfftectedCount": 577,
+    "OutageCount": 12,
+    "LastUpdatedDatetime": "05/18 07:52 AM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -719,7 +719,7 @@
           },
           {
             "Name": "Status",
-            "Value": "Crew assigned",
+            "Value": "Repair crew onsite",
             "NoDisplay": false
           },
           {
@@ -729,7 +729,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "05/18 05:35 AM",
+            "Value": "05/18 07:50 AM",
             "NoDisplay": false
           },
           {
@@ -1134,7 +1134,84 @@
           "Longitude": "-122.63686"
         }
       }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "05/18 07:45 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "1",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "05/18 07:50 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "05/18 10:00 AM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.53073",
+          "Longitude": "-121.87289",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Snoqualmie Ridge",
+          "Id": "709836-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.53077",
+          "Longitude": "-121.87282"
+        },
+        {
+          "Latitude": "47.53068",
+          "Longitude": "-121.87282"
+        },
+        {
+          "Latitude": "47.53068",
+          "Longitude": "-121.87295"
+        },
+        {
+          "Latitude": "47.53077",
+          "Longitude": "-121.87295"
+        },
+        {
+          "Latitude": "47.53077",
+          "Longitude": "-121.87282"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.53073",
+          "Longitude": "-121.87288"
+        },
+        "Max": {
+          "Latitude": "47.53073",
+          "Longitude": "-121.87288"
+        }
+      }
     }
   ],
-  "LastUpdated": "2021-05-18T14:42:52+00:00"
+  "LastUpdated": "2021-05-18T14:52:53+00:00"
 }
