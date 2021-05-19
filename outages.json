@@ -1,11 +1,108 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 14,
+    "CustomerAfftectedCount": 23,
     "OutageCount": 7,
-    "LastUpdatedDatetime": "05/19 07:52 AM"
+    "LastUpdatedDatetime": "05/19 08:32 AM"
   },
   "CustomerProfile": null,
   "PseMap": [
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "05/19 08:13 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "10",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Waiting for repairs",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Equipment Failure",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "05/19 08:25 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "05/19 10:30 AM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.69687",
+          "Longitude": "-122.56287",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Bainbridge Island",
+          "Id": "709999-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.69628",
+          "Longitude": "-122.56337"
+        },
+        {
+          "Latitude": "47.69737",
+          "Longitude": "-122.56357"
+        },
+        {
+          "Latitude": "47.69742",
+          "Longitude": "-122.56349"
+        },
+        {
+          "Latitude": "47.69718",
+          "Longitude": "-122.56209"
+        },
+        {
+          "Latitude": "47.69712",
+          "Longitude": "-122.56205"
+        },
+        {
+          "Latitude": "47.69660",
+          "Longitude": "-122.56220"
+        },
+        {
+          "Latitude": "47.69657",
+          "Longitude": "-122.56224"
+        },
+        {
+          "Latitude": "47.69657",
+          "Longitude": "-122.56224"
+        },
+        {
+          "Latitude": "47.69625",
+          "Longitude": "-122.56328"
+        },
+        {
+          "Latitude": "47.69628",
+          "Longitude": "-122.56337"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.69629",
+          "Longitude": "-122.56347"
+        },
+        "Max": {
+          "Latitude": "47.69739",
+          "Longitude": "-122.56212"
+        }
+      }
+    },
     {
       "DataProvider": {
         "Attributes": [
@@ -110,7 +207,7 @@
           },
           {
             "Name": "Status",
-            "Value": "Waiting for repairs",
+            "Value": "Crew assigned",
             "NoDisplay": false
           },
           {
@@ -120,7 +217,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "05/19 07:30 AM",
+            "Value": "05/19 08:05 AM",
             "NoDisplay": false
           },
           {
@@ -246,83 +343,6 @@
         "Max": {
           "Latitude": "47.55884",
           "Longitude": "-121.91892"
-        }
-      }
-    },
-    {
-      "DataProvider": {
-        "Attributes": [
-          {
-            "Name": "Start time",
-            "Value": "05/19 07:04 AM",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Customers impacted",
-            "Value": "1",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Status",
-            "Value": "Outage reported",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Cause",
-            "Value": "Under Investigation",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Last update",
-            "Value": "05/19 07:10 AM",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Est. restoration time",
-            "Value": "05/19 09:30 AM",
-            "NoDisplay": false
-          }
-        ],
-        "PointOfInterest": {
-          "Latitude": "47.39677",
-          "Longitude": "-122.21301",
-          "MapType": "Outage",
-          "PinType": "Outage",
-          "Title": "Kent",
-          "Id": "709994-1",
-          "PlannedOutage": false
-        }
-      },
-      "Polygon": [
-        {
-          "Latitude": "47.39682",
-          "Longitude": "-122.21295"
-        },
-        {
-          "Latitude": "47.39673",
-          "Longitude": "-122.21294"
-        },
-        {
-          "Latitude": "47.39673",
-          "Longitude": "-122.21308"
-        },
-        {
-          "Latitude": "47.39682",
-          "Longitude": "-122.21308"
-        },
-        {
-          "Latitude": "47.39682",
-          "Longitude": "-122.21295"
-        }
-      ],
-      "BoundingBox": {
-        "Min": {
-          "Latitude": "47.39677",
-          "Longitude": "-122.21301"
-        },
-        "Max": {
-          "Latitude": "47.39677",
-          "Longitude": "-122.21301"
         }
       }
     },
@@ -506,7 +526,7 @@
           },
           {
             "Name": "Status",
-            "Value": "Crew assigned",
+            "Value": "Repair crew onsite",
             "NoDisplay": false
           },
           {
@@ -516,7 +536,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "05/19 07:25 AM",
+            "Value": "05/19 08:25 AM",
             "NoDisplay": false
           },
           {
@@ -597,5 +617,5 @@
       }
     }
   ],
-  "LastUpdated": "2021-05-19T14:52:52+00:00"
+  "LastUpdated": "2021-05-19T15:32:52+00:00"
 }
