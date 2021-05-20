@@ -1,11 +1,83 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 105,
-    "OutageCount": 5,
-    "LastUpdatedDatetime": "05/20 07:52 AM"
+    "CustomerAfftectedCount": 22,
+    "OutageCount": 6,
+    "LastUpdatedDatetime": "05/20 08:32 AM"
   },
   "CustomerProfile": null,
   "PseMap": [
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "05/20 08:17 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "1",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Repair crew onsite",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Scheduled Outage",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "05/20 08:20 AM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.14132",
+          "Longitude": "-122.18761",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Bonney Lake",
+          "Id": "710223-1",
+          "PlannedOutage": true
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.14136",
+          "Longitude": "-122.18755"
+        },
+        {
+          "Latitude": "47.14127",
+          "Longitude": "-122.18755"
+        },
+        {
+          "Latitude": "47.14127",
+          "Longitude": "-122.18768"
+        },
+        {
+          "Latitude": "47.14136",
+          "Longitude": "-122.18768"
+        },
+        {
+          "Latitude": "47.14136",
+          "Longitude": "-122.18755"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.14132",
+          "Longitude": "-122.18762"
+        },
+        "Max": {
+          "Latitude": "47.14132",
+          "Longitude": "-122.18762"
+        }
+      }
+    },
     {
       "DataProvider": {
         "Attributes": [
@@ -177,127 +249,6 @@
         "Attributes": [
           {
             "Name": "Start time",
-            "Value": "05/19 07:45 PM",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Customers impacted",
-            "Value": "96",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Status",
-            "Value": "Waiting for repairs",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Cause",
-            "Value": "Car/Equip Accident",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Last update",
-            "Value": "05/20 05:05 AM",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Est. restoration time",
-            "Value": "05/20 09:00 AM",
-            "NoDisplay": false
-          }
-        ],
-        "PointOfInterest": {
-          "Latitude": "47.42538",
-          "Longitude": "-122.05269",
-          "MapType": "Outage",
-          "PinType": "Outage",
-          "Title": "Maple Valley",
-          "Id": "710193-1",
-          "PlannedOutage": false
-        }
-      },
-      "Polygon": [
-        {
-          "Latitude": "47.41333",
-          "Longitude": "-122.04262"
-        },
-        {
-          "Latitude": "47.41424",
-          "Longitude": "-122.04713"
-        },
-        {
-          "Latitude": "47.41426",
-          "Longitude": "-122.04717"
-        },
-        {
-          "Latitude": "47.43513",
-          "Longitude": "-122.06541"
-        },
-        {
-          "Latitude": "47.43515",
-          "Longitude": "-122.06542"
-        },
-        {
-          "Latitude": "47.43649",
-          "Longitude": "-122.06526"
-        },
-        {
-          "Latitude": "47.43653",
-          "Longitude": "-122.06517"
-        },
-        {
-          "Latitude": "47.43455",
-          "Longitude": "-122.05688"
-        },
-        {
-          "Latitude": "47.43454",
-          "Longitude": "-122.05686"
-        },
-        {
-          "Latitude": "47.43331",
-          "Longitude": "-122.05484"
-        },
-        {
-          "Latitude": "47.43330",
-          "Longitude": "-122.05483"
-        },
-        {
-          "Latitude": "47.42074",
-          "Longitude": "-122.04364"
-        },
-        {
-          "Latitude": "47.42072",
-          "Longitude": "-122.04363"
-        },
-        {
-          "Latitude": "47.41338",
-          "Longitude": "-122.04253"
-        },
-        {
-          "Latitude": "47.41333",
-          "Longitude": "-122.04262"
-        },
-        {
-          "Latitude": "47.41333",
-          "Longitude": "-122.04262"
-        }
-      ],
-      "BoundingBox": {
-        "Min": {
-          "Latitude": "47.41313",
-          "Longitude": "-122.06483"
-        },
-        "Max": {
-          "Latitude": "47.43672",
-          "Longitude": "-122.04314"
-        }
-      }
-    },
-    {
-      "DataProvider": {
-        "Attributes": [
-          {
-            "Name": "Start time",
             "Value": "05/20 04:28 AM",
             "NoDisplay": false
           },
@@ -308,7 +259,7 @@
           },
           {
             "Name": "Status",
-            "Value": "Waiting for repairs",
+            "Value": "Crew assigned",
             "NoDisplay": false
           },
           {
@@ -318,12 +269,12 @@
           },
           {
             "Name": "Last update",
-            "Value": "05/20 07:45 AM",
+            "Value": "05/20 08:05 AM",
             "NoDisplay": false
           },
           {
             "Name": "Est. restoration time",
-            "Value": "05/20 08:30 AM",
+            "Value": "05/20 10:30 AM",
             "NoDisplay": false
           }
         ],
@@ -461,7 +412,96 @@
           "Longitude": "-122.12659"
         }
       }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "05/20 08:06 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "12",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "05/20 08:30 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "05/20 10:30 AM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.62628",
+          "Longitude": "-122.16224",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Wilburton",
+          "Id": "710218-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.62609",
+          "Longitude": "-122.16279"
+        },
+        {
+          "Latitude": "47.62633",
+          "Longitude": "-122.16274"
+        },
+        {
+          "Latitude": "47.62637",
+          "Longitude": "-122.16269"
+        },
+        {
+          "Latitude": "47.62648",
+          "Longitude": "-122.16133"
+        },
+        {
+          "Latitude": "47.62644",
+          "Longitude": "-122.16126"
+        },
+        {
+          "Latitude": "47.62639",
+          "Longitude": "-122.16130"
+        },
+        {
+          "Latitude": "47.62604",
+          "Longitude": "-122.16270"
+        },
+        {
+          "Latitude": "47.62609",
+          "Longitude": "-122.16279"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.62608",
+          "Longitude": "-122.16273"
+        },
+        "Max": {
+          "Latitude": "47.62643",
+          "Longitude": "-122.16132"
+        }
+      }
     }
   ],
-  "LastUpdated": "2021-05-20T14:52:52+00:00"
+  "LastUpdated": "2021-05-20T15:32:52+00:00"
 }
