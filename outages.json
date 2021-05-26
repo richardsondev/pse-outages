@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 30,
-    "OutageCount": 4,
-    "LastUpdatedDatetime": "05/26 04:47 AM"
+    "CustomerAfftectedCount": 32,
+    "OutageCount": 5,
+    "LastUpdatedDatetime": "05/26 05:52 AM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -307,12 +307,12 @@
           },
           {
             "Name": "Cause",
-            "Value": "Car/Equip Accident",
+            "Value": "Equipment Failure",
             "NoDisplay": false
           },
           {
             "Name": "Last update",
-            "Value": "05/26 04:05 AM",
+            "Value": "05/26 05:45 AM",
             "NoDisplay": false
           },
           {
@@ -383,7 +383,87 @@
           "Longitude": "-122.10281"
         }
       }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "05/26 05:02 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "2",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Repair crew onsite",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Scheduled Outage",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "05/26 05:10 AM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.48087",
+          "Longitude": "-122.21790",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Renton",
+          "Id": "711019-1",
+          "PlannedOutage": true
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.48090",
+          "Longitude": "-122.21800"
+        },
+        {
+          "Latitude": "47.48094",
+          "Longitude": "-122.21804"
+        },
+        {
+          "Latitude": "47.48099",
+          "Longitude": "-122.21792"
+        },
+        {
+          "Latitude": "47.48085",
+          "Longitude": "-122.21779"
+        },
+        {
+          "Latitude": "47.48081",
+          "Longitude": "-122.21776"
+        },
+        {
+          "Latitude": "47.48076",
+          "Longitude": "-122.21787"
+        },
+        {
+          "Latitude": "47.48090",
+          "Longitude": "-122.21800"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.48082",
+          "Longitude": "-122.21794"
+        },
+        "Max": {
+          "Latitude": "47.48092",
+          "Longitude": "-122.21785"
+        }
+      }
     }
   ],
-  "LastUpdated": "2021-05-26T11:47:52+00:00"
+  "LastUpdated": "2021-05-26T12:52:52+00:00"
 }
