@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 24,
-    "OutageCount": 5,
-    "LastUpdatedDatetime": "06/09 03:27 PM"
+    "CustomerAfftectedCount": 26,
+    "OutageCount": 6,
+    "LastUpdatedDatetime": "06/09 03:52 PM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -163,6 +163,86 @@
         "Attributes": [
           {
             "Name": "Start time",
+            "Value": "06/09 03:32 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "2",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Repair crew onsite",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Scheduled Outage",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "06/09 03:35 PM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "48.01804",
+          "Longitude": "-122.41077",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Langley",
+          "Id": "713559-1",
+          "PlannedOutage": true
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "48.01753",
+          "Longitude": "-122.41145"
+        },
+        {
+          "Latitude": "48.01750",
+          "Longitude": "-122.41150"
+        },
+        {
+          "Latitude": "48.01757",
+          "Longitude": "-122.41159"
+        },
+        {
+          "Latitude": "48.01855",
+          "Longitude": "-122.41010"
+        },
+        {
+          "Latitude": "48.01858",
+          "Longitude": "-122.41005"
+        },
+        {
+          "Latitude": "48.01852",
+          "Longitude": "-122.40995"
+        },
+        {
+          "Latitude": "48.01753",
+          "Longitude": "-122.41145"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "48.01757",
+          "Longitude": "-122.41149"
+        },
+        "Max": {
+          "Latitude": "48.01852",
+          "Longitude": "-122.41005"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
             "Value": "06/09 02:46 PM",
             "NoDisplay": false
           },
@@ -262,7 +342,7 @@
           },
           {
             "Name": "Status",
-            "Value": "Waiting for repairs",
+            "Value": "Crew assigned",
             "NoDisplay": false
           },
           {
@@ -272,7 +352,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "06/09 03:10 PM",
+            "Value": "06/09 03:35 PM",
             "NoDisplay": false
           },
           {
@@ -433,5 +513,5 @@
       }
     }
   ],
-  "LastUpdated": "2021-06-09T22:27:52+00:00"
+  "LastUpdated": "2021-06-09T22:52:52+00:00"
 }
