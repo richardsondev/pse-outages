@@ -2,7 +2,7 @@
   "Common": {
     "CustomerAfftectedCount": 16,
     "OutageCount": 7,
-    "LastUpdatedDatetime": "06/13 11:57 AM"
+    "LastUpdatedDatetime": "06/13 12:17 PM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -387,6 +387,83 @@
         "Attributes": [
           {
             "Name": "Start time",
+            "Value": "06/13 11:56 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "1",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "06/13 12:05 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "06/13 02:00 PM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.53054",
+          "Longitude": "-122.55978",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Port Orchard",
+          "Id": "714484-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.53059",
+          "Longitude": "-122.55972"
+        },
+        {
+          "Latitude": "47.53050",
+          "Longitude": "-122.55972"
+        },
+        {
+          "Latitude": "47.53050",
+          "Longitude": "-122.55985"
+        },
+        {
+          "Latitude": "47.53059",
+          "Longitude": "-122.55985"
+        },
+        {
+          "Latitude": "47.53059",
+          "Longitude": "-122.55972"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.53054",
+          "Longitude": "-122.55979"
+        },
+        "Max": {
+          "Latitude": "47.53054",
+          "Longitude": "-122.55979"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
             "Value": "06/13 11:45 AM",
             "NoDisplay": false
           },
@@ -456,83 +533,6 @@
         "Max": {
           "Latitude": "47.46849",
           "Longitude": "-122.10718"
-        }
-      }
-    },
-    {
-      "DataProvider": {
-        "Attributes": [
-          {
-            "Name": "Start time",
-            "Value": "06/13 11:35 AM",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Customers impacted",
-            "Value": "1",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Status",
-            "Value": "Outage reported",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Cause",
-            "Value": "Under Investigation",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Last update",
-            "Value": "06/13 11:40 AM",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Est. restoration time",
-            "Value": "06/13 02:00 PM",
-            "NoDisplay": false
-          }
-        ],
-        "PointOfInterest": {
-          "Latitude": "48.51850",
-          "Longitude": "-122.23740",
-          "MapType": "Outage",
-          "PinType": "Outage",
-          "Title": "Sedro-Woolley",
-          "Id": "714481-1",
-          "PlannedOutage": false
-        }
-      },
-      "Polygon": [
-        {
-          "Latitude": "48.51855",
-          "Longitude": "-122.23733"
-        },
-        {
-          "Latitude": "48.51846",
-          "Longitude": "-122.23732"
-        },
-        {
-          "Latitude": "48.51845",
-          "Longitude": "-122.23746"
-        },
-        {
-          "Latitude": "48.51854",
-          "Longitude": "-122.23746"
-        },
-        {
-          "Latitude": "48.51855",
-          "Longitude": "-122.23733"
-        }
-      ],
-      "BoundingBox": {
-        "Min": {
-          "Latitude": "48.51850",
-          "Longitude": "-122.23739"
-        },
-        "Max": {
-          "Latitude": "48.51850",
-          "Longitude": "-122.23739"
         }
       }
     },
@@ -630,5 +630,5 @@
       }
     }
   ],
-  "LastUpdated": "2021-06-13T18:57:52+00:00"
+  "LastUpdated": "2021-06-13T19:17:52+00:00"
 }
