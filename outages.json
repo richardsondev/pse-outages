@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 59,
-    "OutageCount": 5,
-    "LastUpdatedDatetime": "06/15 07:22 AM"
+    "CustomerAfftectedCount": 61,
+    "OutageCount": 6,
+    "LastUpdatedDatetime": "06/15 07:32 AM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -88,6 +88,91 @@
         "Attributes": [
           {
             "Name": "Start time",
+            "Value": "06/15 07:21 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "2",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "06/15 07:30 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "06/15 09:30 AM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.38483",
+          "Longitude": "-122.00606",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Maple Valley",
+          "Id": "714917-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.38470",
+          "Longitude": "-122.00599"
+        },
+        {
+          "Latitude": "47.38466",
+          "Longitude": "-122.00599"
+        },
+        {
+          "Latitude": "47.38466",
+          "Longitude": "-122.00612"
+        },
+        {
+          "Latitude": "47.38495",
+          "Longitude": "-122.00613"
+        },
+        {
+          "Latitude": "47.38500",
+          "Longitude": "-122.00613"
+        },
+        {
+          "Latitude": "47.38500",
+          "Longitude": "-122.00600"
+        },
+        {
+          "Latitude": "47.38470",
+          "Longitude": "-122.00599"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.38470",
+          "Longitude": "-122.00606"
+        },
+        "Max": {
+          "Latitude": "47.38495",
+          "Longitude": "-122.00606"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
             "Value": "06/15 02:33 AM",
             "NoDisplay": false
           },
@@ -98,7 +183,7 @@
           },
           {
             "Name": "Status",
-            "Value": "Crew assigned",
+            "Value": "Repair crew onsite",
             "NoDisplay": false
           },
           {
@@ -108,7 +193,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "06/15 05:00 AM",
+            "Value": "06/15 07:30 AM",
             "NoDisplay": false
           },
           {
@@ -207,22 +292,22 @@
           },
           {
             "Name": "Status",
-            "Value": "Outage reported",
+            "Value": "Waiting for repairs",
             "NoDisplay": false
           },
           {
             "Name": "Cause",
-            "Value": "Under Investigation",
+            "Value": "Equipment Failure",
             "NoDisplay": false
           },
           {
             "Name": "Last update",
-            "Value": "06/15 05:30 AM",
+            "Value": "06/15 07:30 AM",
             "NoDisplay": false
           },
           {
             "Name": "Est. restoration time",
-            "Value": "06/15 09:30 AM",
+            "Value": "06/15 12:00 PM",
             "NoDisplay": false
           }
         ],
@@ -232,7 +317,7 @@
           "MapType": "Outage",
           "PinType": "Outage",
           "Title": "Roy",
-          "Id": "714908-1",
+          "Id": "714908-2",
           "PlannedOutage": false
         }
       },
@@ -524,5 +609,5 @@
       }
     }
   ],
-  "LastUpdated": "2021-06-15T14:22:52+00:00"
+  "LastUpdated": "2021-06-15T14:32:52+00:00"
 }
