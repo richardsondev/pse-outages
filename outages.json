@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 29,
-    "OutageCount": 6,
-    "LastUpdatedDatetime": "06/22 12:47 AM"
+    "CustomerAfftectedCount": 93,
+    "OutageCount": 8,
+    "LastUpdatedDatetime": "06/22 01:27 AM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -21,7 +21,7 @@
           },
           {
             "Name": "Status",
-            "Value": "Crew assigned",
+            "Value": "Repair crew onsite",
             "NoDisplay": false
           },
           {
@@ -31,7 +31,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "06/21 11:20 PM",
+            "Value": "06/22 01:25 AM",
             "NoDisplay": false
           },
           {
@@ -287,7 +287,7 @@
           },
           {
             "Name": "Status",
-            "Value": "Crew assigned",
+            "Value": "Repair crew onsite",
             "NoDisplay": false
           },
           {
@@ -297,7 +297,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "06/22 12:20 AM",
+            "Value": "06/22 01:20 AM",
             "NoDisplay": false
           },
           {
@@ -354,6 +354,83 @@
         "Max": {
           "Latitude": "47.04275",
           "Longitude": "-122.82857"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "06/22 01:22 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "1",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "06/22 01:25 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "06/22 03:30 AM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.76142",
+          "Longitude": "-122.15163",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "North Industrial",
+          "Id": "716128-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.76146",
+          "Longitude": "-122.15156"
+        },
+        {
+          "Latitude": "47.76137",
+          "Longitude": "-122.15156"
+        },
+        {
+          "Latitude": "47.76137",
+          "Longitude": "-122.15169"
+        },
+        {
+          "Latitude": "47.76146",
+          "Longitude": "-122.15169"
+        },
+        {
+          "Latitude": "47.76146",
+          "Longitude": "-122.15156"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.76142",
+          "Longitude": "-122.15162"
+        },
+        "Max": {
+          "Latitude": "47.76142",
+          "Longitude": "-122.15162"
         }
       }
     },
@@ -513,7 +590,120 @@
           "Longitude": "-122.23627"
         }
       }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "06/22 01:03 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "63",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "06/22 01:10 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "06/22 03:30 AM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.75338",
+          "Longitude": "-122.15263",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Town Center",
+          "Id": "716127-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.75283",
+          "Longitude": "-122.15345"
+        },
+        {
+          "Latitude": "47.75332",
+          "Longitude": "-122.15428"
+        },
+        {
+          "Latitude": "47.75333",
+          "Longitude": "-122.15429"
+        },
+        {
+          "Latitude": "47.75349",
+          "Longitude": "-122.15448"
+        },
+        {
+          "Latitude": "47.75353",
+          "Longitude": "-122.15449"
+        },
+        {
+          "Latitude": "47.75402",
+          "Longitude": "-122.15442"
+        },
+        {
+          "Latitude": "47.75406",
+          "Longitude": "-122.15434"
+        },
+        {
+          "Latitude": "47.75335",
+          "Longitude": "-122.15007"
+        },
+        {
+          "Latitude": "47.75335",
+          "Longitude": "-122.15007"
+        },
+        {
+          "Latitude": "47.75326",
+          "Longitude": "-122.14957"
+        },
+        {
+          "Latitude": "47.75321",
+          "Longitude": "-122.14952"
+        },
+        {
+          "Latitude": "47.75317",
+          "Longitude": "-122.14958"
+        },
+        {
+          "Latitude": "47.75282",
+          "Longitude": "-122.15340"
+        },
+        {
+          "Latitude": "47.75283",
+          "Longitude": "-122.15345"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.75286",
+          "Longitude": "-122.15441"
+        },
+        "Max": {
+          "Latitude": "47.75407",
+          "Longitude": "-122.14961"
+        }
+      }
     }
   ],
-  "LastUpdated": "2021-06-22T07:47:52+00:00"
+  "LastUpdated": "2021-06-22T08:27:52+00:00"
 }
