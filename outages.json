@@ -1,8 +1,8 @@
 {
   "Common": {
     "CustomerAfftectedCount": 42,
-    "OutageCount": 14,
-    "LastUpdatedDatetime": "07/06 08:52 PM"
+    "OutageCount": 15,
+    "LastUpdatedDatetime": "07/06 09:32 PM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -21,7 +21,7 @@
           },
           {
             "Name": "Status",
-            "Value": "Outage reported",
+            "Value": "Waiting for repairs",
             "NoDisplay": false
           },
           {
@@ -31,7 +31,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "07/06 08:40 PM",
+            "Value": "07/06 09:15 PM",
             "NoDisplay": false
           },
           {
@@ -191,7 +191,7 @@
           },
           {
             "Name": "Status",
-            "Value": "Crew assigned",
+            "Value": "Repair crew onsite",
             "NoDisplay": false
           },
           {
@@ -201,7 +201,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "07/06 07:35 PM",
+            "Value": "07/06 09:10 PM",
             "NoDisplay": false
           },
           {
@@ -424,6 +424,83 @@
         "Max": {
           "Latitude": "48.52499",
           "Longitude": "-121.77032"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "07/06 09:27 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "1",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "07/06 09:30 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "07/06 11:30 PM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.62546",
+          "Longitude": "-122.13478",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Crossroads",
+          "Id": "722607-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.62551",
+          "Longitude": "-122.13471"
+        },
+        {
+          "Latitude": "47.62542",
+          "Longitude": "-122.13471"
+        },
+        {
+          "Latitude": "47.62541",
+          "Longitude": "-122.13484"
+        },
+        {
+          "Latitude": "47.62550",
+          "Longitude": "-122.13485"
+        },
+        {
+          "Latitude": "47.62551",
+          "Longitude": "-122.13471"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.62546",
+          "Longitude": "-122.13478"
+        },
+        "Max": {
+          "Latitude": "47.62546",
+          "Longitude": "-122.13478"
         }
       }
     },
@@ -791,103 +868,6 @@
         "Attributes": [
           {
             "Name": "Start time",
-            "Value": "07/06 04:03 PM",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Customers impacted",
-            "Value": "3",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Status",
-            "Value": "Repair crew onsite",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Cause",
-            "Value": "Equipment Failure",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Last update",
-            "Value": "07/06 08:45 PM",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Est. restoration time",
-            "Value": "07/06 09:30 PM",
-            "NoDisplay": false
-          }
-        ],
-        "PointOfInterest": {
-          "Latitude": "48.40031",
-          "Longitude": "-122.26192",
-          "MapType": "Outage",
-          "PinType": "Outage",
-          "Title": "Mount Vernon",
-          "Id": "722576-2",
-          "PlannedOutage": false
-        }
-      },
-      "Polygon": [
-        {
-          "Latitude": "48.39996",
-          "Longitude": "-122.26032"
-        },
-        {
-          "Latitude": "48.40030",
-          "Longitude": "-122.26316"
-        },
-        {
-          "Latitude": "48.40034",
-          "Longitude": "-122.26321"
-        },
-        {
-          "Latitude": "48.40039",
-          "Longitude": "-122.26317"
-        },
-        {
-          "Latitude": "48.40039",
-          "Longitude": "-122.26317"
-        },
-        {
-          "Latitude": "48.40063",
-          "Longitude": "-122.26233"
-        },
-        {
-          "Latitude": "48.40063",
-          "Longitude": "-122.26227"
-        },
-        {
-          "Latitude": "48.40004",
-          "Longitude": "-122.26028"
-        },
-        {
-          "Latitude": "48.39999",
-          "Longitude": "-122.26025"
-        },
-        {
-          "Latitude": "48.39996",
-          "Longitude": "-122.26032"
-        }
-      ],
-      "BoundingBox": {
-        "Min": {
-          "Latitude": "48.39997",
-          "Longitude": "-122.26313"
-        },
-        "Max": {
-          "Latitude": "48.40061",
-          "Longitude": "-122.26033"
-        }
-      }
-    },
-    {
-      "DataProvider": {
-        "Attributes": [
-          {
-            "Name": "Start time",
             "Value": "07/06 09:28 AM",
             "NoDisplay": false
           },
@@ -1003,7 +983,7 @@
           },
           {
             "Name": "Status",
-            "Value": "Crew assigned",
+            "Value": "Repair crew onsite",
             "NoDisplay": false
           },
           {
@@ -1013,7 +993,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "07/06 06:25 PM",
+            "Value": "07/06 08:55 PM",
             "NoDisplay": false
           },
           {
@@ -1070,6 +1050,91 @@
         "Attributes": [
           {
             "Name": "Start time",
+            "Value": "07/06 09:00 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "2",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Repair crew onsite",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "07/06 09:10 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "To Be Determined",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.50881",
+          "Longitude": "-122.64084",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Port Orchard",
+          "Id": "722560-2",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.50842",
+          "Longitude": "-122.64108"
+        },
+        {
+          "Latitude": "47.50838",
+          "Longitude": "-122.64111"
+        },
+        {
+          "Latitude": "47.50842",
+          "Longitude": "-122.64123"
+        },
+        {
+          "Latitude": "47.50920",
+          "Longitude": "-122.64060"
+        },
+        {
+          "Latitude": "47.50924",
+          "Longitude": "-122.64057"
+        },
+        {
+          "Latitude": "47.50920",
+          "Longitude": "-122.64045"
+        },
+        {
+          "Latitude": "47.50842",
+          "Longitude": "-122.64108"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.50844",
+          "Longitude": "-122.64114"
+        },
+        "Max": {
+          "Latitude": "47.50918",
+          "Longitude": "-122.64054"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
             "Value": "07/06 07:10 PM",
             "NoDisplay": false
           },
@@ -1090,12 +1155,12 @@
           },
           {
             "Name": "Last update",
-            "Value": "07/06 08:45 PM",
+            "Value": "07/06 09:30 PM",
             "NoDisplay": false
           },
           {
             "Name": "Est. restoration time",
-            "Value": "07/06 09:30 PM",
+            "Value": "07/06 11:30 PM",
             "NoDisplay": false
           }
         ],
@@ -1157,7 +1222,7 @@
           },
           {
             "Name": "Status",
-            "Value": "Outage reported",
+            "Value": "Waiting for repairs",
             "NoDisplay": false
           },
           {
@@ -1167,7 +1232,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "07/06 05:10 PM",
+            "Value": "07/06 08:55 PM",
             "NoDisplay": false
           },
           {
@@ -1244,5 +1309,5 @@
       }
     }
   ],
-  "LastUpdated": "2021-07-07T03:52:52+00:00"
+  "LastUpdated": "2021-07-07T04:32:52+00:00"
 }
