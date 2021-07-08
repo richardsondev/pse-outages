@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 20,
-    "OutageCount": 7,
-    "LastUpdatedDatetime": "07/08 02:52 AM"
+    "CustomerAfftectedCount": 24,
+    "OutageCount": 8,
+    "LastUpdatedDatetime": "07/08 03:27 AM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -21,22 +21,22 @@
           },
           {
             "Name": "Status",
-            "Value": "Outage reported",
+            "Value": "Crew assigned",
             "NoDisplay": false
           },
           {
             "Name": "Cause",
-            "Value": "Under Investigation",
+            "Value": "Equipment Failure",
             "NoDisplay": false
           },
           {
             "Name": "Last update",
-            "Value": "07/08 01:50 AM",
+            "Value": "07/08 03:15 AM",
             "NoDisplay": false
           },
           {
             "Name": "Est. restoration time",
-            "Value": "07/08 04:00 AM",
+            "Value": "07/08 07:00 AM",
             "NoDisplay": false
           }
         ],
@@ -46,7 +46,7 @@
           "MapType": "Outage",
           "PinType": "Outage",
           "Title": "Bellingham",
-          "Id": "722836-1",
+          "Id": "722836-2",
           "PlannedOutage": false
         }
       },
@@ -282,6 +282,86 @@
         "Attributes": [
           {
             "Name": "Start time",
+            "Value": "07/08 03:03 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "2",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Repair crew onsite",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Scheduled Outage",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "07/08 03:10 AM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "48.96460",
+          "Longitude": "-122.41064",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Lynden",
+          "Id": "722697-1",
+          "PlannedOutage": true
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "48.96450",
+          "Longitude": "-122.41075"
+        },
+        {
+          "Latitude": "48.96447",
+          "Longitude": "-122.41081"
+        },
+        {
+          "Latitude": "48.96455",
+          "Longitude": "-122.41088"
+        },
+        {
+          "Latitude": "48.96469",
+          "Longitude": "-122.41053"
+        },
+        {
+          "Latitude": "48.96472",
+          "Longitude": "-122.41047"
+        },
+        {
+          "Latitude": "48.96464",
+          "Longitude": "-122.41040"
+        },
+        {
+          "Latitude": "48.96450",
+          "Longitude": "-122.41075"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "48.96453",
+          "Longitude": "-122.41079"
+        },
+        "Max": {
+          "Latitude": "48.96466",
+          "Longitude": "-122.41049"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
             "Value": "07/07 08:53 PM",
             "NoDisplay": false
           },
@@ -444,7 +524,7 @@
           },
           {
             "Name": "Customers impacted",
-            "Value": "1",
+            "Value": "3",
             "NoDisplay": false
           },
           {
@@ -459,7 +539,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "07/08 02:25 AM",
+            "Value": "07/08 03:15 AM",
             "NoDisplay": false
           },
           {
@@ -469,8 +549,8 @@
           }
         ],
         "PointOfInterest": {
-          "Latitude": "47.43016",
-          "Longitude": "-122.15408",
+          "Latitude": "47.43041",
+          "Longitude": "-122.15391",
           "MapType": "Outage",
           "PinType": "Outage",
           "Title": "Renton",
@@ -480,24 +560,32 @@
       },
       "Polygon": [
         {
-          "Latitude": "47.43020",
-          "Longitude": "-122.15401"
+          "Latitude": "47.43068",
+          "Longitude": "-122.15379"
         },
         {
-          "Latitude": "47.43011",
-          "Longitude": "-122.15401"
+          "Latitude": "47.43072",
+          "Longitude": "-122.15376"
         },
         {
-          "Latitude": "47.43011",
-          "Longitude": "-122.15414"
+          "Latitude": "47.43068",
+          "Longitude": "-122.15364"
         },
         {
-          "Latitude": "47.43020",
-          "Longitude": "-122.15415"
+          "Latitude": "47.43014",
+          "Longitude": "-122.15402"
         },
         {
-          "Latitude": "47.43020",
-          "Longitude": "-122.15401"
+          "Latitude": "47.43010",
+          "Longitude": "-122.15405"
+        },
+        {
+          "Latitude": "47.43014",
+          "Longitude": "-122.15417"
+        },
+        {
+          "Latitude": "47.43068",
+          "Longitude": "-122.15379"
         }
       ],
       "BoundingBox": {
@@ -506,8 +594,8 @@
           "Longitude": "-122.15408"
         },
         "Max": {
-          "Latitude": "47.43016",
-          "Longitude": "-122.15408"
+          "Latitude": "47.43066",
+          "Longitude": "-122.15373"
         }
       }
     },
@@ -613,5 +701,5 @@
       }
     }
   ],
-  "LastUpdated": "2021-07-08T09:52:52+00:00"
+  "LastUpdated": "2021-07-08T10:27:52+00:00"
 }
