@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 103,
-    "OutageCount": 14,
-    "LastUpdatedDatetime": "07/09 03:37 PM"
+    "CustomerAfftectedCount": 104,
+    "OutageCount": 15,
+    "LastUpdatedDatetime": "07/09 03:52 PM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -814,17 +814,17 @@
           },
           {
             "Name": "Status",
-            "Value": "Outage reported",
+            "Value": "Waiting for repairs",
             "NoDisplay": false
           },
           {
             "Name": "Cause",
-            "Value": "Under Investigation",
+            "Value": "Equipment Failure",
             "NoDisplay": false
           },
           {
             "Name": "Last update",
-            "Value": "07/09 02:30 PM",
+            "Value": "07/09 03:40 PM",
             "NoDisplay": false
           },
           {
@@ -899,17 +899,17 @@
           },
           {
             "Name": "Status",
-            "Value": "Outage reported",
+            "Value": "Waiting for repairs",
             "NoDisplay": false
           },
           {
             "Name": "Cause",
-            "Value": "Under Investigation",
+            "Value": "Equipment Failure",
             "NoDisplay": false
           },
           {
             "Name": "Last update",
-            "Value": "07/09 03:35 PM",
+            "Value": "07/09 03:45 PM",
             "NoDisplay": false
           },
           {
@@ -1196,7 +1196,7 @@
           },
           {
             "Name": "Status",
-            "Value": "Waiting for repairs",
+            "Value": "Crew assigned",
             "NoDisplay": false
           },
           {
@@ -1206,7 +1206,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "07/09 03:35 PM",
+            "Value": "07/09 03:40 PM",
             "NoDisplay": false
           },
           {
@@ -1263,6 +1263,83 @@
         "Max": {
           "Latitude": "47.22742",
           "Longitude": "-120.99727"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "07/09 03:40 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "1",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "07/09 03:45 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "07/09 06:00 PM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.65784",
+          "Longitude": "-122.69782",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Silverdale",
+          "Id": "723178-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.65788",
+          "Longitude": "-122.69775"
+        },
+        {
+          "Latitude": "47.65779",
+          "Longitude": "-122.69775"
+        },
+        {
+          "Latitude": "47.65779",
+          "Longitude": "-122.69788"
+        },
+        {
+          "Latitude": "47.65788",
+          "Longitude": "-122.69789"
+        },
+        {
+          "Latitude": "47.65788",
+          "Longitude": "-122.69775"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.65784",
+          "Longitude": "-122.69782"
+        },
+        "Max": {
+          "Latitude": "47.65784",
+          "Longitude": "-122.69782"
         }
       }
     },
@@ -1352,5 +1429,5 @@
       }
     }
   ],
-  "LastUpdated": "2021-07-09T22:37:53+00:00"
+  "LastUpdated": "2021-07-09T22:52:52+00:00"
 }
