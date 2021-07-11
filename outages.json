@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 11,
-    "OutageCount": 4,
-    "LastUpdatedDatetime": "07/11 03:27 AM"
+    "CustomerAfftectedCount": 12,
+    "OutageCount": 5,
+    "LastUpdatedDatetime": "07/11 03:37 AM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -184,6 +184,83 @@
         "Attributes": [
           {
             "Name": "Start time",
+            "Value": "07/11 03:28 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "1",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "07/11 03:30 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "07/11 05:30 AM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.02680",
+          "Longitude": "-122.85583",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Olympia",
+          "Id": "723379-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.02684",
+          "Longitude": "-122.85576"
+        },
+        {
+          "Latitude": "47.02675",
+          "Longitude": "-122.85576"
+        },
+        {
+          "Latitude": "47.02675",
+          "Longitude": "-122.85589"
+        },
+        {
+          "Latitude": "47.02684",
+          "Longitude": "-122.85590"
+        },
+        {
+          "Latitude": "47.02684",
+          "Longitude": "-122.85576"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.02680",
+          "Longitude": "-122.85583"
+        },
+        "Max": {
+          "Latitude": "47.02680",
+          "Longitude": "-122.85583"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
             "Value": "07/08 11:31 AM",
             "NoDisplay": false
           },
@@ -352,5 +429,5 @@
       }
     }
   ],
-  "LastUpdated": "2021-07-11T10:27:52+00:00"
+  "LastUpdated": "2021-07-11T10:37:52+00:00"
 }
