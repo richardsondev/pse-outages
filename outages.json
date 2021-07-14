@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 43,
-    "OutageCount": 11,
-    "LastUpdatedDatetime": "07/13 09:57 PM"
+    "CustomerAfftectedCount": 44,
+    "OutageCount": 12,
+    "LastUpdatedDatetime": "07/13 10:17 PM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -88,6 +88,83 @@
         "Attributes": [
           {
             "Name": "Start time",
+            "Value": "07/13 09:55 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "1",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "07/13 10:05 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "07/14 12:00 AM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.69491",
+          "Longitude": "-121.91305",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Carnation",
+          "Id": "723834-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.69496",
+          "Longitude": "-121.91298"
+        },
+        {
+          "Latitude": "47.69487",
+          "Longitude": "-121.91298"
+        },
+        {
+          "Latitude": "47.69487",
+          "Longitude": "-121.91312"
+        },
+        {
+          "Latitude": "47.69496",
+          "Longitude": "-121.91312"
+        },
+        {
+          "Latitude": "47.69496",
+          "Longitude": "-121.91298"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.69491",
+          "Longitude": "-121.91305"
+        },
+        "Max": {
+          "Latitude": "47.69491",
+          "Longitude": "-121.91305"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
             "Value": "07/13 08:10 PM",
             "NoDisplay": false
           },
@@ -98,7 +175,7 @@
           },
           {
             "Name": "Status",
-            "Value": "Waiting for repairs",
+            "Value": "Crew assigned",
             "NoDisplay": false
           },
           {
@@ -108,12 +185,12 @@
           },
           {
             "Name": "Last update",
-            "Value": "07/13 09:45 PM",
+            "Value": "07/13 10:05 PM",
             "NoDisplay": false
           },
           {
             "Name": "Est. restoration time",
-            "Value": "07/13 10:30 PM",
+            "Value": "07/13 11:30 PM",
             "NoDisplay": false
           }
         ],
@@ -771,7 +848,7 @@
           },
           {
             "Name": "Status",
-            "Value": "Crew assigned",
+            "Value": "Repair crew onsite",
             "NoDisplay": false
           },
           {
@@ -781,7 +858,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "07/13 09:05 PM",
+            "Value": "07/13 10:00 PM",
             "NoDisplay": false
           },
           {
@@ -947,5 +1024,5 @@
       }
     }
   ],
-  "LastUpdated": "2021-07-14T04:57:52+00:00"
+  "LastUpdated": "2021-07-14T05:17:52+00:00"
 }
