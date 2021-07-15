@@ -2,7 +2,7 @@
   "Common": {
     "CustomerAfftectedCount": 54,
     "OutageCount": 8,
-    "LastUpdatedDatetime": "07/15 02:22 AM"
+    "LastUpdatedDatetime": "07/15 02:42 AM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -587,6 +587,83 @@
         "Attributes": [
           {
             "Name": "Start time",
+            "Value": "07/15 02:32 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "1",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "07/15 02:40 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "07/15 05:00 AM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.45041",
+          "Longitude": "-122.29562",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "SeaTac",
+          "Id": "723990-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.45045",
+          "Longitude": "-122.29555"
+        },
+        {
+          "Latitude": "47.45036",
+          "Longitude": "-122.29555"
+        },
+        {
+          "Latitude": "47.45036",
+          "Longitude": "-122.29568"
+        },
+        {
+          "Latitude": "47.45045",
+          "Longitude": "-122.29569"
+        },
+        {
+          "Latitude": "47.45045",
+          "Longitude": "-122.29555"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.45041",
+          "Longitude": "-122.29562"
+        },
+        "Max": {
+          "Latitude": "47.45041",
+          "Longitude": "-122.29562"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
             "Value": "07/12 07:22 AM",
             "NoDisplay": false
           },
@@ -653,84 +730,7 @@
           "Longitude": "-122.29257"
         }
       }
-    },
-    {
-      "DataProvider": {
-        "Attributes": [
-          {
-            "Name": "Start time",
-            "Value": "07/15 12:20 AM",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Customers impacted",
-            "Value": "1",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Status",
-            "Value": "Waiting for repairs",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Cause",
-            "Value": "Equipment Failure",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Last update",
-            "Value": "07/15 02:20 AM",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Est. restoration time",
-            "Value": "07/15 02:30 AM",
-            "NoDisplay": false
-          }
-        ],
-        "PointOfInterest": {
-          "Latitude": "46.99288",
-          "Longitude": "-122.93778",
-          "MapType": "Outage",
-          "PinType": "Outage",
-          "Title": "Tumwater",
-          "Id": "723987-1",
-          "PlannedOutage": false
-        }
-      },
-      "Polygon": [
-        {
-          "Latitude": "46.99292",
-          "Longitude": "-122.93771"
-        },
-        {
-          "Latitude": "46.99283",
-          "Longitude": "-122.93771"
-        },
-        {
-          "Latitude": "46.99283",
-          "Longitude": "-122.93784"
-        },
-        {
-          "Latitude": "46.99292",
-          "Longitude": "-122.93784"
-        },
-        {
-          "Latitude": "46.99292",
-          "Longitude": "-122.93771"
-        }
-      ],
-      "BoundingBox": {
-        "Min": {
-          "Latitude": "46.99288",
-          "Longitude": "-122.93777"
-        },
-        "Max": {
-          "Latitude": "46.99288",
-          "Longitude": "-122.93777"
-        }
-      }
     }
   ],
-  "LastUpdated": "2021-07-15T09:22:52+00:00"
+  "LastUpdated": "2021-07-15T09:42:52+00:00"
 }
