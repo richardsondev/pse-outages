@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 115,
-    "OutageCount": 12,
-    "LastUpdatedDatetime": "07/15 07:07 PM"
+    "CustomerAfftectedCount": 116,
+    "OutageCount": 13,
+    "LastUpdatedDatetime": "07/15 07:42 PM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -621,7 +621,7 @@
           },
           {
             "Name": "Status",
-            "Value": "Waiting for repairs",
+            "Value": "Crew assigned",
             "NoDisplay": false
           },
           {
@@ -631,7 +631,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "07/15 06:55 PM",
+            "Value": "07/15 07:10 PM",
             "NoDisplay": false
           },
           {
@@ -793,6 +793,83 @@
         "Max": {
           "Latitude": "47.74455",
           "Longitude": "-122.61997"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "07/15 07:21 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "1",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Repair crew onsite",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Equipment Failure",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "07/15 07:30 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "To Be Determined",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "46.79052",
+          "Longitude": "-123.10239",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Rochester",
+          "Id": "724107-2",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "46.79057",
+          "Longitude": "-123.10233"
+        },
+        {
+          "Latitude": "46.79048",
+          "Longitude": "-123.10233"
+        },
+        {
+          "Latitude": "46.79047",
+          "Longitude": "-123.10246"
+        },
+        {
+          "Latitude": "46.79056",
+          "Longitude": "-123.10246"
+        },
+        {
+          "Latitude": "46.79057",
+          "Longitude": "-123.10233"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "46.79052",
+          "Longitude": "-123.10240"
+        },
+        "Max": {
+          "Latitude": "46.79052",
+          "Longitude": "-123.10240"
         }
       }
     },
@@ -1172,5 +1249,5 @@
       }
     }
   ],
-  "LastUpdated": "2021-07-16T02:07:52+00:00"
+  "LastUpdated": "2021-07-16T02:42:52+00:00"
 }
