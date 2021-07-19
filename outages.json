@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 133,
-    "OutageCount": 8,
-    "LastUpdatedDatetime": "07/19 03:37 PM"
+    "CustomerAfftectedCount": 135,
+    "OutageCount": 9,
+    "LastUpdatedDatetime": "07/19 03:52 PM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -21,7 +21,7 @@
           },
           {
             "Name": "Status",
-            "Value": "Crew assigned",
+            "Value": "Repair crew onsite",
             "NoDisplay": false
           },
           {
@@ -31,7 +31,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "07/19 12:40 PM",
+            "Value": "07/19 03:40 PM",
             "NoDisplay": false
           },
           {
@@ -286,6 +286,91 @@
         "Max": {
           "Latitude": "48.13695",
           "Longitude": "-122.59306"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "07/19 03:32 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "2",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "07/19 03:40 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "07/19 06:00 PM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "48.13258",
+          "Longitude": "-122.59140",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Coupeville",
+          "Id": "724705-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "48.13250",
+          "Longitude": "-122.59182"
+        },
+        {
+          "Latitude": "48.13249",
+          "Longitude": "-122.59189"
+        },
+        {
+          "Latitude": "48.13258",
+          "Longitude": "-122.59190"
+        },
+        {
+          "Latitude": "48.13265",
+          "Longitude": "-122.59098"
+        },
+        {
+          "Latitude": "48.13266",
+          "Longitude": "-122.59091"
+        },
+        {
+          "Latitude": "48.13257",
+          "Longitude": "-122.59090"
+        },
+        {
+          "Latitude": "48.13250",
+          "Longitude": "-122.59182"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "48.13254",
+          "Longitude": "-122.59183"
+        },
+        "Max": {
+          "Latitude": "48.13261",
+          "Longitude": "-122.59097"
         }
       }
     },
@@ -819,5 +904,5 @@
       }
     }
   ],
-  "LastUpdated": "2021-07-19T22:37:52+00:00"
+  "LastUpdated": "2021-07-19T22:52:52+00:00"
 }
