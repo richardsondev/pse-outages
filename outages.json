@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 104,
-    "OutageCount": 11,
-    "LastUpdatedDatetime": "07/21 04:22 PM"
+    "CustomerAfftectedCount": 106,
+    "OutageCount": 12,
+    "LastUpdatedDatetime": "07/21 04:37 PM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -93,22 +93,22 @@
           },
           {
             "Name": "Customers impacted",
-            "Value": "1",
+            "Value": "2",
             "NoDisplay": false
           },
           {
             "Name": "Status",
-            "Value": "Outage reported",
+            "Value": "Waiting for repairs",
             "NoDisplay": false
           },
           {
             "Name": "Cause",
-            "Value": "Under Investigation",
+            "Value": "Trees/Vegetation",
             "NoDisplay": false
           },
           {
             "Name": "Last update",
-            "Value": "07/21 02:50 PM",
+            "Value": "07/21 04:30 PM",
             "NoDisplay": false
           },
           {
@@ -175,17 +175,17 @@
           },
           {
             "Name": "Status",
-            "Value": "Outage reported",
+            "Value": "Waiting for repairs",
             "NoDisplay": false
           },
           {
             "Name": "Cause",
-            "Value": "Under Investigation",
+            "Value": "Equipment Failure",
             "NoDisplay": false
           },
           {
             "Name": "Last update",
-            "Value": "07/21 04:00 PM",
+            "Value": "07/21 04:35 PM",
             "NoDisplay": false
           },
           {
@@ -938,6 +938,78 @@
         "Attributes": [
           {
             "Name": "Start time",
+            "Value": "07/21 04:32 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "1",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Repair crew onsite",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Scheduled Outage",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "07/21 04:35 PM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.67238",
+          "Longitude": "-122.09647",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Southeast Redmond",
+          "Id": "725066-1",
+          "PlannedOutage": true
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.67243",
+          "Longitude": "-122.09640"
+        },
+        {
+          "Latitude": "47.67234",
+          "Longitude": "-122.09640"
+        },
+        {
+          "Latitude": "47.67234",
+          "Longitude": "-122.09653"
+        },
+        {
+          "Latitude": "47.67243",
+          "Longitude": "-122.09653"
+        },
+        {
+          "Latitude": "47.67243",
+          "Longitude": "-122.09640"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.67238",
+          "Longitude": "-122.09646"
+        },
+        "Max": {
+          "Latitude": "47.67238",
+          "Longitude": "-122.09646"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
             "Value": "07/21 10:01 AM",
             "NoDisplay": false
           },
@@ -1006,5 +1078,5 @@
       }
     }
   ],
-  "LastUpdated": "2021-07-21T23:22:52+00:00"
+  "LastUpdated": "2021-07-21T23:37:52+00:00"
 }
