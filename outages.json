@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 235,
-    "OutageCount": 19,
-    "LastUpdatedDatetime": "07/21 10:42 AM"
+    "CustomerAfftectedCount": 238,
+    "OutageCount": 20,
+    "LastUpdatedDatetime": "07/21 10:52 AM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -118,17 +118,17 @@
           },
           {
             "Name": "Status",
-            "Value": "Outage reported",
+            "Value": "Waiting for repairs",
             "NoDisplay": false
           },
           {
             "Name": "Cause",
-            "Value": "Under Investigation",
+            "Value": "Dig Up Underground",
             "NoDisplay": false
           },
           {
             "Name": "Last update",
-            "Value": "07/21 10:40 AM",
+            "Value": "07/21 10:50 AM",
             "NoDisplay": false
           },
           {
@@ -402,6 +402,91 @@
         "Max": {
           "Latitude": "47.64607",
           "Longitude": "-122.17258"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "07/21 10:45 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "3",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "07/21 10:50 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "07/21 01:00 PM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.74998",
+          "Longitude": "-121.93713",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Duvall",
+          "Id": "724998-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.74999",
+          "Longitude": "-121.93768"
+        },
+        {
+          "Latitude": "47.74999",
+          "Longitude": "-121.93775"
+        },
+        {
+          "Latitude": "47.75008",
+          "Longitude": "-121.93773"
+        },
+        {
+          "Latitude": "47.74997",
+          "Longitude": "-121.93658"
+        },
+        {
+          "Latitude": "47.74996",
+          "Longitude": "-121.93651"
+        },
+        {
+          "Latitude": "47.74987",
+          "Longitude": "-121.93653"
+        },
+        {
+          "Latitude": "47.74999",
+          "Longitude": "-121.93768"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.74991",
+          "Longitude": "-121.93767"
+        },
+        "Max": {
+          "Latitude": "47.75004",
+          "Longitude": "-121.93659"
         }
       }
     },
@@ -1839,5 +1924,5 @@
       }
     }
   ],
-  "LastUpdated": "2021-07-21T17:42:53+00:00"
+  "LastUpdated": "2021-07-21T17:52:53+00:00"
 }
