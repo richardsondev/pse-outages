@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 182,
-    "OutageCount": 11,
-    "LastUpdatedDatetime": "07/21 06:17 PM"
+    "CustomerAfftectedCount": 112,
+    "OutageCount": 12,
+    "LastUpdatedDatetime": "07/21 07:12 PM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -21,22 +21,22 @@
           },
           {
             "Name": "Status",
-            "Value": "Outage reported",
+            "Value": "Waiting for repairs",
             "NoDisplay": false
           },
           {
             "Name": "Cause",
-            "Value": "Under Investigation",
+            "Value": "Customer Equipment",
             "NoDisplay": false
           },
           {
             "Name": "Last update",
-            "Value": "07/21 05:10 PM",
+            "Value": "07/21 07:00 PM",
             "NoDisplay": false
           },
           {
             "Name": "Est. restoration time",
-            "Value": "07/21 06:30 PM",
+            "Value": "07/21 09:30 PM",
             "NoDisplay": false
           }
         ],
@@ -98,7 +98,7 @@
           },
           {
             "Name": "Status",
-            "Value": "Crew assigned",
+            "Value": "Repair crew onsite",
             "NoDisplay": false
           },
           {
@@ -108,7 +108,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "07/21 05:45 PM",
+            "Value": "07/21 06:30 PM",
             "NoDisplay": false
           },
           {
@@ -297,12 +297,12 @@
           },
           {
             "Name": "Last update",
-            "Value": "07/21 06:15 PM",
+            "Value": "07/21 07:10 PM",
             "NoDisplay": false
           },
           {
             "Name": "Est. restoration time",
-            "Value": "07/21 07:00 PM",
+            "Value": "07/21 08:00 PM",
             "NoDisplay": false
           }
         ],
@@ -536,7 +536,7 @@
           },
           {
             "Name": "Customers impacted",
-            "Value": "1",
+            "Value": "6",
             "NoDisplay": false
           },
           {
@@ -551,7 +551,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "07/21 06:10 PM",
+            "Value": "07/21 06:20 PM",
             "NoDisplay": false
           },
           {
@@ -561,8 +561,8 @@
           }
         ],
         "PointOfInterest": {
-          "Latitude": "47.40572",
-          "Longitude": "-121.96816",
+          "Latitude": "47.40676",
+          "Longitude": "-121.96483",
           "MapType": "Outage",
           "PinType": "Outage",
           "Title": "Maple Valley",
@@ -572,24 +572,44 @@
       },
       "Polygon": [
         {
-          "Latitude": "47.40576",
-          "Longitude": "-121.96809"
+          "Latitude": "47.40575",
+          "Longitude": "-121.96820"
+        },
+        {
+          "Latitude": "47.40811",
+          "Longitude": "-121.96466"
+        },
+        {
+          "Latitude": "47.40812",
+          "Longitude": "-121.96457"
+        },
+        {
+          "Latitude": "47.40652",
+          "Longitude": "-121.96166"
+        },
+        {
+          "Latitude": "47.40644",
+          "Longitude": "-121.96169"
+        },
+        {
+          "Latitude": "47.40644",
+          "Longitude": "-121.96169"
         },
         {
           "Latitude": "47.40567",
-          "Longitude": "-121.96809"
+          "Longitude": "-121.96814"
         },
         {
-          "Latitude": "47.40567",
-          "Longitude": "-121.96822"
+          "Latitude": "47.40569",
+          "Longitude": "-121.96821"
         },
         {
-          "Latitude": "47.40576",
-          "Longitude": "-121.96822"
+          "Latitude": "47.40575",
+          "Longitude": "-121.96820"
         },
         {
-          "Latitude": "47.40576",
-          "Longitude": "-121.96809"
+          "Latitude": "47.40575",
+          "Longitude": "-121.96820"
         }
       ],
       "BoundingBox": {
@@ -598,8 +618,80 @@
           "Longitude": "-121.96816"
         },
         "Max": {
-          "Latitude": "47.40571",
-          "Longitude": "-121.96816"
+          "Latitude": "47.40811",
+          "Longitude": "-121.96174"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "07/21 06:59 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "1",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Repair crew onsite",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Scheduled Outage",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "07/21 07:05 PM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.82783",
+          "Longitude": "-122.62980",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Poulsbo",
+          "Id": "704545-1",
+          "PlannedOutage": true
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.82787",
+          "Longitude": "-122.62973"
+        },
+        {
+          "Latitude": "47.82778",
+          "Longitude": "-122.62973"
+        },
+        {
+          "Latitude": "47.82778",
+          "Longitude": "-122.62986"
+        },
+        {
+          "Latitude": "47.82787",
+          "Longitude": "-122.62987"
+        },
+        {
+          "Latitude": "47.82787",
+          "Longitude": "-122.62973"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.82783",
+          "Longitude": "-122.62980"
+        },
+        "Max": {
+          "Latitude": "47.82783",
+          "Longitude": "-122.62980"
         }
       }
     },
@@ -786,7 +878,7 @@
           },
           {
             "Name": "Customers impacted",
-            "Value": "77",
+            "Value": "1",
             "NoDisplay": false
           },
           {
@@ -801,7 +893,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "07/21 05:45 PM",
+            "Value": "07/21 06:25 PM",
             "NoDisplay": false
           },
           {
@@ -811,8 +903,8 @@
           }
         ],
         "PointOfInterest": {
-          "Latitude": "47.38977",
-          "Longitude": "-121.39507",
+          "Latitude": "47.38852",
+          "Longitude": "-121.39255",
           "MapType": "Outage",
           "PinType": "Outage",
           "Title": "Snoqualmie Pass",
@@ -822,102 +914,34 @@
       },
       "Polygon": [
         {
-          "Latitude": "47.38691",
-          "Longitude": "-121.39361"
-        },
-        {
-          "Latitude": "47.38693",
-          "Longitude": "-121.39471"
-        },
-        {
-          "Latitude": "47.38693",
-          "Longitude": "-121.39471"
-        },
-        {
-          "Latitude": "47.38696",
-          "Longitude": "-121.39511"
-        },
-        {
-          "Latitude": "47.38696",
-          "Longitude": "-121.39513"
-        },
-        {
-          "Latitude": "47.38806",
-          "Longitude": "-121.39803"
-        },
-        {
-          "Latitude": "47.38811",
-          "Longitude": "-121.39806"
-        },
-        {
-          "Latitude": "47.39373",
-          "Longitude": "-121.39550"
-        },
-        {
-          "Latitude": "47.39375",
-          "Longitude": "-121.39541"
-        },
-        {
-          "Latitude": "47.39375",
-          "Longitude": "-121.39541"
-        },
-        {
-          "Latitude": "47.39367",
-          "Longitude": "-121.39513"
-        },
-        {
-          "Latitude": "47.39366",
-          "Longitude": "-121.39511"
-        },
-        {
-          "Latitude": "47.39270",
-          "Longitude": "-121.39399"
-        },
-        {
-          "Latitude": "47.39270",
-          "Longitude": "-121.39398"
-        },
-        {
-          "Latitude": "47.39237",
-          "Longitude": "-121.39372"
-        },
-        {
-          "Latitude": "47.39235",
-          "Longitude": "-121.39372"
-        },
-        {
-          "Latitude": "47.38853",
+          "Latitude": "47.38856",
           "Longitude": "-121.39248"
         },
         {
-          "Latitude": "47.38850",
-          "Longitude": "-121.39249"
+          "Latitude": "47.38847",
+          "Longitude": "-121.39248"
         },
         {
-          "Latitude": "47.38714",
-          "Longitude": "-121.39333"
+          "Latitude": "47.38847",
+          "Longitude": "-121.39261"
         },
         {
-          "Latitude": "47.38713",
-          "Longitude": "-121.39334"
+          "Latitude": "47.38856",
+          "Longitude": "-121.39262"
         },
         {
-          "Latitude": "47.38693",
-          "Longitude": "-121.39355"
-        },
-        {
-          "Latitude": "47.38691",
-          "Longitude": "-121.39361"
+          "Latitude": "47.38856",
+          "Longitude": "-121.39248"
         }
       ],
       "BoundingBox": {
         "Min": {
-          "Latitude": "47.38694",
-          "Longitude": "-121.39799"
+          "Latitude": "47.38852",
+          "Longitude": "-121.39255"
         },
         "Max": {
-          "Latitude": "47.39373",
-          "Longitude": "-121.39260"
+          "Latitude": "47.38852",
+          "Longitude": "-121.39255"
         }
       }
     },
@@ -1087,5 +1111,5 @@
       }
     }
   ],
-  "LastUpdated": "2021-07-22T01:17:52+00:00"
+  "LastUpdated": "2021-07-22T02:12:52+00:00"
 }
