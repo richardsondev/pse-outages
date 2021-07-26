@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 61,
-    "OutageCount": 10,
-    "LastUpdatedDatetime": "07/26 06:52 AM"
+    "CustomerAfftectedCount": 62,
+    "OutageCount": 11,
+    "LastUpdatedDatetime": "07/26 07:22 AM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -235,17 +235,17 @@
           },
           {
             "Name": "Status",
-            "Value": "Outage reported",
+            "Value": "Waiting for repairs",
             "NoDisplay": false
           },
           {
             "Name": "Cause",
-            "Value": "Under Investigation",
+            "Value": "Equipment Failure",
             "NoDisplay": false
           },
           {
             "Name": "Last update",
-            "Value": "07/26 06:20 AM",
+            "Value": "07/26 07:20 AM",
             "NoDisplay": false
           },
           {
@@ -648,6 +648,83 @@
         "Attributes": [
           {
             "Name": "Start time",
+            "Value": "07/26 07:16 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "1",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "07/26 07:20 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "07/26 09:30 AM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.66433",
+          "Longitude": "-122.10647",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Southeast Redmond",
+          "Id": "725669-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.66437",
+          "Longitude": "-122.10640"
+        },
+        {
+          "Latitude": "47.66428",
+          "Longitude": "-122.10640"
+        },
+        {
+          "Latitude": "47.66428",
+          "Longitude": "-122.10653"
+        },
+        {
+          "Latitude": "47.66437",
+          "Longitude": "-122.10654"
+        },
+        {
+          "Latitude": "47.66437",
+          "Longitude": "-122.10640"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.66433",
+          "Longitude": "-122.10647"
+        },
+        "Max": {
+          "Latitude": "47.66433",
+          "Longitude": "-122.10647"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
             "Value": "07/26 06:26 AM",
             "NoDisplay": false
           },
@@ -946,5 +1023,5 @@
       }
     }
   ],
-  "LastUpdated": "2021-07-26T13:52:52+00:00"
+  "LastUpdated": "2021-07-26T14:22:52+00:00"
 }
