@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 352,
-    "OutageCount": 18,
-    "LastUpdatedDatetime": "07/28 02:42 PM"
+    "CustomerAfftectedCount": 354,
+    "OutageCount": 19,
+    "LastUpdatedDatetime": "07/28 02:52 PM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -311,22 +311,22 @@
           },
           {
             "Name": "Status",
-            "Value": "Outage reported",
+            "Value": "Waiting for repairs",
             "NoDisplay": false
           },
           {
             "Name": "Cause",
-            "Value": "Under Investigation",
+            "Value": "Equipment Failure",
             "NoDisplay": false
           },
           {
             "Name": "Last update",
-            "Value": "07/28 02:10 PM",
+            "Value": "07/28 02:50 PM",
             "NoDisplay": false
           },
           {
             "Name": "Est. restoration time",
-            "Value": "07/28 06:30 PM",
+            "Value": "07/28 03:30 PM",
             "NoDisplay": false
           }
         ],
@@ -336,7 +336,7 @@
           "MapType": "Outage",
           "PinType": "Outage",
           "Title": "Bremerton",
-          "Id": "726116-1",
+          "Id": "726116-2",
           "PlannedOutage": false
         }
       },
@@ -1273,7 +1273,7 @@
           },
           {
             "Name": "Status",
-            "Value": "Waiting for repairs",
+            "Value": "Crew assigned",
             "NoDisplay": false
           },
           {
@@ -1283,7 +1283,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "07/28 02:05 PM",
+            "Value": "07/28 02:50 PM",
             "NoDisplay": false
           },
           {
@@ -1441,6 +1441,91 @@
         "Max": {
           "Latitude": "47.40872",
           "Longitude": "-122.33235"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "07/28 02:43 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "2",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "07/28 02:45 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "07/28 05:00 PM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "48.51692",
+          "Longitude": "-121.97833",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Sedro-Woolley",
+          "Id": "726138-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "48.51683",
+          "Longitude": "-121.97820"
+        },
+        {
+          "Latitude": "48.51679",
+          "Longitude": "-121.97817"
+        },
+        {
+          "Latitude": "48.51675",
+          "Longitude": "-121.97830"
+        },
+        {
+          "Latitude": "48.51702",
+          "Longitude": "-121.97847"
+        },
+        {
+          "Latitude": "48.51706",
+          "Longitude": "-121.97849"
+        },
+        {
+          "Latitude": "48.51709",
+          "Longitude": "-121.97837"
+        },
+        {
+          "Latitude": "48.51683",
+          "Longitude": "-121.97820"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "48.51681",
+          "Longitude": "-121.97840"
+        },
+        "Max": {
+          "Latitude": "48.51703",
+          "Longitude": "-121.97827"
         }
       }
     },
@@ -1702,5 +1787,5 @@
       }
     }
   ],
-  "LastUpdated": "2021-07-28T21:42:52+00:00"
+  "LastUpdated": "2021-07-28T21:52:52+00:00"
 }
