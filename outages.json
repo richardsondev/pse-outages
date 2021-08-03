@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 91,
+    "CustomerAfftectedCount": 94,
     "OutageCount": 12,
-    "LastUpdatedDatetime": "08/03 03:37 PM"
+    "LastUpdatedDatetime": "08/03 03:52 PM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -21,17 +21,17 @@
           },
           {
             "Name": "Status",
-            "Value": "Outage reported",
+            "Value": "Waiting for repairs",
             "NoDisplay": false
           },
           {
             "Name": "Cause",
-            "Value": "Under Investigation",
+            "Value": "Equipment Failure",
             "NoDisplay": false
           },
           {
             "Name": "Last update",
-            "Value": "08/03 03:30 PM",
+            "Value": "08/03 03:50 PM",
             "NoDisplay": false
           },
           {
@@ -538,17 +538,17 @@
           },
           {
             "Name": "Status",
-            "Value": "Outage reported",
+            "Value": "Waiting for repairs",
             "NoDisplay": false
           },
           {
             "Name": "Cause",
-            "Value": "Under Investigation",
+            "Value": "Bird Or Animal",
             "NoDisplay": false
           },
           {
             "Name": "Last update",
-            "Value": "08/03 03:00 PM",
+            "Value": "08/03 03:50 PM",
             "NoDisplay": false
           },
           {
@@ -657,6 +657,103 @@
         "Max": {
           "Latitude": "47.45083",
           "Longitude": "-122.71408"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "08/03 03:43 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "4",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "08/03 03:50 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "08/03 06:00 PM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.73378",
+          "Longitude": "-122.62984",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Poulsbo",
+          "Id": "727423-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.73341",
+          "Longitude": "-122.63014"
+        },
+        {
+          "Latitude": "47.73393",
+          "Longitude": "-122.63004"
+        },
+        {
+          "Latitude": "47.73396",
+          "Longitude": "-122.63001"
+        },
+        {
+          "Latitude": "47.73411",
+          "Longitude": "-122.62966"
+        },
+        {
+          "Latitude": "47.73407",
+          "Longitude": "-122.62955"
+        },
+        {
+          "Latitude": "47.73381",
+          "Longitude": "-122.62954"
+        },
+        {
+          "Latitude": "47.73379",
+          "Longitude": "-122.62956"
+        },
+        {
+          "Latitude": "47.73337",
+          "Longitude": "-122.63002"
+        },
+        {
+          "Latitude": "47.73336",
+          "Longitude": "-122.63010"
+        },
+        {
+          "Latitude": "47.73341",
+          "Longitude": "-122.63014"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.73340",
+          "Longitude": "-122.63008"
+        },
+        "Max": {
+          "Latitude": "47.73407",
+          "Longitude": "-122.62962"
         }
       }
     },
@@ -822,78 +919,6 @@
         "Attributes": [
           {
             "Name": "Start time",
-            "Value": "08/03 08:54 AM",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Customers impacted",
-            "Value": "1",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Status",
-            "Value": "Repair crew onsite",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Cause",
-            "Value": "Scheduled Outage",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Last update",
-            "Value": "08/03 09:00 AM",
-            "NoDisplay": false
-          }
-        ],
-        "PointOfInterest": {
-          "Latitude": "47.12687",
-          "Longitude": "-122.55045",
-          "MapType": "Outage",
-          "PinType": "Outage",
-          "Title": "Tacoma",
-          "Id": "727304-1",
-          "PlannedOutage": true
-        }
-      },
-      "Polygon": [
-        {
-          "Latitude": "47.12692",
-          "Longitude": "-122.55039"
-        },
-        {
-          "Latitude": "47.12683",
-          "Longitude": "-122.55039"
-        },
-        {
-          "Latitude": "47.12683",
-          "Longitude": "-122.55052"
-        },
-        {
-          "Latitude": "47.12692",
-          "Longitude": "-122.55052"
-        },
-        {
-          "Latitude": "47.12692",
-          "Longitude": "-122.55039"
-        }
-      ],
-      "BoundingBox": {
-        "Min": {
-          "Latitude": "47.12687",
-          "Longitude": "-122.55046"
-        },
-        "Max": {
-          "Latitude": "47.12687",
-          "Longitude": "-122.55046"
-        }
-      }
-    },
-    {
-      "DataProvider": {
-        "Attributes": [
-          {
-            "Name": "Start time",
             "Value": "08/03 03:14 PM",
             "NoDisplay": false
           },
@@ -904,7 +929,7 @@
           },
           {
             "Name": "Status",
-            "Value": "Outage reported",
+            "Value": "Waiting for repairs",
             "NoDisplay": false
           },
           {
@@ -914,7 +939,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "08/03 03:20 PM",
+            "Value": "08/03 03:50 PM",
             "NoDisplay": false
           },
           {
@@ -991,7 +1016,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "08/03 03:35 PM",
+            "Value": "08/03 03:50 PM",
             "NoDisplay": false
           },
           {
@@ -1052,5 +1077,5 @@
       }
     }
   ],
-  "LastUpdated": "2021-08-03T22:37:52+00:00"
+  "LastUpdated": "2021-08-03T22:52:53+00:00"
 }
