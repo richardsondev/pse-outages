@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 110,
-    "OutageCount": 9,
-    "LastUpdatedDatetime": "08/07 09:32 PM"
+    "CustomerAfftectedCount": 112,
+    "OutageCount": 10,
+    "LastUpdatedDatetime": "08/07 09:52 PM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -21,7 +21,7 @@
           },
           {
             "Name": "Status",
-            "Value": "Crew assigned",
+            "Value": "Repair crew onsite",
             "NoDisplay": false
           },
           {
@@ -31,7 +31,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "08/07 09:15 PM",
+            "Value": "08/07 09:40 PM",
             "NoDisplay": false
           },
           {
@@ -261,6 +261,91 @@
         "Max": {
           "Latitude": "47.77455",
           "Longitude": "-122.20782"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "08/07 09:48 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "2",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "08/07 09:50 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "08/08 12:00 AM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.00402",
+          "Longitude": "-121.98791",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Carbonado",
+          "Id": "728438-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.00436",
+          "Longitude": "-121.98807"
+        },
+        {
+          "Latitude": "47.00441",
+          "Longitude": "-121.98809"
+        },
+        {
+          "Latitude": "47.00443",
+          "Longitude": "-121.98796"
+        },
+        {
+          "Latitude": "47.00367",
+          "Longitude": "-121.98773"
+        },
+        {
+          "Latitude": "47.00363",
+          "Longitude": "-121.98772"
+        },
+        {
+          "Latitude": "47.00361",
+          "Longitude": "-121.98785"
+        },
+        {
+          "Latitude": "47.00436",
+          "Longitude": "-121.98807"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.00366",
+          "Longitude": "-121.98799"
+        },
+        "Max": {
+          "Latitude": "47.00437",
+          "Longitude": "-121.98781"
         }
       }
     },
@@ -907,5 +992,5 @@
       }
     }
   ],
-  "LastUpdated": "2021-08-08T04:32:52+00:00"
+  "LastUpdated": "2021-08-08T04:52:52+00:00"
 }
