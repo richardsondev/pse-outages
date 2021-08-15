@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 114,
-    "OutageCount": 8,
-    "LastUpdatedDatetime": "08/15 02:22 PM"
+    "CustomerAfftectedCount": 115,
+    "OutageCount": 9,
+    "LastUpdatedDatetime": "08/15 02:32 PM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -21,17 +21,17 @@
           },
           {
             "Name": "Status",
-            "Value": "Outage reported",
+            "Value": "Waiting for repairs",
             "NoDisplay": false
           },
           {
             "Name": "Cause",
-            "Value": "Under Investigation",
+            "Value": "Bird Or Animal",
             "NoDisplay": false
           },
           {
             "Name": "Last update",
-            "Value": "08/15 12:55 PM",
+            "Value": "08/15 02:30 PM",
             "NoDisplay": false
           },
           {
@@ -217,7 +217,84 @@
         "Attributes": [
           {
             "Name": "Start time",
-            "Value": "08/15 02:17 PM",
+            "Value": "08/15 02:20 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "1",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "08/15 02:30 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "08/15 04:30 PM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "48.93343",
+          "Longitude": "-122.47735",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Lynden",
+          "Id": "730212-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "48.93348",
+          "Longitude": "-122.47728"
+        },
+        {
+          "Latitude": "48.93339",
+          "Longitude": "-122.47728"
+        },
+        {
+          "Latitude": "48.93339",
+          "Longitude": "-122.47742"
+        },
+        {
+          "Latitude": "48.93348",
+          "Longitude": "-122.47742"
+        },
+        {
+          "Latitude": "48.93348",
+          "Longitude": "-122.47728"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "48.93343",
+          "Longitude": "-122.47735"
+        },
+        "Max": {
+          "Latitude": "48.93343",
+          "Longitude": "-122.47735"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "08/15 02:23 PM",
             "NoDisplay": false
           },
           {
@@ -237,12 +314,12 @@
           },
           {
             "Name": "Last update",
-            "Value": "08/15 02:20 PM",
+            "Value": "08/15 02:30 PM",
             "NoDisplay": false
           },
           {
             "Name": "Est. restoration time",
-            "Value": "08/15 04:30 PM",
+            "Value": "08/19 04:30 PM",
             "NoDisplay": false
           }
         ],
@@ -252,7 +329,7 @@
           "MapType": "Outage",
           "PinType": "Outage",
           "Title": "Market",
-          "Id": "730210-1",
+          "Id": "730213-1",
           "PlannedOutage": false
         }
       },
@@ -723,7 +800,7 @@
           },
           {
             "Name": "Status",
-            "Value": "Waiting for repairs",
+            "Value": "Crew assigned",
             "NoDisplay": false
           },
           {
@@ -733,7 +810,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "08/15 02:20 PM",
+            "Value": "08/15 02:30 PM",
             "NoDisplay": false
           },
           {
@@ -850,5 +927,5 @@
       }
     }
   ],
-  "LastUpdated": "2021-08-15T21:22:53+00:00"
+  "LastUpdated": "2021-08-15T21:32:52+00:00"
 }
