@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 198,
-    "OutageCount": 11,
-    "LastUpdatedDatetime": "08/20 07:52 AM"
+    "CustomerAfftectedCount": 199,
+    "OutageCount": 12,
+    "LastUpdatedDatetime": "08/20 08:27 AM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -734,17 +734,17 @@
           },
           {
             "Name": "Status",
-            "Value": "Outage reported",
+            "Value": "Waiting for repairs",
             "NoDisplay": false
           },
           {
             "Name": "Cause",
-            "Value": "Under Investigation",
+            "Value": "Bird Or Animal",
             "NoDisplay": false
           },
           {
             "Name": "Last update",
-            "Value": "08/20 06:55 AM",
+            "Value": "08/20 08:25 AM",
             "NoDisplay": false
           },
           {
@@ -958,6 +958,83 @@
         "Attributes": [
           {
             "Name": "Start time",
+            "Value": "08/20 07:47 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "1",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Waiting for repairs",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Equipment Failure",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "08/20 08:00 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "08/20 10:00 AM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.34958",
+          "Longitude": "-121.99107",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Ravensdale",
+          "Id": "731014-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.34962",
+          "Longitude": "-121.99100"
+        },
+        {
+          "Latitude": "47.34953",
+          "Longitude": "-121.99100"
+        },
+        {
+          "Latitude": "47.34953",
+          "Longitude": "-121.99113"
+        },
+        {
+          "Latitude": "47.34962",
+          "Longitude": "-121.99113"
+        },
+        {
+          "Latitude": "47.34962",
+          "Longitude": "-121.99100"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.34958",
+          "Longitude": "-121.99107"
+        },
+        "Max": {
+          "Latitude": "47.34958",
+          "Longitude": "-121.99107"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
             "Value": "08/20 04:57 AM",
             "NoDisplay": false
           },
@@ -1128,5 +1205,5 @@
       }
     }
   ],
-  "LastUpdated": "2021-08-20T14:52:52+00:00"
+  "LastUpdated": "2021-08-20T15:27:52+00:00"
 }
