@@ -2,7 +2,7 @@
   "Common": {
     "CustomerAfftectedCount": 42,
     "OutageCount": 9,
-    "LastUpdatedDatetime": "08/23 07:32 AM"
+    "LastUpdatedDatetime": "08/23 07:52 AM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -435,6 +435,83 @@
         "Attributes": [
           {
             "Name": "Start time",
+            "Value": "08/23 07:31 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "1",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "08/23 07:40 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "08/23 10:00 AM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.46610",
+          "Longitude": "-122.24796",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "SeaTac",
+          "Id": "731345-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.46614",
+          "Longitude": "-122.24789"
+        },
+        {
+          "Latitude": "47.46605",
+          "Longitude": "-122.24789"
+        },
+        {
+          "Latitude": "47.46605",
+          "Longitude": "-122.24802"
+        },
+        {
+          "Latitude": "47.46614",
+          "Longitude": "-122.24802"
+        },
+        {
+          "Latitude": "47.46614",
+          "Longitude": "-122.24789"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.46610",
+          "Longitude": "-122.24796"
+        },
+        "Max": {
+          "Latitude": "47.46610",
+          "Longitude": "-122.24796"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
             "Value": "08/22 03:13 PM",
             "NoDisplay": false
           },
@@ -528,83 +605,6 @@
         "Max": {
           "Latitude": "47.69442",
           "Longitude": "-121.33668"
-        }
-      }
-    },
-    {
-      "DataProvider": {
-        "Attributes": [
-          {
-            "Name": "Start time",
-            "Value": "08/23 07:23 AM",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Customers impacted",
-            "Value": "1",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Status",
-            "Value": "Outage reported",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Cause",
-            "Value": "Under Investigation",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Last update",
-            "Value": "08/23 07:30 AM",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Est. restoration time",
-            "Value": "08/23 09:30 AM",
-            "NoDisplay": false
-          }
-        ],
-        "PointOfInterest": {
-          "Latitude": "47.70584",
-          "Longitude": "-122.21191",
-          "MapType": "Outage",
-          "PinType": "Outage",
-          "Title": "South Juanita",
-          "Id": "731344-1",
-          "PlannedOutage": false
-        }
-      },
-      "Polygon": [
-        {
-          "Latitude": "47.70588",
-          "Longitude": "-122.21184"
-        },
-        {
-          "Latitude": "47.70579",
-          "Longitude": "-122.21184"
-        },
-        {
-          "Latitude": "47.70579",
-          "Longitude": "-122.21197"
-        },
-        {
-          "Latitude": "47.70588",
-          "Longitude": "-122.21197"
-        },
-        {
-          "Latitude": "47.70588",
-          "Longitude": "-122.21184"
-        }
-      ],
-      "BoundingBox": {
-        "Min": {
-          "Latitude": "47.70584",
-          "Longitude": "-122.21190"
-        },
-        "Max": {
-          "Latitude": "47.70584",
-          "Longitude": "-122.21190"
         }
       }
     },
@@ -795,5 +795,5 @@
       }
     }
   ],
-  "LastUpdated": "2021-08-23T14:32:52+00:00"
+  "LastUpdated": "2021-08-23T14:52:52+00:00"
 }
