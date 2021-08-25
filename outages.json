@@ -2,7 +2,7 @@
   "Common": {
     "CustomerAfftectedCount": 484,
     "OutageCount": 9,
-    "LastUpdatedDatetime": "08/24 11:27 PM"
+    "LastUpdatedDatetime": "08/24 11:52 PM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -386,6 +386,83 @@
         "Attributes": [
           {
             "Name": "Start time",
+            "Value": "08/24 11:30 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "1",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "08/24 11:35 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "08/25 01:30 AM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.56984",
+          "Longitude": "-122.17983",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Newport",
+          "Id": "731679-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.56988",
+          "Longitude": "-122.17977"
+        },
+        {
+          "Latitude": "47.56979",
+          "Longitude": "-122.17976"
+        },
+        {
+          "Latitude": "47.56979",
+          "Longitude": "-122.17990"
+        },
+        {
+          "Latitude": "47.56988",
+          "Longitude": "-122.17990"
+        },
+        {
+          "Latitude": "47.56988",
+          "Longitude": "-122.17977"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.56984",
+          "Longitude": "-122.17983"
+        },
+        "Max": {
+          "Latitude": "47.56984",
+          "Longitude": "-122.17983"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
             "Value": "08/24 10:59 PM",
             "NoDisplay": false
           },
@@ -469,7 +546,7 @@
           },
           {
             "Name": "Status",
-            "Value": "Crew assigned",
+            "Value": "Repair crew onsite",
             "NoDisplay": false
           },
           {
@@ -479,7 +556,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "08/24 10:45 PM",
+            "Value": "08/24 11:40 PM",
             "NoDisplay": false
           },
           {
@@ -824,84 +901,7 @@
           "Longitude": "-121.33668"
         }
       }
-    },
-    {
-      "DataProvider": {
-        "Attributes": [
-          {
-            "Name": "Start time",
-            "Value": "08/24 05:38 PM",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Customers impacted",
-            "Value": "1",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Status",
-            "Value": "Waiting for repairs",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Cause",
-            "Value": "Equipment Failure",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Last update",
-            "Value": "08/24 05:45 PM",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Est. restoration time",
-            "Value": "To Be Determined",
-            "NoDisplay": false
-          }
-        ],
-        "PointOfInterest": {
-          "Latitude": "47.56797",
-          "Longitude": "-122.09586",
-          "MapType": "Outage",
-          "PinType": "Outage",
-          "Title": "West Lake Sammamish",
-          "Id": "731621-2",
-          "PlannedOutage": false
-        }
-      },
-      "Polygon": [
-        {
-          "Latitude": "47.56801",
-          "Longitude": "-122.09579"
-        },
-        {
-          "Latitude": "47.56792",
-          "Longitude": "-122.09579"
-        },
-        {
-          "Latitude": "47.56792",
-          "Longitude": "-122.09592"
-        },
-        {
-          "Latitude": "47.56801",
-          "Longitude": "-122.09593"
-        },
-        {
-          "Latitude": "47.56801",
-          "Longitude": "-122.09579"
-        }
-      ],
-      "BoundingBox": {
-        "Min": {
-          "Latitude": "47.56797",
-          "Longitude": "-122.09586"
-        },
-        "Max": {
-          "Latitude": "47.56797",
-          "Longitude": "-122.09586"
-        }
-      }
     }
   ],
-  "LastUpdated": "2021-08-25T06:27:52+00:00"
+  "LastUpdated": "2021-08-25T06:52:52+00:00"
 }
