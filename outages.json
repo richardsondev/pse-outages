@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 345,
-    "OutageCount": 11,
-    "LastUpdatedDatetime": "08/25 02:22 PM"
+    "CustomerAfftectedCount": 346,
+    "OutageCount": 12,
+    "LastUpdatedDatetime": "08/25 02:32 PM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -126,7 +126,7 @@
           },
           {
             "Name": "Status",
-            "Value": "Waiting for repairs",
+            "Value": "Crew assigned",
             "NoDisplay": false
           },
           {
@@ -136,7 +136,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "08/25 02:20 PM",
+            "Value": "08/25 02:30 PM",
             "NoDisplay": false
           },
           {
@@ -416,6 +416,78 @@
         "Max": {
           "Latitude": "47.61588",
           "Longitude": "-122.14690"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "08/25 02:17 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "1",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Repair crew onsite",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Scheduled Outage",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "08/25 02:25 PM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.52192",
+          "Longitude": "-121.92396",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Issaquah",
+          "Id": "731793-1",
+          "PlannedOutage": true
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.52196",
+          "Longitude": "-121.92389"
+        },
+        {
+          "Latitude": "47.52187",
+          "Longitude": "-121.92389"
+        },
+        {
+          "Latitude": "47.52187",
+          "Longitude": "-121.92402"
+        },
+        {
+          "Latitude": "47.52196",
+          "Longitude": "-121.92402"
+        },
+        {
+          "Latitude": "47.52196",
+          "Longitude": "-121.92389"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.52192",
+          "Longitude": "-121.92395"
+        },
+        "Max": {
+          "Latitude": "47.52192",
+          "Longitude": "-121.92395"
         }
       }
     },
@@ -1009,5 +1081,5 @@
       }
     }
   ],
-  "LastUpdated": "2021-08-25T21:22:53+00:00"
+  "LastUpdated": "2021-08-25T21:32:52+00:00"
 }
