@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 645,
-    "OutageCount": 10,
-    "LastUpdatedDatetime": "08/24 10:32 PM"
+    "CustomerAfftectedCount": 646,
+    "OutageCount": 11,
+    "LastUpdatedDatetime": "08/24 10:52 PM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -21,7 +21,7 @@
           },
           {
             "Name": "Status",
-            "Value": "Outage reported",
+            "Value": "Waiting for repairs",
             "NoDisplay": false
           },
           {
@@ -31,12 +31,12 @@
           },
           {
             "Name": "Last update",
-            "Value": "08/24 09:00 PM",
+            "Value": "08/24 10:50 PM",
             "NoDisplay": false
           },
           {
             "Name": "Est. restoration time",
-            "Value": "08/24 11:00 PM",
+            "Value": "08/25 10:00 AM",
             "NoDisplay": false
           }
         ],
@@ -46,7 +46,7 @@
           "MapType": "Outage",
           "PinType": "Outage",
           "Title": "Bainbridge Island",
-          "Id": "731662-1",
+          "Id": "731662-2",
           "PlannedOutage": false
         }
       },
@@ -406,12 +406,12 @@
           },
           {
             "Name": "Last update",
-            "Value": "08/24 08:45 PM",
+            "Value": "08/24 10:45 PM",
             "NoDisplay": false
           },
           {
             "Name": "Est. restoration time",
-            "Value": "08/24 10:30 PM",
+            "Value": "08/25 12:30 AM",
             "NoDisplay": false
           }
         ],
@@ -773,6 +773,83 @@
         "Attributes": [
           {
             "Name": "Start time",
+            "Value": "08/24 10:34 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "1",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "08/24 10:40 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "08/25 01:00 AM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.48650",
+          "Longitude": "-122.19843",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Renton",
+          "Id": "731677-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.48654",
+          "Longitude": "-122.19836"
+        },
+        {
+          "Latitude": "47.48645",
+          "Longitude": "-122.19836"
+        },
+        {
+          "Latitude": "47.48645",
+          "Longitude": "-122.19849"
+        },
+        {
+          "Latitude": "47.48654",
+          "Longitude": "-122.19849"
+        },
+        {
+          "Latitude": "47.48654",
+          "Longitude": "-122.19836"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.48649",
+          "Longitude": "-122.19842"
+        },
+        "Max": {
+          "Latitude": "47.48649",
+          "Longitude": "-122.19842"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
             "Value": "08/23 11:45 PM",
             "NoDisplay": false
           },
@@ -1096,5 +1173,5 @@
       }
     }
   ],
-  "LastUpdated": "2021-08-25T05:32:52+00:00"
+  "LastUpdated": "2021-08-25T05:52:52+00:00"
 }
