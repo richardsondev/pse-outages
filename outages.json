@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 16,
-    "OutageCount": 6,
-    "LastUpdatedDatetime": "08/26 01:52 PM"
+    "CustomerAfftectedCount": 17,
+    "OutageCount": 7,
+    "LastUpdatedDatetime": "08/26 02:17 PM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -106,7 +106,7 @@
           },
           {
             "Name": "Status",
-            "Value": "Under investigation",
+            "Value": "Outage reported",
             "NoDisplay": false
           },
           {
@@ -116,7 +116,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "08/26 01:50 PM",
+            "Value": "08/26 01:55 PM",
             "NoDisplay": false
           },
           {
@@ -451,6 +451,83 @@
         "Attributes": [
           {
             "Name": "Start time",
+            "Value": "08/26 01:59 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "1",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "08/26 02:05 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "08/26 04:00 PM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.73268",
+          "Longitude": "-122.61533",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Poulsbo",
+          "Id": "731919-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.73272",
+          "Longitude": "-122.61526"
+        },
+        {
+          "Latitude": "47.73263",
+          "Longitude": "-122.61526"
+        },
+        {
+          "Latitude": "47.73263",
+          "Longitude": "-122.61539"
+        },
+        {
+          "Latitude": "47.73272",
+          "Longitude": "-122.61540"
+        },
+        {
+          "Latitude": "47.73272",
+          "Longitude": "-122.61526"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.73268",
+          "Longitude": "-122.61533"
+        },
+        "Max": {
+          "Latitude": "47.73268",
+          "Longitude": "-122.61533"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
             "Value": "08/23 11:45 PM",
             "NoDisplay": false
           },
@@ -524,5 +601,5 @@
       }
     }
   ],
-  "LastUpdated": "2021-08-26T20:52:52+00:00"
+  "LastUpdated": "2021-08-26T21:17:52+00:00"
 }
