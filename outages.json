@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 134,
-    "OutageCount": 12,
-    "LastUpdatedDatetime": "08/28 11:27 AM"
+    "CustomerAfftectedCount": 136,
+    "OutageCount": 14,
+    "LastUpdatedDatetime": "08/28 11:52 AM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -341,17 +341,17 @@
           },
           {
             "Name": "Status",
-            "Value": "Outage reported",
+            "Value": "Waiting for repairs",
             "NoDisplay": false
           },
           {
             "Name": "Cause",
-            "Value": "Under Investigation",
+            "Value": "Trees/Vegetation",
             "NoDisplay": false
           },
           {
             "Name": "Last update",
-            "Value": "08/28 10:35 AM",
+            "Value": "08/28 11:45 AM",
             "NoDisplay": false
           },
           {
@@ -476,6 +476,78 @@
         "Max": {
           "Latitude": "47.00235",
           "Longitude": "-122.78652"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "08/28 11:38 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "1",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Repair crew onsite",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Scheduled Outage",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "08/28 11:45 AM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.64883",
+          "Longitude": "-122.13908",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Overlake",
+          "Id": "731406-1",
+          "PlannedOutage": true
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.64888",
+          "Longitude": "-122.13901"
+        },
+        {
+          "Latitude": "47.64879",
+          "Longitude": "-122.13901"
+        },
+        {
+          "Latitude": "47.64879",
+          "Longitude": "-122.13914"
+        },
+        {
+          "Latitude": "47.64888",
+          "Longitude": "-122.13915"
+        },
+        {
+          "Latitude": "47.64888",
+          "Longitude": "-122.13901"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.64884",
+          "Longitude": "-122.13908"
+        },
+        "Max": {
+          "Latitude": "47.64884",
+          "Longitude": "-122.13908"
         }
       }
     },
@@ -1000,12 +1072,12 @@
           },
           {
             "Name": "Last update",
-            "Value": "08/28 10:55 AM",
+            "Value": "08/28 11:35 AM",
             "NoDisplay": false
           },
           {
             "Name": "Est. restoration time",
-            "Value": "08/28 11:30 AM",
+            "Value": "08/28 02:30 PM",
             "NoDisplay": false
           }
         ],
@@ -1119,7 +1191,84 @@
           "Longitude": "-121.78105"
         }
       }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "08/28 11:29 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "1",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "08/28 11:35 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "08/28 01:30 PM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "48.72495",
+          "Longitude": "-122.50417",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "South Hill",
+          "Id": "732257-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "48.72499",
+          "Longitude": "-122.50410"
+        },
+        {
+          "Latitude": "48.72490",
+          "Longitude": "-122.50410"
+        },
+        {
+          "Latitude": "48.72490",
+          "Longitude": "-122.50424"
+        },
+        {
+          "Latitude": "48.72499",
+          "Longitude": "-122.50424"
+        },
+        {
+          "Latitude": "48.72499",
+          "Longitude": "-122.50410"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "48.72494",
+          "Longitude": "-122.50417"
+        },
+        "Max": {
+          "Latitude": "48.72494",
+          "Longitude": "-122.50417"
+        }
+      }
     }
   ],
-  "LastUpdated": "2021-08-28T18:27:52+00:00"
+  "LastUpdated": "2021-08-28T18:52:52+00:00"
 }
