@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 102,
-    "OutageCount": 11,
-    "LastUpdatedDatetime": "08/28 10:02 AM"
+    "CustomerAfftectedCount": 103,
+    "OutageCount": 12,
+    "LastUpdatedDatetime": "08/28 10:27 AM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -110,7 +110,7 @@
           },
           {
             "Name": "Status",
-            "Value": "Waiting for repairs",
+            "Value": "Crew assigned",
             "NoDisplay": false
           },
           {
@@ -120,12 +120,12 @@
           },
           {
             "Name": "Last update",
-            "Value": "08/28 09:30 AM",
+            "Value": "08/28 10:15 AM",
             "NoDisplay": false
           },
           {
             "Name": "Est. restoration time",
-            "Value": "08/28 10:30 AM",
+            "Value": "08/28 03:30 PM",
             "NoDisplay": false
           }
         ],
@@ -135,7 +135,7 @@
           "MapType": "Outage",
           "PinType": "Outage",
           "Title": "Enumclaw",
-          "Id": "732240-1",
+          "Id": "732240-2",
           "PlannedOutage": false
         }
       },
@@ -669,6 +669,78 @@
         "Attributes": [
           {
             "Name": "Start time",
+            "Value": "08/28 10:13 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "1",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Repair crew onsite",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Scheduled Outage",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "08/28 10:20 AM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.65402",
+          "Longitude": "-122.11420",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Redmond",
+          "Id": "732247-1",
+          "PlannedOutage": true
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.65407",
+          "Longitude": "-122.11414"
+        },
+        {
+          "Latitude": "47.65398",
+          "Longitude": "-122.11414"
+        },
+        {
+          "Latitude": "47.65398",
+          "Longitude": "-122.11427"
+        },
+        {
+          "Latitude": "47.65406",
+          "Longitude": "-122.11427"
+        },
+        {
+          "Latitude": "47.65407",
+          "Longitude": "-122.11414"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.65402",
+          "Longitude": "-122.11421"
+        },
+        "Max": {
+          "Latitude": "47.65402",
+          "Longitude": "-122.11421"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
             "Value": "08/23 11:45 PM",
             "NoDisplay": false
           },
@@ -1065,5 +1137,5 @@
       }
     }
   ],
-  "LastUpdated": "2021-08-28T17:02:52+00:00"
+  "LastUpdated": "2021-08-28T17:27:52+00:00"
 }
