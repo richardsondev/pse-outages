@@ -1,11 +1,96 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 182,
-    "OutageCount": 7,
-    "LastUpdatedDatetime": "08/29 08:52 AM"
+    "CustomerAfftectedCount": 185,
+    "OutageCount": 8,
+    "LastUpdatedDatetime": "08/29 09:37 AM"
   },
   "CustomerProfile": null,
   "PseMap": [
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "08/29 08:56 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "2",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "08/29 09:00 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "08/29 11:00 AM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "48.75106",
+          "Longitude": "-122.37127",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Bellingham",
+          "Id": "732316-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "48.75112",
+          "Longitude": "-122.37101"
+        },
+        {
+          "Latitude": "48.75112",
+          "Longitude": "-122.37095"
+        },
+        {
+          "Latitude": "48.75103",
+          "Longitude": "-122.37094"
+        },
+        {
+          "Latitude": "48.75101",
+          "Longitude": "-122.37152"
+        },
+        {
+          "Latitude": "48.75100",
+          "Longitude": "-122.37159"
+        },
+        {
+          "Latitude": "48.75109",
+          "Longitude": "-122.37160"
+        },
+        {
+          "Latitude": "48.75112",
+          "Longitude": "-122.37101"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "48.75105",
+          "Longitude": "-122.37153"
+        },
+        "Max": {
+          "Latitude": "48.75108",
+          "Longitude": "-122.37101"
+        }
+      }
+    },
     {
       "DataProvider": {
         "Attributes": [
@@ -98,7 +183,7 @@
           },
           {
             "Name": "Status",
-            "Value": "Outage reported",
+            "Value": "Crew assigned",
             "NoDisplay": false
           },
           {
@@ -108,12 +193,12 @@
           },
           {
             "Name": "Last update",
-            "Value": "08/29 08:25 AM",
+            "Value": "08/29 09:30 AM",
             "NoDisplay": false
           },
           {
             "Name": "Est. restoration time",
-            "Value": "08/29 10:30 AM",
+            "Value": "08/29 01:30 PM",
             "NoDisplay": false
           }
         ],
@@ -123,7 +208,7 @@
           "MapType": "Outage",
           "PinType": "Outage",
           "Title": "Federal Way",
-          "Id": "732311-1",
+          "Id": "732311-2",
           "PlannedOutage": false
         }
       },
@@ -254,91 +339,6 @@
         "Max": {
           "Latitude": "47.52523",
           "Longitude": "-122.19884"
-        }
-      }
-    },
-    {
-      "DataProvider": {
-        "Attributes": [
-          {
-            "Name": "Start time",
-            "Value": "08/29 08:15 AM",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Customers impacted",
-            "Value": "2",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Status",
-            "Value": "Waiting for repairs",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Cause",
-            "Value": "Equipment Failure",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Last update",
-            "Value": "08/29 08:25 AM",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Est. restoration time",
-            "Value": "08/29 10:30 AM",
-            "NoDisplay": false
-          }
-        ],
-        "PointOfInterest": {
-          "Latitude": "46.91197",
-          "Longitude": "-122.93295",
-          "MapType": "Outage",
-          "PinType": "Outage",
-          "Title": "Olympia",
-          "Id": "732310-1",
-          "PlannedOutage": false
-        }
-      },
-      "Polygon": [
-        {
-          "Latitude": "46.91188",
-          "Longitude": "-122.93277"
-        },
-        {
-          "Latitude": "46.91184",
-          "Longitude": "-122.93273"
-        },
-        {
-          "Latitude": "46.91179",
-          "Longitude": "-122.93284"
-        },
-        {
-          "Latitude": "46.91206",
-          "Longitude": "-122.93312"
-        },
-        {
-          "Latitude": "46.91210",
-          "Longitude": "-122.93316"
-        },
-        {
-          "Latitude": "46.91215",
-          "Longitude": "-122.93305"
-        },
-        {
-          "Latitude": "46.91188",
-          "Longitude": "-122.93277"
-        }
-      ],
-      "BoundingBox": {
-        "Min": {
-          "Latitude": "46.91185",
-          "Longitude": "-122.93306"
-        },
-        "Max": {
-          "Latitude": "46.91209",
-          "Longitude": "-122.93283"
         }
       }
     },
@@ -545,6 +545,95 @@
         "Attributes": [
           {
             "Name": "Start time",
+            "Value": "08/29 09:02 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "3",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "08/29 09:05 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "08/29 11:30 AM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "48.50161",
+          "Longitude": "-122.05994",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Sedro-Woolley",
+          "Id": "732317-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "48.50112",
+          "Longitude": "-122.06020"
+        },
+        {
+          "Latitude": "48.50186",
+          "Longitude": "-122.06007"
+        },
+        {
+          "Latitude": "48.50190",
+          "Longitude": "-122.06000"
+        },
+        {
+          "Latitude": "48.50191",
+          "Longitude": "-122.05968"
+        },
+        {
+          "Latitude": "48.50185",
+          "Longitude": "-122.05961"
+        },
+        {
+          "Latitude": "48.50110",
+          "Longitude": "-122.06007"
+        },
+        {
+          "Latitude": "48.50107",
+          "Longitude": "-122.06015"
+        },
+        {
+          "Latitude": "48.50112",
+          "Longitude": "-122.06020"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "48.50111",
+          "Longitude": "-122.06013"
+        },
+        "Max": {
+          "Latitude": "48.50186",
+          "Longitude": "-122.05967"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
             "Value": "08/29 07:07 AM",
             "NoDisplay": false
           },
@@ -645,5 +734,5 @@
       }
     }
   ],
-  "LastUpdated": "2021-08-29T15:52:52+00:00"
+  "LastUpdated": "2021-08-29T16:37:52+00:00"
 }
