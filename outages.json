@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 5,
-    "OutageCount": 2,
-    "LastUpdatedDatetime": "08/30 11:27 PM"
+    "CustomerAfftectedCount": 9,
+    "OutageCount": 3,
+    "LastUpdatedDatetime": "08/30 11:52 PM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -88,6 +88,99 @@
         "Attributes": [
           {
             "Name": "Start time",
+            "Value": "08/30 11:30 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "4",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Repair crew onsite",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "08/30 11:35 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "To Be Determined",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "46.81869",
+          "Longitude": "-123.01489",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Rochester",
+          "Id": "732427-2",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "46.81839",
+          "Longitude": "-123.01544"
+        },
+        {
+          "Latitude": "46.81902",
+          "Longitude": "-123.01541"
+        },
+        {
+          "Latitude": "46.81906",
+          "Longitude": "-123.01534"
+        },
+        {
+          "Latitude": "46.81900",
+          "Longitude": "-123.01439"
+        },
+        {
+          "Latitude": "46.81896",
+          "Longitude": "-123.01433"
+        },
+        {
+          "Latitude": "46.81841",
+          "Longitude": "-123.01431"
+        },
+        {
+          "Latitude": "46.81836",
+          "Longitude": "-123.01437"
+        },
+        {
+          "Latitude": "46.81834",
+          "Longitude": "-123.01537"
+        },
+        {
+          "Latitude": "46.81839",
+          "Longitude": "-123.01544"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "46.81839",
+          "Longitude": "-123.01537"
+        },
+        "Max": {
+          "Latitude": "46.81904",
+          "Longitude": "-123.01440"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
             "Value": "08/30 09:34 PM",
             "NoDisplay": false
           },
@@ -98,22 +191,22 @@
           },
           {
             "Name": "Status",
-            "Value": "Outage reported",
+            "Value": "Waiting for repairs",
             "NoDisplay": false
           },
           {
             "Name": "Cause",
-            "Value": "Under Investigation",
+            "Value": "Equipment Failure",
             "NoDisplay": false
           },
           {
             "Name": "Last update",
-            "Value": "08/30 09:40 PM",
+            "Value": "08/30 11:50 PM",
             "NoDisplay": false
           },
           {
             "Name": "Est. restoration time",
-            "Value": "08/31 12:00 AM",
+            "Value": "08/31 02:00 AM",
             "NoDisplay": false
           }
         ],
@@ -173,5 +266,5 @@
       }
     }
   ],
-  "LastUpdated": "2021-08-31T06:27:52+00:00"
+  "LastUpdated": "2021-08-31T06:52:52+00:00"
 }
