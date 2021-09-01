@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 39,
-    "OutageCount": 6,
-    "LastUpdatedDatetime": "09/01 06:52 AM"
+    "CustomerAfftectedCount": 40,
+    "OutageCount": 7,
+    "LastUpdatedDatetime": "09/01 07:17 AM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -259,7 +259,7 @@
           },
           {
             "Name": "Status",
-            "Value": "Outage reported",
+            "Value": "Waiting for repairs",
             "NoDisplay": false
           },
           {
@@ -269,7 +269,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "09/01 05:50 AM",
+            "Value": "09/01 07:05 AM",
             "NoDisplay": false
           },
           {
@@ -284,7 +284,7 @@
           "MapType": "Outage",
           "PinType": "Outage",
           "Title": "Roslyn",
-          "Id": "732627-1",
+          "Id": "732627-2",
           "PlannedOutage": false
         }
       },
@@ -326,6 +326,83 @@
         "Max": {
           "Latitude": "47.22039",
           "Longitude": "-120.99226"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "09/01 06:52 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "1",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "09/01 06:55 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "09/01 09:00 AM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.42386",
+          "Longitude": "-122.29355",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "SeaTac",
+          "Id": "732633-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.42390",
+          "Longitude": "-122.29349"
+        },
+        {
+          "Latitude": "47.42381",
+          "Longitude": "-122.29348"
+        },
+        {
+          "Latitude": "47.42381",
+          "Longitude": "-122.29362"
+        },
+        {
+          "Latitude": "47.42390",
+          "Longitude": "-122.29362"
+        },
+        {
+          "Latitude": "47.42390",
+          "Longitude": "-122.29349"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.42386",
+          "Longitude": "-122.29355"
+        },
+        "Max": {
+          "Latitude": "47.42386",
+          "Longitude": "-122.29355"
         }
       }
     },
@@ -519,5 +596,5 @@
       }
     }
   ],
-  "LastUpdated": "2021-09-01T13:52:52+00:00"
+  "LastUpdated": "2021-09-01T14:17:52+00:00"
 }
