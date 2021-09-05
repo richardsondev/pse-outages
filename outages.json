@@ -1,11 +1,88 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 140,
-    "OutageCount": 2,
-    "LastUpdatedDatetime": "09/05 10:02 AM"
+    "CustomerAfftectedCount": 141,
+    "OutageCount": 3,
+    "LastUpdatedDatetime": "09/05 10:27 AM"
   },
   "CustomerProfile": null,
   "PseMap": [
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "09/05 10:18 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "1",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "09/05 10:20 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "09/05 12:30 PM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "48.84604",
+          "Longitude": "-122.58880",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Historic Downtown Ferndale",
+          "Id": "733170-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "48.84609",
+          "Longitude": "-122.58873"
+        },
+        {
+          "Latitude": "48.84600",
+          "Longitude": "-122.58873"
+        },
+        {
+          "Latitude": "48.84600",
+          "Longitude": "-122.58887"
+        },
+        {
+          "Latitude": "48.84609",
+          "Longitude": "-122.58887"
+        },
+        {
+          "Latitude": "48.84609",
+          "Longitude": "-122.58873"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "48.84604",
+          "Longitude": "-122.58880"
+        },
+        "Max": {
+          "Latitude": "48.84604",
+          "Longitude": "-122.58880"
+        }
+      }
+    },
     {
       "DataProvider": {
         "Attributes": [
@@ -21,17 +98,17 @@
           },
           {
             "Name": "Status",
-            "Value": "Outage reported",
+            "Value": "Waiting for repairs",
             "NoDisplay": false
           },
           {
             "Name": "Cause",
-            "Value": "Under Investigation",
+            "Value": "Trees/Vegetation",
             "NoDisplay": false
           },
           {
             "Name": "Last update",
-            "Value": "09/05 09:10 AM",
+            "Value": "09/05 10:20 AM",
             "NoDisplay": false
           },
           {
@@ -305,5 +382,5 @@
       }
     }
   ],
-  "LastUpdated": "2021-09-05T17:02:52+00:00"
+  "LastUpdated": "2021-09-05T17:27:52+00:00"
 }
