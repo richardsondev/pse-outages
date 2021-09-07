@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 12,
-    "OutageCount": 7,
-    "LastUpdatedDatetime": "09/07 04:37 PM"
+    "CustomerAfftectedCount": 14,
+    "OutageCount": 9,
+    "LastUpdatedDatetime": "09/07 04:52 PM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -353,7 +353,7 @@
           },
           {
             "Name": "Status",
-            "Value": "Crew assigned",
+            "Value": "Repair crew onsite",
             "NoDisplay": false
           },
           {
@@ -363,7 +363,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "09/07 02:20 PM",
+            "Value": "09/07 04:40 PM",
             "NoDisplay": false
           },
           {
@@ -412,6 +412,83 @@
         "Max": {
           "Latitude": "48.42032",
           "Longitude": "-122.32674"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "09/07 04:16 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "1",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "09/07 04:40 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "09/07 06:30 PM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "48.42495",
+          "Longitude": "-122.35623",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Mount Vernon",
+          "Id": "733581-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "48.42499",
+          "Longitude": "-122.35616"
+        },
+        {
+          "Latitude": "48.42490",
+          "Longitude": "-122.35616"
+        },
+        {
+          "Latitude": "48.42490",
+          "Longitude": "-122.35630"
+        },
+        {
+          "Latitude": "48.42499",
+          "Longitude": "-122.35630"
+        },
+        {
+          "Latitude": "48.42499",
+          "Longitude": "-122.35616"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "48.42494",
+          "Longitude": "-122.35623"
+        },
+        "Max": {
+          "Latitude": "48.42494",
+          "Longitude": "-122.35623"
         }
       }
     },
@@ -563,7 +640,84 @@
           "Longitude": "-122.53319"
         }
       }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "09/07 04:08 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "1",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Waiting for repairs",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Equipment Failure",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "09/07 04:40 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "09/07 06:30 PM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "46.87407",
+          "Longitude": "-122.54787",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Yelm",
+          "Id": "733578-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "46.87412",
+          "Longitude": "-122.54781"
+        },
+        {
+          "Latitude": "46.87403",
+          "Longitude": "-122.54780"
+        },
+        {
+          "Latitude": "46.87403",
+          "Longitude": "-122.54793"
+        },
+        {
+          "Latitude": "46.87412",
+          "Longitude": "-122.54794"
+        },
+        {
+          "Latitude": "46.87412",
+          "Longitude": "-122.54781"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "46.87407",
+          "Longitude": "-122.54787"
+        },
+        "Max": {
+          "Latitude": "46.87407",
+          "Longitude": "-122.54787"
+        }
+      }
     }
   ],
-  "LastUpdated": "2021-09-07T23:37:52+00:00"
+  "LastUpdated": "2021-09-07T23:52:52+00:00"
 }
