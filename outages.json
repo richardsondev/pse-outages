@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 5,
-    "OutageCount": 4,
-    "LastUpdatedDatetime": "09/07 08:52 PM"
+    "CustomerAfftectedCount": 6,
+    "OutageCount": 5,
+    "LastUpdatedDatetime": "09/07 09:32 PM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -21,7 +21,7 @@
           },
           {
             "Name": "Status",
-            "Value": "Crew assigned",
+            "Value": "Repair crew onsite",
             "NoDisplay": false
           },
           {
@@ -31,12 +31,12 @@
           },
           {
             "Name": "Last update",
-            "Value": "09/07 03:50 PM",
+            "Value": "09/07 09:05 PM",
             "NoDisplay": false
           },
           {
             "Name": "Est. restoration time",
-            "Value": "09/07 09:00 PM",
+            "Value": "09/08 12:00 AM",
             "NoDisplay": false
           }
         ],
@@ -108,12 +108,12 @@
           },
           {
             "Name": "Last update",
-            "Value": "09/07 05:35 PM",
+            "Value": "09/07 09:25 PM",
             "NoDisplay": false
           },
           {
             "Name": "Est. restoration time",
-            "Value": "09/07 09:30 PM",
+            "Value": "09/08 01:30 AM",
             "NoDisplay": false
           }
         ],
@@ -316,7 +316,84 @@
           "Longitude": "-120.99582"
         }
       }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "09/07 09:01 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "1",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "09/07 09:25 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "09/07 11:30 PM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.58168",
+          "Longitude": "-122.05837",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Sammamish",
+          "Id": "733609-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.58173",
+          "Longitude": "-122.05830"
+        },
+        {
+          "Latitude": "47.58164",
+          "Longitude": "-122.05830"
+        },
+        {
+          "Latitude": "47.58164",
+          "Longitude": "-122.05843"
+        },
+        {
+          "Latitude": "47.58173",
+          "Longitude": "-122.05844"
+        },
+        {
+          "Latitude": "47.58173",
+          "Longitude": "-122.05830"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.58168",
+          "Longitude": "-122.05837"
+        },
+        "Max": {
+          "Latitude": "47.58168",
+          "Longitude": "-122.05837"
+        }
+      }
     }
   ],
-  "LastUpdated": "2021-09-08T03:52:52+00:00"
+  "LastUpdated": "2021-09-08T04:32:52+00:00"
 }
