@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 198,
+    "CustomerAfftectedCount": 193,
     "OutageCount": 9,
-    "LastUpdatedDatetime": "09/12 03:52 PM"
+    "LastUpdatedDatetime": "09/12 04:22 PM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -21,7 +21,7 @@
           },
           {
             "Name": "Status",
-            "Value": "Crew assigned",
+            "Value": "Repair crew onsite",
             "NoDisplay": false
           },
           {
@@ -31,7 +31,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "09/12 02:35 PM",
+            "Value": "09/12 04:15 PM",
             "NoDisplay": false
           },
           {
@@ -144,12 +144,12 @@
           },
           {
             "Name": "Last update",
-            "Value": "09/12 02:25 PM",
+            "Value": "09/12 04:20 PM",
             "NoDisplay": false
           },
           {
             "Name": "Est. restoration time",
-            "Value": "09/12 04:30 PM",
+            "Value": "09/12 05:30 PM",
             "NoDisplay": false
           }
         ],
@@ -221,6 +221,103 @@
         "Max": {
           "Latitude": "48.70886",
           "Longitude": "-122.39224"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "09/12 04:10 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "4",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "09/12 04:15 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "09/12 06:30 PM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.98007",
+          "Longitude": "-122.54723",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Freeland",
+          "Id": "734322-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.97994",
+          "Longitude": "-122.54752"
+        },
+        {
+          "Latitude": "47.98035",
+          "Longitude": "-122.54698"
+        },
+        {
+          "Latitude": "47.98036",
+          "Longitude": "-122.54689"
+        },
+        {
+          "Latitude": "47.98029",
+          "Longitude": "-122.54688"
+        },
+        {
+          "Latitude": "47.97996",
+          "Longitude": "-122.54723"
+        },
+        {
+          "Latitude": "47.97995",
+          "Longitude": "-122.54725"
+        },
+        {
+          "Latitude": "47.97987",
+          "Longitude": "-122.54743"
+        },
+        {
+          "Latitude": "47.97988",
+          "Longitude": "-122.54752"
+        },
+        {
+          "Latitude": "47.97994",
+          "Longitude": "-122.54752"
+        },
+        {
+          "Latitude": "47.97994",
+          "Longitude": "-122.54752"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.97991",
+          "Longitude": "-122.54747"
+        },
+        "Max": {
+          "Latitude": "47.98032",
+          "Longitude": "-122.54693"
         }
       }
     },
@@ -407,105 +504,12 @@
         "Attributes": [
           {
             "Name": "Start time",
-            "Value": "09/12 01:07 PM",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Customers impacted",
-            "Value": "3",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Status",
-            "Value": "Waiting for repairs",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Cause",
-            "Value": "Equipment Failure",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Last update",
-            "Value": "09/12 03:50 PM",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Est. restoration time",
-            "Value": "09/12 04:30 PM",
-            "NoDisplay": false
-          }
-        ],
-        "PointOfInterest": {
-          "Latitude": "47.45541",
-          "Longitude": "-122.64348",
-          "MapType": "Outage",
-          "PinType": "Outage",
-          "Title": "Port Orchard",
-          "Id": "734302-1",
-          "PlannedOutage": false
-        }
-      },
-      "Polygon": [
-        {
-          "Latitude": "47.45516",
-          "Longitude": "-122.64295"
-        },
-        {
-          "Latitude": "47.45520",
-          "Longitude": "-122.64468"
-        },
-        {
-          "Latitude": "47.45524",
-          "Longitude": "-122.64475"
-        },
-        {
-          "Latitude": "47.45529",
-          "Longitude": "-122.64471"
-        },
-        {
-          "Latitude": "47.45529",
-          "Longitude": "-122.64471"
-        },
-        {
-          "Latitude": "47.45583",
-          "Longitude": "-122.64284"
-        },
-        {
-          "Latitude": "47.45578",
-          "Longitude": "-122.64275"
-        },
-        {
-          "Latitude": "47.45520",
-          "Longitude": "-122.64288"
-        },
-        {
-          "Latitude": "47.45516",
-          "Longitude": "-122.64295"
-        }
-      ],
-      "BoundingBox": {
-        "Min": {
-          "Latitude": "47.45518",
-          "Longitude": "-122.64468"
-        },
-        "Max": {
-          "Latitude": "47.45579",
-          "Longitude": "-122.64282"
-        }
-      }
-    },
-    {
-      "DataProvider": {
-        "Attributes": [
-          {
-            "Name": "Start time",
             "Value": "09/12 02:11 PM",
             "NoDisplay": false
           },
           {
             "Name": "Customers impacted",
-            "Value": "7",
+            "Value": "1",
             "NoDisplay": false
           },
           {
@@ -520,7 +524,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "09/12 03:20 PM",
+            "Value": "09/12 04:05 PM",
             "NoDisplay": false
           },
           {
@@ -530,8 +534,8 @@
           }
         ],
         "PointOfInterest": {
-          "Latitude": "47.51787",
-          "Longitude": "-122.62172",
+          "Latitude": "47.51780",
+          "Longitude": "-122.62137",
           "MapType": "Outage",
           "PinType": "Outage",
           "Title": "Port Orchard",
@@ -541,58 +545,34 @@
       },
       "Polygon": [
         {
-          "Latitude": "47.51770",
-          "Longitude": "-122.62201"
+          "Latitude": "47.51785",
+          "Longitude": "-122.62131"
         },
         {
-          "Latitude": "47.51777",
-          "Longitude": "-122.62222"
+          "Latitude": "47.51776",
+          "Longitude": "-122.62130"
         },
         {
-          "Latitude": "47.51779",
-          "Longitude": "-122.62226"
+          "Latitude": "47.51776",
+          "Longitude": "-122.62144"
         },
         {
-          "Latitude": "47.51803",
-          "Longitude": "-122.62240"
+          "Latitude": "47.51785",
+          "Longitude": "-122.62144"
         },
         {
-          "Latitude": "47.51809",
-          "Longitude": "-122.62232"
-        },
-        {
-          "Latitude": "47.51809",
-          "Longitude": "-122.62232"
-        },
-        {
-          "Latitude": "47.51788",
-          "Longitude": "-122.62069"
-        },
-        {
-          "Latitude": "47.51783",
-          "Longitude": "-122.62064"
-        },
-        {
-          "Latitude": "47.51779",
-          "Longitude": "-122.62070"
-        },
-        {
-          "Latitude": "47.51770",
-          "Longitude": "-122.62197"
-        },
-        {
-          "Latitude": "47.51770",
-          "Longitude": "-122.62201"
+          "Latitude": "47.51785",
+          "Longitude": "-122.62131"
         }
       ],
       "BoundingBox": {
         "Min": {
-          "Latitude": "47.51773",
-          "Longitude": "-122.62232"
+          "Latitude": "47.51780",
+          "Longitude": "-122.62137"
         },
         "Max": {
-          "Latitude": "47.51807",
-          "Longitude": "-122.62072"
+          "Latitude": "47.51780",
+          "Longitude": "-122.62137"
         }
       }
     },
@@ -900,5 +880,5 @@
       }
     }
   ],
-  "LastUpdated": "2021-09-12T22:52:52+00:00"
+  "LastUpdated": "2021-09-12T23:22:52+00:00"
 }
