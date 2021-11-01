@@ -2,10 +2,95 @@
   "Common": {
     "CustomerAfftectedCount": 73,
     "OutageCount": 8,
-    "LastUpdatedDatetime": "11/01 01:27 AM"
+    "LastUpdatedDatetime": "11/01 01:52 AM"
   },
   "CustomerProfile": null,
   "PseMap": [
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "10/31 08:03 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "2",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Waiting for repairs",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "11/01 01:45 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "11/01 06:30 AM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.72276",
+          "Longitude": "-122.21668",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Inglewood-Finn Hill",
+          "Id": "756942-2",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.72285",
+          "Longitude": "-122.21657"
+        },
+        {
+          "Latitude": "47.72287",
+          "Longitude": "-122.21651"
+        },
+        {
+          "Latitude": "47.72279",
+          "Longitude": "-122.21645"
+        },
+        {
+          "Latitude": "47.72268",
+          "Longitude": "-122.21679"
+        },
+        {
+          "Latitude": "47.72266",
+          "Longitude": "-122.21685"
+        },
+        {
+          "Latitude": "47.72274",
+          "Longitude": "-122.21691"
+        },
+        {
+          "Latitude": "47.72285",
+          "Longitude": "-122.21657"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.72272",
+          "Longitude": "-122.21682"
+        },
+        "Max": {
+          "Latitude": "47.72281",
+          "Longitude": "-122.21654"
+        }
+      }
+    },
     {
       "DataProvider": {
         "Attributes": [
@@ -104,91 +189,6 @@
         "Max": {
           "Latitude": "47.54759",
           "Longitude": "-122.00801"
-        }
-      }
-    },
-    {
-      "DataProvider": {
-        "Attributes": [
-          {
-            "Name": "Start time",
-            "Value": "10/31 08:03 PM",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Customers impacted",
-            "Value": "2",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Status",
-            "Value": "Outage reported",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Cause",
-            "Value": "Under Investigation",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Last update",
-            "Value": "11/01 01:10 AM",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Est. restoration time",
-            "Value": "11/01 03:30 AM",
-            "NoDisplay": false
-          }
-        ],
-        "PointOfInterest": {
-          "Latitude": "47.72276",
-          "Longitude": "-122.21668",
-          "MapType": "Outage",
-          "PinType": "Outage",
-          "Title": "Kirkland",
-          "Id": "756942-1",
-          "PlannedOutage": false
-        }
-      },
-      "Polygon": [
-        {
-          "Latitude": "47.72285",
-          "Longitude": "-122.21657"
-        },
-        {
-          "Latitude": "47.72287",
-          "Longitude": "-122.21651"
-        },
-        {
-          "Latitude": "47.72279",
-          "Longitude": "-122.21645"
-        },
-        {
-          "Latitude": "47.72268",
-          "Longitude": "-122.21679"
-        },
-        {
-          "Latitude": "47.72266",
-          "Longitude": "-122.21685"
-        },
-        {
-          "Latitude": "47.72274",
-          "Longitude": "-122.21691"
-        },
-        {
-          "Latitude": "47.72285",
-          "Longitude": "-122.21657"
-        }
-      ],
-      "BoundingBox": {
-        "Min": {
-          "Latitude": "47.72272",
-          "Longitude": "-122.21682"
-        },
-        "Max": {
-          "Latitude": "47.72281",
-          "Longitude": "-122.21654"
         }
       }
     },
@@ -787,7 +787,7 @@
           },
           {
             "Name": "Status",
-            "Value": "Crew assigned",
+            "Value": "Repair crew onsite",
             "NoDisplay": false
           },
           {
@@ -797,12 +797,12 @@
           },
           {
             "Name": "Last update",
-            "Value": "11/01 12:20 AM",
+            "Value": "11/01 01:45 AM",
             "NoDisplay": false
           },
           {
             "Name": "Est. restoration time",
-            "Value": "11/01 03:30 AM",
+            "Value": "11/01 04:00 AM",
             "NoDisplay": false
           }
         ],
@@ -874,5 +874,5 @@
       }
     }
   ],
-  "LastUpdated": "2021-11-01T08:27:52+00:00"
+  "LastUpdated": "2021-11-01T08:52:52+00:00"
 }
