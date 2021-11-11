@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 419,
-    "OutageCount": 11,
-    "LastUpdatedDatetime": "11/11 12:22 PM"
+    "CustomerAfftectedCount": 421,
+    "OutageCount": 12,
+    "LastUpdatedDatetime": "11/11 12:37 PM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -662,17 +662,17 @@
           },
           {
             "Name": "Status",
-            "Value": "Outage reported",
+            "Value": "Waiting for repairs",
             "NoDisplay": false
           },
           {
             "Name": "Cause",
-            "Value": "Under Investigation",
+            "Value": "Customer Equipment",
             "NoDisplay": false
           },
           {
             "Name": "Last update",
-            "Value": "11/11 11:35 AM",
+            "Value": "11/11 12:25 PM",
             "NoDisplay": false
           },
           {
@@ -745,6 +745,91 @@
         "Max": {
           "Latitude": "47.58001",
           "Longitude": "-122.24733"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "11/11 12:22 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "2",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "11/11 12:30 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "11/11 02:30 PM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "48.36705",
+          "Longitude": "-122.64815",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Oak Harbor",
+          "Id": "762202-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "48.36695",
+          "Longitude": "-122.64803"
+        },
+        {
+          "Latitude": "48.36691",
+          "Longitude": "-122.64801"
+        },
+        {
+          "Latitude": "48.36688",
+          "Longitude": "-122.64814"
+        },
+        {
+          "Latitude": "48.36716",
+          "Longitude": "-122.64826"
+        },
+        {
+          "Latitude": "48.36720",
+          "Longitude": "-122.64828"
+        },
+        {
+          "Latitude": "48.36722",
+          "Longitude": "-122.64815"
+        },
+        {
+          "Latitude": "48.36695",
+          "Longitude": "-122.64803"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "48.36693",
+          "Longitude": "-122.64819"
+        },
+        "Max": {
+          "Latitude": "48.36717",
+          "Longitude": "-122.64810"
         }
       }
     },
@@ -1185,5 +1270,5 @@
       }
     }
   ],
-  "LastUpdated": "2021-11-11T20:22:52+00:00"
+  "LastUpdated": "2021-11-11T20:37:52+00:00"
 }
