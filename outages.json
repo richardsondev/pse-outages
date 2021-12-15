@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 383,
-    "OutageCount": 21,
-    "LastUpdatedDatetime": "12/15 12:22 PM"
+    "CustomerAfftectedCount": 385,
+    "OutageCount": 22,
+    "LastUpdatedDatetime": "12/15 12:37 PM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -21,17 +21,17 @@
           },
           {
             "Name": "Status",
-            "Value": "Outage reported",
+            "Value": "Waiting for repairs",
             "NoDisplay": false
           },
           {
             "Name": "Cause",
-            "Value": "Under Investigation",
+            "Value": "Customer Equipment",
             "NoDisplay": false
           },
           {
             "Name": "Last update",
-            "Value": "12/15 11:35 AM",
+            "Value": "12/15 12:25 PM",
             "NoDisplay": false
           },
           {
@@ -1438,6 +1438,86 @@
         "Attributes": [
           {
             "Name": "Start time",
+            "Value": "12/15 12:26 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "2",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Repair crew onsite",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Scheduled Outage",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "12/15 12:35 PM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.13202",
+          "Longitude": "-122.80458",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Olympia",
+          "Id": "777969-1",
+          "PlannedOutage": true
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.13143",
+          "Longitude": "-122.80451"
+        },
+        {
+          "Latitude": "47.13139",
+          "Longitude": "-122.80451"
+        },
+        {
+          "Latitude": "47.13139",
+          "Longitude": "-122.80465"
+        },
+        {
+          "Latitude": "47.13261",
+          "Longitude": "-122.80465"
+        },
+        {
+          "Latitude": "47.13266",
+          "Longitude": "-122.80465"
+        },
+        {
+          "Latitude": "47.13266",
+          "Longitude": "-122.80452"
+        },
+        {
+          "Latitude": "47.13143",
+          "Longitude": "-122.80451"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.13143",
+          "Longitude": "-122.80458"
+        },
+        "Max": {
+          "Latitude": "47.13261",
+          "Longitude": "-122.80458"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
             "Value": "12/15 10:01 AM",
             "NoDisplay": false
           },
@@ -2259,5 +2339,5 @@
       }
     }
   ],
-  "LastUpdated": "2021-12-15T20:22:53+00:00"
+  "LastUpdated": "2021-12-15T20:37:53+00:00"
 }
