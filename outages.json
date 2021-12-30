@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 256,
+    "CustomerAfftectedCount": 258,
     "OutageCount": 16,
-    "LastUpdatedDatetime": "12/29 10:32 PM"
+    "LastUpdatedDatetime": "12/29 10:52 PM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -1123,7 +1123,7 @@
           },
           {
             "Name": "Status",
-            "Value": "Outage reported",
+            "Value": "Waiting for repairs",
             "NoDisplay": false
           },
           {
@@ -1133,7 +1133,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "12/29 08:50 PM",
+            "Value": "12/29 10:35 PM",
             "NoDisplay": false
           },
           {
@@ -1206,6 +1206,99 @@
         "Max": {
           "Latitude": "48.41342",
           "Longitude": "-122.29321"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "12/29 10:27 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "3",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "12/29 10:35 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "12/30 12:30 AM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "48.48403",
+          "Longitude": "-122.47730",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Mount Vernon",
+          "Id": "782818-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "48.48383",
+          "Longitude": "-122.47723"
+        },
+        {
+          "Latitude": "48.48405",
+          "Longitude": "-122.47744"
+        },
+        {
+          "Latitude": "48.48409",
+          "Longitude": "-122.47745"
+        },
+        {
+          "Latitude": "48.48417",
+          "Longitude": "-122.47741"
+        },
+        {
+          "Latitude": "48.48420",
+          "Longitude": "-122.47735"
+        },
+        {
+          "Latitude": "48.48417",
+          "Longitude": "-122.47728"
+        },
+        {
+          "Latitude": "48.48387",
+          "Longitude": "-122.47711"
+        },
+        {
+          "Latitude": "48.48381",
+          "Longitude": "-122.47714"
+        },
+        {
+          "Latitude": "48.48383",
+          "Longitude": "-122.47723"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "48.48385",
+          "Longitude": "-122.47738"
+        },
+        "Max": {
+          "Latitude": "48.48416",
+          "Longitude": "-122.47718"
         }
       }
     },
@@ -1376,107 +1469,6 @@
         "Max": {
           "Latitude": "47.47875",
           "Longitude": "-122.22195"
-        }
-      }
-    },
-    {
-      "DataProvider": {
-        "Attributes": [
-          {
-            "Name": "Start time",
-            "Value": "12/29 10:16 PM",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Customers impacted",
-            "Value": "1",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Status",
-            "Value": "Outage reported",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Cause",
-            "Value": "Under Investigation",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Last update",
-            "Value": "12/29 10:25 PM",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Est. restoration time",
-            "Value": "12/30 12:30 AM",
-            "NoDisplay": false
-          }
-        ],
-        "PointOfInterest": {
-          "Latitude": "48.49445",
-          "Longitude": "-122.27255",
-          "MapType": "Outage",
-          "PinType": "Outage",
-          "Title": "Sedro-Woolley",
-          "Id": "782817-1",
-          "PlannedOutage": false
-        }
-      },
-      "Polygon": [
-        {
-          "Latitude": "48.49489",
-          "Longitude": "-122.27163"
-        },
-        {
-          "Latitude": "48.49501",
-          "Longitude": "-122.27168"
-        },
-        {
-          "Latitude": "48.49507",
-          "Longitude": "-122.27183"
-        },
-        {
-          "Latitude": "48.49507",
-          "Longitude": "-122.27201"
-        },
-        {
-          "Latitude": "48.49500",
-          "Longitude": "-122.27215"
-        },
-        {
-          "Latitude": "48.49489",
-          "Longitude": "-122.27220"
-        },
-        {
-          "Latitude": "48.49478",
-          "Longitude": "-122.27214"
-        },
-        {
-          "Latitude": "48.49471",
-          "Longitude": "-122.27200"
-        },
-        {
-          "Latitude": "48.49471",
-          "Longitude": "-122.27182"
-        },
-        {
-          "Latitude": "48.49478",
-          "Longitude": "-122.27168"
-        },
-        {
-          "Latitude": "48.49489",
-          "Longitude": "-122.27163"
-        }
-      ],
-      "BoundingBox": {
-        "Min": {
-          "Latitude": "48.49445",
-          "Longitude": "-122.27255"
-        },
-        "Max": {
-          "Latitude": "48.49445",
-          "Longitude": "-122.27255"
         }
       }
     },
@@ -1683,5 +1675,5 @@
       }
     }
   ],
-  "LastUpdated": "2021-12-30T06:32:52+00:00"
+  "LastUpdated": "2021-12-30T06:52:52+00:00"
 }
