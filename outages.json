@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 78,
-    "OutageCount": 5,
-    "LastUpdatedDatetime": "01/20 03:17 AM"
+    "CustomerAfftectedCount": 81,
+    "OutageCount": 6,
+    "LastUpdatedDatetime": "01/20 03:32 AM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -154,7 +154,7 @@
           },
           {
             "Name": "Status",
-            "Value": "Outage reported",
+            "Value": "Waiting for repairs",
             "NoDisplay": false
           },
           {
@@ -164,7 +164,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "01/20 02:35 AM",
+            "Value": "01/20 03:30 AM",
             "NoDisplay": false
           },
           {
@@ -179,7 +179,7 @@
           "MapType": "Outage",
           "PinType": "Outage",
           "Title": "North Issaquah",
-          "Id": "790059-1",
+          "Id": "790059-2",
           "PlannedOutage": false
         }
       },
@@ -443,6 +443,103 @@
         "Attributes": [
           {
             "Name": "Start time",
+            "Value": "01/20 03:22 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "3",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "01/20 03:30 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "01/20 05:30 AM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "46.96515",
+          "Longitude": "-122.52501",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Roy",
+          "Id": "790067-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "46.96471",
+          "Longitude": "-122.52463"
+        },
+        {
+          "Latitude": "46.96532",
+          "Longitude": "-122.52538"
+        },
+        {
+          "Latitude": "46.96539",
+          "Longitude": "-122.52534"
+        },
+        {
+          "Latitude": "46.96540",
+          "Longitude": "-122.52513"
+        },
+        {
+          "Latitude": "46.96538",
+          "Longitude": "-122.52507"
+        },
+        {
+          "Latitude": "46.96538",
+          "Longitude": "-122.52507"
+        },
+        {
+          "Latitude": "46.96476",
+          "Longitude": "-122.52452"
+        },
+        {
+          "Latitude": "46.96470",
+          "Longitude": "-122.52454"
+        },
+        {
+          "Latitude": "46.96471",
+          "Longitude": "-122.52463"
+        },
+        {
+          "Latitude": "46.96471",
+          "Longitude": "-122.52463"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "46.96473",
+          "Longitude": "-122.52531"
+        },
+        "Max": {
+          "Latitude": "46.96536",
+          "Longitude": "-122.52460"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
             "Value": "01/17 08:12 AM",
             "NoDisplay": false
           },
@@ -548,5 +645,5 @@
       }
     }
   ],
-  "LastUpdated": "2022-01-20T11:17:52+00:00"
+  "LastUpdated": "2022-01-20T11:32:53+00:00"
 }
