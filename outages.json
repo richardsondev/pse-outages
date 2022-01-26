@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 509,
-    "OutageCount": 6,
-    "LastUpdatedDatetime": "01/26 08:37 AM"
+    "CustomerAfftectedCount": 514,
+    "OutageCount": 7,
+    "LastUpdatedDatetime": "01/26 09:02 AM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -144,12 +144,109 @@
         "Attributes": [
           {
             "Name": "Start time",
-            "Value": "01/26 08:26 AM",
+            "Value": "01/26 08:45 AM",
             "NoDisplay": false
           },
           {
             "Name": "Customers impacted",
-            "Value": "2",
+            "Value": "3",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "01/26 08:50 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "01/26 11:00 AM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.56544",
+          "Longitude": "-122.64929",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Bremerton",
+          "Id": "791125-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.56524",
+          "Longitude": "-122.64923"
+        },
+        {
+          "Latitude": "47.56527",
+          "Longitude": "-122.64966"
+        },
+        {
+          "Latitude": "47.56535",
+          "Longitude": "-122.64970"
+        },
+        {
+          "Latitude": "47.56535",
+          "Longitude": "-122.64970"
+        },
+        {
+          "Latitude": "47.56576",
+          "Longitude": "-122.64903"
+        },
+        {
+          "Latitude": "47.56576",
+          "Longitude": "-122.64895"
+        },
+        {
+          "Latitude": "47.56571",
+          "Longitude": "-122.64893"
+        },
+        {
+          "Latitude": "47.56527",
+          "Longitude": "-122.64917"
+        },
+        {
+          "Latitude": "47.56524",
+          "Longitude": "-122.64923"
+        },
+        {
+          "Latitude": "47.56524",
+          "Longitude": "-122.64923"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.56528",
+          "Longitude": "-122.64965"
+        },
+        "Max": {
+          "Latitude": "47.56572",
+          "Longitude": "-122.64899"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "01/26 08:38 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "4",
             "NoDisplay": false
           },
           {
@@ -164,58 +261,70 @@
           },
           {
             "Name": "Last update",
-            "Value": "01/26 08:35 AM",
+            "Value": "01/26 08:45 AM",
             "NoDisplay": false
           }
         ],
         "PointOfInterest": {
-          "Latitude": "47.52814",
-          "Longitude": "-122.70335",
+          "Latitude": "47.40239",
+          "Longitude": "-122.31813",
           "MapType": "Outage",
           "PinType": "Outage",
-          "Title": "Bremerton",
-          "Id": "791121-1",
+          "Title": "Des Moines",
+          "Id": "790864-1",
           "PlannedOutage": true
         }
       },
       "Polygon": [
         {
-          "Latitude": "47.52776",
-          "Longitude": "-122.70363"
+          "Latitude": "47.40226",
+          "Longitude": "-122.31843"
         },
         {
-          "Latitude": "47.52773",
-          "Longitude": "-122.70366"
+          "Latitude": "47.40251",
+          "Longitude": "-122.31847"
         },
         {
-          "Latitude": "47.52777",
-          "Longitude": "-122.70378"
+          "Latitude": "47.40256",
+          "Longitude": "-122.31840"
         },
         {
-          "Latitude": "47.52852",
-          "Longitude": "-122.70308"
+          "Latitude": "47.40256",
+          "Longitude": "-122.31840"
         },
         {
-          "Latitude": "47.52856",
-          "Longitude": "-122.70304"
+          "Latitude": "47.40253",
+          "Longitude": "-122.31788"
         },
         {
-          "Latitude": "47.52851",
-          "Longitude": "-122.70293"
+          "Latitude": "47.40250",
+          "Longitude": "-122.31783"
         },
         {
-          "Latitude": "47.52776",
-          "Longitude": "-122.70363"
+          "Latitude": "47.40232",
+          "Longitude": "-122.31773"
+        },
+        {
+          "Latitude": "47.40226",
+          "Longitude": "-122.31778"
+        },
+        {
+          "Latitude": "47.40222",
+          "Longitude": "-122.31835"
+        },
+        {
+          "Latitude": "47.40226",
+          "Longitude": "-122.31843"
         }
       ],
       "BoundingBox": {
         "Min": {
-          "Latitude": "47.52779",
-          "Longitude": "-122.70368"
+          "Latitude": "47.40226",
+          "Longitude": "-122.31840"
         },
         "Max": {
-          "Latitude": "47.52850",
-          "Longitude": "-122.70302"
+          "Latitude": "47.40252",
+          "Longitude": "-122.31780"
         }
       }
     },
@@ -431,22 +540,22 @@
           },
           {
             "Name": "Status",
-            "Value": "Outage reported",
+            "Value": "Waiting for repairs",
             "NoDisplay": false
           },
           {
             "Name": "Cause",
-            "Value": "Under Investigation",
+            "Value": "Equipment Failure",
             "NoDisplay": false
           },
           {
             "Name": "Last update",
-            "Value": "01/26 08:20 AM",
+            "Value": "01/26 09:00 AM",
             "NoDisplay": false
           },
           {
             "Name": "Est. restoration time",
-            "Value": "01/26 10:30 AM",
+            "Value": "01/26 12:30 PM",
             "NoDisplay": false
           }
         ],
@@ -456,7 +565,7 @@
           "MapType": "Outage",
           "PinType": "Outage",
           "Title": "Renton",
-          "Id": "791091-1",
+          "Id": "791091-2",
           "PlannedOutage": false
         }
       },
@@ -667,5 +776,5 @@
       }
     }
   ],
-  "LastUpdated": "2022-01-26T16:37:53+00:00"
+  "LastUpdated": "2022-01-26T17:02:53+00:00"
 }
