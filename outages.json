@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 232,
-    "OutageCount": 9,
-    "LastUpdatedDatetime": "01/31 05:02 AM"
+    "CustomerAfftectedCount": 239,
+    "OutageCount": 10,
+    "LastUpdatedDatetime": "01/31 05:22 AM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -117,7 +117,7 @@
           },
           {
             "Name": "Status",
-            "Value": "Outage reported",
+            "Value": "Waiting for repairs",
             "NoDisplay": false
           },
           {
@@ -127,7 +127,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "01/31 05:00 AM",
+            "Value": "01/31 05:15 AM",
             "NoDisplay": false
           },
           {
@@ -142,7 +142,7 @@
           "MapType": "Outage",
           "PinType": "Outage",
           "Title": "Bellingham",
-          "Id": "791886-1",
+          "Id": "791886-2",
           "PlannedOutage": false
         }
       },
@@ -373,6 +373,98 @@
         "Attributes": [
           {
             "Name": "Start time",
+            "Value": "01/31 05:06 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "7",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Repair crew onsite",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Scheduled Outage",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "01/31 05:10 AM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.68434",
+          "Longitude": "-122.19335",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Norkirk",
+          "Id": "791888-1",
+          "PlannedOutage": true
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.68418",
+          "Longitude": "-122.19304"
+        },
+        {
+          "Latitude": "47.68437",
+          "Longitude": "-122.19375"
+        },
+        {
+          "Latitude": "47.68442",
+          "Longitude": "-122.19379"
+        },
+        {
+          "Latitude": "47.68446",
+          "Longitude": "-122.19372"
+        },
+        {
+          "Latitude": "47.68444",
+          "Longitude": "-122.19331"
+        },
+        {
+          "Latitude": "47.68443",
+          "Longitude": "-122.19327"
+        },
+        {
+          "Latitude": "47.68426",
+          "Longitude": "-122.19297"
+        },
+        {
+          "Latitude": "47.68420",
+          "Longitude": "-122.19296"
+        },
+        {
+          "Latitude": "47.68418",
+          "Longitude": "-122.19304"
+        },
+        {
+          "Latitude": "47.68418",
+          "Longitude": "-122.19304"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.68422",
+          "Longitude": "-122.19372"
+        },
+        "Max": {
+          "Latitude": "47.68442",
+          "Longitude": "-122.19302"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
             "Value": "01/31 03:47 AM",
             "NoDisplay": false
           },
@@ -581,7 +673,7 @@
           },
           {
             "Name": "Status",
-            "Value": "Crew assigned",
+            "Value": "Repair crew onsite",
             "NoDisplay": false
           },
           {
@@ -591,12 +683,12 @@
           },
           {
             "Name": "Last update",
-            "Value": "01/31 02:00 AM",
+            "Value": "01/31 05:20 AM",
             "NoDisplay": false
           },
           {
             "Name": "Est. restoration time",
-            "Value": "01/31 07:00 AM",
+            "Value": "01/31 09:00 AM",
             "NoDisplay": false
           }
         ],
@@ -1021,5 +1113,5 @@
       }
     }
   ],
-  "LastUpdated": "2022-01-31T13:02:52+00:00"
+  "LastUpdated": "2022-01-31T13:22:52+00:00"
 }
