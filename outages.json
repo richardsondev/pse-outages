@@ -1,10 +1,96 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 0,
-    "OutageCount": 0,
-    "LastUpdatedDatetime": "02/04 05:52 AM"
+    "CustomerAfftectedCount": 2,
+    "OutageCount": 1,
+    "LastUpdatedDatetime": "02/04 06:17 AM"
   },
   "CustomerProfile": null,
-  "PseMap": [],
-  "LastUpdated": "2022-02-04T13:52:53+00:00"
+  "PseMap": [
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "02/04 06:09 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "2",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "02/04 06:15 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "02/04 08:30 AM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.47264",
+          "Longitude": "-121.78211",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "North Bend",
+          "Id": "792419-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.47303",
+          "Longitude": "-121.78208"
+        },
+        {
+          "Latitude": "47.47307",
+          "Longitude": "-121.78207"
+        },
+        {
+          "Latitude": "47.47305",
+          "Longitude": "-121.78194"
+        },
+        {
+          "Latitude": "47.47225",
+          "Longitude": "-121.78215"
+        },
+        {
+          "Latitude": "47.47221",
+          "Longitude": "-121.78216"
+        },
+        {
+          "Latitude": "47.47222",
+          "Longitude": "-121.78229"
+        },
+        {
+          "Latitude": "47.47303",
+          "Longitude": "-121.78208"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.47226",
+          "Longitude": "-121.78221"
+        },
+        "Max": {
+          "Latitude": "47.47302",
+          "Longitude": "-121.78201"
+        }
+      }
+    }
+  ],
+  "LastUpdated": "2022-02-04T14:17:52+00:00"
 }
