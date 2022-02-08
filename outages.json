@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 30,
-    "OutageCount": 5,
-    "LastUpdatedDatetime": "02/08 10:37 AM"
+    "CustomerAfftectedCount": 43,
+    "OutageCount": 6,
+    "LastUpdatedDatetime": "02/08 10:52 AM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -207,6 +207,94 @@
         "Attributes": [
           {
             "Name": "Start time",
+            "Value": "02/08 10:25 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "13",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Repair crew onsite",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Scheduled Outage",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "02/08 10:50 AM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.31461",
+          "Longitude": "-122.32719",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Federal Way",
+          "Id": "792662-1",
+          "PlannedOutage": true
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.31441",
+          "Longitude": "-122.32735"
+        },
+        {
+          "Latitude": "47.31471",
+          "Longitude": "-122.32740"
+        },
+        {
+          "Latitude": "47.31476",
+          "Longitude": "-122.32733"
+        },
+        {
+          "Latitude": "47.31474",
+          "Longitude": "-122.32696"
+        },
+        {
+          "Latitude": "47.31467",
+          "Longitude": "-122.32691"
+        },
+        {
+          "Latitude": "47.31467",
+          "Longitude": "-122.32691"
+        },
+        {
+          "Latitude": "47.31439",
+          "Longitude": "-122.32723"
+        },
+        {
+          "Latitude": "47.31437",
+          "Longitude": "-122.32730"
+        },
+        {
+          "Latitude": "47.31441",
+          "Longitude": "-122.32735"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.31441",
+          "Longitude": "-122.32732"
+        },
+        "Max": {
+          "Latitude": "47.31472",
+          "Longitude": "-122.32696"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
             "Value": "02/08 09:37 AM",
             "NoDisplay": false
           },
@@ -217,7 +305,7 @@
           },
           {
             "Name": "Status",
-            "Value": "Waiting for repairs",
+            "Value": "Crew assigned",
             "NoDisplay": false
           },
           {
@@ -227,7 +315,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "02/08 10:15 AM",
+            "Value": "02/08 10:50 AM",
             "NoDisplay": false
           },
           {
@@ -242,7 +330,7 @@
           "MapType": "Outage",
           "PinType": "Outage",
           "Title": "Ferndale",
-          "Id": "792813-1",
+          "Id": "792813-2",
           "PlannedOutage": false
         }
       },
@@ -522,5 +610,5 @@
       }
     }
   ],
-  "LastUpdated": "2022-02-08T18:37:52+00:00"
+  "LastUpdated": "2022-02-08T18:52:53+00:00"
 }
