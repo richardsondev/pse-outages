@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 3,
-    "OutageCount": 2,
-    "LastUpdatedDatetime": "02/19 07:22 PM"
+    "CustomerAfftectedCount": 27,
+    "OutageCount": 3,
+    "LastUpdatedDatetime": "02/19 07:37 PM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -21,22 +21,22 @@
           },
           {
             "Name": "Status",
-            "Value": "Outage reported",
+            "Value": "Waiting for repairs",
             "NoDisplay": false
           },
           {
             "Name": "Cause",
-            "Value": "Under Investigation",
+            "Value": "Equipment Failure",
             "NoDisplay": false
           },
           {
             "Name": "Last update",
-            "Value": "02/19 05:05 PM",
+            "Value": "02/19 07:30 PM",
             "NoDisplay": false
           },
           {
             "Name": "Est. restoration time",
-            "Value": "02/19 07:00 PM",
+            "Value": "02/19 07:30 PM",
             "NoDisplay": false
           }
         ],
@@ -191,7 +191,99 @@
           "Longitude": "-121.33660"
         }
       }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "02/19 07:06 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "24",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Repair crew onsite",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Scheduled Outage",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "02/19 07:30 PM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.62537",
+          "Longitude": "-122.16234",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Wilburton",
+          "Id": "793412-1",
+          "PlannedOutage": true
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.62496",
+          "Longitude": "-122.16294"
+        },
+        {
+          "Latitude": "47.62597",
+          "Longitude": "-122.16199"
+        },
+        {
+          "Latitude": "47.62599",
+          "Longitude": "-122.16191"
+        },
+        {
+          "Latitude": "47.62594",
+          "Longitude": "-122.16187"
+        },
+        {
+          "Latitude": "47.62529",
+          "Longitude": "-122.16207"
+        },
+        {
+          "Latitude": "47.62526",
+          "Longitude": "-122.16209"
+        },
+        {
+          "Latitude": "47.62491",
+          "Longitude": "-122.16271"
+        },
+        {
+          "Latitude": "47.62490",
+          "Longitude": "-122.16274"
+        },
+        {
+          "Latitude": "47.62489",
+          "Longitude": "-122.16287"
+        },
+        {
+          "Latitude": "47.62496",
+          "Longitude": "-122.16294"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.62494",
+          "Longitude": "-122.16288"
+        },
+        "Max": {
+          "Latitude": "47.62595",
+          "Longitude": "-122.16194"
+        }
+      }
     }
   ],
-  "LastUpdated": "2022-02-20T03:22:52+00:00"
+  "LastUpdated": "2022-02-20T03:37:52+00:00"
 }
