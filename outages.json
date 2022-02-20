@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 251,
-    "OutageCount": 6,
-    "LastUpdatedDatetime": "02/20 11:17 AM"
+    "CustomerAfftectedCount": 254,
+    "OutageCount": 7,
+    "LastUpdatedDatetime": "02/20 11:32 AM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -21,17 +21,17 @@
           },
           {
             "Name": "Status",
-            "Value": "Outage reported",
+            "Value": "Waiting for repairs",
             "NoDisplay": false
           },
           {
             "Name": "Cause",
-            "Value": "Under Investigation",
+            "Value": "Bird Or Animal",
             "NoDisplay": false
           },
           {
             "Name": "Last update",
-            "Value": "02/20 10:45 AM",
+            "Value": "02/20 11:20 AM",
             "NoDisplay": false
           },
           {
@@ -674,7 +674,92 @@
           "Longitude": "-121.33660"
         }
       }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "02/20 10:45 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "3",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Waiting for repairs",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Equipment Failure",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "02/20 11:20 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "02/20 01:00 PM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.09193",
+          "Longitude": "-122.39092",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Tacoma",
+          "Id": "794288-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.09184",
+          "Longitude": "-122.39107"
+        },
+        {
+          "Latitude": "47.09182",
+          "Longitude": "-122.39114"
+        },
+        {
+          "Latitude": "47.09191",
+          "Longitude": "-122.39118"
+        },
+        {
+          "Latitude": "47.09202",
+          "Longitude": "-122.39077"
+        },
+        {
+          "Latitude": "47.09204",
+          "Longitude": "-122.39071"
+        },
+        {
+          "Latitude": "47.09195",
+          "Longitude": "-122.39066"
+        },
+        {
+          "Latitude": "47.09184",
+          "Longitude": "-122.39107"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.09188",
+          "Longitude": "-122.39110"
+        },
+        "Max": {
+          "Latitude": "47.09198",
+          "Longitude": "-122.39075"
+        }
+      }
     }
   ],
-  "LastUpdated": "2022-02-20T19:17:52+00:00"
+  "LastUpdated": "2022-02-20T19:32:52+00:00"
 }
