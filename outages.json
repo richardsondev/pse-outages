@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 12,
-    "OutageCount": 4,
-    "LastUpdatedDatetime": "02/27 10:27 PM"
+    "CustomerAfftectedCount": 20,
+    "OutageCount": 7,
+    "LastUpdatedDatetime": "02/27 10:52 PM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -21,7 +21,7 @@
           },
           {
             "Name": "Status",
-            "Value": "Crew assigned",
+            "Value": "Repair crew onsite",
             "NoDisplay": false
           },
           {
@@ -31,7 +31,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "02/27 09:15 PM",
+            "Value": "02/27 10:40 PM",
             "NoDisplay": false
           },
           {
@@ -292,6 +292,200 @@
         "Attributes": [
           {
             "Name": "Start time",
+            "Value": "02/27 10:04 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "4",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Waiting for repairs",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Equipment Failure",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "02/27 10:40 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "02/28 12:30 AM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.61704",
+          "Longitude": "-122.21393",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Northwest Bellevue",
+          "Id": "795869-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.61693",
+          "Longitude": "-122.21425"
+        },
+        {
+          "Latitude": "47.61723",
+          "Longitude": "-122.21424"
+        },
+        {
+          "Latitude": "47.61727",
+          "Longitude": "-122.21414"
+        },
+        {
+          "Latitude": "47.61727",
+          "Longitude": "-122.21414"
+        },
+        {
+          "Latitude": "47.61699",
+          "Longitude": "-122.21340"
+        },
+        {
+          "Latitude": "47.61694",
+          "Longitude": "-122.21337"
+        },
+        {
+          "Latitude": "47.61691",
+          "Longitude": "-122.21343"
+        },
+        {
+          "Latitude": "47.61689",
+          "Longitude": "-122.21418"
+        },
+        {
+          "Latitude": "47.61693",
+          "Longitude": "-122.21425"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.61693",
+          "Longitude": "-122.21418"
+        },
+        "Max": {
+          "Latitude": "47.61724",
+          "Longitude": "-122.21344"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "02/27 09:52 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "1",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "02/27 10:40 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "02/28 12:00 AM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.65425",
+          "Longitude": "-122.70705",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Silverdale",
+          "Id": "795867-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.65437",
+          "Longitude": "-122.70660"
+        },
+        {
+          "Latitude": "47.65449",
+          "Longitude": "-122.70665"
+        },
+        {
+          "Latitude": "47.65455",
+          "Longitude": "-122.70680"
+        },
+        {
+          "Latitude": "47.65455",
+          "Longitude": "-122.70697"
+        },
+        {
+          "Latitude": "47.65448",
+          "Longitude": "-122.70711"
+        },
+        {
+          "Latitude": "47.65437",
+          "Longitude": "-122.70716"
+        },
+        {
+          "Latitude": "47.65425",
+          "Longitude": "-122.70710"
+        },
+        {
+          "Latitude": "47.65419",
+          "Longitude": "-122.70696"
+        },
+        {
+          "Latitude": "47.65419",
+          "Longitude": "-122.70678"
+        },
+        {
+          "Latitude": "47.65426",
+          "Longitude": "-122.70665"
+        },
+        {
+          "Latitude": "47.65437",
+          "Longitude": "-122.70660"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.65425",
+          "Longitude": "-122.70705"
+        },
+        "Max": {
+          "Latitude": "47.65425",
+          "Longitude": "-122.70705"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
             "Value": "02/27 09:22 PM",
             "NoDisplay": false
           },
@@ -387,7 +581,96 @@
           "Longitude": "-121.33660"
         }
       }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "02/27 10:03 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "3",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "02/27 10:40 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "02/28 12:30 AM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.39968",
+          "Longitude": "-122.41866",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Vashon",
+          "Id": "795868-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.39912",
+          "Longitude": "-122.41878"
+        },
+        {
+          "Latitude": "47.39997",
+          "Longitude": "-122.41889"
+        },
+        {
+          "Latitude": "47.40002",
+          "Longitude": "-122.41882"
+        },
+        {
+          "Latitude": "47.40000",
+          "Longitude": "-122.41842"
+        },
+        {
+          "Latitude": "47.39994",
+          "Longitude": "-122.41836"
+        },
+        {
+          "Latitude": "47.39911",
+          "Longitude": "-122.41865"
+        },
+        {
+          "Latitude": "47.39908",
+          "Longitude": "-122.41872"
+        },
+        {
+          "Latitude": "47.39912",
+          "Longitude": "-122.41878"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.39912",
+          "Longitude": "-122.41880"
+        },
+        "Max": {
+          "Latitude": "47.39998",
+          "Longitude": "-122.41842"
+        }
+      }
     }
   ],
-  "LastUpdated": "2022-02-28T06:27:52+00:00"
+  "LastUpdated": "2022-02-28T06:52:52+00:00"
 }
