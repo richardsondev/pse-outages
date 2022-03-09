@@ -1,11 +1,107 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 45,
-    "OutageCount": 8,
-    "LastUpdatedDatetime": "03/08 09:32 PM"
+    "CustomerAfftectedCount": 50,
+    "OutageCount": 10,
+    "LastUpdatedDatetime": "03/08 09:52 PM"
   },
   "CustomerProfile": null,
   "PseMap": [
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "03/08 09:05 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "4",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Repair crew onsite",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Scheduled Outage",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "03/08 09:40 PM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.51842",
+          "Longitude": "-122.20107",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Kennydale",
+          "Id": "797388-1",
+          "PlannedOutage": true
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.51806",
+          "Longitude": "-122.20092"
+        },
+        {
+          "Latitude": "47.51820",
+          "Longitude": "-122.20113"
+        },
+        {
+          "Latitude": "47.51822",
+          "Longitude": "-122.20115"
+        },
+        {
+          "Latitude": "47.51863",
+          "Longitude": "-122.20136"
+        },
+        {
+          "Latitude": "47.51869",
+          "Longitude": "-122.20130"
+        },
+        {
+          "Latitude": "47.51869",
+          "Longitude": "-122.20102"
+        },
+        {
+          "Latitude": "47.51865",
+          "Longitude": "-122.20095"
+        },
+        {
+          "Latitude": "47.51810",
+          "Longitude": "-122.20081"
+        },
+        {
+          "Latitude": "47.51805",
+          "Longitude": "-122.20084"
+        },
+        {
+          "Latitude": "47.51806",
+          "Longitude": "-122.20092"
+        },
+        {
+          "Latitude": "47.51806",
+          "Longitude": "-122.20092"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.51809",
+          "Longitude": "-122.20128"
+        },
+        "Max": {
+          "Latitude": "47.51865",
+          "Longitude": "-122.20089"
+        }
+      }
+    },
     {
       "DataProvider": {
         "Attributes": [
@@ -199,17 +295,17 @@
           },
           {
             "Name": "Status",
-            "Value": "Outage reported",
+            "Value": "Waiting for repairs",
             "NoDisplay": false
           },
           {
             "Name": "Cause",
-            "Value": "Under Investigation",
+            "Value": "Equipment Failure",
             "NoDisplay": false
           },
           {
             "Name": "Last update",
-            "Value": "03/08 07:40 PM",
+            "Value": "03/08 09:40 PM",
             "NoDisplay": false
           },
           {
@@ -576,6 +672,107 @@
         "Attributes": [
           {
             "Name": "Start time",
+            "Value": "03/08 09:01 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "1",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "03/08 09:40 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "To Be Determined",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.20063",
+          "Longitude": "-122.30488",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Puyallup",
+          "Id": "797384-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.20061",
+          "Longitude": "-122.30463"
+        },
+        {
+          "Latitude": "47.20072",
+          "Longitude": "-122.30469"
+        },
+        {
+          "Latitude": "47.20079",
+          "Longitude": "-122.30483"
+        },
+        {
+          "Latitude": "47.20079",
+          "Longitude": "-122.30500"
+        },
+        {
+          "Latitude": "47.20071",
+          "Longitude": "-122.30514"
+        },
+        {
+          "Latitude": "47.20060",
+          "Longitude": "-122.30519"
+        },
+        {
+          "Latitude": "47.20049",
+          "Longitude": "-122.30514"
+        },
+        {
+          "Latitude": "47.20042",
+          "Longitude": "-122.30499"
+        },
+        {
+          "Latitude": "47.20043",
+          "Longitude": "-122.30482"
+        },
+        {
+          "Latitude": "47.20050",
+          "Longitude": "-122.30468"
+        },
+        {
+          "Latitude": "47.20061",
+          "Longitude": "-122.30463"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.20063",
+          "Longitude": "-122.30488"
+        },
+        "Max": {
+          "Latitude": "47.20063",
+          "Longitude": "-122.30488"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
             "Value": "03/08 08:22 PM",
             "NoDisplay": false
           },
@@ -596,12 +793,12 @@
           },
           {
             "Name": "Last update",
-            "Value": "03/08 09:00 PM",
+            "Value": "03/08 09:40 PM",
             "NoDisplay": false
           },
           {
             "Name": "Est. restoration time",
-            "Value": "03/08 10:30 PM",
+            "Value": "03/09 02:30 AM",
             "NoDisplay": false
           }
         ],
@@ -769,5 +966,5 @@
       }
     }
   ],
-  "LastUpdated": "2022-03-09T05:32:52+00:00"
+  "LastUpdated": "2022-03-09T05:52:52+00:00"
 }
