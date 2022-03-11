@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 9,
-    "OutageCount": 5,
-    "LastUpdatedDatetime": "03/11 03:37 PM"
+    "CustomerAfftectedCount": 10,
+    "OutageCount": 6,
+    "LastUpdatedDatetime": "03/11 03:52 PM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -223,17 +223,17 @@
           },
           {
             "Name": "Status",
-            "Value": "Outage reported",
+            "Value": "Waiting for repairs",
             "NoDisplay": false
           },
           {
             "Name": "Cause",
-            "Value": "Under Investigation",
+            "Value": "Equipment Failure",
             "NoDisplay": false
           },
           {
             "Name": "Last update",
-            "Value": "03/11 03:00 PM",
+            "Value": "03/11 03:40 PM",
             "NoDisplay": false
           },
           {
@@ -302,6 +302,107 @@
         "Max": {
           "Latitude": "47.42098",
           "Longitude": "-122.14831"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "03/11 03:28 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "1",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Waiting for repairs",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Equipment Failure",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "03/11 03:40 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "03/11 06:30 PM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.80103",
+          "Longitude": "-122.50027",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Kingston",
+          "Id": "797819-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.80134",
+          "Longitude": "-122.49955"
+        },
+        {
+          "Latitude": "47.80145",
+          "Longitude": "-122.49961"
+        },
+        {
+          "Latitude": "47.80152",
+          "Longitude": "-122.49975"
+        },
+        {
+          "Latitude": "47.80151",
+          "Longitude": "-122.49993"
+        },
+        {
+          "Latitude": "47.80144",
+          "Longitude": "-122.50007"
+        },
+        {
+          "Latitude": "47.80133",
+          "Longitude": "-122.50012"
+        },
+        {
+          "Latitude": "47.80122",
+          "Longitude": "-122.50006"
+        },
+        {
+          "Latitude": "47.80115",
+          "Longitude": "-122.49991"
+        },
+        {
+          "Latitude": "47.80115",
+          "Longitude": "-122.49974"
+        },
+        {
+          "Latitude": "47.80122",
+          "Longitude": "-122.49960"
+        },
+        {
+          "Latitude": "47.80134",
+          "Longitude": "-122.49955"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.80103",
+          "Longitude": "-122.50027"
+        },
+        "Max": {
+          "Latitude": "47.80103",
+          "Longitude": "-122.50027"
         }
       }
     },
@@ -508,5 +609,5 @@
       }
     }
   ],
-  "LastUpdated": "2022-03-11T23:37:52+00:00"
+  "LastUpdated": "2022-03-11T23:52:52+00:00"
 }
