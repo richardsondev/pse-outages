@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 87,
-    "OutageCount": 3,
-    "LastUpdatedDatetime": "03/13 09:42 PM"
+    "CustomerAfftectedCount": 88,
+    "OutageCount": 4,
+    "LastUpdatedDatetime": "03/13 10:22 PM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -21,22 +21,22 @@
           },
           {
             "Name": "Status",
-            "Value": "Outage reported",
+            "Value": "Waiting for repairs",
             "NoDisplay": false
           },
           {
             "Name": "Cause",
-            "Value": "Under Investigation",
+            "Value": "Equipment Failure",
             "NoDisplay": false
           },
           {
             "Name": "Last update",
-            "Value": "03/13 08:50 PM",
+            "Value": "03/13 10:10 PM",
             "NoDisplay": false
           },
           {
             "Name": "Est. restoration time",
-            "Value": "03/13 10:30 PM",
+            "Value": "03/14 04:30 AM",
             "NoDisplay": false
           }
         ],
@@ -112,6 +112,107 @@
         "Attributes": [
           {
             "Name": "Start time",
+            "Value": "03/13 09:39 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "1",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "03/13 10:10 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "03/14 12:00 AM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.52978",
+          "Longitude": "-121.95868",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Issaquah",
+          "Id": "797984-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.52978",
+          "Longitude": "-121.95841"
+        },
+        {
+          "Latitude": "47.52989",
+          "Longitude": "-121.95846"
+        },
+        {
+          "Latitude": "47.52996",
+          "Longitude": "-121.95860"
+        },
+        {
+          "Latitude": "47.52996",
+          "Longitude": "-121.95878"
+        },
+        {
+          "Latitude": "47.52989",
+          "Longitude": "-121.95892"
+        },
+        {
+          "Latitude": "47.52977",
+          "Longitude": "-121.95897"
+        },
+        {
+          "Latitude": "47.52966",
+          "Longitude": "-121.95891"
+        },
+        {
+          "Latitude": "47.52959",
+          "Longitude": "-121.95877"
+        },
+        {
+          "Latitude": "47.52960",
+          "Longitude": "-121.95860"
+        },
+        {
+          "Latitude": "47.52967",
+          "Longitude": "-121.95846"
+        },
+        {
+          "Latitude": "47.52978",
+          "Longitude": "-121.95841"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.52978",
+          "Longitude": "-121.95868"
+        },
+        "Max": {
+          "Latitude": "47.52978",
+          "Longitude": "-121.95868"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
             "Value": "03/13 04:28 PM",
             "NoDisplay": false
           },
@@ -122,7 +223,7 @@
           },
           {
             "Name": "Status",
-            "Value": "Crew assigned",
+            "Value": "Repair crew onsite",
             "NoDisplay": false
           },
           {
@@ -132,7 +233,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "03/13 08:35 PM",
+            "Value": "03/13 09:50 PM",
             "NoDisplay": false
           },
           {
@@ -331,7 +432,7 @@
           },
           {
             "Name": "Status",
-            "Value": "Waiting for repairs",
+            "Value": "Crew assigned",
             "NoDisplay": false
           },
           {
@@ -341,7 +442,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "03/13 09:30 PM",
+            "Value": "03/13 10:10 PM",
             "NoDisplay": false
           },
           {
@@ -418,5 +519,5 @@
       }
     }
   ],
-  "LastUpdated": "2022-03-14T04:42:52+00:00"
+  "LastUpdated": "2022-03-14T05:22:52+00:00"
 }
