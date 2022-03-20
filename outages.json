@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 55,
-    "OutageCount": 6,
-    "LastUpdatedDatetime": "03/20 03:22 PM"
+    "CustomerAfftectedCount": 75,
+    "OutageCount": 7,
+    "LastUpdatedDatetime": "03/20 03:37 PM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -21,17 +21,17 @@
           },
           {
             "Name": "Status",
-            "Value": "Outage reported",
+            "Value": "Waiting for repairs",
             "NoDisplay": false
           },
           {
             "Name": "Cause",
-            "Value": "Under Investigation",
+            "Value": "Equipment Failure",
             "NoDisplay": false
           },
           {
             "Name": "Last update",
-            "Value": "03/20 02:20 PM",
+            "Value": "03/20 03:35 PM",
             "NoDisplay": false
           },
           {
@@ -297,6 +297,107 @@
         "Max": {
           "Latitude": "46.98739",
           "Longitude": "-120.41979"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "03/20 02:38 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "20",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "03/20 03:35 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "03/20 05:00 PM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.61127",
+          "Longitude": "-122.14324",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Lake Hills",
+          "Id": "798847-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.61126",
+          "Longitude": "-122.14297"
+        },
+        {
+          "Latitude": "47.61137",
+          "Longitude": "-122.14303"
+        },
+        {
+          "Latitude": "47.61144",
+          "Longitude": "-122.14317"
+        },
+        {
+          "Latitude": "47.61144",
+          "Longitude": "-122.14335"
+        },
+        {
+          "Latitude": "47.61137",
+          "Longitude": "-122.14349"
+        },
+        {
+          "Latitude": "47.61126",
+          "Longitude": "-122.14354"
+        },
+        {
+          "Latitude": "47.61114",
+          "Longitude": "-122.14348"
+        },
+        {
+          "Latitude": "47.61108",
+          "Longitude": "-122.14334"
+        },
+        {
+          "Latitude": "47.61108",
+          "Longitude": "-122.14316"
+        },
+        {
+          "Latitude": "47.61115",
+          "Longitude": "-122.14302"
+        },
+        {
+          "Latitude": "47.61126",
+          "Longitude": "-122.14297"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.61127",
+          "Longitude": "-122.14324"
+        },
+        "Max": {
+          "Latitude": "47.61127",
+          "Longitude": "-122.14324"
         }
       }
     },
@@ -599,5 +700,5 @@
       }
     }
   ],
-  "LastUpdated": "2022-03-20T22:22:52+00:00"
+  "LastUpdated": "2022-03-20T22:37:53+00:00"
 }
