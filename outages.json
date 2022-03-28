@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 5,
-    "OutageCount": 2,
-    "LastUpdatedDatetime": "03/28 02:37 AM"
+    "CustomerAfftectedCount": 10,
+    "OutageCount": 3,
+    "LastUpdatedDatetime": "03/28 02:52 AM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -21,22 +21,22 @@
           },
           {
             "Name": "Status",
-            "Value": "Outage reported",
+            "Value": "Waiting for repairs",
             "NoDisplay": false
           },
           {
             "Name": "Cause",
-            "Value": "Under Investigation",
+            "Value": "Equipment Failure",
             "NoDisplay": false
           },
           {
             "Name": "Last update",
-            "Value": "03/28 02:10 AM",
+            "Value": "03/28 02:45 AM",
             "NoDisplay": false
           },
           {
             "Name": "Est. restoration time",
-            "Value": "03/28 04:30 AM",
+            "Value": "03/28 07:30 AM",
             "NoDisplay": false
           }
         ],
@@ -88,6 +88,95 @@
         "Max": {
           "Latitude": "47.48478",
           "Longitude": "-122.05860"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "03/28 02:09 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "5",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "03/28 02:45 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "03/28 04:30 AM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.48241",
+          "Longitude": "-122.05981",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Issaquah",
+          "Id": "799860-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.48190",
+          "Longitude": "-122.06019"
+        },
+        {
+          "Latitude": "47.48280",
+          "Longitude": "-122.06021"
+        },
+        {
+          "Latitude": "47.48284",
+          "Longitude": "-122.06012"
+        },
+        {
+          "Latitude": "47.48284",
+          "Longitude": "-122.06012"
+        },
+        {
+          "Latitude": "47.48258",
+          "Longitude": "-122.05912"
+        },
+        {
+          "Latitude": "47.48250",
+          "Longitude": "-122.05910"
+        },
+        {
+          "Latitude": "47.48187",
+          "Longitude": "-122.06008"
+        },
+        {
+          "Latitude": "47.48190",
+          "Longitude": "-122.06019"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.48190",
+          "Longitude": "-122.06012"
+        },
+        "Max": {
+          "Latitude": "47.48281",
+          "Longitude": "-122.05915"
         }
       }
     },
@@ -193,5 +282,5 @@
       }
     }
   ],
-  "LastUpdated": "2022-03-28T09:37:53+00:00"
+  "LastUpdated": "2022-03-28T09:52:52+00:00"
 }
