@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 113,
-    "OutageCount": 7,
-    "LastUpdatedDatetime": "03/30 09:37 AM"
+    "CustomerAfftectedCount": 31,
+    "OutageCount": 8,
+    "LastUpdatedDatetime": "03/30 09:57 AM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -21,7 +21,7 @@
           },
           {
             "Name": "Status",
-            "Value": "Waiting for repairs",
+            "Value": "Crew assigned",
             "NoDisplay": false
           },
           {
@@ -31,7 +31,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "03/30 09:25 AM",
+            "Value": "03/30 09:45 AM",
             "NoDisplay": false
           },
           {
@@ -293,12 +293,97 @@
         "Attributes": [
           {
             "Name": "Start time",
-            "Value": "03/30 08:56 AM",
+            "Value": "03/30 09:29 AM",
             "NoDisplay": false
           },
           {
             "Name": "Customers impacted",
-            "Value": "102",
+            "Value": "2",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "03/30 09:45 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "To Be Determined",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "48.42466",
+          "Longitude": "-122.35773",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Mount Vernon",
+          "Id": "800143-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "48.42457",
+          "Longitude": "-122.35771"
+        },
+        {
+          "Latitude": "48.42452",
+          "Longitude": "-122.35773"
+        },
+        {
+          "Latitude": "48.42456",
+          "Longitude": "-122.35786"
+        },
+        {
+          "Latitude": "48.42476",
+          "Longitude": "-122.35775"
+        },
+        {
+          "Latitude": "48.42480",
+          "Longitude": "-122.35772"
+        },
+        {
+          "Latitude": "48.42477",
+          "Longitude": "-122.35760"
+        },
+        {
+          "Latitude": "48.42457",
+          "Longitude": "-122.35771"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "48.42458",
+          "Longitude": "-122.35777"
+        },
+        "Max": {
+          "Latitude": "48.42475",
+          "Longitude": "-122.35768"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "03/30 09:20 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "18",
             "NoDisplay": false
           },
           {
@@ -313,7 +398,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "03/30 09:25 AM",
+            "Value": "03/30 09:45 AM",
             "NoDisplay": false
           }
         ],
@@ -687,5 +772,5 @@
       }
     }
   ],
-  "LastUpdated": "2022-03-30T16:37:52+00:00"
+  "LastUpdated": "2022-03-30T16:57:52+00:00"
 }
