@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 31,
-    "OutageCount": 8,
-    "LastUpdatedDatetime": "04/02 08:52 AM"
+    "CustomerAfftectedCount": 34,
+    "OutageCount": 9,
+    "LastUpdatedDatetime": "04/02 09:37 AM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -117,17 +117,17 @@
           },
           {
             "Name": "Status",
-            "Value": "Outage reported",
+            "Value": "Waiting for repairs",
             "NoDisplay": false
           },
           {
             "Name": "Cause",
-            "Value": "Under Investigation",
+            "Value": "Bird Or Animal",
             "NoDisplay": false
           },
           {
             "Name": "Last update",
-            "Value": "04/02 08:30 AM",
+            "Value": "04/02 09:25 AM",
             "NoDisplay": false
           },
           {
@@ -297,6 +297,102 @@
         "Max": {
           "Latitude": "47.36826",
           "Longitude": "-122.28093"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "04/02 08:34 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "3",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Repair crew onsite",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Scheduled Outage",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "04/02 09:05 AM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.36195",
+          "Longitude": "-122.24192",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Kent",
+          "Id": "800511-1",
+          "PlannedOutage": true
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.36209",
+          "Longitude": "-122.24144"
+        },
+        {
+          "Latitude": "47.36220",
+          "Longitude": "-122.24150"
+        },
+        {
+          "Latitude": "47.36227",
+          "Longitude": "-122.24164"
+        },
+        {
+          "Latitude": "47.36227",
+          "Longitude": "-122.24181"
+        },
+        {
+          "Latitude": "47.36219",
+          "Longitude": "-122.24195"
+        },
+        {
+          "Latitude": "47.36208",
+          "Longitude": "-122.24200"
+        },
+        {
+          "Latitude": "47.36197",
+          "Longitude": "-122.24195"
+        },
+        {
+          "Latitude": "47.36190",
+          "Longitude": "-122.24180"
+        },
+        {
+          "Latitude": "47.36190",
+          "Longitude": "-122.24163"
+        },
+        {
+          "Latitude": "47.36198",
+          "Longitude": "-122.24149"
+        },
+        {
+          "Latitude": "47.36209",
+          "Longitude": "-122.24144"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.36195",
+          "Longitude": "-122.24192"
+        },
+        "Max": {
+          "Latitude": "47.36195",
+          "Longitude": "-122.24192"
         }
       }
     },
@@ -589,7 +685,7 @@
           },
           {
             "Name": "Status",
-            "Value": "Waiting for repairs",
+            "Value": "Crew assigned",
             "NoDisplay": false
           },
           {
@@ -599,7 +695,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "04/02 07:55 AM",
+            "Value": "04/02 09:05 AM",
             "NoDisplay": false
           },
           {
@@ -784,5 +880,5 @@
       }
     }
   ],
-  "LastUpdated": "2022-04-02T15:52:52+00:00"
+  "LastUpdated": "2022-04-02T16:37:52+00:00"
 }
