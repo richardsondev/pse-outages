@@ -1,11 +1,96 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 6,
-    "OutageCount": 3,
-    "LastUpdatedDatetime": "04/07 06:52 AM"
+    "CustomerAfftectedCount": 10,
+    "OutageCount": 4,
+    "LastUpdatedDatetime": "04/07 07:22 AM"
   },
   "CustomerProfile": null,
   "PseMap": [
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "04/07 07:05 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "4",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "04/07 07:20 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "04/07 09:30 AM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.38705",
+          "Longitude": "-122.30987",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Des Moines",
+          "Id": "805075-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.38699",
+          "Longitude": "-122.31017"
+        },
+        {
+          "Latitude": "47.38698",
+          "Longitude": "-122.31024"
+        },
+        {
+          "Latitude": "47.38707",
+          "Longitude": "-122.31025"
+        },
+        {
+          "Latitude": "47.38711",
+          "Longitude": "-122.30956"
+        },
+        {
+          "Latitude": "47.38711",
+          "Longitude": "-122.30950"
+        },
+        {
+          "Latitude": "47.38702",
+          "Longitude": "-122.30949"
+        },
+        {
+          "Latitude": "47.38699",
+          "Longitude": "-122.31017"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.38703",
+          "Longitude": "-122.31018"
+        },
+        "Max": {
+          "Latitude": "47.38706",
+          "Longitude": "-122.30956"
+        }
+      }
+    },
     {
       "DataProvider": {
         "Attributes": [
@@ -21,7 +106,7 @@
           },
           {
             "Name": "Status",
-            "Value": "Waiting for repairs",
+            "Value": "Crew assigned",
             "NoDisplay": false
           },
           {
@@ -31,12 +116,12 @@
           },
           {
             "Name": "Last update",
-            "Value": "04/07 06:45 AM",
+            "Value": "04/07 07:20 AM",
             "NoDisplay": false
           },
           {
             "Name": "Est. restoration time",
-            "Value": "04/07 07:30 AM",
+            "Value": "04/07 11:01 AM",
             "NoDisplay": false
           }
         ],
@@ -290,5 +375,5 @@
       }
     }
   ],
-  "LastUpdated": "2022-04-07T13:52:52+00:00"
+  "LastUpdated": "2022-04-07T14:22:52+00:00"
 }
