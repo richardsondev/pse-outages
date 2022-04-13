@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 1294,
-    "OutageCount": 12,
-    "LastUpdatedDatetime": "04/13 09:42 AM"
+    "CustomerAfftectedCount": 1296,
+    "OutageCount": 13,
+    "LastUpdatedDatetime": "04/13 10:02 AM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -427,7 +427,7 @@
           },
           {
             "Name": "Status",
-            "Value": "Waiting for repairs",
+            "Value": "Repair crew onsite",
             "NoDisplay": false
           },
           {
@@ -437,7 +437,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "04/13 07:30 AM",
+            "Value": "04/13 09:45 AM",
             "NoDisplay": false
           },
           {
@@ -753,17 +753,17 @@
           },
           {
             "Name": "Status",
-            "Value": "Outage reported",
+            "Value": "Waiting for repairs",
             "NoDisplay": false
           },
           {
             "Name": "Cause",
-            "Value": "Under Investigation",
+            "Value": "Vandalism",
             "NoDisplay": false
           },
           {
             "Name": "Last update",
-            "Value": "04/13 08:15 AM",
+            "Value": "04/13 09:55 AM",
             "NoDisplay": false
           },
           {
@@ -924,6 +924,86 @@
         "Max": {
           "Latitude": "47.69165",
           "Longitude": "-122.05732"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "04/13 09:53 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "2",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Repair crew onsite",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Scheduled Outage",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "04/13 10:00 AM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.71879",
+          "Longitude": "-122.13336",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Redmond",
+          "Id": "806535-1",
+          "PlannedOutage": true
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.71879",
+          "Longitude": "-122.13296"
+        },
+        {
+          "Latitude": "47.71878",
+          "Longitude": "-122.13289"
+        },
+        {
+          "Latitude": "47.71870",
+          "Longitude": "-122.13292"
+        },
+        {
+          "Latitude": "47.71879",
+          "Longitude": "-122.13376"
+        },
+        {
+          "Latitude": "47.71880",
+          "Longitude": "-122.13382"
+        },
+        {
+          "Latitude": "47.71889",
+          "Longitude": "-122.13380"
+        },
+        {
+          "Latitude": "47.71879",
+          "Longitude": "-122.13296"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.71874",
+          "Longitude": "-122.13374"
+        },
+        "Max": {
+          "Latitude": "47.71885",
+          "Longitude": "-122.13297"
         }
       }
     },
@@ -1140,7 +1220,7 @@
           },
           {
             "Name": "Status",
-            "Value": "Waiting for repairs",
+            "Value": "Crew assigned",
             "NoDisplay": false
           },
           {
@@ -1150,12 +1230,12 @@
           },
           {
             "Name": "Last update",
-            "Value": "04/13 09:40 AM",
+            "Value": "04/13 09:55 AM",
             "NoDisplay": false
           },
           {
             "Name": "Est. restoration time",
-            "Value": "04/13 11:00 AM",
+            "Value": "04/13 02:00 PM",
             "NoDisplay": false
           }
         ],
@@ -1307,5 +1387,5 @@
       }
     }
   ],
-  "LastUpdated": "2022-04-13T16:42:53+00:00"
+  "LastUpdated": "2022-04-13T17:02:53+00:00"
 }
