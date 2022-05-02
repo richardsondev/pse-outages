@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 21,
-    "OutageCount": 9,
-    "LastUpdatedDatetime": "05/02 04:42 PM"
+    "CustomerAfftectedCount": 30,
+    "OutageCount": 10,
+    "LastUpdatedDatetime": "05/02 04:52 PM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -117,17 +117,17 @@
           },
           {
             "Name": "Status",
-            "Value": "Outage reported",
+            "Value": "Waiting for repairs",
             "NoDisplay": false
           },
           {
             "Name": "Cause",
-            "Value": "Under Investigation",
+            "Value": "Faulty Installation",
             "NoDisplay": false
           },
           {
             "Name": "Last update",
-            "Value": "05/02 03:50 PM",
+            "Value": "05/02 04:45 PM",
             "NoDisplay": false
           },
           {
@@ -703,6 +703,115 @@
         "Attributes": [
           {
             "Name": "Start time",
+            "Value": "05/02 04:47 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "9",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "05/02 04:50 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "05/02 07:00 PM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.49197",
+          "Longitude": "-122.62209",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Port Orchard",
+          "Id": "808915-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.49133",
+          "Longitude": "-122.62248"
+        },
+        {
+          "Latitude": "47.49227",
+          "Longitude": "-122.62280"
+        },
+        {
+          "Latitude": "47.49228",
+          "Longitude": "-122.62281"
+        },
+        {
+          "Latitude": "47.49257",
+          "Longitude": "-122.62280"
+        },
+        {
+          "Latitude": "47.49262",
+          "Longitude": "-122.62272"
+        },
+        {
+          "Latitude": "47.49262",
+          "Longitude": "-122.62272"
+        },
+        {
+          "Latitude": "47.49245",
+          "Longitude": "-122.62144"
+        },
+        {
+          "Latitude": "47.49240",
+          "Longitude": "-122.62139"
+        },
+        {
+          "Latitude": "47.49141",
+          "Longitude": "-122.62150"
+        },
+        {
+          "Latitude": "47.49137",
+          "Longitude": "-122.62156"
+        },
+        {
+          "Latitude": "47.49129",
+          "Longitude": "-122.62241"
+        },
+        {
+          "Latitude": "47.49133",
+          "Longitude": "-122.62248"
+        },
+        {
+          "Latitude": "47.49133",
+          "Longitude": "-122.62248"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.49133",
+          "Longitude": "-122.62271"
+        },
+        "Max": {
+          "Latitude": "47.49259",
+          "Longitude": "-122.62146"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
             "Value": "05/02 01:01 PM",
             "NoDisplay": false
           },
@@ -893,5 +1002,5 @@
       }
     }
   ],
-  "LastUpdated": "2022-05-02T23:42:52+00:00"
+  "LastUpdated": "2022-05-02T23:52:52+00:00"
 }
