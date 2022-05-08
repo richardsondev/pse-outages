@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 33,
-    "OutageCount": 6,
-    "LastUpdatedDatetime": "05/08 10:02 AM"
+    "CustomerAfftectedCount": 36,
+    "OutageCount": 8,
+    "LastUpdatedDatetime": "05/08 10:27 AM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -122,7 +122,7 @@
           },
           {
             "Name": "Status",
-            "Value": "Crew assigned",
+            "Value": "Repair crew onsite",
             "NoDisplay": false
           },
           {
@@ -132,12 +132,12 @@
           },
           {
             "Name": "Last update",
-            "Value": "05/08 08:00 AM",
+            "Value": "05/08 10:25 AM",
             "NoDisplay": false
           },
           {
             "Name": "Est. restoration time",
-            "Value": "05/08 10:30 AM",
+            "Value": "05/08 06:30 PM",
             "NoDisplay": false
           }
         ],
@@ -241,6 +241,107 @@
         "Attributes": [
           {
             "Name": "Start time",
+            "Value": "05/08 10:10 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "1",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "05/08 10:15 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "05/08 12:30 PM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "48.03513",
+          "Longitude": "-122.40989",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Langley",
+          "Id": "809817-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "48.03538",
+          "Longitude": "-122.40924"
+        },
+        {
+          "Latitude": "48.03549",
+          "Longitude": "-122.40930"
+        },
+        {
+          "Latitude": "48.03556",
+          "Longitude": "-122.40945"
+        },
+        {
+          "Latitude": "48.03556",
+          "Longitude": "-122.40962"
+        },
+        {
+          "Latitude": "48.03549",
+          "Longitude": "-122.40976"
+        },
+        {
+          "Latitude": "48.03538",
+          "Longitude": "-122.40981"
+        },
+        {
+          "Latitude": "48.03526",
+          "Longitude": "-122.40976"
+        },
+        {
+          "Latitude": "48.03520",
+          "Longitude": "-122.40961"
+        },
+        {
+          "Latitude": "48.03520",
+          "Longitude": "-122.40943"
+        },
+        {
+          "Latitude": "48.03527",
+          "Longitude": "-122.40929"
+        },
+        {
+          "Latitude": "48.03538",
+          "Longitude": "-122.40924"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "48.03513",
+          "Longitude": "-122.40989"
+        },
+        "Max": {
+          "Latitude": "48.03513",
+          "Longitude": "-122.40989"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
             "Value": "05/07 08:36 AM",
             "NoDisplay": false
           },
@@ -334,6 +435,86 @@
         "Max": {
           "Latitude": "48.37805",
           "Longitude": "-122.20588"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "05/08 10:00 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "2",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Repair crew onsite",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Scheduled Outage",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "05/08 10:05 AM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.45234",
+          "Longitude": "-121.66111",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "North Bend",
+          "Id": "809713-1",
+          "PlannedOutage": true
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.45131",
+          "Longitude": "-121.66348"
+        },
+        {
+          "Latitude": "47.45129",
+          "Longitude": "-121.66354"
+        },
+        {
+          "Latitude": "47.45137",
+          "Longitude": "-121.66361"
+        },
+        {
+          "Latitude": "47.45336",
+          "Longitude": "-121.65874"
+        },
+        {
+          "Latitude": "47.45338",
+          "Longitude": "-121.65868"
+        },
+        {
+          "Latitude": "47.45330",
+          "Longitude": "-121.65862"
+        },
+        {
+          "Latitude": "47.45131",
+          "Longitude": "-121.66348"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.45135",
+          "Longitude": "-121.66352"
+        },
+        "Max": {
+          "Latitude": "47.45332",
+          "Longitude": "-121.65871"
         }
       }
     },
@@ -641,5 +822,5 @@
       }
     }
   ],
-  "LastUpdated": "2022-05-08T17:02:52+00:00"
+  "LastUpdated": "2022-05-08T17:27:52+00:00"
 }
