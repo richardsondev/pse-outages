@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 34,
-    "OutageCount": 5,
-    "LastUpdatedDatetime": "05/12 05:52 AM"
+    "CustomerAfftectedCount": 37,
+    "OutageCount": 6,
+    "LastUpdatedDatetime": "05/12 06:47 AM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -122,17 +122,17 @@
           },
           {
             "Name": "Status",
-            "Value": "Outage reported",
+            "Value": "Crew assigned",
             "NoDisplay": false
           },
           {
             "Name": "Cause",
-            "Value": "Under Investigation",
+            "Value": "Trees/Vegetation",
             "NoDisplay": false
           },
           {
             "Name": "Last update",
-            "Value": "05/12 05:25 AM",
+            "Value": "05/12 06:25 AM",
             "NoDisplay": false
           },
           {
@@ -147,7 +147,7 @@
           "MapType": "Outage",
           "PinType": "Outage",
           "Title": "Bellingham",
-          "Id": "810351-1",
+          "Id": "810351-2",
           "PlannedOutage": false
         }
       },
@@ -418,6 +418,91 @@
         "Attributes": [
           {
             "Name": "Start time",
+            "Value": "05/12 06:33 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "3",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Waiting for repairs",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Equipment Failure",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "05/12 06:40 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "05/12 09:00 AM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.58005",
+          "Longitude": "-122.55710",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Port Orchard",
+          "Id": "810356-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.57990",
+          "Longitude": "-122.55692"
+        },
+        {
+          "Latitude": "47.57986",
+          "Longitude": "-122.55689"
+        },
+        {
+          "Latitude": "47.57982",
+          "Longitude": "-122.55701"
+        },
+        {
+          "Latitude": "47.58021",
+          "Longitude": "-122.55728"
+        },
+        {
+          "Latitude": "47.58025",
+          "Longitude": "-122.55731"
+        },
+        {
+          "Latitude": "47.58028",
+          "Longitude": "-122.55719"
+        },
+        {
+          "Latitude": "47.57990",
+          "Longitude": "-122.55692"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.57987",
+          "Longitude": "-122.55721"
+        },
+        "Max": {
+          "Latitude": "47.58023",
+          "Longitude": "-122.55699"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
             "Value": "05/11 11:52 AM",
             "NoDisplay": false
           },
@@ -511,5 +596,5 @@
       }
     }
   ],
-  "LastUpdated": "2022-05-12T12:52:53+00:00"
+  "LastUpdated": "2022-05-12T13:47:52+00:00"
 }
