@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 40,
-    "OutageCount": 10,
-    "LastUpdatedDatetime": "05/15 11:52 AM"
+    "CustomerAfftectedCount": 42,
+    "OutageCount": 11,
+    "LastUpdatedDatetime": "05/15 12:17 PM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -21,7 +21,7 @@
           },
           {
             "Name": "Status",
-            "Value": "Waiting for repairs",
+            "Value": "Crew assigned",
             "NoDisplay": false
           },
           {
@@ -31,12 +31,12 @@
           },
           {
             "Name": "Last update",
-            "Value": "05/15 11:50 AM",
+            "Value": "05/15 12:10 PM",
             "NoDisplay": false
           },
           {
             "Name": "Est. restoration time",
-            "Value": "05/15 01:00 PM",
+            "Value": "05/15 05:00 PM",
             "NoDisplay": false
           }
         ],
@@ -838,6 +838,91 @@
         "Attributes": [
           {
             "Name": "Start time",
+            "Value": "05/15 11:54 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "2",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "05/15 12:00 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "05/15 02:00 PM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.43074",
+          "Longitude": "-122.28510",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Seattle",
+          "Id": "810822-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.43095",
+          "Longitude": "-122.28525"
+        },
+        {
+          "Latitude": "47.43100",
+          "Longitude": "-122.28527"
+        },
+        {
+          "Latitude": "47.43102",
+          "Longitude": "-122.28514"
+        },
+        {
+          "Latitude": "47.43053",
+          "Longitude": "-122.28495"
+        },
+        {
+          "Latitude": "47.43049",
+          "Longitude": "-122.28493"
+        },
+        {
+          "Latitude": "47.43046",
+          "Longitude": "-122.28506"
+        },
+        {
+          "Latitude": "47.43095",
+          "Longitude": "-122.28525"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.43052",
+          "Longitude": "-122.28517"
+        },
+        "Max": {
+          "Latitude": "47.43097",
+          "Longitude": "-122.28503"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
             "Value": "05/12 03:08 PM",
             "NoDisplay": false
           },
@@ -1023,5 +1108,5 @@
       }
     }
   ],
-  "LastUpdated": "2022-05-15T18:52:53+00:00"
+  "LastUpdated": "2022-05-15T19:17:52+00:00"
 }
