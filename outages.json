@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 52,
-    "OutageCount": 11,
-    "LastUpdatedDatetime": "05/20 12:22 PM"
+    "CustomerAfftectedCount": 53,
+    "OutageCount": 12,
+    "LastUpdatedDatetime": "05/20 12:32 PM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -513,17 +513,17 @@
           },
           {
             "Name": "Status",
-            "Value": "Outage reported",
+            "Value": "Waiting for repairs",
             "NoDisplay": false
           },
           {
             "Name": "Cause",
-            "Value": "Under Investigation",
+            "Value": "Equipment Failure",
             "NoDisplay": false
           },
           {
             "Name": "Last update",
-            "Value": "05/20 11:15 AM",
+            "Value": "05/20 12:30 PM",
             "NoDisplay": false
           },
           {
@@ -697,6 +697,102 @@
         "Max": {
           "Latitude": "48.03695",
           "Longitude": "-122.40686"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "05/20 12:18 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "1",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Repair crew onsite",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Scheduled Outage",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "05/20 12:25 PM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "48.95757",
+          "Longitude": "-122.40341",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Lynden",
+          "Id": "813086-1",
+          "PlannedOutage": true
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "48.95760",
+          "Longitude": "-122.40310"
+        },
+        {
+          "Latitude": "48.95771",
+          "Longitude": "-122.40315"
+        },
+        {
+          "Latitude": "48.95778",
+          "Longitude": "-122.40330"
+        },
+        {
+          "Latitude": "48.95777",
+          "Longitude": "-122.40348"
+        },
+        {
+          "Latitude": "48.95770",
+          "Longitude": "-122.40362"
+        },
+        {
+          "Latitude": "48.95759",
+          "Longitude": "-122.40367"
+        },
+        {
+          "Latitude": "48.95748",
+          "Longitude": "-122.40362"
+        },
+        {
+          "Latitude": "48.95741",
+          "Longitude": "-122.40347"
+        },
+        {
+          "Latitude": "48.95741",
+          "Longitude": "-122.40329"
+        },
+        {
+          "Latitude": "48.95749",
+          "Longitude": "-122.40315"
+        },
+        {
+          "Latitude": "48.95760",
+          "Longitude": "-122.40310"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "48.95757",
+          "Longitude": "-122.40341"
+        },
+        "Max": {
+          "Latitude": "48.95757",
+          "Longitude": "-122.40341"
         }
       }
     },
@@ -1093,5 +1189,5 @@
       }
     }
   ],
-  "LastUpdated": "2022-05-20T19:22:52+00:00"
+  "LastUpdated": "2022-05-20T19:32:52+00:00"
 }
