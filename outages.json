@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 53,
+    "CustomerAfftectedCount": 48,
     "OutageCount": 9,
-    "LastUpdatedDatetime": "05/20 02:42 PM"
+    "LastUpdatedDatetime": "05/20 02:52 PM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -220,6 +220,91 @@
         "Attributes": [
           {
             "Name": "Start time",
+            "Value": "05/20 02:37 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "2",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Waiting for repairs",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "05/20 02:45 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "05/20 05:00 PM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.03134",
+          "Longitude": "-120.66784",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Ellensburg",
+          "Id": "813115-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.03097",
+          "Longitude": "-120.66777"
+        },
+        {
+          "Latitude": "47.03093",
+          "Longitude": "-120.66777"
+        },
+        {
+          "Latitude": "47.03093",
+          "Longitude": "-120.66791"
+        },
+        {
+          "Latitude": "47.03171",
+          "Longitude": "-120.66790"
+        },
+        {
+          "Latitude": "47.03175",
+          "Longitude": "-120.66790"
+        },
+        {
+          "Latitude": "47.03175",
+          "Longitude": "-120.66777"
+        },
+        {
+          "Latitude": "47.03097",
+          "Longitude": "-120.66777"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.03097",
+          "Longitude": "-120.66784"
+        },
+        "Max": {
+          "Latitude": "47.03171",
+          "Longitude": "-120.66784"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
             "Value": "05/20 02:25 PM",
             "NoDisplay": false
           },
@@ -414,107 +499,6 @@
         "Max": {
           "Latitude": "47.05925",
           "Longitude": "-122.75885"
-        }
-      }
-    },
-    {
-      "DataProvider": {
-        "Attributes": [
-          {
-            "Name": "Start time",
-            "Value": "05/20 09:23 AM",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Customers impacted",
-            "Value": "7",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Status",
-            "Value": "Repair crew onsite",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Cause",
-            "Value": "Bird Or Animal",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Last update",
-            "Value": "05/20 02:40 PM",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Est. restoration time",
-            "Value": "05/20 03:30 PM",
-            "NoDisplay": false
-          }
-        ],
-        "PointOfInterest": {
-          "Latitude": "48.03672",
-          "Longitude": "-122.40713",
-          "MapType": "Outage",
-          "PinType": "Outage",
-          "Title": "Langley",
-          "Id": "813046-2",
-          "PlannedOutage": false
-        }
-      },
-      "Polygon": [
-        {
-          "Latitude": "48.03656",
-          "Longitude": "-122.40685"
-        },
-        {
-          "Latitude": "48.03656",
-          "Longitude": "-122.40725"
-        },
-        {
-          "Latitude": "48.03660",
-          "Longitude": "-122.40732"
-        },
-        {
-          "Latitude": "48.03676",
-          "Longitude": "-122.40733"
-        },
-        {
-          "Latitude": "48.03677",
-          "Longitude": "-122.40733"
-        },
-        {
-          "Latitude": "48.03695",
-          "Longitude": "-122.40734"
-        },
-        {
-          "Latitude": "48.03699",
-          "Longitude": "-122.40730"
-        },
-        {
-          "Latitude": "48.03698",
-          "Longitude": "-122.40722"
-        },
-        {
-          "Latitude": "48.03698",
-          "Longitude": "-122.40722"
-        },
-        {
-          "Latitude": "48.03663",
-          "Longitude": "-122.40679"
-        },
-        {
-          "Latitude": "48.03656",
-          "Longitude": "-122.40685"
-        }
-      ],
-      "BoundingBox": {
-        "Min": {
-          "Latitude": "48.03660",
-          "Longitude": "-122.40726"
-        },
-        "Max": {
-          "Latitude": "48.03695",
-          "Longitude": "-122.40686"
         }
       }
     },
@@ -836,17 +820,17 @@
           },
           {
             "Name": "Status",
-            "Value": "Outage reported",
+            "Value": "Waiting for repairs",
             "NoDisplay": false
           },
           {
             "Name": "Cause",
-            "Value": "Under Investigation",
+            "Value": "Equipment Failure",
             "NoDisplay": false
           },
           {
             "Name": "Last update",
-            "Value": "05/20 02:05 PM",
+            "Value": "05/20 02:50 PM",
             "NoDisplay": false
           },
           {
@@ -911,5 +895,5 @@
       }
     }
   ],
-  "LastUpdated": "2022-05-20T21:42:52+00:00"
+  "LastUpdated": "2022-05-20T21:52:52+00:00"
 }
