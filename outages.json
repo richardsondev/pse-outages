@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 23,
-    "OutageCount": 6,
-    "LastUpdatedDatetime": "05/23 02:52 PM"
+    "CustomerAfftectedCount": 25,
+    "OutageCount": 7,
+    "LastUpdatedDatetime": "05/23 03:27 PM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -520,6 +520,91 @@
         "Attributes": [
           {
             "Name": "Start time",
+            "Value": "05/23 02:58 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "2",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Waiting for repairs",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Equipment Failure",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "05/23 03:05 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "05/23 05:00 PM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "46.97807",
+          "Longitude": "-123.01341",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Olympia",
+          "Id": "813441-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "46.97849",
+          "Longitude": "-123.01345"
+        },
+        {
+          "Latitude": "46.97854",
+          "Longitude": "-123.01344"
+        },
+        {
+          "Latitude": "46.97853",
+          "Longitude": "-123.01331"
+        },
+        {
+          "Latitude": "46.97764",
+          "Longitude": "-123.01337"
+        },
+        {
+          "Latitude": "46.97760",
+          "Longitude": "-123.01338"
+        },
+        {
+          "Latitude": "46.97760",
+          "Longitude": "-123.01351"
+        },
+        {
+          "Latitude": "46.97849",
+          "Longitude": "-123.01345"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "46.97764",
+          "Longitude": "-123.01344"
+        },
+        "Max": {
+          "Latitude": "46.97849",
+          "Longitude": "-123.01338"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
             "Value": "05/23 11:31 AM",
             "NoDisplay": false
           },
@@ -530,7 +615,7 @@
           },
           {
             "Name": "Status",
-            "Value": "Crew assigned",
+            "Value": "Repair crew onsite",
             "NoDisplay": false
           },
           {
@@ -540,7 +625,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "05/23 01:30 PM",
+            "Value": "05/23 03:00 PM",
             "NoDisplay": false
           },
           {
@@ -617,5 +702,5 @@
       }
     }
   ],
-  "LastUpdated": "2022-05-23T21:52:52+00:00"
+  "LastUpdated": "2022-05-23T22:27:52+00:00"
 }
