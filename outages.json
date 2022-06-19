@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 5207,
+    "CustomerAfftectedCount": 5206,
     "OutageCount": 13,
-    "LastUpdatedDatetime": "06/19 03:47 PM"
+    "LastUpdatedDatetime": "06/19 04:12 PM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -250,17 +250,17 @@
           },
           {
             "Name": "Status",
-            "Value": "Outage reported",
+            "Value": "Waiting for repairs",
             "NoDisplay": false
           },
           {
             "Name": "Cause",
-            "Value": "Under Investigation",
+            "Value": "Accident",
             "NoDisplay": false
           },
           {
             "Name": "Last update",
-            "Value": "06/19 03:20 PM",
+            "Value": "06/19 04:10 PM",
             "NoDisplay": false
           },
           {
@@ -526,6 +526,91 @@
         "Max": {
           "Latitude": "48.72405",
           "Longitude": "-122.34113"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "06/19 03:55 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "2",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "06/19 04:00 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "06/19 06:00 PM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.96273",
+          "Longitude": "-122.38086",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Clinton",
+          "Id": "817616-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.96251",
+          "Longitude": "-122.38086"
+        },
+        {
+          "Latitude": "47.96247",
+          "Longitude": "-122.38087"
+        },
+        {
+          "Latitude": "47.96249",
+          "Longitude": "-122.38100"
+        },
+        {
+          "Latitude": "47.96295",
+          "Longitude": "-122.38087"
+        },
+        {
+          "Latitude": "47.96299",
+          "Longitude": "-122.38085"
+        },
+        {
+          "Latitude": "47.96297",
+          "Longitude": "-122.38072"
+        },
+        {
+          "Latitude": "47.96251",
+          "Longitude": "-122.38086"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.96252",
+          "Longitude": "-122.38092"
+        },
+        "Max": {
+          "Latitude": "47.96294",
+          "Longitude": "-122.38080"
         }
       }
     },
@@ -815,12 +900,12 @@
           },
           {
             "Name": "Last update",
-            "Value": "06/19 03:40 PM",
+            "Value": "06/19 04:00 PM",
             "NoDisplay": false
           },
           {
             "Name": "Est. restoration time",
-            "Value": "06/19 04:30 PM",
+            "Value": "06/19 09:30 PM",
             "NoDisplay": false
           }
         ],
@@ -989,91 +1074,6 @@
         "Max": {
           "Latitude": "47.69819",
           "Longitude": "-122.17644"
-        }
-      }
-    },
-    {
-      "DataProvider": {
-        "Attributes": [
-          {
-            "Name": "Start time",
-            "Value": "06/19 12:44 PM",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Customers impacted",
-            "Value": "3",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Status",
-            "Value": "Waiting for repairs",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Cause",
-            "Value": "Bird Or Animal",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Last update",
-            "Value": "06/19 03:30 PM",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Est. restoration time",
-            "Value": "06/19 04:30 PM",
-            "NoDisplay": false
-          }
-        ],
-        "PointOfInterest": {
-          "Latitude": "47.73577",
-          "Longitude": "-122.66520",
-          "MapType": "Outage",
-          "PinType": "Outage",
-          "Title": "Poulsbo",
-          "Id": "817576-1",
-          "PlannedOutage": false
-        }
-      },
-      "Polygon": [
-        {
-          "Latitude": "47.73598",
-          "Longitude": "-122.66602"
-        },
-        {
-          "Latitude": "47.73600",
-          "Longitude": "-122.66608"
-        },
-        {
-          "Latitude": "47.73608",
-          "Longitude": "-122.66602"
-        },
-        {
-          "Latitude": "47.73555",
-          "Longitude": "-122.66438"
-        },
-        {
-          "Latitude": "47.73553",
-          "Longitude": "-122.66432"
-        },
-        {
-          "Latitude": "47.73545",
-          "Longitude": "-122.66438"
-        },
-        {
-          "Latitude": "47.73598",
-          "Longitude": "-122.66602"
-        }
-      ],
-      "BoundingBox": {
-        "Min": {
-          "Latitude": "47.73548",
-          "Longitude": "-122.66597"
-        },
-        "Max": {
-          "Latitude": "47.73605",
-          "Longitude": "-122.66443"
         }
       }
     },
@@ -1373,5 +1373,5 @@
       }
     }
   ],
-  "LastUpdated": "2022-06-19T22:47:53+00:00"
+  "LastUpdated": "2022-06-19T23:12:52+00:00"
 }
