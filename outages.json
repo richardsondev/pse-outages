@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 179,
-    "OutageCount": 13,
-    "LastUpdatedDatetime": "06/24 11:32 AM"
+    "CustomerAfftectedCount": 180,
+    "OutageCount": 14,
+    "LastUpdatedDatetime": "06/24 11:47 AM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -21,17 +21,17 @@
           },
           {
             "Name": "Status",
-            "Value": "Outage reported",
+            "Value": "Waiting for repairs",
             "NoDisplay": false
           },
           {
             "Name": "Cause",
-            "Value": "Under Investigation",
+            "Value": "Equipment Failure",
             "NoDisplay": false
           },
           {
             "Name": "Last update",
-            "Value": "06/24 10:45 AM",
+            "Value": "06/24 11:40 AM",
             "NoDisplay": false
           },
           {
@@ -429,6 +429,102 @@
         "Max": {
           "Latitude": "47.41176",
           "Longitude": "-122.26249"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "06/24 11:07 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "1",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Repair crew onsite",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Scheduled Outage",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "06/24 11:40 AM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "48.31554",
+          "Longitude": "-122.64328",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Oak Harbor",
+          "Id": "818395-1",
+          "PlannedOutage": true
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "48.31566",
+          "Longitude": "-122.64282"
+        },
+        {
+          "Latitude": "48.31577",
+          "Longitude": "-122.64288"
+        },
+        {
+          "Latitude": "48.31584",
+          "Longitude": "-122.64303"
+        },
+        {
+          "Latitude": "48.31584",
+          "Longitude": "-122.64320"
+        },
+        {
+          "Latitude": "48.31577",
+          "Longitude": "-122.64334"
+        },
+        {
+          "Latitude": "48.31565",
+          "Longitude": "-122.64339"
+        },
+        {
+          "Latitude": "48.31554",
+          "Longitude": "-122.64333"
+        },
+        {
+          "Latitude": "48.31547",
+          "Longitude": "-122.64319"
+        },
+        {
+          "Latitude": "48.31548",
+          "Longitude": "-122.64301"
+        },
+        {
+          "Latitude": "48.31555",
+          "Longitude": "-122.64287"
+        },
+        {
+          "Latitude": "48.31566",
+          "Longitude": "-122.64282"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "48.31554",
+          "Longitude": "-122.64328"
+        },
+        "Max": {
+          "Latitude": "48.31554",
+          "Longitude": "-122.64328"
         }
       }
     },
@@ -1306,5 +1402,5 @@
       }
     }
   ],
-  "LastUpdated": "2022-06-24T18:32:52+00:00"
+  "LastUpdated": "2022-06-24T18:47:52+00:00"
 }
