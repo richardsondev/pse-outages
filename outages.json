@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 182,
-    "OutageCount": 8,
-    "LastUpdatedDatetime": "07/08 05:12 AM"
+    "CustomerAfftectedCount": 184,
+    "OutageCount": 9,
+    "LastUpdatedDatetime": "07/08 05:42 AM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -410,17 +410,17 @@
           },
           {
             "Name": "Status",
-            "Value": "Outage reported",
+            "Value": "Waiting for repairs",
             "NoDisplay": false
           },
           {
             "Name": "Cause",
-            "Value": "Under Investigation",
+            "Value": "Equipment Failure",
             "NoDisplay": false
           },
           {
             "Name": "Last update",
-            "Value": "07/08 04:45 AM",
+            "Value": "07/08 05:35 AM",
             "NoDisplay": false
           },
           {
@@ -605,6 +605,91 @@
         "Attributes": [
           {
             "Name": "Start time",
+            "Value": "07/08 05:33 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "2",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "07/08 05:40 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "07/08 08:00 AM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.47902",
+          "Longitude": "-122.09489",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Renton",
+          "Id": "821289-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.47916",
+          "Longitude": "-122.09464"
+        },
+        {
+          "Latitude": "47.47918",
+          "Longitude": "-122.09459"
+        },
+        {
+          "Latitude": "47.47911",
+          "Longitude": "-122.09452"
+        },
+        {
+          "Latitude": "47.47887",
+          "Longitude": "-122.09513"
+        },
+        {
+          "Latitude": "47.47885",
+          "Longitude": "-122.09519"
+        },
+        {
+          "Latitude": "47.47893",
+          "Longitude": "-122.09525"
+        },
+        {
+          "Latitude": "47.47916",
+          "Longitude": "-122.09464"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.47891",
+          "Longitude": "-122.09516"
+        },
+        "Max": {
+          "Latitude": "47.47912",
+          "Longitude": "-122.09461"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
             "Value": "07/08 03:07 AM",
             "NoDisplay": false
           },
@@ -625,12 +710,12 @@
           },
           {
             "Name": "Last update",
-            "Value": "07/08 03:40 AM",
+            "Value": "07/08 05:20 AM",
             "NoDisplay": false
           },
           {
             "Name": "Est. restoration time",
-            "Value": "07/08 05:30 AM",
+            "Value": "07/08 06:30 AM",
             "NoDisplay": false
           }
         ],
@@ -712,7 +797,7 @@
           },
           {
             "Name": "Status",
-            "Value": "Crew assigned",
+            "Value": "Repair crew onsite",
             "NoDisplay": false
           },
           {
@@ -722,7 +807,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "07/08 03:40 AM",
+            "Value": "07/08 05:15 AM",
             "NoDisplay": false
           },
           {
@@ -831,5 +916,5 @@
       }
     }
   ],
-  "LastUpdated": "2022-07-08T12:12:52+00:00"
+  "LastUpdated": "2022-07-08T12:42:53+00:00"
 }
