@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 2060,
+    "CustomerAfftectedCount": 2058,
     "OutageCount": 13,
-    "LastUpdatedDatetime": "07/10 10:32 AM"
+    "LastUpdatedDatetime": "07/10 10:47 AM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -660,17 +660,17 @@
           },
           {
             "Name": "Status",
-            "Value": "Outage reported",
+            "Value": "Waiting for repairs",
             "NoDisplay": false
           },
           {
             "Name": "Cause",
-            "Value": "Under Investigation",
+            "Value": "Equipment Failure",
             "NoDisplay": false
           },
           {
             "Name": "Last update",
-            "Value": "07/10 10:30 AM",
+            "Value": "07/10 10:35 AM",
             "NoDisplay": false
           },
           {
@@ -828,6 +828,107 @@
         "Max": {
           "Latitude": "46.95540",
           "Longitude": "-123.01488"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "07/10 10:34 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "3",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "07/10 10:40 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "07/10 01:00 PM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "46.96347",
+          "Longitude": "-123.03792",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Olympia",
+          "Id": "821585-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "46.96345",
+          "Longitude": "-123.03766"
+        },
+        {
+          "Latitude": "46.96357",
+          "Longitude": "-123.03772"
+        },
+        {
+          "Latitude": "46.96363",
+          "Longitude": "-123.03786"
+        },
+        {
+          "Latitude": "46.96363",
+          "Longitude": "-123.03804"
+        },
+        {
+          "Latitude": "46.96356",
+          "Longitude": "-123.03817"
+        },
+        {
+          "Latitude": "46.96344",
+          "Longitude": "-123.03822"
+        },
+        {
+          "Latitude": "46.96333",
+          "Longitude": "-123.03816"
+        },
+        {
+          "Latitude": "46.96327",
+          "Longitude": "-123.03802"
+        },
+        {
+          "Latitude": "46.96327",
+          "Longitude": "-123.03785"
+        },
+        {
+          "Latitude": "46.96334",
+          "Longitude": "-123.03771"
+        },
+        {
+          "Latitude": "46.96345",
+          "Longitude": "-123.03766"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "46.96330",
+          "Longitude": "-123.03834"
+        },
+        "Max": {
+          "Latitude": "46.96356",
+          "Longitude": "-123.03755"
         }
       }
     },
@@ -1227,115 +1328,6 @@
         "Attributes": [
           {
             "Name": "Start time",
-            "Value": "07/10 02:25 AM",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Customers impacted",
-            "Value": "5",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Status",
-            "Value": "Repair crew onsite",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Cause",
-            "Value": "Equipment Failure",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Last update",
-            "Value": "07/10 07:35 AM",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Est. restoration time",
-            "Value": "07/10 10:30 AM",
-            "NoDisplay": false
-          }
-        ],
-        "PointOfInterest": {
-          "Latitude": "47.22772",
-          "Longitude": "-122.22626",
-          "MapType": "Outage",
-          "PinType": "Outage",
-          "Title": "Sumner",
-          "Id": "821546-2",
-          "PlannedOutage": false
-        }
-      },
-      "Polygon": [
-        {
-          "Latitude": "47.22327",
-          "Longitude": "-122.22834"
-        },
-        {
-          "Latitude": "47.22791",
-          "Longitude": "-122.22719"
-        },
-        {
-          "Latitude": "47.22792",
-          "Longitude": "-122.22718"
-        },
-        {
-          "Latitude": "47.23217",
-          "Longitude": "-122.22456"
-        },
-        {
-          "Latitude": "47.23220",
-          "Longitude": "-122.22448"
-        },
-        {
-          "Latitude": "47.23215",
-          "Longitude": "-122.22443"
-        },
-        {
-          "Latitude": "47.23018",
-          "Longitude": "-122.22465"
-        },
-        {
-          "Latitude": "47.23017",
-          "Longitude": "-122.22465"
-        },
-        {
-          "Latitude": "47.22701",
-          "Longitude": "-122.22550"
-        },
-        {
-          "Latitude": "47.22699",
-          "Longitude": "-122.22551"
-        },
-        {
-          "Latitude": "47.22325",
-          "Longitude": "-122.22822"
-        },
-        {
-          "Latitude": "47.22322",
-          "Longitude": "-122.22830"
-        },
-        {
-          "Latitude": "47.22327",
-          "Longitude": "-122.22834"
-        }
-      ],
-      "BoundingBox": {
-        "Min": {
-          "Latitude": "47.22327",
-          "Longitude": "-122.22828"
-        },
-        "Max": {
-          "Latitude": "47.23215",
-          "Longitude": "-122.22450"
-        }
-      }
-    },
-    {
-      "DataProvider": {
-        "Attributes": [
-          {
-            "Name": "Start time",
             "Value": "07/08 10:17 AM",
             "NoDisplay": false
           },
@@ -1428,5 +1420,5 @@
       }
     }
   ],
-  "LastUpdated": "2022-07-10T17:32:53+00:00"
+  "LastUpdated": "2022-07-10T17:47:52+00:00"
 }
