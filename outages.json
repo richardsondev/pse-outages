@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 30,
-    "OutageCount": 7,
-    "LastUpdatedDatetime": "07/14 12:07 PM"
+    "CustomerAfftectedCount": 32,
+    "OutageCount": 8,
+    "LastUpdatedDatetime": "07/14 12:27 PM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -507,17 +507,17 @@
           },
           {
             "Name": "Status",
-            "Value": "Outage reported",
+            "Value": "Waiting for repairs",
             "NoDisplay": false
           },
           {
             "Name": "Cause",
-            "Value": "Under Investigation",
+            "Value": "Customer Equipment",
             "NoDisplay": false
           },
           {
             "Name": "Last update",
-            "Value": "07/14 10:45 AM",
+            "Value": "07/14 12:10 PM",
             "NoDisplay": false
           },
           {
@@ -693,7 +693,87 @@
           "Longitude": "-122.82448"
         }
       }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "07/14 11:30 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "2",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Repair crew onsite",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Scheduled Outage",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "07/14 12:10 PM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "46.85485",
+          "Longitude": "-122.64642",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Rainier",
+          "Id": "822288-1",
+          "PlannedOutage": true
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "46.85509",
+          "Longitude": "-122.64665"
+        },
+        {
+          "Latitude": "46.85513",
+          "Longitude": "-122.64668"
+        },
+        {
+          "Latitude": "46.85517",
+          "Longitude": "-122.64656"
+        },
+        {
+          "Latitude": "46.85461",
+          "Longitude": "-122.64620"
+        },
+        {
+          "Latitude": "46.85457",
+          "Longitude": "-122.64617"
+        },
+        {
+          "Latitude": "46.85453",
+          "Longitude": "-122.64629"
+        },
+        {
+          "Latitude": "46.85509",
+          "Longitude": "-122.64665"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "46.85458",
+          "Longitude": "-122.64657"
+        },
+        "Max": {
+          "Latitude": "46.85511",
+          "Longitude": "-122.64628"
+        }
+      }
     }
   ],
-  "LastUpdated": "2022-07-14T19:07:52+00:00"
+  "LastUpdated": "2022-07-14T19:27:52+00:00"
 }
