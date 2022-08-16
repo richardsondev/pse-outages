@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 8,
-    "OutageCount": 4,
-    "LastUpdatedDatetime": "08/15 09:42 PM"
+    "CustomerAfftectedCount": 9,
+    "OutageCount": 5,
+    "LastUpdatedDatetime": "08/15 09:57 PM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -117,7 +117,7 @@
           },
           {
             "Name": "Status",
-            "Value": "Crew assigned",
+            "Value": "Repair crew onsite",
             "NoDisplay": false
           },
           {
@@ -127,7 +127,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "08/15 05:55 PM",
+            "Value": "08/15 09:55 PM",
             "NoDisplay": false
           },
           {
@@ -296,6 +296,107 @@
         "Attributes": [
           {
             "Name": "Start time",
+            "Value": "08/15 09:44 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "1",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "08/15 09:50 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "08/16 12:00 AM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.05835",
+          "Longitude": "-122.97455",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Olympia",
+          "Id": "828310-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.05830",
+          "Longitude": "-122.97434"
+        },
+        {
+          "Latitude": "47.05841",
+          "Longitude": "-122.97440"
+        },
+        {
+          "Latitude": "47.05848",
+          "Longitude": "-122.97454"
+        },
+        {
+          "Latitude": "47.05848",
+          "Longitude": "-122.97472"
+        },
+        {
+          "Latitude": "47.05841",
+          "Longitude": "-122.97485"
+        },
+        {
+          "Latitude": "47.05829",
+          "Longitude": "-122.97490"
+        },
+        {
+          "Latitude": "47.05818",
+          "Longitude": "-122.97484"
+        },
+        {
+          "Latitude": "47.05811",
+          "Longitude": "-122.97470"
+        },
+        {
+          "Latitude": "47.05812",
+          "Longitude": "-122.97453"
+        },
+        {
+          "Latitude": "47.05819",
+          "Longitude": "-122.97439"
+        },
+        {
+          "Latitude": "47.05830",
+          "Longitude": "-122.97434"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.05835",
+          "Longitude": "-122.97455"
+        },
+        "Max": {
+          "Latitude": "47.05835",
+          "Longitude": "-122.97455"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
             "Value": "08/15 04:28 PM",
             "NoDisplay": false
           },
@@ -385,5 +486,5 @@
       }
     }
   ],
-  "LastUpdated": "2022-08-16T04:42:52+00:00"
+  "LastUpdated": "2022-08-16T04:57:52+00:00"
 }
