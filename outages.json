@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 98,
-    "OutageCount": 14,
-    "LastUpdatedDatetime": "08/23 03:12 PM"
+    "CustomerAfftectedCount": 101,
+    "OutageCount": 15,
+    "LastUpdatedDatetime": "08/23 03:32 PM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -419,17 +419,17 @@
           },
           {
             "Name": "Status",
-            "Value": "Outage reported",
+            "Value": "Waiting for repairs",
             "NoDisplay": false
           },
           {
             "Name": "Cause",
-            "Value": "Under Investigation",
+            "Value": "Bird Or Animal",
             "NoDisplay": false
           },
           {
             "Name": "Last update",
-            "Value": "08/23 03:05 PM",
+            "Value": "08/23 03:15 PM",
             "NoDisplay": false
           },
           {
@@ -486,6 +486,103 @@
         "Max": {
           "Latitude": "47.64930",
           "Longitude": "-122.20275"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "08/23 03:19 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "3",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "08/23 03:25 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "08/23 05:30 PM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "48.94266",
+          "Longitude": "-122.47570",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Lynden",
+          "Id": "829658-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "48.94222",
+          "Longitude": "-122.47571"
+        },
+        {
+          "Latitude": "48.94311",
+          "Longitude": "-122.47597"
+        },
+        {
+          "Latitude": "48.94316",
+          "Longitude": "-122.47592"
+        },
+        {
+          "Latitude": "48.94313",
+          "Longitude": "-122.47584"
+        },
+        {
+          "Latitude": "48.94265",
+          "Longitude": "-122.47550"
+        },
+        {
+          "Latitude": "48.94263",
+          "Longitude": "-122.47549"
+        },
+        {
+          "Latitude": "48.94222",
+          "Longitude": "-122.47557"
+        },
+        {
+          "Latitude": "48.94218",
+          "Longitude": "-122.47564"
+        },
+        {
+          "Latitude": "48.94222",
+          "Longitude": "-122.47571"
+        },
+        {
+          "Latitude": "48.94222",
+          "Longitude": "-122.47571"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "48.94222",
+          "Longitude": "-122.47587"
+        },
+        "Max": {
+          "Latitude": "48.94312",
+          "Longitude": "-122.47558"
         }
       }
     },
@@ -1043,7 +1140,7 @@
           },
           {
             "Name": "Status",
-            "Value": "Waiting for repairs",
+            "Value": "Crew assigned",
             "NoDisplay": false
           },
           {
@@ -1053,7 +1150,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "08/23 03:00 PM",
+            "Value": "08/23 03:30 PM",
             "NoDisplay": false
           },
           {
@@ -1419,5 +1516,5 @@
       }
     }
   ],
-  "LastUpdated": "2022-08-23T22:12:53+00:00"
+  "LastUpdated": "2022-08-23T22:32:52+00:00"
 }
