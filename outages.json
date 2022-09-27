@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 121,
-    "OutageCount": 12,
-    "LastUpdatedDatetime": "09/27 09:37 AM"
+    "CustomerAfftectedCount": 142,
+    "OutageCount": 13,
+    "LastUpdatedDatetime": "09/27 10:02 AM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -554,7 +554,7 @@
           },
           {
             "Name": "Status",
-            "Value": "Outage reported",
+            "Value": "Waiting for repairs",
             "NoDisplay": false
           },
           {
@@ -564,7 +564,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "09/27 09:10 AM",
+            "Value": "09/27 09:50 AM",
             "NoDisplay": false
           },
           {
@@ -821,6 +821,106 @@
         "Max": {
           "Latitude": "48.99174",
           "Longitude": "-123.07368"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "09/27 09:44 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "21",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Repair crew onsite",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Scheduled Outage",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "09/27 10:00 AM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.62311",
+          "Longitude": "-122.84617",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Seabeck",
+          "Id": "835150-1",
+          "PlannedOutage": true
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.62003",
+          "Longitude": "-122.84636"
+        },
+        {
+          "Latitude": "47.62071",
+          "Longitude": "-122.84980"
+        },
+        {
+          "Latitude": "47.62072",
+          "Longitude": "-122.84982"
+        },
+        {
+          "Latitude": "47.62186",
+          "Longitude": "-122.85151"
+        },
+        {
+          "Latitude": "47.62190",
+          "Longitude": "-122.85152"
+        },
+        {
+          "Latitude": "47.62409",
+          "Longitude": "-122.85064"
+        },
+        {
+          "Latitude": "47.62412",
+          "Longitude": "-122.85059"
+        },
+        {
+          "Latitude": "47.62630",
+          "Longitude": "-122.83891"
+        },
+        {
+          "Latitude": "47.62628",
+          "Longitude": "-122.83884"
+        },
+        {
+          "Latitude": "47.62622",
+          "Longitude": "-122.83884"
+        },
+        {
+          "Latitude": "47.62005",
+          "Longitude": "-122.84629"
+        },
+        {
+          "Latitude": "47.62003",
+          "Longitude": "-122.84636"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.61998",
+          "Longitude": "-122.85138"
+        },
+        "Max": {
+          "Latitude": "47.62625",
+          "Longitude": "-122.83889"
         }
       }
     },
@@ -1267,5 +1367,5 @@
       }
     }
   ],
-  "LastUpdated": "2022-09-27T16:37:53+00:00"
+  "LastUpdated": "2022-09-27T17:02:53+00:00"
 }
