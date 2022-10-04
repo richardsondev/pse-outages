@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 653,
-    "OutageCount": 17,
-    "LastUpdatedDatetime": "10/04 10:42 AM"
+    "CustomerAfftectedCount": 655,
+    "OutageCount": 18,
+    "LastUpdatedDatetime": "10/04 10:57 AM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -361,17 +361,17 @@
           },
           {
             "Name": "Status",
-            "Value": "Outage reported",
+            "Value": "Waiting for repairs",
             "NoDisplay": false
           },
           {
             "Name": "Cause",
-            "Value": "Under Investigation",
+            "Value": "Equipment Failure",
             "NoDisplay": false
           },
           {
             "Name": "Last update",
-            "Value": "10/04 09:40 AM",
+            "Value": "10/04 10:50 AM",
             "NoDisplay": false
           },
           {
@@ -386,7 +386,7 @@
           "MapType": "Outage",
           "PinType": "Outage",
           "Title": "Bellevue",
-          "Id": "836036-1",
+          "Id": "836036-2",
           "PlannedOutage": false
         }
       },
@@ -1103,7 +1103,7 @@
           },
           {
             "Name": "Status",
-            "Value": "Waiting for repairs",
+            "Value": "Crew assigned",
             "NoDisplay": false
           },
           {
@@ -1113,7 +1113,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "10/04 10:20 AM",
+            "Value": "10/04 10:45 AM",
             "NoDisplay": false
           },
           {
@@ -1278,6 +1278,91 @@
         "Max": {
           "Latitude": "47.05511",
           "Longitude": "-122.87168"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "10/04 10:49 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "2",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "10/04 10:55 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "10/04 01:00 PM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.11034",
+          "Longitude": "-122.95812",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Olympia",
+          "Id": "836069-1",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.11045",
+          "Longitude": "-122.95827"
+        },
+        {
+          "Latitude": "47.11049",
+          "Longitude": "-122.95830"
+        },
+        {
+          "Latitude": "47.11053",
+          "Longitude": "-122.95818"
+        },
+        {
+          "Latitude": "47.11024",
+          "Longitude": "-122.95797"
+        },
+        {
+          "Latitude": "47.11020",
+          "Longitude": "-122.95794"
+        },
+        {
+          "Latitude": "47.11016",
+          "Longitude": "-122.95806"
+        },
+        {
+          "Latitude": "47.11045",
+          "Longitude": "-122.95827"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.11022",
+          "Longitude": "-122.95820"
+        },
+        "Max": {
+          "Latitude": "47.11047",
+          "Longitude": "-122.95804"
         }
       }
     },
@@ -1881,5 +1966,5 @@
       }
     }
   ],
-  "LastUpdated": "2022-10-04T17:42:53+00:00"
+  "LastUpdated": "2022-10-04T17:57:53+00:00"
 }
