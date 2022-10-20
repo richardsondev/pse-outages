@@ -1,10 +1,87 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 0,
-    "OutageCount": 0,
-    "LastUpdatedDatetime": "10/20 08:15 AM"
+    "CustomerAfftectedCount": 3,
+    "OutageCount": 1,
+    "LastUpdatedDatetime": "10/20 08:35 AM"
   },
   "CustomerProfile": null,
-  "PseMap": [],
-  "LastUpdated": "2022-10-20T15:15:09+00:00"
+  "PseMap": [
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "10/20 08:20 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "3",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "10/20 08:30 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "10/20 10:30 AM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.41575",
+          "Longitude": "-122.54664",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Olalla",
+          "Id": "838260",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.41556",
+          "Longitude": "-122.54703"
+        },
+        {
+          "Latitude": "47.41597",
+          "Longitude": "-122.54704"
+        },
+        {
+          "Latitude": "47.41602",
+          "Longitude": "-122.54696"
+        },
+        {
+          "Latitude": "47.41576",
+          "Longitude": "-122.54596"
+        },
+        {
+          "Latitude": "47.41568",
+          "Longitude": "-122.54596"
+        },
+        {
+          "Latitude": "47.41551",
+          "Longitude": "-122.54695"
+        },
+        {
+          "Latitude": "47.41556",
+          "Longitude": "-122.54703"
+        }
+      ],
+      "BoundingBox": null
+    }
+  ],
+  "LastUpdated": "2022-10-20T15:35:18+00:00"
 }
