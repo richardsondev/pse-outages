@@ -1,11 +1,111 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 1,
-    "OutageCount": 1,
-    "LastUpdatedDatetime": "11/12 01:30 AM"
+    "CustomerAfftectedCount": 10,
+    "OutageCount": 2,
+    "LastUpdatedDatetime": "11/12 01:50 AM"
   },
   "CustomerProfile": null,
   "PseMap": [
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "11/12 01:30 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "9",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "11/12 01:45 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "11/12 03:30 AM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "48.78993",
+          "Longitude": "-122.41720",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Bellingham",
+          "Id": "851143",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "48.78963",
+          "Longitude": "-122.41736"
+        },
+        {
+          "Latitude": "48.78969",
+          "Longitude": "-122.41772"
+        },
+        {
+          "Latitude": "48.78973",
+          "Longitude": "-122.41777"
+        },
+        {
+          "Latitude": "48.78998",
+          "Longitude": "-122.41780"
+        },
+        {
+          "Latitude": "48.79000",
+          "Longitude": "-122.41779"
+        },
+        {
+          "Latitude": "48.79020",
+          "Longitude": "-122.41767"
+        },
+        {
+          "Latitude": "48.79023",
+          "Longitude": "-122.41761"
+        },
+        {
+          "Latitude": "48.79021",
+          "Longitude": "-122.41676"
+        },
+        {
+          "Latitude": "48.79018",
+          "Longitude": "-122.41670"
+        },
+        {
+          "Latitude": "48.78974",
+          "Longitude": "-122.41656"
+        },
+        {
+          "Latitude": "48.78968",
+          "Longitude": "-122.41662"
+        },
+        {
+          "Latitude": "48.78963",
+          "Longitude": "-122.41733"
+        },
+        {
+          "Latitude": "48.78963",
+          "Longitude": "-122.41736"
+        }
+      ],
+      "BoundingBox": null
+    },
     {
       "DataProvider": {
         "Attributes": [
@@ -31,7 +131,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "11/12 01:25 AM",
+            "Value": "11/12 01:45 AM",
             "NoDisplay": false
           },
           {
@@ -187,5 +287,5 @@
       "BoundingBox": null
     }
   ],
-  "LastUpdated": "2022-11-12T09:30:27+00:00"
+  "LastUpdated": "2022-11-12T09:50:29+00:00"
 }
