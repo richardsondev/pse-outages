@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 10,
-    "OutageCount": 3,
-    "LastUpdatedDatetime": "04/30 07:29 AM"
+    "CustomerAfftectedCount": 15,
+    "OutageCount": 4,
+    "LastUpdatedDatetime": "04/30 07:49 AM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -21,17 +21,17 @@
           },
           {
             "Name": "Status",
-            "Value": "Outage reported",
+            "Value": "Waiting for repairs",
             "NoDisplay": false
           },
           {
             "Name": "Cause",
-            "Value": "Under Investigation",
+            "Value": "Equipment Failure",
             "NoDisplay": false
           },
           {
             "Name": "Last update",
-            "Value": "04/30 07:25 AM",
+            "Value": "04/30 07:45 AM",
             "NoDisplay": false
           },
           {
@@ -111,6 +111,90 @@
         "Attributes": [
           {
             "Name": "Start time",
+            "Value": "04/30 07:28 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "5",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "04/30 07:45 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "04/30 09:30 AM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.42544",
+          "Longitude": "-122.58252",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Olalla",
+          "Id": "897684",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.42486",
+          "Longitude": "-122.58185"
+        },
+        {
+          "Latitude": "47.42499",
+          "Longitude": "-122.58294"
+        },
+        {
+          "Latitude": "47.42502",
+          "Longitude": "-122.58299"
+        },
+        {
+          "Latitude": "47.42587",
+          "Longitude": "-122.58333"
+        },
+        {
+          "Latitude": "47.42592",
+          "Longitude": "-122.58327"
+        },
+        {
+          "Latitude": "47.42595",
+          "Longitude": "-122.58211"
+        },
+        {
+          "Latitude": "47.42591",
+          "Longitude": "-122.58204"
+        },
+        {
+          "Latitude": "47.42491",
+          "Longitude": "-122.58177"
+        },
+        {
+          "Latitude": "47.42486",
+          "Longitude": "-122.58185"
+        }
+      ],
+      "BoundingBox": null
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
             "Value": "04/28 01:31 PM",
             "NoDisplay": false
           },
@@ -131,7 +215,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "04/30 07:25 AM",
+            "Value": "04/30 07:45 AM",
             "NoDisplay": false
           },
           {
@@ -319,7 +403,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "04/30 07:25 AM",
+            "Value": "04/30 07:45 AM",
             "NoDisplay": false
           },
           {
@@ -475,5 +559,5 @@
       "BoundingBox": null
     }
   ],
-  "LastUpdated": "2023-04-30T14:29:08+00:00"
+  "LastUpdated": "2023-04-30T14:49:08+00:00"
 }
