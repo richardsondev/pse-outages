@@ -1,11 +1,104 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 4,
-    "OutageCount": 1,
-    "LastUpdatedDatetime": "08/20 02:29 AM"
+    "CustomerAfftectedCount": 10,
+    "OutageCount": 2,
+    "LastUpdatedDatetime": "08/20 02:49 AM"
   },
   "CustomerProfile": null,
   "PseMap": [
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "08/20 02:32 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "6",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Waiting for repairs",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Equipment Failure",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "08/20 02:45 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "08/20 05:00 AM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.39228",
+          "Longitude": "-122.06628",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Maple Valley",
+          "Id": "918247",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.39170",
+          "Longitude": "-122.06489"
+        },
+        {
+          "Latitude": "47.39180",
+          "Longitude": "-122.06649"
+        },
+        {
+          "Latitude": "47.39181",
+          "Longitude": "-122.06652"
+        },
+        {
+          "Latitude": "47.39251",
+          "Longitude": "-122.06785"
+        },
+        {
+          "Latitude": "47.39259",
+          "Longitude": "-122.06782"
+        },
+        {
+          "Latitude": "47.39290",
+          "Longitude": "-122.06604"
+        },
+        {
+          "Latitude": "47.39288",
+          "Longitude": "-122.06597"
+        },
+        {
+          "Latitude": "47.39177",
+          "Longitude": "-122.06483"
+        },
+        {
+          "Latitude": "47.39170",
+          "Longitude": "-122.06489"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.39170",
+          "Longitude": "-122.06785"
+        },
+        "Max": {
+          "Latitude": "47.39290",
+          "Longitude": "-122.06483"
+        }
+      }
+    },
     {
       "DataProvider": {
         "Attributes": [
@@ -31,7 +124,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "08/20 02:25 AM",
+            "Value": "08/20 02:45 AM",
             "NoDisplay": false
           },
           {
@@ -92,5 +185,5 @@
       }
     }
   ],
-  "LastUpdated": "2023-08-20T09:29:09+00:00"
+  "LastUpdated": "2023-08-20T09:49:10+00:00"
 }
