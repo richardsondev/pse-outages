@@ -1,11 +1,104 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 1,
-    "OutageCount": 1,
-    "LastUpdatedDatetime": "08/31 03:29 AM"
+    "CustomerAfftectedCount": 12,
+    "OutageCount": 2,
+    "LastUpdatedDatetime": "08/31 03:49 AM"
   },
   "CustomerProfile": null,
   "PseMap": [
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "08/31 03:08 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "11",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "08/31 03:45 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "08/31 05:30 AM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "48.48575",
+          "Longitude": "-122.31394",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Burlington",
+          "Id": "920604",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "48.48163",
+          "Longitude": "-122.31275"
+        },
+        {
+          "Latitude": "48.48322",
+          "Longitude": "-122.31445"
+        },
+        {
+          "Latitude": "48.48323",
+          "Longitude": "-122.31446"
+        },
+        {
+          "Latitude": "48.48761",
+          "Longitude": "-122.31540"
+        },
+        {
+          "Latitude": "48.48764",
+          "Longitude": "-122.31539"
+        },
+        {
+          "Latitude": "48.48975",
+          "Longitude": "-122.31364"
+        },
+        {
+          "Latitude": "48.48973",
+          "Longitude": "-122.31351"
+        },
+        {
+          "Latitude": "48.48166",
+          "Longitude": "-122.31263"
+        },
+        {
+          "Latitude": "48.48163",
+          "Longitude": "-122.31275"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "48.48163",
+          "Longitude": "-122.31540"
+        },
+        "Max": {
+          "Latitude": "48.48975",
+          "Longitude": "-122.31263"
+        }
+      }
+    },
     {
       "DataProvider": {
         "Attributes": [
@@ -21,7 +114,7 @@
           },
           {
             "Name": "Status",
-            "Value": "Crew assigned",
+            "Value": "Repair crew onsite",
             "NoDisplay": false
           },
           {
@@ -31,7 +124,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "08/31 03:25 AM",
+            "Value": "08/31 03:45 AM",
             "NoDisplay": false
           },
           {
@@ -196,5 +289,5 @@
       }
     }
   ],
-  "LastUpdated": "2023-08-31T10:29:10+00:00"
+  "LastUpdated": "2023-08-31T10:49:10+00:00"
 }
