@@ -1,10 +1,91 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 0,
-    "OutageCount": 0,
-    "LastUpdatedDatetime": "10/04 04:29 AM"
+    "CustomerAfftectedCount": 189,
+    "OutageCount": 1,
+    "LastUpdatedDatetime": "10/04 04:49 AM"
   },
   "CustomerProfile": null,
-  "PseMap": [],
-  "LastUpdated": "2023-10-04T11:29:09+00:00"
+  "PseMap": [
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "10/04 04:13 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "189",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Repair crew onsite",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Scheduled Outage",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "10/04 04:45 AM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.67539",
+          "Longitude": "-122.12492",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Downtown",
+          "Id": "927491",
+          "PlannedOutage": true
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.67533",
+          "Longitude": "-122.12490"
+        },
+        {
+          "Latitude": "47.67535",
+          "Longitude": "-122.12496"
+        },
+        {
+          "Latitude": "47.67537",
+          "Longitude": "-122.12499"
+        },
+        {
+          "Latitude": "47.67540",
+          "Longitude": "-122.12501"
+        },
+        {
+          "Latitude": "47.67545",
+          "Longitude": "-122.12491"
+        },
+        {
+          "Latitude": "47.67541",
+          "Longitude": "-122.12483"
+        },
+        {
+          "Latitude": "47.67533",
+          "Longitude": "-122.12490"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.67533",
+          "Longitude": "-122.12501"
+        },
+        "Max": {
+          "Latitude": "47.67545",
+          "Longitude": "-122.12483"
+        }
+      }
+    }
+  ],
+  "LastUpdated": "2023-10-04T11:49:09+00:00"
 }
