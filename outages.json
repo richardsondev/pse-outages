@@ -1,11 +1,96 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 13,
-    "OutageCount": 2,
-    "LastUpdatedDatetime": "10/14 08:29 PM"
+    "CustomerAfftectedCount": 16,
+    "OutageCount": 3,
+    "LastUpdatedDatetime": "10/14 08:49 PM"
   },
   "CustomerProfile": null,
   "PseMap": [
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "10/14 08:26 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "3",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "10/14 08:45 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "10/14 10:30 PM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "48.32252",
+          "Longitude": "-122.66897",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Oak Harbor",
+          "Id": "929406",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "48.32237",
+          "Longitude": "-122.66923"
+        },
+        {
+          "Latitude": "48.32282",
+          "Longitude": "-122.66908"
+        },
+        {
+          "Latitude": "48.32282",
+          "Longitude": "-122.66896"
+        },
+        {
+          "Latitude": "48.32240",
+          "Longitude": "-122.66866"
+        },
+        {
+          "Latitude": "48.32233",
+          "Longitude": "-122.66871"
+        },
+        {
+          "Latitude": "48.32232",
+          "Longitude": "-122.66917"
+        },
+        {
+          "Latitude": "48.32237",
+          "Longitude": "-122.66923"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "48.32232",
+          "Longitude": "-122.66923"
+        },
+        "Max": {
+          "Latitude": "48.32282",
+          "Longitude": "-122.66866"
+        }
+      }
+    },
     {
       "DataProvider": {
         "Attributes": [
@@ -21,17 +106,17 @@
           },
           {
             "Name": "Status",
-            "Value": "Outage reported",
+            "Value": "Waiting for repairs",
             "NoDisplay": false
           },
           {
             "Name": "Cause",
-            "Value": "Under Investigation",
+            "Value": "Trees/Vegetation",
             "NoDisplay": false
           },
           {
             "Name": "Last update",
-            "Value": "10/14 08:25 PM",
+            "Value": "10/14 08:45 PM",
             "NoDisplay": false
           },
           {
@@ -130,7 +215,7 @@
           },
           {
             "Name": "Status",
-            "Value": "Waiting for repairs",
+            "Value": "Crew assigned",
             "NoDisplay": false
           },
           {
@@ -140,7 +225,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "10/14 08:25 PM",
+            "Value": "10/14 08:45 PM",
             "NoDisplay": false
           },
           {
@@ -305,5 +390,5 @@
       }
     }
   ],
-  "LastUpdated": "2023-10-15T03:29:09+00:00"
+  "LastUpdated": "2023-10-15T03:49:10+00:00"
 }
