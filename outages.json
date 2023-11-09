@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 100,
-    "OutageCount": 1,
-    "LastUpdatedDatetime": "11/09 04:14 AM"
+    "CustomerAfftectedCount": 103,
+    "OutageCount": 2,
+    "LastUpdatedDatetime": "11/09 04:34 AM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -21,7 +21,7 @@
           },
           {
             "Name": "Status",
-            "Value": "Crew assigned",
+            "Value": "Repair crew onsite",
             "NoDisplay": false
           },
           {
@@ -31,7 +31,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "11/09 04:10 AM",
+            "Value": "11/09 04:30 AM",
             "NoDisplay": false
           },
           {
@@ -138,7 +138,92 @@
           "Longitude": "-122.06936"
         }
       }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "11/09 04:21 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "3",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "11/09 04:30 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "11/09 06:30 AM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.98018",
+          "Longitude": "-122.36182",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Clinton",
+          "Id": "935251",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.98012",
+          "Longitude": "-122.36187"
+        },
+        {
+          "Latitude": "47.98021",
+          "Longitude": "-122.36191"
+        },
+        {
+          "Latitude": "47.98024",
+          "Longitude": "-122.36178"
+        },
+        {
+          "Latitude": "47.98021",
+          "Longitude": "-122.36176"
+        },
+        {
+          "Latitude": "47.98020",
+          "Longitude": "-122.36176"
+        },
+        {
+          "Latitude": "47.98014",
+          "Longitude": "-122.36174"
+        },
+        {
+          "Latitude": "47.98012",
+          "Longitude": "-122.36187"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.98012",
+          "Longitude": "-122.36191"
+        },
+        "Max": {
+          "Latitude": "47.98024",
+          "Longitude": "-122.36174"
+        }
+      }
     }
   ],
-  "LastUpdated": "2023-11-09T12:14:09+00:00"
+  "LastUpdated": "2023-11-09T12:34:09+00:00"
 }
