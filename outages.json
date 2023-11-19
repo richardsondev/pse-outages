@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 7,
-    "OutageCount": 2,
-    "LastUpdatedDatetime": "11/18 11:09 PM"
+    "CustomerAfftectedCount": 10,
+    "OutageCount": 3,
+    "LastUpdatedDatetime": "11/18 11:29 PM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -31,7 +31,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "11/18 11:05 PM",
+            "Value": "11/18 11:25 PM",
             "NoDisplay": false
           }
         ],
@@ -195,6 +195,91 @@
         "Attributes": [
           {
             "Name": "Start time",
+            "Value": "11/18 11:08 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "3",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Waiting for repairs",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Equipment Failure",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "11/18 11:25 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "11/19 01:30 AM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.61987",
+          "Longitude": "-122.21993",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Northwest Bellevue",
+          "Id": "939863",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.61969",
+          "Longitude": "-122.21986"
+        },
+        {
+          "Latitude": "47.61994",
+          "Longitude": "-122.22019"
+        },
+        {
+          "Latitude": "47.62001",
+          "Longitude": "-122.22012"
+        },
+        {
+          "Latitude": "47.61996",
+          "Longitude": "-122.21981"
+        },
+        {
+          "Latitude": "47.61992",
+          "Longitude": "-122.21976"
+        },
+        {
+          "Latitude": "47.61972",
+          "Longitude": "-122.21974"
+        },
+        {
+          "Latitude": "47.61969",
+          "Longitude": "-122.21986"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.61969",
+          "Longitude": "-122.22019"
+        },
+        "Max": {
+          "Latitude": "47.62001",
+          "Longitude": "-122.21974"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
             "Value": "11/18 01:27 PM",
             "NoDisplay": false
           },
@@ -215,7 +300,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "11/18 11:05 PM",
+            "Value": "11/18 11:25 PM",
             "NoDisplay": false
           },
           {
@@ -292,5 +377,5 @@
       }
     }
   ],
-  "LastUpdated": "2023-11-19T07:09:13+00:00"
+  "LastUpdated": "2023-11-19T07:29:10+00:00"
 }
