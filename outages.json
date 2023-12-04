@@ -1,11 +1,96 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 2,
-    "OutageCount": 1,
-    "LastUpdatedDatetime": "12/04 06:29 AM"
+    "CustomerAfftectedCount": 5,
+    "OutageCount": 2,
+    "LastUpdatedDatetime": "12/04 06:49 AM"
   },
   "CustomerProfile": null,
   "PseMap": [
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "12/04 06:34 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "3",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "12/04 06:45 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "12/04 09:00 AM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.18850",
+          "Longitude": "-122.31776",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Puyallup",
+          "Id": "942925",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.18837",
+          "Longitude": "-122.31793"
+        },
+        {
+          "Latitude": "47.18863",
+          "Longitude": "-122.31810"
+        },
+        {
+          "Latitude": "47.18869",
+          "Longitude": "-122.31802"
+        },
+        {
+          "Latitude": "47.18851",
+          "Longitude": "-122.31735"
+        },
+        {
+          "Latitude": "47.18842",
+          "Longitude": "-122.31736"
+        },
+        {
+          "Latitude": "47.18835",
+          "Longitude": "-122.31786"
+        },
+        {
+          "Latitude": "47.18837",
+          "Longitude": "-122.31793"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.18835",
+          "Longitude": "-122.31810"
+        },
+        "Max": {
+          "Latitude": "47.18869",
+          "Longitude": "-122.31735"
+        }
+      }
+    },
     {
       "DataProvider": {
         "Attributes": [
@@ -31,7 +116,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "12/04 06:25 AM",
+            "Value": "12/04 06:45 AM",
             "NoDisplay": false
           },
           {
@@ -204,5 +289,5 @@
       }
     }
   ],
-  "LastUpdated": "2023-12-04T14:29:11+00:00"
+  "LastUpdated": "2023-12-04T14:49:15+00:00"
 }
