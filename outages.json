@@ -1,11 +1,104 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 6,
-    "OutageCount": 2,
-    "LastUpdatedDatetime": "01/01 11:09 PM"
+    "CustomerAfftectedCount": 10,
+    "OutageCount": 3,
+    "LastUpdatedDatetime": "01/01 11:29 PM"
   },
   "CustomerProfile": null,
   "PseMap": [
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "01/01 11:07 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "4",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "01/01 11:25 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "01/02 01:30 AM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.57354",
+          "Longitude": "-122.13996",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Eastgate",
+          "Id": "948127",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.57322",
+          "Longitude": "-122.13981"
+        },
+        {
+          "Latitude": "47.57355",
+          "Longitude": "-122.14028"
+        },
+        {
+          "Latitude": "47.57358",
+          "Longitude": "-122.14030"
+        },
+        {
+          "Latitude": "47.57386",
+          "Longitude": "-122.14034"
+        },
+        {
+          "Latitude": "47.57390",
+          "Longitude": "-122.14023"
+        },
+        {
+          "Latitude": "47.57350",
+          "Longitude": "-122.13958"
+        },
+        {
+          "Latitude": "47.57345",
+          "Longitude": "-122.13956"
+        },
+        {
+          "Latitude": "47.57324",
+          "Longitude": "-122.13970"
+        },
+        {
+          "Latitude": "47.57322",
+          "Longitude": "-122.13981"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.57322",
+          "Longitude": "-122.14034"
+        },
+        "Max": {
+          "Latitude": "47.57390",
+          "Longitude": "-122.13956"
+        }
+      }
+    },
     {
       "DataProvider": {
         "Attributes": [
@@ -31,7 +124,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "01/01 11:05 PM",
+            "Value": "01/01 11:25 PM",
             "NoDisplay": false
           },
           {
@@ -220,7 +313,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "01/01 11:05 PM",
+            "Value": "01/01 11:25 PM",
             "NoDisplay": false
           },
           {
@@ -297,5 +390,5 @@
       }
     }
   ],
-  "LastUpdated": "2024-01-02T07:09:07+00:00"
+  "LastUpdated": "2024-01-02T07:29:08+00:00"
 }
