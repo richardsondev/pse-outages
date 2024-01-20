@@ -1,11 +1,96 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 3,
-    "OutageCount": 2,
-    "LastUpdatedDatetime": "01/20 10:29 AM"
+    "CustomerAfftectedCount": 8,
+    "OutageCount": 3,
+    "LastUpdatedDatetime": "01/20 10:49 AM"
   },
   "CustomerProfile": null,
   "PseMap": [
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "01/20 10:41 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "5",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "01/20 10:45 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "01/20 01:00 PM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "48.79181",
+          "Longitude": "-122.40588",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Bellingham",
+          "Id": "958544",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "48.79144",
+          "Longitude": "-122.40604"
+        },
+        {
+          "Latitude": "48.79199",
+          "Longitude": "-122.40626"
+        },
+        {
+          "Latitude": "48.79204",
+          "Longitude": "-122.40619"
+        },
+        {
+          "Latitude": "48.79202",
+          "Longitude": "-122.40546"
+        },
+        {
+          "Latitude": "48.79195",
+          "Longitude": "-122.40540"
+        },
+        {
+          "Latitude": "48.79143",
+          "Longitude": "-122.40591"
+        },
+        {
+          "Latitude": "48.79144",
+          "Longitude": "-122.40604"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "48.79143",
+          "Longitude": "-122.40626"
+        },
+        "Max": {
+          "Latitude": "48.79204",
+          "Longitude": "-122.40540"
+        }
+      }
+    },
     {
       "DataProvider": {
         "Attributes": [
@@ -31,7 +116,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "01/20 10:25 AM",
+            "Value": "01/20 10:45 AM",
             "NoDisplay": false
           },
           {
@@ -228,7 +313,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "01/20 10:25 AM",
+            "Value": "01/20 10:45 AM",
             "NoDisplay": false
           },
           {
@@ -393,5 +478,5 @@
       }
     }
   ],
-  "LastUpdated": "2024-01-20T18:29:17+00:00"
+  "LastUpdated": "2024-01-20T18:49:15+00:00"
 }
