@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 31,
-    "OutageCount": 6,
-    "LastUpdatedDatetime": "01/31 09:29 PM"
+    "CustomerAfftectedCount": 67,
+    "OutageCount": 7,
+    "LastUpdatedDatetime": "01/31 09:49 PM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -21,17 +21,17 @@
           },
           {
             "Name": "Status",
-            "Value": "Outage reported",
+            "Value": "Waiting for repairs",
             "NoDisplay": false
           },
           {
             "Name": "Cause",
-            "Value": "Under Investigation",
+            "Value": "Outage While Working",
             "NoDisplay": false
           },
           {
             "Name": "Last update",
-            "Value": "01/31 09:25 PM",
+            "Value": "01/31 09:45 PM",
             "NoDisplay": false
           },
           {
@@ -228,7 +228,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "01/31 09:25 PM",
+            "Value": "01/31 09:45 PM",
             "NoDisplay": false
           }
         ],
@@ -402,7 +402,7 @@
           },
           {
             "Name": "Status",
-            "Value": "Crew assigned",
+            "Value": "Repair crew onsite",
             "NoDisplay": false
           },
           {
@@ -412,7 +412,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "01/31 09:25 PM",
+            "Value": "01/31 09:45 PM",
             "NoDisplay": false
           },
           {
@@ -505,7 +505,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "01/31 09:25 PM",
+            "Value": "01/31 09:45 PM",
             "NoDisplay": false
           },
           {
@@ -622,7 +622,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "01/31 09:25 PM",
+            "Value": "01/31 09:45 PM",
             "NoDisplay": false
           },
           {
@@ -811,7 +811,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "01/31 09:25 PM",
+            "Value": "01/31 09:45 PM",
             "NoDisplay": false
           },
           {
@@ -870,7 +870,87 @@
           "Longitude": "-122.88616"
         }
       }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "01/31 09:36 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "36",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Repair crew onsite",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Scheduled Outage",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "01/31 09:45 PM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.62363",
+          "Longitude": "-122.16978",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Wilburton",
+          "Id": "942944",
+          "PlannedOutage": true
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.62319",
+          "Longitude": "-122.17073"
+        },
+        {
+          "Latitude": "47.62368",
+          "Longitude": "-122.17085"
+        },
+        {
+          "Latitude": "47.62374",
+          "Longitude": "-122.17080"
+        },
+        {
+          "Latitude": "47.62404",
+          "Longitude": "-122.16790"
+        },
+        {
+          "Latitude": "47.62395",
+          "Longitude": "-122.16786"
+        },
+        {
+          "Latitude": "47.62316",
+          "Longitude": "-122.17064"
+        },
+        {
+          "Latitude": "47.62319",
+          "Longitude": "-122.17073"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.62316",
+          "Longitude": "-122.17085"
+        },
+        "Max": {
+          "Latitude": "47.62404",
+          "Longitude": "-122.16786"
+        }
+      }
     }
   ],
-  "LastUpdated": "2024-02-01T05:29:11+00:00"
+  "LastUpdated": "2024-02-01T05:49:10+00:00"
 }
