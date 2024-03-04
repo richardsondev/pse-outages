@@ -1,11 +1,96 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 2,
-    "OutageCount": 1,
-    "LastUpdatedDatetime": "03/03 11:09 PM"
+    "CustomerAfftectedCount": 5,
+    "OutageCount": 2,
+    "LastUpdatedDatetime": "03/03 11:49 PM"
   },
   "CustomerProfile": null,
   "PseMap": [
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "03/03 11:09 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "3",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "03/03 11:45 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "03/04 01:30 AM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.59691",
+          "Longitude": "-122.63751",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Bremerton",
+          "Id": "969678",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.59660",
+          "Longitude": "-122.63785"
+        },
+        {
+          "Latitude": "47.59683",
+          "Longitude": "-122.63784"
+        },
+        {
+          "Latitude": "47.59686",
+          "Longitude": "-122.63781"
+        },
+        {
+          "Latitude": "47.59732",
+          "Longitude": "-122.63702"
+        },
+        {
+          "Latitude": "47.59726",
+          "Longitude": "-122.63693"
+        },
+        {
+          "Latitude": "47.59657",
+          "Longitude": "-122.63773"
+        },
+        {
+          "Latitude": "47.59660",
+          "Longitude": "-122.63785"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.59657",
+          "Longitude": "-122.63785"
+        },
+        "Max": {
+          "Latitude": "47.59732",
+          "Longitude": "-122.63693"
+        }
+      }
+    },
     {
       "DataProvider": {
         "Attributes": [
@@ -31,7 +116,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "03/03 11:05 PM",
+            "Value": "03/03 11:45 PM",
             "NoDisplay": false
           },
           {
@@ -204,5 +289,5 @@
       }
     }
   ],
-  "LastUpdated": "2024-03-04T07:09:10+00:00"
+  "LastUpdated": "2024-03-04T07:49:10+00:00"
 }
