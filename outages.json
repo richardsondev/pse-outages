@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 102,
-    "OutageCount": 2,
-    "LastUpdatedDatetime": "03/31 02:29 AM"
+    "CustomerAfftectedCount": 110,
+    "OutageCount": 3,
+    "LastUpdatedDatetime": "03/31 02:49 AM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -10,12 +10,12 @@
       "DataProvider": {
         "Attributes": [
           {
-            "Name": "Hora de inicio",
+            "Name": "Start time",
             "Value": "03/30 08:50 PM",
             "NoDisplay": false
           },
           {
-            "Name": "Clientes afectados",
+            "Name": "Customers impacted",
             "Value": "101",
             "NoDisplay": false
           },
@@ -25,17 +25,17 @@
             "NoDisplay": false
           },
           {
-            "Name": "Causa",
+            "Name": "Cause",
             "Value": "Car/Equip Accident",
             "NoDisplay": false
           },
           {
-            "Name": "Última actualización",
-            "Value": "03/31 02:25 AM",
+            "Name": "Last update",
+            "Value": "03/31 02:45 AM",
             "NoDisplay": false
           },
           {
-            "Name": "Tiempo estimado de restauración",
+            "Name": "Est. restoration time",
             "Value": "To Be Determined",
             "NoDisplay": false
           }
@@ -151,12 +151,129 @@
       "DataProvider": {
         "Attributes": [
           {
-            "Name": "Hora de inicio",
+            "Name": "Start time",
+            "Value": "03/31 02:26 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "8",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "03/31 02:45 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "03/31 04:30 AM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.40546",
+          "Longitude": "-122.19544",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Kent",
+          "Id": "975153",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.40516",
+          "Longitude": "-122.19510"
+        },
+        {
+          "Latitude": "47.40524",
+          "Longitude": "-122.19562"
+        },
+        {
+          "Latitude": "47.40524",
+          "Longitude": "-122.19563"
+        },
+        {
+          "Latitude": "47.40534",
+          "Longitude": "-122.19590"
+        },
+        {
+          "Latitude": "47.40539",
+          "Longitude": "-122.19593"
+        },
+        {
+          "Latitude": "47.40572",
+          "Longitude": "-122.19580"
+        },
+        {
+          "Latitude": "47.40576",
+          "Longitude": "-122.19573"
+        },
+        {
+          "Latitude": "47.40574",
+          "Longitude": "-122.19557"
+        },
+        {
+          "Latitude": "47.40574",
+          "Longitude": "-122.19557"
+        },
+        {
+          "Latitude": "47.40572",
+          "Longitude": "-122.19532"
+        },
+        {
+          "Latitude": "47.40571",
+          "Longitude": "-122.19529"
+        },
+        {
+          "Latitude": "47.40559",
+          "Longitude": "-122.19500"
+        },
+        {
+          "Latitude": "47.40555",
+          "Longitude": "-122.19497"
+        },
+        {
+          "Latitude": "47.40520",
+          "Longitude": "-122.19502"
+        },
+        {
+          "Latitude": "47.40516",
+          "Longitude": "-122.19510"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.40516",
+          "Longitude": "-122.19593"
+        },
+        "Max": {
+          "Latitude": "47.40576",
+          "Longitude": "-122.19497"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
             "Value": "03/27 09:47 AM",
             "NoDisplay": false
           },
           {
-            "Name": "Clientes afectados",
+            "Name": "Customers impacted",
             "Value": "1",
             "NoDisplay": false
           },
@@ -166,13 +283,13 @@
             "NoDisplay": false
           },
           {
-            "Name": "Causa",
+            "Name": "Cause",
             "Value": "Scheduled Outage",
             "NoDisplay": false
           },
           {
-            "Name": "Última actualización",
-            "Value": "03/31 02:25 AM",
+            "Name": "Last update",
+            "Value": "03/31 02:45 AM",
             "NoDisplay": false
           }
         ],
@@ -332,5 +449,5 @@
       }
     }
   ],
-  "LastUpdated": "2024-03-31T09:29:07+00:00"
+  "LastUpdated": "2024-03-31T09:49:07+00:00"
 }
