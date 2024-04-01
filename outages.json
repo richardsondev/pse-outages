@@ -1,11 +1,104 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 1,
-    "OutageCount": 1,
-    "LastUpdatedDatetime": "04/01 01:09 AM"
+    "CustomerAfftectedCount": 6,
+    "OutageCount": 2,
+    "LastUpdatedDatetime": "04/01 01:29 AM"
   },
   "CustomerProfile": null,
   "PseMap": [
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "04/01 01:21 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "5",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under Investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "04/01 01:25 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "04/01 03:30 AM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.42607",
+          "Longitude": "-122.34782",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Normandy Park",
+          "Id": "975192",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.42537",
+          "Longitude": "-122.34787"
+        },
+        {
+          "Latitude": "47.42643",
+          "Longitude": "-122.34825"
+        },
+        {
+          "Latitude": "47.42647",
+          "Longitude": "-122.34822"
+        },
+        {
+          "Latitude": "47.42662",
+          "Longitude": "-122.34793"
+        },
+        {
+          "Latitude": "47.42661",
+          "Longitude": "-122.34784"
+        },
+        {
+          "Latitude": "47.42615",
+          "Longitude": "-122.34738"
+        },
+        {
+          "Latitude": "47.42611",
+          "Longitude": "-122.34737"
+        },
+        {
+          "Latitude": "47.42537",
+          "Longitude": "-122.34774"
+        },
+        {
+          "Latitude": "47.42537",
+          "Longitude": "-122.34787"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.42537",
+          "Longitude": "-122.34825"
+        },
+        "Max": {
+          "Latitude": "47.42662",
+          "Longitude": "-122.34737"
+        }
+      }
+    },
     {
       "DataProvider": {
         "Attributes": [
@@ -31,7 +124,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "04/01 01:05 AM",
+            "Value": "04/01 01:25 AM",
             "NoDisplay": false
           }
         ],
@@ -191,5 +284,5 @@
       }
     }
   ],
-  "LastUpdated": "2024-04-01T08:09:09+00:00"
+  "LastUpdated": "2024-04-01T08:29:12+00:00"
 }
