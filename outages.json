@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 10,
-    "OutageCount": 4,
-    "LastUpdatedDatetime": "04/03 04:49 PM"
+    "CustomerAfftectedCount": 15,
+    "OutageCount": 5,
+    "LastUpdatedDatetime": "04/03 05:19 PM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -31,7 +31,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "04/03 04:45 PM",
+            "Value": "04/03 05:15 PM",
             "NoDisplay": false
           },
           {
@@ -210,17 +210,17 @@
           },
           {
             "Name": "Status",
-            "Value": "Outage reported",
+            "Value": "Waiting for repairs",
             "NoDisplay": false
           },
           {
             "Name": "Cause",
-            "Value": "Under Investigation",
+            "Value": "Equipment Failure",
             "NoDisplay": false
           },
           {
             "Name": "Last update",
-            "Value": "04/03 04:45 PM",
+            "Value": "04/03 05:15 PM",
             "NoDisplay": false
           },
           {
@@ -389,6 +389,99 @@
         "Attributes": [
           {
             "Name": "Start time",
+            "Value": "04/03 04:44 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "5",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Repair crew onsite",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Equipment Failure",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "04/03 05:15 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "To Be Determined",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.56422",
+          "Longitude": "-122.21895",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Mercer Island",
+          "Id": "975647",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.56388",
+          "Longitude": "-122.21927"
+        },
+        {
+          "Latitude": "47.56427",
+          "Longitude": "-122.21935"
+        },
+        {
+          "Latitude": "47.56432",
+          "Longitude": "-122.21931"
+        },
+        {
+          "Latitude": "47.56453",
+          "Longitude": "-122.21861"
+        },
+        {
+          "Latitude": "47.56449",
+          "Longitude": "-122.21852"
+        },
+        {
+          "Latitude": "47.56427",
+          "Longitude": "-122.21852"
+        },
+        {
+          "Latitude": "47.56424",
+          "Longitude": "-122.21854"
+        },
+        {
+          "Latitude": "47.56385",
+          "Longitude": "-122.21915"
+        },
+        {
+          "Latitude": "47.56388",
+          "Longitude": "-122.21927"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.56385",
+          "Longitude": "-122.21935"
+        },
+        "Max": {
+          "Latitude": "47.56453",
+          "Longitude": "-122.21852"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
             "Value": "04/02 07:28 AM",
             "NoDisplay": false
           },
@@ -409,7 +502,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "04/03 04:45 PM",
+            "Value": "04/03 05:15 PM",
             "NoDisplay": false
           },
           {
@@ -598,12 +691,12 @@
           },
           {
             "Name": "Last update",
-            "Value": "04/03 04:45 PM",
+            "Value": "04/03 05:15 PM",
             "NoDisplay": false
           },
           {
             "Name": "Est. restoration time",
-            "Value": "04/03 05:00 PM",
+            "Value": "04/03 07:00 PM",
             "NoDisplay": false
           }
         ],
@@ -763,5 +856,5 @@
       }
     }
   ],
-  "LastUpdated": "2024-04-03T23:49:09+00:00"
+  "LastUpdated": "2024-04-04T00:19:11+00:00"
 }
