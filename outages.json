@@ -1,11 +1,99 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 1,
-    "OutageCount": 1,
-    "LastUpdatedDatetime": "05/29 04:14 AM"
+    "CustomerAfftectedCount": 8,
+    "OutageCount": 2,
+    "LastUpdatedDatetime": "05/29 04:29 AM"
   },
   "CustomerProfile": null,
   "PseMap": [
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "05/29 04:12 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "7",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Repair crew onsite",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Scheduled Outage",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "05/29 04:25 AM",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.06876",
+          "Longitude": "-122.76865",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Lacey",
+          "Id": "985039",
+          "PlannedOutage": true
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.06857",
+          "Longitude": "-122.77002"
+        },
+        {
+          "Latitude": "47.06862",
+          "Longitude": "-122.76998"
+        },
+        {
+          "Latitude": "47.06864",
+          "Longitude": "-122.76994"
+        },
+        {
+          "Latitude": "47.06903",
+          "Longitude": "-122.76812"
+        },
+        {
+          "Latitude": "47.06902",
+          "Longitude": "-122.76806"
+        },
+        {
+          "Latitude": "47.06882",
+          "Longitude": "-122.76762"
+        },
+        {
+          "Latitude": "47.06874",
+          "Longitude": "-122.76765"
+        },
+        {
+          "Latitude": "47.06850",
+          "Longitude": "-122.76996"
+        },
+        {
+          "Latitude": "47.06857",
+          "Longitude": "-122.77002"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.06850",
+          "Longitude": "-122.77002"
+        },
+        "Max": {
+          "Latitude": "47.06903",
+          "Longitude": "-122.76762"
+        }
+      }
+    },
     {
       "DataProvider": {
         "Attributes": [
@@ -31,7 +119,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "05/29 04:10 AM",
+            "Value": "05/29 04:25 AM",
             "NoDisplay": false
           },
           {
@@ -196,5 +284,5 @@
       }
     }
   ],
-  "LastUpdated": "2024-05-29T11:14:11+00:00"
+  "LastUpdated": "2024-05-29T11:29:11+00:00"
 }
