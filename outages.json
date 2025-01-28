@@ -1,11 +1,101 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 5,
-    "OutageCount": 2,
-    "LastUpdatedDatetime": "01/27 11:30 PM"
+    "CustomerAfftectedCount": 8,
+    "OutageCount": 3,
+    "LastUpdatedDatetime": "01/27 11:49 PM"
   },
   "CustomerProfile": null,
   "PseMap": [
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "01/27 11:42 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "3",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "01/27 11:45 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "01/28 03:00 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Outage ID",
+            "Value": "INC1135025816",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "46.79610",
+          "Longitude": "-123.02492",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Centralia",
+          "Id": "INC1135025816",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "46.79594",
+          "Longitude": "-123.02455"
+        },
+        {
+          "Latitude": "46.79609",
+          "Longitude": "-123.02577"
+        },
+        {
+          "Latitude": "46.79618",
+          "Longitude": "-123.02576"
+        },
+        {
+          "Latitude": "46.79622",
+          "Longitude": "-123.02447"
+        },
+        {
+          "Latitude": "46.79616",
+          "Longitude": "-123.02440"
+        },
+        {
+          "Latitude": "46.79597",
+          "Longitude": "-123.02447"
+        },
+        {
+          "Latitude": "46.79594",
+          "Longitude": "-123.02455"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "46.79594",
+          "Longitude": "-123.02577"
+        },
+        "Max": {
+          "Latitude": "46.79622",
+          "Longitude": "-123.02440"
+        }
+      }
+    },
     {
       "DataProvider": {
         "Attributes": [
@@ -31,7 +121,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "01/27 11:25 PM",
+            "Value": "01/27 11:45 PM",
             "NoDisplay": false
           },
           {
@@ -121,7 +211,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "01/27 11:25 PM",
+            "Value": "01/27 11:45 PM",
             "NoDisplay": false
           },
           {
@@ -291,5 +381,5 @@
       }
     }
   ],
-  "LastUpdated": "2025-01-28T07:30:13+00:00"
+  "LastUpdated": "2025-01-28T07:49:59+00:00"
 }
