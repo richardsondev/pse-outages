@@ -1,8 +1,8 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 4,
-    "OutageCount": 4,
-    "LastUpdatedDatetime": "02/09 10:50 AM"
+    "CustomerAfftectedCount": 7,
+    "OutageCount": 5,
+    "LastUpdatedDatetime": "02/09 11:15 AM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -21,7 +21,7 @@
           },
           {
             "Name": "Status",
-            "Value": "Outage reported",
+            "Value": "Waiting for repairs",
             "NoDisplay": false
           },
           {
@@ -31,7 +31,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "02/09 10:45 AM",
+            "Value": "02/09 11:10 AM",
             "NoDisplay": false
           },
           {
@@ -220,12 +220,12 @@
           },
           {
             "Name": "Cause",
-            "Value": "Under investigation",
+            "Value": "Equipment Failure",
             "NoDisplay": false
           },
           {
             "Name": "Last update",
-            "Value": "02/09 10:45 AM",
+            "Value": "02/09 11:10 AM",
             "NoDisplay": false
           },
           {
@@ -419,7 +419,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "02/09 10:45 AM",
+            "Value": "02/09 11:10 AM",
             "NoDisplay": false
           },
           {
@@ -593,6 +593,96 @@
         "Attributes": [
           {
             "Name": "Start time",
+            "Value": "02/09 10:48 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "3",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "02/09 11:10 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "02/09 02:30 PM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Outage ID",
+            "Value": "INC1135029549",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.48637",
+          "Longitude": "-122.13001",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Renton",
+          "Id": "INC1135029549",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.48623",
+          "Longitude": "-122.13048"
+        },
+        {
+          "Latitude": "47.48661",
+          "Longitude": "-122.13049"
+        },
+        {
+          "Latitude": "47.48665",
+          "Longitude": "-122.13040"
+        },
+        {
+          "Latitude": "47.48632",
+          "Longitude": "-122.12914"
+        },
+        {
+          "Latitude": "47.48623",
+          "Longitude": "-122.12916"
+        },
+        {
+          "Latitude": "47.48618",
+          "Longitude": "-122.13041"
+        },
+        {
+          "Latitude": "47.48623",
+          "Longitude": "-122.13048"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.48618",
+          "Longitude": "-122.13049"
+        },
+        "Max": {
+          "Latitude": "47.48665",
+          "Longitude": "-122.12914"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
             "Value": "02/06 12:25 AM",
             "NoDisplay": false
           },
@@ -613,7 +703,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "02/09 10:45 AM",
+            "Value": "02/09 11:10 AM",
             "NoDisplay": false
           },
           {
@@ -783,5 +873,5 @@
       }
     }
   ],
-  "LastUpdated": "2025-02-09T18:50:04+00:00"
+  "LastUpdated": "2025-02-09T19:15:03+00:00"
 }
