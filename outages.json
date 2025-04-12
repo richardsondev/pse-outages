@@ -1,11 +1,101 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 2,
-    "OutageCount": 2,
-    "LastUpdatedDatetime": "04/12 06:30 AM"
+    "CustomerAfftectedCount": 5,
+    "OutageCount": 3,
+    "LastUpdatedDatetime": "04/12 06:50 AM"
   },
   "CustomerProfile": null,
   "PseMap": [
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "04/12 04:48 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "3",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Trees/Vegetation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "04/12 06:45 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "04/12 09:30 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Outage ID:",
+            "Value": "INC1135035298",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.59913",
+          "Longitude": "-122.69043",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Erlands Point",
+          "Id": "INC1135035298",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.59885",
+          "Longitude": "-122.69014"
+        },
+        {
+          "Latitude": "47.59912",
+          "Longitude": "-122.69113"
+        },
+        {
+          "Latitude": "47.59921",
+          "Longitude": "-122.69112"
+        },
+        {
+          "Latitude": "47.59936",
+          "Longitude": "-122.69007"
+        },
+        {
+          "Latitude": "47.59931",
+          "Longitude": "-122.68999"
+        },
+        {
+          "Latitude": "47.59889",
+          "Longitude": "-122.69005"
+        },
+        {
+          "Latitude": "47.59885",
+          "Longitude": "-122.69014"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.59885",
+          "Longitude": "-122.69113"
+        },
+        "Max": {
+          "Latitude": "47.59936",
+          "Longitude": "-122.68999"
+        }
+      }
+    },
     {
       "DataProvider": {
         "Attributes": [
@@ -31,7 +121,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "04/12 06:25 AM",
+            "Value": "04/12 06:45 AM",
             "NoDisplay": false
           },
           {
@@ -225,7 +315,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "04/12 06:25 AM",
+            "Value": "04/12 06:45 AM",
             "NoDisplay": false
           },
           {
@@ -395,5 +485,5 @@
       }
     }
   ],
-  "LastUpdated": "2025-04-12T13:30:22+00:00"
+  "LastUpdated": "2025-04-12T13:50:02+00:00"
 }
