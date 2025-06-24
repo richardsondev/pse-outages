@@ -1,8 +1,18 @@
 {
-  "Common": {
-    "CustomerAfftectedCount": 77,
-    "OutageCount": 11,
-    "LastUpdatedDatetime": "06/24 01:50 AM"
+  "UnplannedOutageSummary": {
+    "CustomerAfftectedCount": 57,
+    "OutageCount": 5,
+    "LastUpdatedDatetime": "06/24 02:15 AM"
+  },
+  "PlannedOutageSummary": {
+    "CustomerAfftectedCount": 15,
+    "OutageCount": 4,
+    "LastUpdatedDatetime": "06/24 02:15 AM"
+  },
+  "PSPSSummary": {
+    "CustomerAfftectedCount": 1,
+    "OutageCount": 1,
+    "LastUpdatedDatetime": "06/24 02:15 AM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -11,37 +21,51 @@
         "Attributes": [
           {
             "Name": "Start time",
+            "RefName": "",
             "Value": "06/21 08:38 AM",
+            "RefValue": "",
             "NoDisplay": false
           },
           {
             "Name": "Customers impacted",
+            "RefName": "Customers impacted",
             "Value": "2",
+            "RefValue": "",
             "NoDisplay": false
           },
           {
             "Name": "Status",
+            "RefName": "Status",
             "Value": "Repair crew onsite",
+            "RefValue": "Repair crew onsite",
             "NoDisplay": false
           },
           {
             "Name": "Cause",
-            "Value": "Scheduled Outage",
+            "RefName": "",
+            "Value": "Scheduled outage",
+            "RefValue": "",
             "NoDisplay": false
           },
           {
             "Name": "Last update",
-            "Value": "06/24 01:45 AM",
+            "RefName": "",
+            "Value": "06/24 02:10 AM",
+            "RefValue": "",
             "NoDisplay": false
           },
           {
             "Name": "Est. restoration time",
+            "RefName": "Est. Restoration time",
             "Value": "06/21 12:00 PM",
+            "RefValue": "",
             "NoDisplay": false
           },
           {
             "Name": "Outage ID",
+            "RefName": "",
             "Value": "INC1140071714",
+            "RefValue": "",
             "NoDisplay": false
           }
         ],
@@ -50,9 +74,11 @@
           "Longitude": "-122.19145",
           "MapType": "Outage",
           "PinType": "Outage",
+          "OrderType": "Switching",
           "Title": "Bothell",
           "Id": "INC1140071714",
-          "PlannedOutage": true
+          "PlannedOutage": true,
+          "FilterType": "Planned"
         }
       },
       "Polygon": [
@@ -205,37 +231,51 @@
         "Attributes": [
           {
             "Name": "Start time",
+            "RefName": "",
             "Value": "06/23 10:51 AM",
+            "RefValue": "",
             "NoDisplay": false
           },
           {
             "Name": "Customers impacted",
+            "RefName": "Customers impacted",
             "Value": "2",
+            "RefValue": "",
             "NoDisplay": false
           },
           {
             "Name": "Status",
+            "RefName": "Status",
             "Value": "Crew assigned",
+            "RefValue": "Crew assigned",
             "NoDisplay": false
           },
           {
             "Name": "Cause",
-            "Value": "Scheduled Outage",
+            "RefName": "",
+            "Value": "Scheduled outage",
+            "RefValue": "",
             "NoDisplay": false
           },
           {
             "Name": "Last update",
-            "Value": "06/24 01:45 AM",
+            "RefName": "",
+            "Value": "06/24 02:10 AM",
+            "RefValue": "",
             "NoDisplay": false
           },
           {
             "Name": "Est. restoration time",
+            "RefName": "Est. Restoration time",
             "Value": "06/23 04:00 PM",
+            "RefValue": "",
             "NoDisplay": false
           },
           {
             "Name": "Outage ID",
+            "RefName": "",
             "Value": "INC1140072252",
+            "RefValue": "",
             "NoDisplay": false
           }
         ],
@@ -244,9 +284,11 @@
           "Longitude": "-122.58535",
           "MapType": "Outage",
           "PinType": "Outage",
+          "OrderType": "Switching",
           "Title": "Custer",
           "Id": "INC1140072252",
-          "PlannedOutage": true
+          "PlannedOutage": true,
+          "FilterType": "Planned"
         }
       },
       "Polygon": [
@@ -407,37 +449,51 @@
         "Attributes": [
           {
             "Name": "Start time",
+            "RefName": "",
             "Value": "06/23 10:44 PM",
+            "RefValue": "",
             "NoDisplay": false
           },
           {
             "Name": "Customers impacted",
+            "RefName": "Customers impacted",
             "Value": "2",
+            "RefValue": "",
             "NoDisplay": false
           },
           {
             "Name": "Status",
+            "RefName": "Status",
             "Value": "Outage reported",
+            "RefValue": "Outage reported",
             "NoDisplay": false
           },
           {
             "Name": "Cause",
-            "Value": "Equipment Failure",
+            "RefName": "",
+            "Value": "Equipment failure",
+            "RefValue": "",
             "NoDisplay": false
           },
           {
             "Name": "Last update",
-            "Value": "06/24 01:45 AM",
+            "RefName": "",
+            "Value": "06/24 02:10 AM",
+            "RefValue": "",
             "NoDisplay": false
           },
           {
             "Name": "Est. restoration time",
+            "RefName": "Est. Restoration time",
             "Value": "06/24 02:30 PM",
+            "RefValue": "",
             "NoDisplay": false
           },
           {
             "Name": "Outage ID",
+            "RefName": "",
             "Value": "INC1140072527",
+            "RefValue": "",
             "NoDisplay": false
           }
         ],
@@ -446,9 +502,11 @@
           "Longitude": "-122.20069",
           "MapType": "Outage",
           "PinType": "Outage",
+          "OrderType": "Crew1 - Outage",
           "Title": "Kirkland",
           "Id": "INC1140072527",
-          "PlannedOutage": false
+          "PlannedOutage": false,
+          "FilterType": "Outage"
         }
       },
       "Polygon": [
@@ -609,37 +667,51 @@
         "Attributes": [
           {
             "Name": "Start time",
+            "RefName": "",
             "Value": "06/20 09:22 AM",
+            "RefValue": "",
             "NoDisplay": false
           },
           {
             "Name": "Customers impacted",
+            "RefName": "Customers impacted",
             "Value": "1",
+            "RefValue": "",
             "NoDisplay": false
           },
           {
             "Name": "Status",
-            "Value": "Waiting for repairs",
+            "RefName": "Status",
+            "Value": "waiting for repairs",
+            "RefValue": "Waiting for repairs",
             "NoDisplay": false
           },
           {
             "Name": "Cause",
+            "RefName": "",
             "Value": "Under investigation",
+            "RefValue": "",
             "NoDisplay": false
           },
           {
             "Name": "Last update",
-            "Value": "06/24 01:45 AM",
+            "RefName": "",
+            "Value": "06/24 02:10 AM",
+            "RefValue": "",
             "NoDisplay": false
           },
           {
             "Name": "Est. restoration time",
+            "RefName": "Est. Restoration time",
             "Value": "06/20 04:00 PM",
+            "RefValue": "",
             "NoDisplay": false
           },
           {
             "Name": "Outage ID",
+            "RefName": "",
             "Value": "INC1140071464",
+            "RefValue": "",
             "NoDisplay": false
           }
         ],
@@ -648,9 +720,11 @@
           "Longitude": "-123.12167",
           "MapType": "Outage",
           "PinType": "Outage",
+          "OrderType": "Switching",
           "Title": "Olympia",
           "Id": "INC1140071464",
-          "PlannedOutage": true
+          "PlannedOutage": true,
+          "FilterType": "Planned"
         }
       },
       "Polygon": [
@@ -803,37 +877,51 @@
         "Attributes": [
           {
             "Name": "Start time",
+            "RefName": "",
             "Value": "06/23 07:47 PM",
+            "RefValue": "",
             "NoDisplay": false
           },
           {
             "Name": "Customers impacted",
+            "RefName": "Customers impacted",
             "Value": "15",
+            "RefValue": "",
             "NoDisplay": false
           },
           {
             "Name": "Status",
+            "RefName": "Status",
             "Value": "Crew assigned",
+            "RefValue": "Crew assigned",
             "NoDisplay": false
           },
           {
             "Name": "Cause",
-            "Value": "Equipment Failure",
+            "RefName": "",
+            "Value": "Equipment failure",
+            "RefValue": "",
             "NoDisplay": false
           },
           {
             "Name": "Last update",
-            "Value": "06/24 01:45 AM",
+            "RefName": "",
+            "Value": "06/24 02:10 AM",
+            "RefValue": "",
             "NoDisplay": false
           },
           {
             "Name": "Est. restoration time",
+            "RefName": "Est. Restoration time",
             "Value": "06/24 09:30 AM",
+            "RefValue": "",
             "NoDisplay": false
           },
           {
             "Name": "Outage ID",
+            "RefName": "",
             "Value": "INC1140072520",
+            "RefValue": "",
             "NoDisplay": false
           }
         ],
@@ -842,9 +930,11 @@
           "Longitude": "-123.03864",
           "MapType": "Outage",
           "PinType": "Outage",
+          "OrderType": "Crew1 - Outage",
           "Title": "Point Roberts",
           "Id": "INC1140072520",
-          "PlannedOutage": false
+          "PlannedOutage": false,
+          "FilterType": "Outage"
         }
       },
       "Polygon": [
@@ -925,37 +1015,51 @@
         "Attributes": [
           {
             "Name": "Start time",
+            "RefName": "",
             "Value": "06/20 08:49 AM",
+            "RefValue": "",
             "NoDisplay": false
           },
           {
             "Name": "Customers impacted",
+            "RefName": "Customers impacted",
             "Value": "1",
+            "RefValue": "",
             "NoDisplay": false
           },
           {
             "Name": "Status",
+            "RefName": "Status",
             "Value": "Outage reported",
+            "RefValue": "Outage reported",
             "NoDisplay": false
           },
           {
             "Name": "Cause",
-            "Value": "Trees/Vegetation",
+            "RefName": "",
+            "Value": "Trees/vegetation",
+            "RefValue": "",
             "NoDisplay": false
           },
           {
             "Name": "Last update",
-            "Value": "06/24 01:45 AM",
+            "RefName": "",
+            "Value": "06/24 02:10 AM",
+            "RefValue": "",
             "NoDisplay": false
           },
           {
             "Name": "Est. restoration time",
+            "RefName": "Est. Restoration time",
             "Value": "06/20 12:00 PM",
+            "RefValue": "",
             "NoDisplay": false
           },
           {
             "Name": "Outage ID",
+            "RefName": "",
             "Value": "INC1140071439",
+            "RefValue": "",
             "NoDisplay": false
           }
         ],
@@ -964,9 +1068,11 @@
           "Longitude": "-122.68506",
           "MapType": "Outage",
           "PinType": "Outage",
+          "OrderType": "Outage",
           "Title": "Rainier",
           "Id": "INC1140071439",
-          "PlannedOutage": false
+          "PlannedOutage": false,
+          "FilterType": "Outage"
         }
       },
       "Polygon": [
@@ -1119,37 +1225,51 @@
         "Attributes": [
           {
             "Name": "Start time",
+            "RefName": "",
             "Value": "06/23 08:06 PM",
+            "RefValue": "",
             "NoDisplay": false
           },
           {
             "Name": "Customers impacted",
+            "RefName": "Customers impacted",
             "Value": "35",
+            "RefValue": "",
             "NoDisplay": false
           },
           {
             "Name": "Status",
+            "RefName": "Status",
             "Value": "Repair crew onsite",
+            "RefValue": "Repair crew onsite",
             "NoDisplay": false
           },
           {
             "Name": "Cause",
-            "Value": "Equipment Failure",
+            "RefName": "",
+            "Value": "Equipment failure",
+            "RefValue": "",
             "NoDisplay": false
           },
           {
             "Name": "Last update",
-            "Value": "06/24 01:45 AM",
+            "RefName": "",
+            "Value": "06/24 02:10 AM",
+            "RefValue": "",
             "NoDisplay": false
           },
           {
             "Name": "Est. restoration time",
+            "RefName": "Est. Restoration time",
             "Value": "06/24 02:00 AM",
+            "RefValue": "",
             "NoDisplay": false
           },
           {
             "Name": "Outage ID",
+            "RefName": "",
             "Value": "INC1140072515",
+            "RefValue": "",
             "NoDisplay": false
           }
         ],
@@ -1158,9 +1278,11 @@
           "Longitude": "-122.12648",
           "MapType": "Outage",
           "PinType": "Outage",
+          "OrderType": "Crew1 - Outage",
           "Title": "Redmond",
           "Id": "INC1140072515",
-          "PlannedOutage": false
+          "PlannedOutage": false,
+          "FilterType": "Outage"
         }
       },
       "Polygon": [
@@ -1209,37 +1331,51 @@
         "Attributes": [
           {
             "Name": "Start time",
+            "RefName": "",
             "Value": "06/24 12:55 AM",
+            "RefValue": "",
             "NoDisplay": false
           },
           {
             "Name": "Customers impacted",
+            "RefName": "Customers impacted",
             "Value": "1",
+            "RefValue": "",
             "NoDisplay": false
           },
           {
             "Name": "Status",
-            "Value": "Initiated",
+            "RefName": "Status",
+            "Value": "Restoring",
+            "RefValue": "Restoring",
             "NoDisplay": false
           },
           {
             "Name": "Cause",
-            "Value": "Public Safety Power Shut-Off",
+            "RefName": "",
+            "Value": "PSPS",
+            "RefValue": "",
             "NoDisplay": false
           },
           {
             "Name": "Last update",
-            "Value": "06/24 01:45 AM",
+            "RefName": "",
+            "Value": "06/24 02:10 AM",
+            "RefValue": "",
             "NoDisplay": false
           },
           {
-            "Name": "Est. restoration time",
-            "Value": "To Be Determined",
+            "Name": "Est. Restoration time:",
+            "RefName": "Est. Restoration time",
+            "Value": "06/24 03:00 AM",
+            "RefValue": "",
             "NoDisplay": false
           },
           {
-            "Name": "Outage ID",
+            "Name": "Event ID",
+            "RefName": "",
             "Value": "INC1140072526",
+            "RefValue": "",
             "NoDisplay": false
           }
         ],
@@ -1248,9 +1384,11 @@
           "Longitude": "-122.15729",
           "MapType": "Outage",
           "PinType": "Outage",
+          "OrderType": "FD Outage",
           "Title": "Redmond",
           "Id": "INC1140072526",
-          "PlannedOutage": false
+          "PlannedOutage": false,
+          "FilterType": "PSPS"
         }
       },
       "Polygon": [
@@ -1403,135 +1541,51 @@
         "Attributes": [
           {
             "Name": "Start time",
+            "RefName": "",
             "Value": "06/23 10:10 PM",
+            "RefValue": "",
             "NoDisplay": false
           },
           {
             "Name": "Customers impacted",
+            "RefName": "Customers impacted",
             "Value": "4",
+            "RefValue": "",
             "NoDisplay": false
           },
           {
             "Name": "Status",
-            "Value": "Waiting for repairs",
+            "RefName": "Status",
+            "Value": "Crew assigned",
+            "RefValue": "Crew assigned",
             "NoDisplay": false
           },
           {
             "Name": "Cause",
-            "Value": "Equipment Failure",
+            "RefName": "",
+            "Value": "Equipment failure",
+            "RefValue": "",
             "NoDisplay": false
           },
           {
             "Name": "Last update",
-            "Value": "06/24 01:45 AM",
+            "RefName": "",
+            "Value": "06/24 02:10 AM",
+            "RefValue": "",
             "NoDisplay": false
           },
           {
             "Name": "Est. restoration time",
-            "Value": "06/24 03:00 AM",
+            "RefName": "Est. Restoration time",
+            "Value": "06/24 04:00 AM",
+            "RefValue": "",
             "NoDisplay": false
           },
           {
             "Name": "Outage ID",
-            "Value": "INC1140072517",
-            "NoDisplay": false
-          }
-        ],
-        "PointOfInterest": {
-          "Latitude": "47.52707",
-          "Longitude": "-122.20057",
-          "MapType": "Outage",
-          "PinType": "Outage",
-          "Title": "Renton",
-          "Id": "INC1140072517",
-          "PlannedOutage": false
-        }
-      },
-      "Polygon": [
-        {
-          "Latitude": "47.52699",
-          "Longitude": "-122.20074"
-        },
-        {
-          "Latitude": "47.52701",
-          "Longitude": "-122.20120"
-        },
-        {
-          "Latitude": "47.52710",
-          "Longitude": "-122.20120"
-        },
-        {
-          "Latitude": "47.52715",
-          "Longitude": "-122.20014"
-        },
-        {
-          "Latitude": "47.52715",
-          "Longitude": "-122.20014"
-        },
-        {
-          "Latitude": "47.52716",
-          "Longitude": "-122.19984"
-        },
-        {
-          "Latitude": "47.52708",
-          "Longitude": "-122.19982"
-        },
-        {
-          "Latitude": "47.52699",
-          "Longitude": "-122.20073"
-        },
-        {
-          "Latitude": "47.52699",
-          "Longitude": "-122.20074"
-        }
-      ],
-      "BoundingBox": {
-        "Min": {
-          "Latitude": "47.52699",
-          "Longitude": "-122.20120"
-        },
-        "Max": {
-          "Latitude": "47.52716",
-          "Longitude": "-122.19982"
-        }
-      }
-    },
-    {
-      "DataProvider": {
-        "Attributes": [
-          {
-            "Name": "Start time",
-            "Value": "06/23 10:10 PM",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Customers impacted",
-            "Value": "4",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Status",
-            "Value": "Outage reported",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Cause",
-            "Value": "Equipment Failure",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Last update",
-            "Value": "06/24 01:45 AM",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Est. restoration time",
-            "Value": "06/24 08:00 AM",
-            "NoDisplay": false
-          },
-          {
-            "Name": "Outage ID",
+            "RefName": "",
             "Value": "INC1140072525",
+            "RefValue": "",
             "NoDisplay": false
           }
         ],
@@ -1540,9 +1594,11 @@
           "Longitude": "-122.20057",
           "MapType": "Outage",
           "PinType": "Outage",
+          "OrderType": "Crew1 - Outage",
           "Title": "Renton",
           "Id": "INC1140072525",
-          "PlannedOutage": false
+          "PlannedOutage": false,
+          "FilterType": "Outage"
         }
       },
       "Polygon": [
@@ -1599,37 +1655,51 @@
         "Attributes": [
           {
             "Name": "Start time",
+            "RefName": "",
             "Value": "06/19 04:01 AM",
+            "RefValue": "",
             "NoDisplay": false
           },
           {
             "Name": "Customers impacted",
+            "RefName": "Customers impacted",
             "Value": "10",
+            "RefValue": "",
             "NoDisplay": false
           },
           {
             "Name": "Status",
+            "RefName": "Status",
             "Value": "Crew assigned",
+            "RefValue": "Crew assigned",
             "NoDisplay": false
           },
           {
             "Name": "Cause",
-            "Value": "Scheduled Outage",
+            "RefName": "",
+            "Value": "Scheduled outage",
+            "RefValue": "",
             "NoDisplay": false
           },
           {
             "Name": "Last update",
-            "Value": "06/24 01:45 AM",
+            "RefName": "",
+            "Value": "06/24 02:10 AM",
+            "RefValue": "",
             "NoDisplay": false
           },
           {
             "Name": "Est. restoration time",
+            "RefName": "Est. Restoration time",
             "Value": "06/19 07:30 AM",
+            "RefValue": "",
             "NoDisplay": false
           },
           {
             "Name": "Outage ID",
+            "RefName": "",
             "Value": "INC1140071130",
+            "RefValue": "",
             "NoDisplay": false
           }
         ],
@@ -1638,9 +1708,11 @@
           "Longitude": "-122.16035",
           "MapType": "Outage",
           "PinType": "Outage",
+          "OrderType": "Switching",
           "Title": "Woodinville",
           "Id": "INC1140071130",
-          "PlannedOutage": true
+          "PlannedOutage": true,
+          "FilterType": "Planned"
         }
       },
       "Polygon": [
@@ -1693,5 +1765,5 @@
       }
     }
   ],
-  "LastUpdated": "2025-06-24T08:50:21+00:00"
+  "LastUpdated": "2025-06-24T09:15:20+00:00"
 }
