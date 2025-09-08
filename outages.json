@@ -1,18 +1,18 @@
 {
   "UnplannedOutageSummary": {
-    "CustomerAfftectedCount": 16,
-    "OutageCount": 3,
-    "LastUpdatedDatetime": "09/08 01:35 AM"
+    "CustomerAfftectedCount": 19,
+    "OutageCount": 4,
+    "LastUpdatedDatetime": "09/08 01:50 AM"
   },
   "PlannedOutageSummary": {
     "CustomerAfftectedCount": 14,
     "OutageCount": 2,
-    "LastUpdatedDatetime": "09/08 01:35 AM"
+    "LastUpdatedDatetime": "09/08 01:50 AM"
   },
   "PSPSSummary": {
     "CustomerAfftectedCount": 0,
     "OutageCount": 0,
-    "LastUpdatedDatetime": "09/08 01:35 AM"
+    "LastUpdatedDatetime": "09/08 01:50 AM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -50,7 +50,7 @@
           {
             "Name": "Last update",
             "RefName": "LastUpdated",
-            "Value": "09/08 01:30 AM",
+            "Value": "09/08 01:45 AM",
             "RefValue": "",
             "NoDisplay": false
           },
@@ -233,6 +233,113 @@
           {
             "Name": "Start time",
             "RefName": "StartDate",
+            "Value": "09/07 11:50 PM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "RefName": "Customers impacted",
+            "Value": "3",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "RefName": "Status",
+            "Value": "Crew assigned",
+            "RefValue": "Crew assigned",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "RefName": "Cause",
+            "Value": "Equipment failure",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "RefName": "LastUpdated",
+            "Value": "09/08 01:45 AM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "RefName": "Est. Restoration time",
+            "Value": "09/08 05:00 AM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Outage ID",
+            "RefName": "OutageEventId",
+            "Value": "INC1135051521",
+            "RefValue": "",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.34834",
+          "Longitude": "-122.09052",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "OrderType": "Crew1 - Outage",
+          "Title": "Lake Morton-Berrydale",
+          "Id": "INC1135051521",
+          "PlannedOutage": false,
+          "FilterType": "Outage"
+        },
+        "CRCAttributes": null
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.34777",
+          "Longitude": "-122.09036"
+        },
+        {
+          "Latitude": "47.34887",
+          "Longitude": "-122.09121"
+        },
+        {
+          "Latitude": "47.34893",
+          "Longitude": "-122.09112"
+        },
+        {
+          "Latitude": "47.34837",
+          "Longitude": "-122.09006"
+        },
+        {
+          "Latitude": "47.34832",
+          "Longitude": "-122.09003"
+        },
+        {
+          "Latitude": "47.34778",
+          "Longitude": "-122.09024"
+        },
+        {
+          "Latitude": "47.34777",
+          "Longitude": "-122.09036"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.34777",
+          "Longitude": "-122.09121"
+        },
+        "Max": {
+          "Latitude": "47.34893",
+          "Longitude": "-122.09003"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "RefName": "StartDate",
             "Value": "09/07 09:28 PM",
             "RefValue": "",
             "NoDisplay": false
@@ -261,7 +368,7 @@
           {
             "Name": "Last update",
             "RefName": "LastUpdated",
-            "Value": "09/08 01:30 AM",
+            "Value": "09/08 01:45 AM",
             "RefValue": "",
             "NoDisplay": false
           },
@@ -376,7 +483,7 @@
           {
             "Name": "Last update",
             "RefName": "LastUpdated",
-            "Value": "09/08 01:30 AM",
+            "Value": "09/08 01:45 AM",
             "RefValue": "",
             "NoDisplay": false
           },
@@ -573,8 +680,8 @@
           {
             "Name": "Status",
             "RefName": "Status",
-            "Value": "Outage reported",
-            "RefValue": "Outage reported",
+            "Value": "waiting for repairs",
+            "RefValue": "Waiting for repairs",
             "NoDisplay": false
           },
           {
@@ -587,7 +694,7 @@
           {
             "Name": "Last update",
             "RefName": "LastUpdated",
-            "Value": "09/08 01:30 AM",
+            "Value": "09/08 01:45 AM",
             "RefValue": "",
             "NoDisplay": false
           },
@@ -718,7 +825,7 @@
           {
             "Name": "Last update",
             "RefName": "LastUpdated",
-            "Value": "09/08 01:30 AM",
+            "Value": "09/08 01:45 AM",
             "RefValue": "",
             "NoDisplay": false
           },
@@ -896,5 +1003,5 @@
       }
     }
   ],
-  "LastUpdated": "2025-09-08T08:35:15+00:00"
+  "LastUpdated": "2025-09-08T08:50:10+00:00"
 }
