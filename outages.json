@@ -1,18 +1,18 @@
 {
   "UnplannedOutageSummary": {
-    "CustomerAfftectedCount": 150,
-    "OutageCount": 3,
-    "LastUpdatedDatetime": "09/09 11:15 PM"
+    "CustomerAfftectedCount": 158,
+    "OutageCount": 4,
+    "LastUpdatedDatetime": "09/09 11:34 PM"
   },
   "PlannedOutageSummary": {
     "CustomerAfftectedCount": 7,
     "OutageCount": 2,
-    "LastUpdatedDatetime": "09/09 11:15 PM"
+    "LastUpdatedDatetime": "09/09 11:34 PM"
   },
   "PSPSSummary": {
     "CustomerAfftectedCount": 0,
     "OutageCount": 0,
-    "LastUpdatedDatetime": "09/09 11:15 PM"
+    "LastUpdatedDatetime": "09/09 11:34 PM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -50,7 +50,7 @@
           {
             "Name": "Last update",
             "RefName": "LastUpdated",
-            "Value": "09/09 11:10 PM",
+            "Value": "09/09 11:30 PM",
             "RefValue": "",
             "NoDisplay": false
           },
@@ -157,14 +157,14 @@
           {
             "Name": "Last update",
             "RefName": "LastUpdated",
-            "Value": "09/09 11:10 PM",
+            "Value": "09/09 11:30 PM",
             "RefValue": "",
             "NoDisplay": false
           },
           {
             "Name": "Est. restoration time",
             "RefName": "Est. Restoration time",
-            "Value": "09/10 02:00 AM",
+            "Value": "09/10 03:00 AM",
             "RefValue": "",
             "NoDisplay": false
           },
@@ -360,7 +360,7 @@
           {
             "Name": "Last update",
             "RefName": "LastUpdated",
-            "Value": "09/09 11:10 PM",
+            "Value": "09/09 11:30 PM",
             "RefValue": "",
             "NoDisplay": false
           },
@@ -557,8 +557,8 @@
           {
             "Name": "Status",
             "RefName": "Status",
-            "Value": "Outage reported",
-            "RefValue": "Outage reported",
+            "Value": "waiting for repairs",
+            "RefValue": "Waiting for repairs",
             "NoDisplay": false
           },
           {
@@ -571,7 +571,7 @@
           {
             "Name": "Last update",
             "RefName": "LastUpdated",
-            "Value": "09/09 11:10 PM",
+            "Value": "09/09 11:30 PM",
             "RefValue": "",
             "NoDisplay": false
           },
@@ -782,7 +782,7 @@
           {
             "Name": "Last update",
             "RefName": "LastUpdated",
-            "Value": "09/09 11:10 PM",
+            "Value": "09/09 11:30 PM",
             "RefValue": "",
             "NoDisplay": false
           },
@@ -958,7 +958,118 @@
           "Longitude": "-122.47903"
         }
       }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "RefName": "StartDate",
+            "Value": "09/09 10:50 PM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "RefName": "Customers impacted",
+            "Value": "8",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "RefName": "Status",
+            "Value": "Outage reported",
+            "RefValue": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "RefName": "Cause",
+            "Value": "Accident",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "RefName": "LastUpdated",
+            "Value": "09/09 11:30 PM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "RefName": "Est. Restoration time",
+            "Value": "09/10 06:30 AM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Outage ID",
+            "RefName": "OutageEventId",
+            "Value": "INC1135051934",
+            "RefValue": "",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "48.48755",
+          "Longitude": "-122.21957",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "OrderType": "Outage",
+          "Title": "Sedro-Woolley",
+          "Id": "INC1135051934",
+          "PlannedOutage": false,
+          "FilterType": "Outage"
+        },
+        "CRCAttributes": null
+      },
+      "Polygon": [
+        {
+          "Latitude": "48.48741",
+          "Longitude": "-122.22001"
+        },
+        {
+          "Latitude": "48.48751",
+          "Longitude": "-122.22038"
+        },
+        {
+          "Latitude": "48.48759",
+          "Longitude": "-122.22036"
+        },
+        {
+          "Latitude": "48.48769",
+          "Longitude": "-122.21836"
+        },
+        {
+          "Latitude": "48.48760",
+          "Longitude": "-122.21834"
+        },
+        {
+          "Latitude": "48.48757",
+          "Longitude": "-122.21862"
+        },
+        {
+          "Latitude": "48.48741",
+          "Longitude": "-122.21997"
+        },
+        {
+          "Latitude": "48.48741",
+          "Longitude": "-122.22001"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "48.48741",
+          "Longitude": "-122.22038"
+        },
+        "Max": {
+          "Latitude": "48.48769",
+          "Longitude": "-122.21834"
+        }
+      }
     }
   ],
-  "LastUpdated": "2025-09-10T06:15:09+00:00"
+  "LastUpdated": "2025-09-10T06:34:59+00:00"
 }
