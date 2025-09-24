@@ -1,18 +1,18 @@
 {
   "UnplannedOutageSummary": {
-    "CustomerAfftectedCount": 26,
-    "OutageCount": 2,
-    "LastUpdatedDatetime": "09/24 07:15 AM"
+    "CustomerAfftectedCount": 31,
+    "OutageCount": 3,
+    "LastUpdatedDatetime": "09/24 07:30 AM"
   },
   "PlannedOutageSummary": {
     "CustomerAfftectedCount": 0,
     "OutageCount": 0,
-    "LastUpdatedDatetime": "09/24 07:15 AM"
+    "LastUpdatedDatetime": "09/24 07:30 AM"
   },
   "PSPSSummary": {
     "CustomerAfftectedCount": 0,
     "OutageCount": 0,
-    "LastUpdatedDatetime": "09/24 07:15 AM"
+    "LastUpdatedDatetime": "09/24 07:30 AM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -22,14 +22,14 @@
           {
             "Name": "Start time",
             "RefName": "StartDate",
-            "Value": "09/24 06:28 AM",
+            "Value": "09/24 07:24 AM",
             "RefValue": "",
             "NoDisplay": false
           },
           {
             "Name": "Customers impacted",
             "RefName": "Customers impacted",
-            "Value": "1",
+            "Value": "5",
             "RefValue": "",
             "NoDisplay": false
           },
@@ -50,7 +50,122 @@
           {
             "Name": "Last update",
             "RefName": "LastUpdated",
-            "Value": "09/24 07:10 AM",
+            "Value": "09/24 07:25 AM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "RefName": "Est. Restoration time",
+            "Value": "09/24 10:30 AM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Outage ID",
+            "RefName": "OutageEventId",
+            "Value": "INC1135054160",
+            "RefValue": "",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.42448",
+          "Longitude": "-121.99777",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "OrderType": "Outage",
+          "Title": "Hobart",
+          "Id": "INC1135054160",
+          "PlannedOutage": false,
+          "FilterType": "Outage"
+        },
+        "CRCAttributes": null
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.42342",
+          "Longitude": "-121.99752"
+        },
+        {
+          "Latitude": "47.42443",
+          "Longitude": "-121.99903"
+        },
+        {
+          "Latitude": "47.42449",
+          "Longitude": "-121.99903"
+        },
+        {
+          "Latitude": "47.42538",
+          "Longitude": "-121.99779"
+        },
+        {
+          "Latitude": "47.42538",
+          "Longitude": "-121.99770"
+        },
+        {
+          "Latitude": "47.42492",
+          "Longitude": "-121.99672"
+        },
+        {
+          "Latitude": "47.42487",
+          "Longitude": "-121.99669"
+        },
+        {
+          "Latitude": "47.42344",
+          "Longitude": "-121.99741"
+        },
+        {
+          "Latitude": "47.42342",
+          "Longitude": "-121.99752"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.42342",
+          "Longitude": "-121.99903"
+        },
+        "Max": {
+          "Latitude": "47.42538",
+          "Longitude": "-121.99669"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "RefName": "StartDate",
+            "Value": "09/24 06:28 AM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "RefName": "Customers impacted",
+            "Value": "1",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "RefName": "Status",
+            "Value": "waiting for repairs",
+            "RefValue": "Waiting for repairs",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "RefName": "Cause",
+            "Value": "Under investigation",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "RefName": "LastUpdated",
+            "Value": "09/24 07:25 AM",
             "RefValue": "",
             "NoDisplay": false
           },
@@ -261,7 +376,7 @@
           {
             "Name": "Last update",
             "RefName": "LastUpdated",
-            "Value": "09/24 07:10 AM",
+            "Value": "09/24 07:25 AM",
             "RefValue": "",
             "NoDisplay": false
           },
@@ -359,5 +474,5 @@
       }
     }
   ],
-  "LastUpdated": "2025-09-24T14:15:10+00:00"
+  "LastUpdated": "2025-09-24T14:30:21+00:00"
 }
