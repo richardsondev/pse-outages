@@ -1,20 +1,128 @@
 {
   "UnplannedOutageSummary": {
-    "CustomerAfftectedCount": 0,
-    "OutageCount": 0,
-    "LastUpdatedDatetime": "09/28 04:50 AM"
+    "CustomerAfftectedCount": 5,
+    "OutageCount": 1,
+    "LastUpdatedDatetime": "09/28 05:15 AM"
   },
   "PlannedOutageSummary": {
     "CustomerAfftectedCount": 0,
     "OutageCount": 0,
-    "LastUpdatedDatetime": "09/28 04:50 AM"
+    "LastUpdatedDatetime": "09/28 05:15 AM"
   },
   "PSPSSummary": {
     "CustomerAfftectedCount": 0,
     "OutageCount": 0,
-    "LastUpdatedDatetime": "09/28 04:50 AM"
+    "LastUpdatedDatetime": "09/28 05:15 AM"
   },
   "CustomerProfile": null,
-  "PseMap": [],
-  "LastUpdated": "2025-09-28T11:50:08+00:00"
+  "PseMap": [
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "RefName": "StartDate",
+            "Value": "09/28 05:01 AM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "RefName": "Customers impacted",
+            "Value": "5",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "RefName": "Status",
+            "Value": "Outage reported",
+            "RefValue": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "RefName": "Cause",
+            "Value": "Under investigation",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "RefName": "LastUpdated",
+            "Value": "09/28 05:10 AM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "RefName": "Est. Restoration time",
+            "Value": "09/28 08:30 AM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Outage ID",
+            "RefName": "OutageEventId",
+            "Value": "INC1135054851",
+            "RefValue": "",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "46.83630",
+          "Longitude": "-122.86479",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "OrderType": "Outage",
+          "Title": "Tenino",
+          "Id": "INC1135054851",
+          "PlannedOutage": false,
+          "FilterType": "Outage"
+        },
+        "CRCAttributes": null
+      },
+      "Polygon": [
+        {
+          "Latitude": "46.83576",
+          "Longitude": "-122.86608"
+        },
+        {
+          "Latitude": "46.83660",
+          "Longitude": "-122.86583"
+        },
+        {
+          "Latitude": "46.83664",
+          "Longitude": "-122.86576"
+        },
+        {
+          "Latitude": "46.83660",
+          "Longitude": "-122.86260"
+        },
+        {
+          "Latitude": "46.83652",
+          "Longitude": "-122.86258"
+        },
+        {
+          "Latitude": "46.83570",
+          "Longitude": "-122.86599"
+        },
+        {
+          "Latitude": "46.83576",
+          "Longitude": "-122.86608"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "46.83570",
+          "Longitude": "-122.86608"
+        },
+        "Max": {
+          "Latitude": "46.83664",
+          "Longitude": "-122.86258"
+        }
+      }
+    }
+  ],
+  "LastUpdated": "2025-09-28T12:15:07+00:00"
 }
