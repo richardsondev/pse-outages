@@ -1,21 +1,152 @@
 {
   "UnplannedOutageSummary": {
-    "CustomerAfftectedCount": 3,
-    "OutageCount": 2,
-    "LastUpdatedDatetime": "11/14 01:49 AM"
+    "CustomerAfftectedCount": 16,
+    "OutageCount": 3,
+    "LastUpdatedDatetime": "11/14 02:14 AM"
   },
   "PlannedOutageSummary": {
     "CustomerAfftectedCount": 0,
     "OutageCount": 0,
-    "LastUpdatedDatetime": "11/14 01:49 AM"
+    "LastUpdatedDatetime": "11/14 02:14 AM"
   },
   "PSPSSummary": {
     "CustomerAfftectedCount": 0,
     "OutageCount": 0,
-    "LastUpdatedDatetime": "11/14 01:49 AM"
+    "LastUpdatedDatetime": "11/14 02:14 AM"
   },
   "CustomerProfile": null,
   "PseMap": [
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "RefName": "StartDate",
+            "Value": "11/14 02:02 AM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "RefName": "Customers impacted",
+            "Value": "13",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "RefName": "Status",
+            "Value": "Outage reported",
+            "RefValue": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "RefName": "Cause",
+            "Value": "Under investigation",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "RefName": "LastUpdated",
+            "Value": "11/14 02:10 AM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "RefName": "Est. Restoration time",
+            "Value": "11/14 05:30 AM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Outage ID",
+            "RefName": "OutageEventId",
+            "Value": "INC1135062976",
+            "RefValue": "",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.62022",
+          "Longitude": "-122.55099",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "OrderType": "Outage",
+          "Title": "Bainbridge Island",
+          "Id": "INC1135062976",
+          "PlannedOutage": false,
+          "FilterType": "Outage"
+        },
+        "CRCAttributes": null
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.61910",
+          "Longitude": "-122.55000"
+        },
+        {
+          "Latitude": "47.61935",
+          "Longitude": "-122.55146"
+        },
+        {
+          "Latitude": "47.61939",
+          "Longitude": "-122.55151"
+        },
+        {
+          "Latitude": "47.62022",
+          "Longitude": "-122.55182"
+        },
+        {
+          "Latitude": "47.62022",
+          "Longitude": "-122.55182"
+        },
+        {
+          "Latitude": "47.62125",
+          "Longitude": "-122.55216"
+        },
+        {
+          "Latitude": "47.62130",
+          "Longitude": "-122.55208"
+        },
+        {
+          "Latitude": "47.62122",
+          "Longitude": "-122.55144"
+        },
+        {
+          "Latitude": "47.62122",
+          "Longitude": "-122.55143"
+        },
+        {
+          "Latitude": "47.62098",
+          "Longitude": "-122.55033"
+        },
+        {
+          "Latitude": "47.62095",
+          "Longitude": "-122.55028"
+        },
+        {
+          "Latitude": "47.61915",
+          "Longitude": "-122.54991"
+        },
+        {
+          "Latitude": "47.61910",
+          "Longitude": "-122.55000"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.61910",
+          "Longitude": "-122.55216"
+        },
+        "Max": {
+          "Latitude": "47.62130",
+          "Longitude": "-122.54991"
+        }
+      }
+    },
     {
       "DataProvider": {
         "Attributes": [
@@ -50,7 +181,7 @@
           {
             "Name": "Last update",
             "RefName": "LastUpdated",
-            "Value": "11/14 01:45 AM",
+            "Value": "11/14 02:10 AM",
             "RefValue": "",
             "NoDisplay": false
           },
@@ -269,7 +400,7 @@
           {
             "Name": "Last update",
             "RefName": "LastUpdated",
-            "Value": "11/14 01:45 AM",
+            "Value": "11/14 02:10 AM",
             "RefValue": "",
             "NoDisplay": false
           },
@@ -447,5 +578,5 @@
       }
     }
   ],
-  "LastUpdated": "2025-11-14T09:49:07.3161574+00:00"
+  "LastUpdated": "2025-11-14T10:14:10.3877031+00:00"
 }
