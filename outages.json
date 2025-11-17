@@ -1,18 +1,18 @@
 {
   "UnplannedOutageSummary": {
-    "CustomerAfftectedCount": 47,
-    "OutageCount": 2,
-    "LastUpdatedDatetime": "11/16 10:14 PM"
+    "CustomerAfftectedCount": 65,
+    "OutageCount": 3,
+    "LastUpdatedDatetime": "11/16 10:39 PM"
   },
   "PlannedOutageSummary": {
     "CustomerAfftectedCount": 0,
     "OutageCount": 0,
-    "LastUpdatedDatetime": "11/16 10:14 PM"
+    "LastUpdatedDatetime": "11/16 10:39 PM"
   },
   "PSPSSummary": {
     "CustomerAfftectedCount": 0,
     "OutageCount": 0,
-    "LastUpdatedDatetime": "11/16 10:14 PM"
+    "LastUpdatedDatetime": "11/16 10:39 PM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -50,7 +50,7 @@
           {
             "Name": "Last update",
             "RefName": "LastUpdated",
-            "Value": "11/16 10:10 PM",
+            "Value": "11/16 10:35 PM",
             "RefValue": "",
             "NoDisplay": false
           },
@@ -241,6 +241,121 @@
           {
             "Name": "Start time",
             "RefName": "StartDate",
+            "Value": "11/16 10:19 PM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "RefName": "Customers impacted",
+            "Value": "18",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "RefName": "Status",
+            "Value": "Outage reported",
+            "RefValue": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "RefName": "Cause",
+            "Value": "Under investigation",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "RefName": "LastUpdated",
+            "Value": "11/16 10:35 PM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "RefName": "Est. Restoration time",
+            "Value": "11/17 01:30 AM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Outage ID",
+            "RefName": "OutageEventId",
+            "Value": "INC1135063498",
+            "RefValue": "",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "48.71969",
+          "Longitude": "-122.69956",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "OrderType": "Outage",
+          "Title": "Lummi Island",
+          "Id": "INC1135063498",
+          "PlannedOutage": false,
+          "FilterType": "Outage"
+        },
+        "CRCAttributes": null
+      },
+      "Polygon": [
+        {
+          "Latitude": "48.71751",
+          "Longitude": "-122.69797"
+        },
+        {
+          "Latitude": "48.71814",
+          "Longitude": "-122.69952"
+        },
+        {
+          "Latitude": "48.71815",
+          "Longitude": "-122.69954"
+        },
+        {
+          "Latitude": "48.72015",
+          "Longitude": "-122.70187"
+        },
+        {
+          "Latitude": "48.72021",
+          "Longitude": "-122.70185"
+        },
+        {
+          "Latitude": "48.72175",
+          "Longitude": "-122.69890"
+        },
+        {
+          "Latitude": "48.72172",
+          "Longitude": "-122.69879"
+        },
+        {
+          "Latitude": "48.71755",
+          "Longitude": "-122.69787"
+        },
+        {
+          "Latitude": "48.71751",
+          "Longitude": "-122.69797"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "48.71751",
+          "Longitude": "-122.70187"
+        },
+        "Max": {
+          "Latitude": "48.72175",
+          "Longitude": "-122.69787"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "RefName": "StartDate",
             "Value": "11/16 05:00 PM",
             "RefValue": "",
             "NoDisplay": false
@@ -255,8 +370,8 @@
           {
             "Name": "Status",
             "RefName": "Status",
-            "Value": "Crew assigned",
-            "RefValue": "Crew assigned",
+            "Value": "Repair crew onsite",
+            "RefValue": "Repair crew onsite",
             "NoDisplay": false
           },
           {
@@ -269,7 +384,7 @@
           {
             "Name": "Last update",
             "RefName": "LastUpdated",
-            "Value": "11/16 10:10 PM",
+            "Value": "11/16 10:35 PM",
             "RefValue": "",
             "NoDisplay": false
           },
@@ -391,5 +506,5 @@
       }
     }
   ],
-  "LastUpdated": "2025-11-17T06:14:08.8586212+00:00"
+  "LastUpdated": "2025-11-17T06:39:08.037586+00:00"
 }
