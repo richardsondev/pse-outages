@@ -1,20 +1,144 @@
 {
   "UnplannedOutageSummary": {
-    "CustomerAfftectedCount": 0,
-    "OutageCount": 0,
-    "LastUpdatedDatetime": "11/17 02:34 AM"
+    "CustomerAfftectedCount": 5,
+    "OutageCount": 1,
+    "LastUpdatedDatetime": "11/17 02:49 AM"
   },
   "PlannedOutageSummary": {
     "CustomerAfftectedCount": 0,
     "OutageCount": 0,
-    "LastUpdatedDatetime": "11/17 02:34 AM"
+    "LastUpdatedDatetime": "11/17 02:49 AM"
   },
   "PSPSSummary": {
     "CustomerAfftectedCount": 0,
     "OutageCount": 0,
-    "LastUpdatedDatetime": "11/17 02:34 AM"
+    "LastUpdatedDatetime": "11/17 02:49 AM"
   },
   "CustomerProfile": null,
-  "PseMap": [],
-  "LastUpdated": "2025-11-17T10:34:06.9025084+00:00"
+  "PseMap": [
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "RefName": "StartDate",
+            "Value": "11/17 02:35 AM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "RefName": "Customers impacted",
+            "Value": "5",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "RefName": "Status",
+            "Value": "Outage reported",
+            "RefValue": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "RefName": "Cause",
+            "Value": "Under investigation",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "RefName": "LastUpdated",
+            "Value": "11/17 02:45 AM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "RefName": "Est. Restoration time",
+            "Value": "11/17 06:00 AM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Outage ID",
+            "RefName": "OutageEventId",
+            "Value": "INC1135063500",
+            "RefValue": "",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.58148",
+          "Longitude": "-122.22859",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "OrderType": "Outage",
+          "Title": "Mercer Island",
+          "Id": "INC1135063500",
+          "PlannedOutage": false,
+          "FilterType": "Outage"
+        },
+        "CRCAttributes": null
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.58133",
+          "Longitude": "-122.22817"
+        },
+        {
+          "Latitude": "47.58134",
+          "Longitude": "-122.22864"
+        },
+        {
+          "Latitude": "47.58134",
+          "Longitude": "-122.22864"
+        },
+        {
+          "Latitude": "47.58138",
+          "Longitude": "-122.22936"
+        },
+        {
+          "Latitude": "47.58147",
+          "Longitude": "-122.22938"
+        },
+        {
+          "Latitude": "47.58162",
+          "Longitude": "-122.22868"
+        },
+        {
+          "Latitude": "47.58163",
+          "Longitude": "-122.22867"
+        },
+        {
+          "Latitude": "47.58166",
+          "Longitude": "-122.22816"
+        },
+        {
+          "Latitude": "47.58161",
+          "Longitude": "-122.22809"
+        },
+        {
+          "Latitude": "47.58137",
+          "Longitude": "-122.22811"
+        },
+        {
+          "Latitude": "47.58133",
+          "Longitude": "-122.22817"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.58133",
+          "Longitude": "-122.22938"
+        },
+        "Max": {
+          "Latitude": "47.58166",
+          "Longitude": "-122.22809"
+        }
+      }
+    }
+  ],
+  "LastUpdated": "2025-11-17T10:49:06.9025364+00:00"
 }
