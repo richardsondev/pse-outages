@@ -1,18 +1,18 @@
 {
   "UnplannedOutageSummary": {
-    "CustomerAfftectedCount": 0,
-    "OutageCount": 0,
-    "LastUpdatedDatetime": "11/22 09:14 PM"
+    "CustomerAfftectedCount": 5,
+    "OutageCount": 1,
+    "LastUpdatedDatetime": "11/22 09:34 PM"
   },
   "PlannedOutageSummary": {
     "CustomerAfftectedCount": 1,
     "OutageCount": 1,
-    "LastUpdatedDatetime": "11/22 09:14 PM"
+    "LastUpdatedDatetime": "11/22 09:34 PM"
   },
   "PSPSSummary": {
     "CustomerAfftectedCount": 0,
     "OutageCount": 0,
-    "LastUpdatedDatetime": "11/22 09:14 PM"
+    "LastUpdatedDatetime": "11/22 09:34 PM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -50,7 +50,7 @@
           {
             "Name": "Last update",
             "RefName": "LastUpdated",
-            "Value": "11/22 09:10 PM",
+            "Value": "11/22 09:30 PM",
             "RefValue": "",
             "NoDisplay": false
           },
@@ -226,7 +226,122 @@
           "Longitude": "-122.13544"
         }
       }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "RefName": "StartDate",
+            "Value": "11/22 09:28 PM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "RefName": "Customers impacted",
+            "Value": "5",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "RefName": "Status",
+            "Value": "Outage reported",
+            "RefValue": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "RefName": "Cause",
+            "Value": "Under investigation",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "RefName": "LastUpdated",
+            "Value": "11/22 09:30 PM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "RefName": "Est. Restoration time",
+            "Value": "11/23 12:30 AM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Outage ID",
+            "RefName": "OutageEventId",
+            "Value": "INC1135064596",
+            "RefValue": "",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.30109",
+          "Longitude": "-122.28869",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "OrderType": "Outage",
+          "Title": "Federal Way",
+          "Id": "INC1135064596",
+          "PlannedOutage": false,
+          "FilterType": "Outage"
+        },
+        "CRCAttributes": null
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.30079",
+          "Longitude": "-122.28920"
+        },
+        {
+          "Latitude": "47.30115",
+          "Longitude": "-122.28910"
+        },
+        {
+          "Latitude": "47.30117",
+          "Longitude": "-122.28908"
+        },
+        {
+          "Latitude": "47.30162",
+          "Longitude": "-122.28841"
+        },
+        {
+          "Latitude": "47.30159",
+          "Longitude": "-122.28830"
+        },
+        {
+          "Latitude": "47.30081",
+          "Longitude": "-122.28835"
+        },
+        {
+          "Latitude": "47.30076",
+          "Longitude": "-122.28841"
+        },
+        {
+          "Latitude": "47.30073",
+          "Longitude": "-122.28913"
+        },
+        {
+          "Latitude": "47.30079",
+          "Longitude": "-122.28920"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.30073",
+          "Longitude": "-122.28920"
+        },
+        "Max": {
+          "Latitude": "47.30162",
+          "Longitude": "-122.28830"
+        }
+      }
     }
   ],
-  "LastUpdated": "2025-11-23T05:14:07.2612808+00:00"
+  "LastUpdated": "2025-11-23T05:34:06.298222+00:00"
 }
