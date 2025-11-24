@@ -1,18 +1,18 @@
 {
   "UnplannedOutageSummary": {
-    "CustomerAfftectedCount": 1,
-    "OutageCount": 1,
-    "LastUpdatedDatetime": "11/24 05:19 AM"
+    "CustomerAfftectedCount": 4,
+    "OutageCount": 2,
+    "LastUpdatedDatetime": "11/24 05:39 AM"
   },
   "PlannedOutageSummary": {
     "CustomerAfftectedCount": 1,
     "OutageCount": 1,
-    "LastUpdatedDatetime": "11/24 05:19 AM"
+    "LastUpdatedDatetime": "11/24 05:39 AM"
   },
   "PSPSSummary": {
     "CustomerAfftectedCount": 0,
     "OutageCount": 0,
-    "LastUpdatedDatetime": "11/24 05:19 AM"
+    "LastUpdatedDatetime": "11/24 05:39 AM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -50,7 +50,7 @@
           {
             "Name": "Last update",
             "RefName": "LastUpdated",
-            "Value": "11/24 05:15 AM",
+            "Value": "11/24 05:35 AM",
             "RefValue": "",
             "NoDisplay": false
           },
@@ -233,6 +233,113 @@
           {
             "Name": "Start time",
             "RefName": "StartDate",
+            "Value": "11/24 05:30 AM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "RefName": "Customers impacted",
+            "Value": "3",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "RefName": "Status",
+            "Value": "Outage reported",
+            "RefValue": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "RefName": "Cause",
+            "Value": "Under investigation",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "RefName": "LastUpdated",
+            "Value": "11/24 05:35 AM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "RefName": "Est. Restoration time",
+            "Value": "11/24 09:00 AM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Outage ID",
+            "RefName": "OutageEventId",
+            "Value": "INC1135064682",
+            "RefValue": "",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.34718",
+          "Longitude": "-122.07927",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "OrderType": "Outage",
+          "Title": "Lake Morton-Berrydale",
+          "Id": "INC1135064682",
+          "PlannedOutage": false,
+          "FilterType": "Outage"
+        },
+        "CRCAttributes": null
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.34690",
+          "Longitude": "-122.07975"
+        },
+        {
+          "Latitude": "47.34770",
+          "Longitude": "-122.07906"
+        },
+        {
+          "Latitude": "47.34767",
+          "Longitude": "-122.07894"
+        },
+        {
+          "Latitude": "47.34698",
+          "Longitude": "-122.07904"
+        },
+        {
+          "Latitude": "47.34694",
+          "Longitude": "-122.07909"
+        },
+        {
+          "Latitude": "47.34683",
+          "Longitude": "-122.07967"
+        },
+        {
+          "Latitude": "47.34690",
+          "Longitude": "-122.07975"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.34683",
+          "Longitude": "-122.07975"
+        },
+        "Max": {
+          "Latitude": "47.34770",
+          "Longitude": "-122.07894"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "RefName": "StartDate",
             "Value": "11/24 12:00 AM",
             "RefValue": "",
             "NoDisplay": false
@@ -261,7 +368,7 @@
           {
             "Name": "Last update",
             "RefName": "LastUpdated",
-            "Value": "11/24 05:15 AM",
+            "Value": "11/24 05:35 AM",
             "RefValue": "",
             "NoDisplay": false
           },
@@ -439,5 +546,5 @@
       }
     }
   ],
-  "LastUpdated": "2025-11-24T13:19:09.0308265+00:00"
+  "LastUpdated": "2025-11-24T13:39:07.4572835+00:00"
 }
