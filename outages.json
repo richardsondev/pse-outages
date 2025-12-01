@@ -1,21 +1,128 @@
 {
   "UnplannedOutageSummary": {
-    "CustomerAfftectedCount": 14,
-    "OutageCount": 1,
-    "LastUpdatedDatetime": "12/01 05:39 AM"
+    "CustomerAfftectedCount": 17,
+    "OutageCount": 2,
+    "LastUpdatedDatetime": "12/01 05:49 AM"
   },
   "PlannedOutageSummary": {
     "CustomerAfftectedCount": 0,
     "OutageCount": 0,
-    "LastUpdatedDatetime": "12/01 05:39 AM"
+    "LastUpdatedDatetime": "12/01 05:49 AM"
   },
   "PSPSSummary": {
     "CustomerAfftectedCount": 0,
     "OutageCount": 0,
-    "LastUpdatedDatetime": "12/01 05:39 AM"
+    "LastUpdatedDatetime": "12/01 05:49 AM"
   },
   "CustomerProfile": null,
   "PseMap": [
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "RefName": "StartDate",
+            "Value": "12/01 05:32 AM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "RefName": "Customers impacted",
+            "Value": "3",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "RefName": "Status",
+            "Value": "Outage reported",
+            "RefValue": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "RefName": "Cause",
+            "Value": "Under investigation",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "RefName": "LastUpdated",
+            "Value": "12/01 05:45 AM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "RefName": "Est. Restoration time",
+            "Value": "12/01 09:00 AM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Outage ID",
+            "RefName": "OutageEventId",
+            "Value": "INC1135065920",
+            "RefValue": "",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.76355",
+          "Longitude": "-122.49163",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "OrderType": "Outage",
+          "Title": "Indianola",
+          "Id": "INC1135065920",
+          "PlannedOutage": false,
+          "FilterType": "Outage"
+        },
+        "CRCAttributes": null
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.76244",
+          "Longitude": "-122.49054"
+        },
+        {
+          "Latitude": "47.76290",
+          "Longitude": "-122.49256"
+        },
+        {
+          "Latitude": "47.76296",
+          "Longitude": "-122.49260"
+        },
+        {
+          "Latitude": "47.76523",
+          "Longitude": "-122.49191"
+        },
+        {
+          "Latitude": "47.76524",
+          "Longitude": "-122.49178"
+        },
+        {
+          "Latitude": "47.76250",
+          "Longitude": "-122.49045"
+        },
+        {
+          "Latitude": "47.76244",
+          "Longitude": "-122.49054"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.76244",
+          "Longitude": "-122.49260"
+        },
+        "Max": {
+          "Latitude": "47.76524",
+          "Longitude": "-122.49045"
+        }
+      }
+    },
     {
       "DataProvider": {
         "Attributes": [
@@ -50,7 +157,7 @@
           {
             "Name": "Last update",
             "RefName": "LastUpdated",
-            "Value": "12/01 05:35 AM",
+            "Value": "12/01 05:45 AM",
             "RefValue": "",
             "NoDisplay": false
           },
@@ -148,5 +255,5 @@
       }
     }
   ],
-  "LastUpdated": "2025-12-01T13:39:06.174189+00:00"
+  "LastUpdated": "2025-12-01T13:49:06.0803218+00:00"
 }
