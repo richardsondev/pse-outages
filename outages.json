@@ -1,18 +1,18 @@
 {
   "UnplannedOutageSummary": {
-    "CustomerAfftectedCount": 26,
-    "OutageCount": 3,
-    "LastUpdatedDatetime": "01/02 09:14 AM"
+    "CustomerAfftectedCount": 31,
+    "OutageCount": 4,
+    "LastUpdatedDatetime": "01/02 09:34 AM"
   },
   "PlannedOutageSummary": {
     "CustomerAfftectedCount": 0,
     "OutageCount": 0,
-    "LastUpdatedDatetime": "01/02 09:14 AM"
+    "LastUpdatedDatetime": "01/02 09:34 AM"
   },
   "PSPSSummary": {
     "CustomerAfftectedCount": 0,
     "OutageCount": 0,
-    "LastUpdatedDatetime": "01/02 09:14 AM"
+    "LastUpdatedDatetime": "01/02 09:34 AM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -50,7 +50,7 @@
           {
             "Name": "Last update",
             "RefName": "LastUpdated",
-            "Value": "01/02 09:10 AM",
+            "Value": "01/02 09:30 AM",
             "RefValue": "",
             "NoDisplay": false
           },
@@ -137,14 +137,14 @@
           {
             "Name": "Start time",
             "RefName": "StartDate",
-            "Value": "01/02 09:03 AM",
+            "Value": "01/02 09:27 AM",
             "RefValue": "",
             "NoDisplay": false
           },
           {
             "Name": "Customers impacted",
             "RefName": "Customers impacted",
-            "Value": "18",
+            "Value": "5",
             "RefValue": "",
             "NoDisplay": false
           },
@@ -165,7 +165,122 @@
           {
             "Name": "Last update",
             "RefName": "LastUpdated",
-            "Value": "01/02 09:10 AM",
+            "Value": "01/02 09:30 AM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "RefName": "Est. Restoration time",
+            "Value": "01/02 12:30 PM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Outage ID",
+            "RefName": "OutageEventId",
+            "Value": "INC1135080417",
+            "RefValue": "",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "48.76270",
+          "Longitude": "-122.50368",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "OrderType": "Outage",
+          "Title": "Bellingham",
+          "Id": "INC1135080417",
+          "PlannedOutage": false,
+          "FilterType": "Outage"
+        },
+        "CRCAttributes": null
+      },
+      "Polygon": [
+        {
+          "Latitude": "48.76252",
+          "Longitude": "-122.50356"
+        },
+        {
+          "Latitude": "48.76255",
+          "Longitude": "-122.50393"
+        },
+        {
+          "Latitude": "48.76262",
+          "Longitude": "-122.50398"
+        },
+        {
+          "Latitude": "48.76296",
+          "Longitude": "-122.50363"
+        },
+        {
+          "Latitude": "48.76294",
+          "Longitude": "-122.50350"
+        },
+        {
+          "Latitude": "48.76265",
+          "Longitude": "-122.50347"
+        },
+        {
+          "Latitude": "48.76264",
+          "Longitude": "-122.50347"
+        },
+        {
+          "Latitude": "48.76256",
+          "Longitude": "-122.50349"
+        },
+        {
+          "Latitude": "48.76252",
+          "Longitude": "-122.50356"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "48.76252",
+          "Longitude": "-122.50398"
+        },
+        "Max": {
+          "Latitude": "48.76296",
+          "Longitude": "-122.50347"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "RefName": "StartDate",
+            "Value": "01/02 09:03 AM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "RefName": "Customers impacted",
+            "Value": "18",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "RefName": "Status",
+            "Value": "Assessing damage",
+            "RefValue": "Waiting for repairs",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "RefName": "Cause",
+            "Value": "Bird or animal",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "RefName": "LastUpdated",
+            "Value": "01/02 09:30 AM",
             "RefValue": "",
             "NoDisplay": false
           },
@@ -316,7 +431,7 @@
           {
             "Name": "Last update",
             "RefName": "LastUpdated",
-            "Value": "01/02 09:10 AM",
+            "Value": "01/02 09:30 AM",
             "RefValue": "",
             "NoDisplay": false
           },
@@ -494,5 +609,5 @@
       }
     }
   ],
-  "LastUpdated": "2026-01-02T17:14:07.6898227+00:00"
+  "LastUpdated": "2026-01-02T17:34:10.6635141+00:00"
 }
