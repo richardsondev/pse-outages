@@ -2,19 +2,143 @@
   "UnplannedOutageSummary": {
     "CustomerAfftectedCount": 0,
     "OutageCount": 0,
-    "LastUpdatedDatetime": "01/18 07:49 AM"
+    "LastUpdatedDatetime": "01/18 08:14 AM"
   },
   "PlannedOutageSummary": {
-    "CustomerAfftectedCount": 0,
-    "OutageCount": 0,
-    "LastUpdatedDatetime": "01/18 07:49 AM"
+    "CustomerAfftectedCount": 8,
+    "OutageCount": 1,
+    "LastUpdatedDatetime": "01/18 08:14 AM"
   },
   "PSPSSummary": {
     "CustomerAfftectedCount": 0,
     "OutageCount": 0,
-    "LastUpdatedDatetime": "01/18 07:49 AM"
+    "LastUpdatedDatetime": "01/18 08:14 AM"
   },
   "CustomerProfile": null,
-  "PseMap": [],
-  "LastUpdated": "2026-01-18T15:49:03.848416+00:00"
+  "PseMap": [
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "RefName": "StartDate",
+            "Value": "01/18 07:57 AM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "RefName": "Customers impacted",
+            "Value": "8",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "RefName": "Status",
+            "Value": "Crew onsite",
+            "RefValue": "Repair crew onsite",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "RefName": "Cause",
+            "Value": "Scheduled outage",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "RefName": "LastUpdated",
+            "Value": "01/18 08:10 AM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "RefName": "Est. Restoration time",
+            "Value": "01/18 04:00 PM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Outage ID",
+            "RefName": "OutageEventId",
+            "Value": "INC1135083761",
+            "RefValue": "",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.46870",
+          "Longitude": "-122.22557",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "OrderType": "Switching",
+          "Title": "Renton",
+          "Id": "INC1135083761",
+          "PlannedOutage": true,
+          "FilterType": "Planned"
+        },
+        "CRCAttributes": null
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.46829",
+          "Longitude": "-122.22694"
+        },
+        {
+          "Latitude": "47.46861",
+          "Longitude": "-122.22735"
+        },
+        {
+          "Latitude": "47.46869",
+          "Longitude": "-122.22731"
+        },
+        {
+          "Latitude": "47.46917",
+          "Longitude": "-122.22404"
+        },
+        {
+          "Latitude": "47.46912",
+          "Longitude": "-122.22396"
+        },
+        {
+          "Latitude": "47.46870",
+          "Longitude": "-122.22405"
+        },
+        {
+          "Latitude": "47.46866",
+          "Longitude": "-122.22410"
+        },
+        {
+          "Latitude": "47.46832",
+          "Longitude": "-122.22650"
+        },
+        {
+          "Latitude": "47.46832",
+          "Longitude": "-122.22650"
+        },
+        {
+          "Latitude": "47.46827",
+          "Longitude": "-122.22688"
+        },
+        {
+          "Latitude": "47.46829",
+          "Longitude": "-122.22694"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.46827",
+          "Longitude": "-122.22735"
+        },
+        "Max": {
+          "Latitude": "47.46917",
+          "Longitude": "-122.22396"
+        }
+      }
+    }
+  ],
+  "LastUpdated": "2026-01-18T16:14:04.4009214+00:00"
 }
