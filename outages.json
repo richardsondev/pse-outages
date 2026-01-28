@@ -1,21 +1,136 @@
 {
   "UnplannedOutageSummary": {
-    "CustomerAfftectedCount": 2,
-    "OutageCount": 2,
-    "LastUpdatedDatetime": "01/28 07:39 AM"
+    "CustomerAfftectedCount": 29,
+    "OutageCount": 3,
+    "LastUpdatedDatetime": "01/28 07:59 AM"
   },
   "PlannedOutageSummary": {
     "CustomerAfftectedCount": 0,
     "OutageCount": 0,
-    "LastUpdatedDatetime": "01/28 07:39 AM"
+    "LastUpdatedDatetime": "01/28 07:59 AM"
   },
   "PSPSSummary": {
     "CustomerAfftectedCount": 0,
     "OutageCount": 0,
-    "LastUpdatedDatetime": "01/28 07:39 AM"
+    "LastUpdatedDatetime": "01/28 07:59 AM"
   },
   "CustomerProfile": null,
   "PseMap": [
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "RefName": "StartDate",
+            "Value": "01/28 07:34 AM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "RefName": "Customers impacted",
+            "Value": "27",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "RefName": "Status",
+            "Value": "Outage reported",
+            "RefValue": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "RefName": "Cause",
+            "Value": "Under investigation",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "RefName": "LastUpdated",
+            "Value": "01/28 07:55 AM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "RefName": "Est. Restoration time",
+            "Value": "01/28 11:00 AM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Outage ID",
+            "RefName": "OutageEventId",
+            "Value": "INC1135085742",
+            "RefValue": "",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "46.98357",
+          "Longitude": "-121.53413",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "OrderType": "Outage",
+          "Title": "Enumclaw",
+          "Id": "INC1135085742",
+          "PlannedOutage": false,
+          "FilterType": "Outage"
+        },
+        "CRCAttributes": null
+      },
+      "Polygon": [
+        {
+          "Latitude": "46.98028",
+          "Longitude": "-121.53600"
+        },
+        {
+          "Latitude": "46.98847",
+          "Longitude": "-121.53264"
+        },
+        {
+          "Latitude": "46.98850",
+          "Longitude": "-121.53255"
+        },
+        {
+          "Latitude": "46.98844",
+          "Longitude": "-121.53232"
+        },
+        {
+          "Latitude": "46.98839",
+          "Longitude": "-121.53228"
+        },
+        {
+          "Latitude": "46.98075",
+          "Longitude": "-121.53437"
+        },
+        {
+          "Latitude": "46.98071",
+          "Longitude": "-121.53441"
+        },
+        {
+          "Latitude": "46.98023",
+          "Longitude": "-121.53591"
+        },
+        {
+          "Latitude": "46.98028",
+          "Longitude": "-121.53600"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "46.98023",
+          "Longitude": "-121.53600"
+        },
+        "Max": {
+          "Latitude": "46.98850",
+          "Longitude": "-121.53228"
+        }
+      }
+    },
     {
       "DataProvider": {
         "Attributes": [
@@ -50,7 +165,7 @@
           {
             "Name": "Last update",
             "RefName": "LastUpdated",
-            "Value": "01/28 07:35 AM",
+            "Value": "01/28 07:55 AM",
             "RefValue": "",
             "NoDisplay": false
           },
@@ -261,7 +376,7 @@
           {
             "Name": "Last update",
             "RefName": "LastUpdated",
-            "Value": "01/28 07:35 AM",
+            "Value": "01/28 07:55 AM",
             "RefValue": "",
             "NoDisplay": false
           },
@@ -439,5 +554,5 @@
       }
     }
   ],
-  "LastUpdated": "2026-01-28T15:39:04.2021002+00:00"
+  "LastUpdated": "2026-01-28T15:59:06.2559953+00:00"
 }
