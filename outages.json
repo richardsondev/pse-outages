@@ -1,18 +1,18 @@
 {
   "UnplannedOutageSummary": {
-    "CustomerAfftectedCount": 0,
-    "OutageCount": 0,
-    "LastUpdatedDatetime": "02/18 03:44 AM"
+    "CustomerAfftectedCount": 4,
+    "OutageCount": 1,
+    "LastUpdatedDatetime": "02/18 03:59 AM"
   },
   "PlannedOutageSummary": {
     "CustomerAfftectedCount": 1,
     "OutageCount": 1,
-    "LastUpdatedDatetime": "02/18 03:44 AM"
+    "LastUpdatedDatetime": "02/18 03:59 AM"
   },
   "PSPSSummary": {
     "CustomerAfftectedCount": 0,
     "OutageCount": 0,
-    "LastUpdatedDatetime": "02/18 03:44 AM"
+    "LastUpdatedDatetime": "02/18 03:59 AM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -50,7 +50,7 @@
           {
             "Name": "Last update",
             "RefName": "LastUpdated",
-            "Value": "02/18 03:40 AM",
+            "Value": "02/18 03:55 AM",
             "RefValue": "",
             "NoDisplay": false
           }
@@ -213,7 +213,115 @@
           "Longitude": "-122.16731"
         }
       }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "RefName": "StartDate",
+            "Value": "02/18 03:48 AM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "RefName": "Customers impacted",
+            "Value": "4",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "RefName": "Status",
+            "Value": "Outage reported",
+            "RefValue": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "RefName": "Cause",
+            "Value": "Under investigation",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "RefName": "LastUpdated",
+            "Value": "02/18 03:55 AM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "RefName": "Est. Restoration time",
+            "Value": "02/18 07:00 AM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Outage ID",
+            "RefName": "OutageEventId",
+            "Value": "INC1140104087",
+            "RefValue": "",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "48.83501",
+          "Longitude": "-122.46091",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "OrderType": "Outage",
+          "Title": "Bellingham",
+          "Id": "INC1140104087",
+          "PlannedOutage": false,
+          "FilterType": "Outage",
+          "IsHve": false
+        },
+        "CRCAttributes": null
+      },
+      "Polygon": [
+        {
+          "Latitude": "48.83379",
+          "Longitude": "-122.46202"
+        },
+        {
+          "Latitude": "48.83642",
+          "Longitude": "-122.46065"
+        },
+        {
+          "Latitude": "48.83641",
+          "Longitude": "-122.46052"
+        },
+        {
+          "Latitude": "48.83486",
+          "Longitude": "-122.46012"
+        },
+        {
+          "Latitude": "48.83482",
+          "Longitude": "-122.46014"
+        },
+        {
+          "Latitude": "48.83374",
+          "Longitude": "-122.46191"
+        },
+        {
+          "Latitude": "48.83379",
+          "Longitude": "-122.46202"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "48.83374",
+          "Longitude": "-122.46202"
+        },
+        "Max": {
+          "Latitude": "48.83642",
+          "Longitude": "-122.46012"
+        }
+      }
     }
   ],
-  "LastUpdated": "2026-02-18T11:44:07.1133865+00:00"
+  "LastUpdated": "2026-02-18T11:59:11.9188674+00:00"
 }
