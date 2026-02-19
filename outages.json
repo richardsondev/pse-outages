@@ -1,18 +1,18 @@
 {
   "UnplannedOutageSummary": {
-    "CustomerAfftectedCount": 0,
-    "OutageCount": 0,
-    "LastUpdatedDatetime": "02/18 11:59 PM"
+    "CustomerAfftectedCount": 3,
+    "OutageCount": 1,
+    "LastUpdatedDatetime": "02/19 12:19 AM"
   },
   "PlannedOutageSummary": {
     "CustomerAfftectedCount": 1,
     "OutageCount": 1,
-    "LastUpdatedDatetime": "02/18 11:59 PM"
+    "LastUpdatedDatetime": "02/19 12:19 AM"
   },
   "PSPSSummary": {
     "CustomerAfftectedCount": 0,
     "OutageCount": 0,
-    "LastUpdatedDatetime": "02/18 11:59 PM"
+    "LastUpdatedDatetime": "02/19 12:19 AM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -50,7 +50,7 @@
           {
             "Name": "Last update",
             "RefName": "LastUpdated",
-            "Value": "02/18 11:55 PM",
+            "Value": "02/19 12:15 AM",
             "RefValue": "",
             "NoDisplay": false
           },
@@ -227,7 +227,115 @@
           "Longitude": "-122.33544"
         }
       }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "RefName": "StartDate",
+            "Value": "02/18 11:54 PM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "RefName": "Customers impacted",
+            "Value": "3",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "RefName": "Status",
+            "Value": "Outage reported",
+            "RefValue": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "RefName": "Cause",
+            "Value": "Under investigation",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "RefName": "LastUpdated",
+            "Value": "02/19 12:15 AM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "RefName": "Est. Restoration time",
+            "Value": "02/19 03:00 AM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Outage ID",
+            "RefName": "OutageEventId",
+            "Value": "INC1140104201",
+            "RefValue": "",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.53606",
+          "Longitude": "-122.18993",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "OrderType": "Outage",
+          "Title": "Newcastle",
+          "Id": "INC1140104201",
+          "PlannedOutage": false,
+          "FilterType": "Outage",
+          "IsHve": false
+        },
+        "CRCAttributes": null
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.53593",
+          "Longitude": "-122.19010"
+        },
+        {
+          "Latitude": "47.53624",
+          "Longitude": "-122.19017"
+        },
+        {
+          "Latitude": "47.53628",
+          "Longitude": "-122.19007"
+        },
+        {
+          "Latitude": "47.53603",
+          "Longitude": "-122.18962"
+        },
+        {
+          "Latitude": "47.53595",
+          "Longitude": "-122.18965"
+        },
+        {
+          "Latitude": "47.53589",
+          "Longitude": "-122.19002"
+        },
+        {
+          "Latitude": "47.53593",
+          "Longitude": "-122.19010"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.53589",
+          "Longitude": "-122.19017"
+        },
+        "Max": {
+          "Latitude": "47.53628",
+          "Longitude": "-122.18962"
+        }
+      }
     }
   ],
-  "LastUpdated": "2026-02-19T07:59:03.5954891+00:00"
+  "LastUpdated": "2026-02-19T08:19:07.2653437+00:00"
 }
