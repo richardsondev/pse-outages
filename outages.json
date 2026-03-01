@@ -1,20 +1,137 @@
 {
   "UnplannedOutageSummary": {
-    "CustomerAfftectedCount": 0,
-    "OutageCount": 0,
-    "LastUpdatedDatetime": "03/01 06:54 AM"
+    "CustomerAfftectedCount": 5,
+    "OutageCount": 1,
+    "LastUpdatedDatetime": "03/01 07:14 AM"
   },
   "PlannedOutageSummary": {
     "CustomerAfftectedCount": 0,
     "OutageCount": 0,
-    "LastUpdatedDatetime": "03/01 06:54 AM"
+    "LastUpdatedDatetime": "03/01 07:14 AM"
   },
   "PSPSSummary": {
     "CustomerAfftectedCount": 0,
     "OutageCount": 0,
-    "LastUpdatedDatetime": "03/01 06:54 AM"
+    "LastUpdatedDatetime": "03/01 07:14 AM"
   },
   "CustomerProfile": null,
-  "PseMap": [],
-  "LastUpdated": "2026-03-01T14:54:06.5270314+00:00"
+  "PseMap": [
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "RefName": "StartDate",
+            "Value": "03/01 07:04 AM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "RefName": "Customers impacted",
+            "Value": "5",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "RefName": "Status",
+            "Value": "Outage reported",
+            "RefValue": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "RefName": "Cause",
+            "Value": "Under investigation",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "RefName": "LastUpdated",
+            "Value": "03/01 07:10 AM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "RefName": "Est. Restoration time",
+            "Value": "03/01 10:30 AM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Outage ID",
+            "RefName": "OutageEventId",
+            "Value": "INC1140105478",
+            "RefValue": "",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.62021",
+          "Longitude": "-122.06503",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "OrderType": "Outage",
+          "Title": "Sammamish",
+          "Id": "INC1140105478",
+          "PlannedOutage": false,
+          "FilterType": "Outage",
+          "IsHve": false
+        },
+        "CRCAttributes": null
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.61995",
+          "Longitude": "-122.06528"
+        },
+        {
+          "Latitude": "47.62028",
+          "Longitude": "-122.06531"
+        },
+        {
+          "Latitude": "47.62032",
+          "Longitude": "-122.06529"
+        },
+        {
+          "Latitude": "47.62055",
+          "Longitude": "-122.06488"
+        },
+        {
+          "Latitude": "47.62052",
+          "Longitude": "-122.06477"
+        },
+        {
+          "Latitude": "47.62006",
+          "Longitude": "-122.06480"
+        },
+        {
+          "Latitude": "47.62002",
+          "Longitude": "-122.06484"
+        },
+        {
+          "Latitude": "47.61991",
+          "Longitude": "-122.06519"
+        },
+        {
+          "Latitude": "47.61995",
+          "Longitude": "-122.06528"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.61991",
+          "Longitude": "-122.06531"
+        },
+        "Max": {
+          "Latitude": "47.62055",
+          "Longitude": "-122.06477"
+        }
+      }
+    }
+  ],
+  "LastUpdated": "2026-03-01T15:14:11.7418539+00:00"
 }
