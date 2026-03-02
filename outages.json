@@ -1,20 +1,153 @@
 {
   "UnplannedOutageSummary": {
-    "CustomerAfftectedCount": 0,
-    "OutageCount": 0,
-    "LastUpdatedDatetime": "03/02 06:59 AM"
+    "CustomerAfftectedCount": 11,
+    "OutageCount": 1,
+    "LastUpdatedDatetime": "03/02 07:24 AM"
   },
   "PlannedOutageSummary": {
     "CustomerAfftectedCount": 0,
     "OutageCount": 0,
-    "LastUpdatedDatetime": "03/02 06:59 AM"
+    "LastUpdatedDatetime": "03/02 07:24 AM"
   },
   "PSPSSummary": {
     "CustomerAfftectedCount": 0,
     "OutageCount": 0,
-    "LastUpdatedDatetime": "03/02 06:59 AM"
+    "LastUpdatedDatetime": "03/02 07:24 AM"
   },
   "CustomerProfile": null,
-  "PseMap": [],
-  "LastUpdated": "2026-03-02T14:59:02.7160504+00:00"
+  "PseMap": [
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "RefName": "StartDate",
+            "Value": "03/02 07:13 AM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "RefName": "Customers impacted",
+            "Value": "11",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "RefName": "Status",
+            "Value": "Outage reported",
+            "RefValue": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "RefName": "Cause",
+            "Value": "Under investigation",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "RefName": "LastUpdated",
+            "Value": "03/02 07:20 AM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "RefName": "Est. Restoration time",
+            "Value": "03/02 10:30 AM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Outage ID",
+            "RefName": "OutageEventId",
+            "Value": "INC1140105511",
+            "RefValue": "",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "48.84679",
+          "Longitude": "-122.59026",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "OrderType": "Outage",
+          "Title": "Ferndale",
+          "Id": "INC1140105511",
+          "PlannedOutage": false,
+          "FilterType": "Outage",
+          "IsHve": false
+        },
+        "CRCAttributes": null
+      },
+      "Polygon": [
+        {
+          "Latitude": "48.84648",
+          "Longitude": "-122.59023"
+        },
+        {
+          "Latitude": "48.84658",
+          "Longitude": "-122.59048"
+        },
+        {
+          "Latitude": "48.84658",
+          "Longitude": "-122.59049"
+        },
+        {
+          "Latitude": "48.84670",
+          "Longitude": "-122.59074"
+        },
+        {
+          "Latitude": "48.84676",
+          "Longitude": "-122.59075"
+        },
+        {
+          "Latitude": "48.84711",
+          "Longitude": "-122.59036"
+        },
+        {
+          "Latitude": "48.84712",
+          "Longitude": "-122.59026"
+        },
+        {
+          "Latitude": "48.84691",
+          "Longitude": "-122.58986"
+        },
+        {
+          "Latitude": "48.84688",
+          "Longitude": "-122.58984"
+        },
+        {
+          "Latitude": "48.84675",
+          "Longitude": "-122.58981"
+        },
+        {
+          "Latitude": "48.84671",
+          "Longitude": "-122.58982"
+        },
+        {
+          "Latitude": "48.84649",
+          "Longitude": "-122.59014"
+        },
+        {
+          "Latitude": "48.84648",
+          "Longitude": "-122.59023"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "48.84648",
+          "Longitude": "-122.59075"
+        },
+        "Max": {
+          "Latitude": "48.84712",
+          "Longitude": "-122.58981"
+        }
+      }
+    }
+  ],
+  "LastUpdated": "2026-03-02T15:24:05.7945865+00:00"
 }
