@@ -1,20 +1,153 @@
 {
   "UnplannedOutageSummary": {
-    "CustomerAfftectedCount": 0,
-    "OutageCount": 0,
-    "LastUpdatedDatetime": "03/01 11:09 PM"
+    "CustomerAfftectedCount": 34,
+    "OutageCount": 1,
+    "LastUpdatedDatetime": "03/01 11:44 PM"
   },
   "PlannedOutageSummary": {
     "CustomerAfftectedCount": 0,
     "OutageCount": 0,
-    "LastUpdatedDatetime": "03/01 11:09 PM"
+    "LastUpdatedDatetime": "03/01 11:44 PM"
   },
   "PSPSSummary": {
     "CustomerAfftectedCount": 0,
     "OutageCount": 0,
-    "LastUpdatedDatetime": "03/01 11:09 PM"
+    "LastUpdatedDatetime": "03/01 11:44 PM"
   },
   "CustomerProfile": null,
-  "PseMap": [],
-  "LastUpdated": "2026-03-02T07:09:06.1156144+00:00"
+  "PseMap": [
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "RefName": "StartDate",
+            "Value": "03/01 11:31 PM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "RefName": "Customers impacted",
+            "Value": "34",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "RefName": "Status",
+            "Value": "Outage reported",
+            "RefValue": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "RefName": "Cause",
+            "Value": "Under investigation",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "RefName": "LastUpdated",
+            "Value": "03/01 11:40 PM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "RefName": "Est. Restoration time",
+            "Value": "03/02 03:00 AM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Outage ID",
+            "RefName": "OutageEventId",
+            "Value": "INC1140105498",
+            "RefValue": "",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "48.89795",
+          "Longitude": "-122.77350",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "OrderType": "Outage",
+          "Title": "Birch Bay",
+          "Id": "INC1140105498",
+          "PlannedOutage": false,
+          "FilterType": "Outage",
+          "IsHve": false
+        },
+        "CRCAttributes": null
+      },
+      "Polygon": [
+        {
+          "Latitude": "48.89617",
+          "Longitude": "-122.77738"
+        },
+        {
+          "Latitude": "48.89639",
+          "Longitude": "-122.77781"
+        },
+        {
+          "Latitude": "48.89646",
+          "Longitude": "-122.77782"
+        },
+        {
+          "Latitude": "48.89807",
+          "Longitude": "-122.77583"
+        },
+        {
+          "Latitude": "48.89807",
+          "Longitude": "-122.77583"
+        },
+        {
+          "Latitude": "48.89873",
+          "Longitude": "-122.77500"
+        },
+        {
+          "Latitude": "48.89873",
+          "Longitude": "-122.77500"
+        },
+        {
+          "Latitude": "48.89911",
+          "Longitude": "-122.77448"
+        },
+        {
+          "Latitude": "48.89912",
+          "Longitude": "-122.77442"
+        },
+        {
+          "Latitude": "48.89879",
+          "Longitude": "-122.76782"
+        },
+        {
+          "Latitude": "48.89870",
+          "Longitude": "-122.76780"
+        },
+        {
+          "Latitude": "48.89617",
+          "Longitude": "-122.77731"
+        },
+        {
+          "Latitude": "48.89617",
+          "Longitude": "-122.77738"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "48.89617",
+          "Longitude": "-122.77782"
+        },
+        "Max": {
+          "Latitude": "48.89912",
+          "Longitude": "-122.76780"
+        }
+      }
+    }
+  ],
+  "LastUpdated": "2026-03-02T07:44:07.5172999+00:00"
 }
