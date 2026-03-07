@@ -1,18 +1,18 @@
 {
   "UnplannedOutageSummary": {
-    "CustomerAfftectedCount": 44,
-    "OutageCount": 5,
-    "LastUpdatedDatetime": "03/07 01:14 PM"
+    "CustomerAfftectedCount": 66,
+    "OutageCount": 6,
+    "LastUpdatedDatetime": "03/07 01:34 PM"
   },
   "PlannedOutageSummary": {
     "CustomerAfftectedCount": 4,
     "OutageCount": 2,
-    "LastUpdatedDatetime": "03/07 01:14 PM"
+    "LastUpdatedDatetime": "03/07 01:34 PM"
   },
   "PSPSSummary": {
     "CustomerAfftectedCount": 0,
     "OutageCount": 0,
-    "LastUpdatedDatetime": "03/07 01:14 PM"
+    "LastUpdatedDatetime": "03/07 01:34 PM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -50,7 +50,7 @@
           {
             "Name": "Last update",
             "RefName": "LastUpdated",
-            "Value": "03/07 01:10 PM",
+            "Value": "03/07 01:30 PM",
             "RefValue": "",
             "NoDisplay": false
           },
@@ -262,7 +262,7 @@
           {
             "Name": "Last update",
             "RefName": "LastUpdated",
-            "Value": "03/07 01:10 PM",
+            "Value": "03/07 01:30 PM",
             "RefValue": "",
             "NoDisplay": false
           },
@@ -467,14 +467,14 @@
           {
             "Name": "Cause",
             "RefName": "Cause",
-            "Value": "Under investigation",
+            "Value": "Equipment failure",
             "RefValue": "",
             "NoDisplay": false
           },
           {
             "Name": "Last update",
             "RefName": "LastUpdated",
-            "Value": "03/07 01:10 PM",
+            "Value": "03/07 01:30 PM",
             "RefValue": "",
             "NoDisplay": false
           },
@@ -686,7 +686,7 @@
           {
             "Name": "Last update",
             "RefName": "LastUpdated",
-            "Value": "03/07 01:10 PM",
+            "Value": "03/07 01:30 PM",
             "RefValue": "",
             "NoDisplay": false
           },
@@ -870,6 +870,154 @@
           {
             "Name": "Start time",
             "RefName": "StartDate",
+            "Value": "03/07 01:25 PM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "RefName": "Customers impacted",
+            "Value": "22",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "RefName": "Status",
+            "Value": "Outage reported",
+            "RefValue": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "RefName": "Cause",
+            "Value": "Under investigation",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "RefName": "LastUpdated",
+            "Value": "03/07 01:30 PM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "RefName": "Est. Restoration time",
+            "Value": "03/07 04:30 PM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Outage ID",
+            "RefName": "OutageEventId",
+            "Value": "INC1140106355",
+            "RefValue": "",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "48.91953",
+          "Longitude": "-122.34504",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "OrderType": "Outage",
+          "Title": "Everson",
+          "Id": "INC1140106355",
+          "PlannedOutage": false,
+          "FilterType": "Outage",
+          "IsHve": false
+        },
+        "CRCAttributes": null
+      },
+      "Polygon": [
+        {
+          "Latitude": "48.91910",
+          "Longitude": "-122.34596"
+        },
+        {
+          "Latitude": "48.91982",
+          "Longitude": "-122.34563"
+        },
+        {
+          "Latitude": "48.91985",
+          "Longitude": "-122.34559"
+        },
+        {
+          "Latitude": "48.91992",
+          "Longitude": "-122.34524"
+        },
+        {
+          "Latitude": "48.91992",
+          "Longitude": "-122.34523"
+        },
+        {
+          "Latitude": "48.92000",
+          "Longitude": "-122.34450"
+        },
+        {
+          "Latitude": "48.92000",
+          "Longitude": "-122.34446"
+        },
+        {
+          "Latitude": "48.91984",
+          "Longitude": "-122.34401"
+        },
+        {
+          "Latitude": "48.91977",
+          "Longitude": "-122.34399"
+        },
+        {
+          "Latitude": "48.91912",
+          "Longitude": "-122.34484"
+        },
+        {
+          "Latitude": "48.91911",
+          "Longitude": "-122.34488"
+        },
+        {
+          "Latitude": "48.91907",
+          "Longitude": "-122.34518"
+        },
+        {
+          "Latitude": "48.91907",
+          "Longitude": "-122.34519"
+        },
+        {
+          "Latitude": "48.91905",
+          "Longitude": "-122.34557"
+        },
+        {
+          "Latitude": "48.91905",
+          "Longitude": "-122.34557"
+        },
+        {
+          "Latitude": "48.91905",
+          "Longitude": "-122.34589"
+        },
+        {
+          "Latitude": "48.91910",
+          "Longitude": "-122.34596"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "48.91905",
+          "Longitude": "-122.34596"
+        },
+        "Max": {
+          "Latitude": "48.92000",
+          "Longitude": "-122.34399"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "RefName": "StartDate",
             "Value": "03/07 11:00 AM",
             "RefValue": "",
             "NoDisplay": false
@@ -898,7 +1046,7 @@
           {
             "Name": "Last update",
             "RefName": "LastUpdated",
-            "Value": "03/07 01:10 PM",
+            "Value": "03/07 01:30 PM",
             "RefValue": "",
             "NoDisplay": false
           },
@@ -1118,7 +1266,7 @@
           {
             "Name": "Last update",
             "RefName": "LastUpdated",
-            "Value": "03/07 01:10 PM",
+            "Value": "03/07 01:30 PM",
             "RefValue": "",
             "NoDisplay": false
           },
@@ -1290,7 +1438,7 @@
           {
             "Name": "Last update",
             "RefName": "LastUpdated",
-            "Value": "03/07 01:10 PM",
+            "Value": "03/07 01:30 PM",
             "RefValue": "",
             "NoDisplay": false
           },
@@ -1469,5 +1617,5 @@
       }
     }
   ],
-  "LastUpdated": "2026-03-07T21:14:06.1032442+00:00"
+  "LastUpdated": "2026-03-07T21:34:07.7037634+00:00"
 }
