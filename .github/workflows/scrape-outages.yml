@@ -17,7 +17,9 @@ jobs:
       uses: actions/checkout@ee0669bd1cc54295c223e0bb666b733df41de1c5 # v2
     - name: Fetch latest data
       run: |-
-        curl https://www.pse.com/api/sitecore/OutageMap/AnonymoussMapListView | jq . > outages.json
+        curl --max-time 30 --retry 3 --retry-delay 5 -sf https://www.pse.com/api/sitecore/OutageMap/AnonymoussMapListView | jq . > /tmp/outages.json
+        test -s /tmp/outages.json && jq -e . /tmp/outages.json > /dev/null
+        mv /tmp/outages.json outages.json
     - name: Commit and push if it changed
       run: |-
         git config user.name "outage-detector"
