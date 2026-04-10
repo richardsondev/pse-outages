@@ -1,18 +1,18 @@
 {
   "UnplannedOutageSummary": {
-    "CustomerAfftectedCount": 6,
-    "OutageCount": 1,
-    "LastUpdatedDatetime": "04/10 03:09 AM"
+    "CustomerAfftectedCount": 15,
+    "OutageCount": 2,
+    "LastUpdatedDatetime": "04/10 03:44 AM"
   },
   "PlannedOutageSummary": {
     "CustomerAfftectedCount": 2,
     "OutageCount": 2,
-    "LastUpdatedDatetime": "04/10 03:09 AM"
+    "LastUpdatedDatetime": "04/10 03:44 AM"
   },
   "PSPSSummary": {
     "CustomerAfftectedCount": 0,
     "OutageCount": 0,
-    "LastUpdatedDatetime": "04/10 03:09 AM"
+    "LastUpdatedDatetime": "04/10 03:44 AM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -50,7 +50,7 @@
           {
             "Name": "Last update",
             "RefName": "LastUpdated",
-            "Value": "04/10 03:05 AM",
+            "Value": "04/10 03:40 AM",
             "RefValue": "",
             "NoDisplay": false
           },
@@ -262,7 +262,7 @@
           {
             "Name": "Last update",
             "RefName": "LastUpdated",
-            "Value": "04/10 03:05 AM",
+            "Value": "04/10 03:40 AM",
             "RefValue": "",
             "NoDisplay": false
           },
@@ -446,6 +446,114 @@
           {
             "Name": "Start time",
             "RefName": "StartDate",
+            "Value": "04/09 09:28 PM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "RefName": "Customers impacted",
+            "Value": "9",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "RefName": "Status",
+            "Value": "Crew assigned",
+            "RefValue": "Crew assigned",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "RefName": "Cause",
+            "Value": "Scheduled outage",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "RefName": "LastUpdated",
+            "Value": "04/10 03:40 AM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "RefName": "Est. Restoration time",
+            "Value": "04/10 05:30 AM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Outage ID",
+            "RefName": "OutageEventId",
+            "Value": "INC1140119239",
+            "RefValue": "",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "48.00065",
+          "Longitude": "-122.46069",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "OrderType": "Outage",
+          "Title": "Langley",
+          "Id": "INC1140119239",
+          "PlannedOutage": false,
+          "FilterType": "Outage",
+          "IsHve": false
+        },
+        "CRCAttributes": null
+      },
+      "Polygon": [
+        {
+          "Latitude": "48.00053",
+          "Longitude": "-122.46027"
+        },
+        {
+          "Latitude": "48.00061",
+          "Longitude": "-122.46095"
+        },
+        {
+          "Latitude": "48.00068",
+          "Longitude": "-122.46100"
+        },
+        {
+          "Latitude": "48.00073",
+          "Longitude": "-122.46095"
+        },
+        {
+          "Latitude": "48.00076",
+          "Longitude": "-122.46087"
+        },
+        {
+          "Latitude": "48.00061",
+          "Longitude": "-122.46024"
+        },
+        {
+          "Latitude": "48.00053",
+          "Longitude": "-122.46027"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "48.00053",
+          "Longitude": "-122.46100"
+        },
+        "Max": {
+          "Latitude": "48.00076",
+          "Longitude": "-122.46024"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "RefName": "StartDate",
             "Value": "04/10 02:02 AM",
             "RefValue": "",
             "NoDisplay": false
@@ -474,7 +582,7 @@
           {
             "Name": "Last update",
             "RefName": "LastUpdated",
-            "Value": "04/10 03:05 AM",
+            "Value": "04/10 03:40 AM",
             "RefValue": "",
             "NoDisplay": false
           },
@@ -653,5 +761,5 @@
       }
     }
   ],
-  "LastUpdated": "2026-04-10T10:09:07.9228527+00:00"
+  "LastUpdated": "2026-04-10T10:44:06.3318374+00:00"
 }
