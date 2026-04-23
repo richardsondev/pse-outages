@@ -1,21 +1,137 @@
 {
   "UnplannedOutageSummary": {
-    "CustomerAfftectedCount": 2,
-    "OutageCount": 2,
-    "LastUpdatedDatetime": "04/23 03:19 PM"
+    "CustomerAfftectedCount": 12,
+    "OutageCount": 3,
+    "LastUpdatedDatetime": "04/23 03:44 PM"
   },
   "PlannedOutageSummary": {
     "CustomerAfftectedCount": 3,
     "OutageCount": 1,
-    "LastUpdatedDatetime": "04/23 03:19 PM"
+    "LastUpdatedDatetime": "04/23 03:44 PM"
   },
   "PSPSSummary": {
     "CustomerAfftectedCount": 0,
     "OutageCount": 0,
-    "LastUpdatedDatetime": "04/23 03:19 PM"
+    "LastUpdatedDatetime": "04/23 03:44 PM"
   },
   "CustomerProfile": null,
   "PseMap": [
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "RefName": "StartDate",
+            "Value": "04/23 03:22 PM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "RefName": "Customers impacted",
+            "Value": "10",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "RefName": "Status",
+            "Value": "Crew onsite",
+            "RefValue": "Repair crew onsite",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "RefName": "Cause",
+            "Value": "Scheduled outage",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "RefName": "LastUpdated",
+            "Value": "04/23 03:40 PM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "RefName": "Est. Restoration time",
+            "Value": "04/23 06:30 PM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Outage ID",
+            "RefName": "OutageEventId",
+            "Value": "INC1140121706",
+            "RefValue": "",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "48.49528",
+          "Longitude": "-122.62014",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "OrderType": "Outage",
+          "Title": "Anacortes",
+          "Id": "INC1140121706",
+          "PlannedOutage": false,
+          "FilterType": "Outage",
+          "IsHve": false
+        },
+        "CRCAttributes": null
+      },
+      "Polygon": [
+        {
+          "Latitude": "48.49510",
+          "Longitude": "-122.61946"
+        },
+        {
+          "Latitude": "48.49524",
+          "Longitude": "-122.62134"
+        },
+        {
+          "Latitude": "48.49533",
+          "Longitude": "-122.62134"
+        },
+        {
+          "Latitude": "48.49542",
+          "Longitude": "-122.62039"
+        },
+        {
+          "Latitude": "48.49542",
+          "Longitude": "-122.62038"
+        },
+        {
+          "Latitude": "48.49541",
+          "Longitude": "-122.61948"
+        },
+        {
+          "Latitude": "48.49537",
+          "Longitude": "-122.61941"
+        },
+        {
+          "Latitude": "48.49514",
+          "Longitude": "-122.61939"
+        },
+        {
+          "Latitude": "48.49510",
+          "Longitude": "-122.61946"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "48.49510",
+          "Longitude": "-122.62134"
+        },
+        "Max": {
+          "Latitude": "48.49542",
+          "Longitude": "-122.61939"
+        }
+      }
+    },
     {
       "DataProvider": {
         "Attributes": [
@@ -50,7 +166,7 @@
           {
             "Name": "Last update",
             "RefName": "LastUpdated",
-            "Value": "04/23 03:15 PM",
+            "Value": "04/23 03:40 PM",
             "RefValue": "",
             "NoDisplay": false
           },
@@ -262,7 +378,7 @@
           {
             "Name": "Last update",
             "RefName": "LastUpdated",
-            "Value": "04/23 03:15 PM",
+            "Value": "04/23 03:40 PM",
             "RefValue": "",
             "NoDisplay": false
           },
@@ -474,7 +590,7 @@
           {
             "Name": "Last update",
             "RefName": "LastUpdated",
-            "Value": "04/23 03:15 PM",
+            "Value": "04/23 03:40 PM",
             "RefValue": "",
             "NoDisplay": false
           },
@@ -661,5 +777,5 @@
       }
     }
   ],
-  "LastUpdated": "2026-04-23T22:19:06.626072+00:00"
+  "LastUpdated": "2026-04-23T22:44:08.5116488+00:00"
 }
