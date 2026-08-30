@@ -1,21 +1,186 @@
 {
   "UnplannedOutageSummary": {
-    "CustomerAfftectedCount": 19,
-    "OutageCount": 2,
-    "LastUpdatedDatetime": "08/30 03:29 PM"
+    "CustomerAfftectedCount": 327,
+    "OutageCount": 3,
+    "LastUpdatedDatetime": "08/30 03:49 PM"
   },
   "PlannedOutageSummary": {
     "CustomerAfftectedCount": 0,
     "OutageCount": 0,
-    "LastUpdatedDatetime": "08/30 03:29 PM"
+    "LastUpdatedDatetime": "08/30 03:49 PM"
   },
   "PSPSSummary": {
     "CustomerAfftectedCount": 0,
     "OutageCount": 0,
-    "LastUpdatedDatetime": "08/30 03:29 PM"
+    "LastUpdatedDatetime": "08/30 03:49 PM"
   },
   "CustomerProfile": null,
   "PseMap": [
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "RefName": "StartDate",
+            "Value": "08/30 03:36 PM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "RefName": "Customers impacted",
+            "Value": "308",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "RefName": "Status",
+            "Value": "Outage reported",
+            "RefValue": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "RefName": "Cause",
+            "Value": "Under investigation",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "RefName": "LastUpdated",
+            "Value": "08/30 03:45 PM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "RefName": "Est. Restoration time",
+            "Value": "08/30 07:00 PM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Outage ID",
+            "RefName": "OutageEventId",
+            "Value": "INC1140133345",
+            "RefValue": "",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "48.48454",
+          "Longitude": "-122.46513",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "OrderType": "Outage",
+          "Title": "Bay View",
+          "Id": "INC1140133345",
+          "PlannedOutage": false,
+          "FilterType": "Outage",
+          "IsHve": false,
+          "IsEPS": false
+        },
+        "CRCAttributes": null
+      },
+      "Polygon": [
+        {
+          "Latitude": "48.46710",
+          "Longitude": "-122.45683"
+        },
+        {
+          "Latitude": "48.47009",
+          "Longitude": "-122.46819"
+        },
+        {
+          "Latitude": "48.47011",
+          "Longitude": "-122.46822"
+        },
+        {
+          "Latitude": "48.48141",
+          "Longitude": "-122.47753"
+        },
+        {
+          "Latitude": "48.48141",
+          "Longitude": "-122.47753"
+        },
+        {
+          "Latitude": "48.48719",
+          "Longitude": "-122.48137"
+        },
+        {
+          "Latitude": "48.48720",
+          "Longitude": "-122.48138"
+        },
+        {
+          "Latitude": "48.49858",
+          "Longitude": "-122.48299"
+        },
+        {
+          "Latitude": "48.49859",
+          "Longitude": "-122.48299"
+        },
+        {
+          "Latitude": "48.50546",
+          "Longitude": "-122.48181"
+        },
+        {
+          "Latitude": "48.50548",
+          "Longitude": "-122.48180"
+        },
+        {
+          "Latitude": "48.50773",
+          "Longitude": "-122.47951"
+        },
+        {
+          "Latitude": "48.50774",
+          "Longitude": "-122.47940"
+        },
+        {
+          "Latitude": "48.50158",
+          "Longitude": "-122.47098"
+        },
+        {
+          "Latitude": "48.50157",
+          "Longitude": "-122.47098"
+        },
+        {
+          "Latitude": "48.47477",
+          "Longitude": "-122.43990"
+        },
+        {
+          "Latitude": "48.47477",
+          "Longitude": "-122.43990"
+        },
+        {
+          "Latitude": "48.47430",
+          "Longitude": "-122.43944"
+        },
+        {
+          "Latitude": "48.47424",
+          "Longitude": "-122.43946"
+        },
+        {
+          "Latitude": "48.46710",
+          "Longitude": "-122.45677"
+        },
+        {
+          "Latitude": "48.46710",
+          "Longitude": "-122.45683"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "48.46710",
+          "Longitude": "-122.48299"
+        },
+        "Max": {
+          "Latitude": "48.50774",
+          "Longitude": "-122.43944"
+        }
+      }
+    },
     {
       "DataProvider": {
         "Attributes": [
@@ -36,8 +201,8 @@
           {
             "Name": "Status",
             "RefName": "Status",
-            "Value": "Assessing damage",
-            "RefValue": "Waiting for repairs",
+            "Value": "Crew onsite",
+            "RefValue": "Repair crew onsite",
             "NoDisplay": false
           },
           {
@@ -50,7 +215,7 @@
           {
             "Name": "Last update",
             "RefName": "LastUpdated",
-            "Value": "08/30 03:25 PM",
+            "Value": "08/30 03:45 PM",
             "RefValue": "",
             "NoDisplay": false
           },
@@ -257,8 +422,8 @@
           {
             "Name": "Status",
             "RefName": "Status",
-            "Value": "Outage reported",
-            "RefValue": "Outage reported",
+            "Value": "Assessing damage",
+            "RefValue": "Waiting for repairs",
             "NoDisplay": false
           },
           {
@@ -271,7 +436,7 @@
           {
             "Name": "Last update",
             "RefName": "LastUpdated",
-            "Value": "08/30 03:25 PM",
+            "Value": "08/30 03:45 PM",
             "RefValue": "",
             "NoDisplay": false
           },
@@ -371,5 +536,5 @@
       }
     }
   ],
-  "LastUpdated": "2026-08-30T22:29:11.3034945+00:00"
+  "LastUpdated": "2026-08-30T22:49:04.1142434+00:00"
 }
