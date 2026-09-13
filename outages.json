@@ -1,21 +1,130 @@
 {
   "UnplannedOutageSummary": {
-    "CustomerAfftectedCount": 7,
-    "OutageCount": 3,
-    "LastUpdatedDatetime": "09/13 04:29 AM"
+    "CustomerAfftectedCount": 10,
+    "OutageCount": 4,
+    "LastUpdatedDatetime": "09/13 04:49 AM"
   },
   "PlannedOutageSummary": {
     "CustomerAfftectedCount": 5,
     "OutageCount": 3,
-    "LastUpdatedDatetime": "09/13 04:29 AM"
+    "LastUpdatedDatetime": "09/13 04:49 AM"
   },
   "PSPSSummary": {
     "CustomerAfftectedCount": 0,
     "OutageCount": 0,
-    "LastUpdatedDatetime": "09/13 04:29 AM"
+    "LastUpdatedDatetime": "09/13 04:49 AM"
   },
   "CustomerProfile": null,
   "PseMap": [
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "RefName": "StartDate",
+            "Value": "09/13 04:36 AM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "RefName": "Customers impacted",
+            "Value": "3",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "RefName": "Status",
+            "Value": "Outage reported",
+            "RefValue": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "RefName": "Cause",
+            "Value": "Under investigation",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "RefName": "LastUpdated",
+            "Value": "09/13 04:45 AM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "RefName": "Est. Restoration time",
+            "Value": "09/13 08:00 AM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Outage ID",
+            "RefName": "OutageEventId",
+            "Value": "INC1135499804",
+            "RefValue": "",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.18015",
+          "Longitude": "-122.20798",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "OrderType": "Outage",
+          "Title": "Alderton",
+          "Id": "INC1135499804",
+          "PlannedOutage": false,
+          "FilterType": "Outage",
+          "IsHve": false,
+          "IsEPS": false
+        },
+        "CRCAttributes": null
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.17991",
+          "Longitude": "-122.20779"
+        },
+        {
+          "Latitude": "47.18035",
+          "Longitude": "-122.20847"
+        },
+        {
+          "Latitude": "47.18042",
+          "Longitude": "-122.20838"
+        },
+        {
+          "Latitude": "47.18014",
+          "Longitude": "-122.20773"
+        },
+        {
+          "Latitude": "47.18011",
+          "Longitude": "-122.20770"
+        },
+        {
+          "Latitude": "47.17995",
+          "Longitude": "-122.20768"
+        },
+        {
+          "Latitude": "47.17991",
+          "Longitude": "-122.20779"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.17991",
+          "Longitude": "-122.20847"
+        },
+        "Max": {
+          "Latitude": "47.18042",
+          "Longitude": "-122.20768"
+        }
+      }
+    },
     {
       "DataProvider": {
         "Attributes": [
@@ -50,7 +159,7 @@
           {
             "Name": "Last update",
             "RefName": "LastUpdated",
-            "Value": "09/13 04:25 AM",
+            "Value": "09/13 04:45 AM",
             "RefValue": "",
             "NoDisplay": false
           },
@@ -264,14 +373,14 @@
           {
             "Name": "Cause",
             "RefName": "Cause",
-            "Value": "Under investigation",
+            "Value": "Trees/vegetation",
             "RefValue": "",
             "NoDisplay": false
           },
           {
             "Name": "Last update",
             "RefName": "LastUpdated",
-            "Value": "09/13 04:25 AM",
+            "Value": "09/13 04:45 AM",
             "RefValue": "",
             "NoDisplay": false
           },
@@ -380,7 +489,7 @@
           {
             "Name": "Last update",
             "RefName": "LastUpdated",
-            "Value": "09/13 04:25 AM",
+            "Value": "09/13 04:45 AM",
             "RefValue": "",
             "NoDisplay": false
           },
@@ -489,7 +598,7 @@
           {
             "Name": "Last update",
             "RefName": "LastUpdated",
-            "Value": "09/13 04:25 AM",
+            "Value": "09/13 04:45 AM",
             "RefValue": "",
             "NoDisplay": false
           },
@@ -710,7 +819,7 @@
           {
             "Name": "Last update",
             "RefName": "LastUpdated",
-            "Value": "09/13 04:25 AM",
+            "Value": "09/13 04:45 AM",
             "RefValue": "",
             "NoDisplay": false
           },
@@ -923,7 +1032,7 @@
           {
             "Name": "Last update",
             "RefName": "LastUpdated",
-            "Value": "09/13 04:25 AM",
+            "Value": "09/13 04:45 AM",
             "RefValue": "",
             "NoDisplay": false
           },
@@ -1103,5 +1212,5 @@
       }
     }
   ],
-  "LastUpdated": "2026-09-13T11:29:09.1628995+00:00"
+  "LastUpdated": "2026-09-13T11:49:08.335599+00:00"
 }
