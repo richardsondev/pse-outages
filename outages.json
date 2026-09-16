@@ -1,18 +1,18 @@
 {
   "UnplannedOutageSummary": {
-    "CustomerAfftectedCount": 0,
-    "OutageCount": 0,
-    "LastUpdatedDatetime": "09/16 04:49 AM"
+    "CustomerAfftectedCount": 3,
+    "OutageCount": 1,
+    "LastUpdatedDatetime": "09/16 05:29 AM"
   },
   "PlannedOutageSummary": {
     "CustomerAfftectedCount": 1,
     "OutageCount": 1,
-    "LastUpdatedDatetime": "09/16 04:49 AM"
+    "LastUpdatedDatetime": "09/16 05:29 AM"
   },
   "PSPSSummary": {
     "CustomerAfftectedCount": 0,
     "OutageCount": 0,
-    "LastUpdatedDatetime": "09/16 04:49 AM"
+    "LastUpdatedDatetime": "09/16 05:29 AM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -50,7 +50,7 @@
           {
             "Name": "Last update",
             "RefName": "LastUpdated",
-            "Value": "09/16 04:45 AM",
+            "Value": "09/16 05:25 AM",
             "RefValue": "",
             "NoDisplay": false
           },
@@ -228,7 +228,116 @@
           "Longitude": "-122.28481"
         }
       }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "RefName": "StartDate",
+            "Value": "09/16 05:13 AM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "RefName": "Customers impacted",
+            "Value": "3",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "RefName": "Status",
+            "Value": "Outage reported",
+            "RefValue": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "RefName": "Cause",
+            "Value": "Under investigation",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "RefName": "LastUpdated",
+            "Value": "09/16 05:25 AM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "RefName": "Est. Restoration time",
+            "Value": "09/16 08:30 AM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Outage ID",
+            "RefName": "OutageEventId",
+            "Value": "INC1135500215",
+            "RefValue": "",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.39320",
+          "Longitude": "-122.13667",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "OrderType": "Outage",
+          "Title": "East Hill-Meridian",
+          "Id": "INC1135500215",
+          "PlannedOutage": false,
+          "FilterType": "Outage",
+          "IsHve": false,
+          "IsEPS": false
+        },
+        "CRCAttributes": null
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.39306",
+          "Longitude": "-122.13761"
+        },
+        {
+          "Latitude": "47.39356",
+          "Longitude": "-122.13622"
+        },
+        {
+          "Latitude": "47.39351",
+          "Longitude": "-122.13613"
+        },
+        {
+          "Latitude": "47.39305",
+          "Longitude": "-122.13617"
+        },
+        {
+          "Latitude": "47.39301",
+          "Longitude": "-122.13624"
+        },
+        {
+          "Latitude": "47.39298",
+          "Longitude": "-122.13758"
+        },
+        {
+          "Latitude": "47.39306",
+          "Longitude": "-122.13761"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.39298",
+          "Longitude": "-122.13761"
+        },
+        "Max": {
+          "Latitude": "47.39356",
+          "Longitude": "-122.13613"
+        }
+      }
     }
   ],
-  "LastUpdated": "2026-09-16T11:49:09.0895403+00:00"
+  "LastUpdated": "2026-09-16T12:29:07.9238283+00:00"
 }
