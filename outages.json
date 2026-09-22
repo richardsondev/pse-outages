@@ -2,20 +2,129 @@
   "UnplannedOutageSummary": {
     "CustomerAfftectedCount": 0,
     "OutageCount": 0,
-    "LastUpdatedDatetime": "09/22 08:19 AM"
+    "LastUpdatedDatetime": "09/22 08:34 AM"
   },
   "PlannedOutageSummary": {
-    "CustomerAfftectedCount": 1,
-    "OutageCount": 1,
-    "LastUpdatedDatetime": "09/22 08:19 AM"
+    "CustomerAfftectedCount": 5,
+    "OutageCount": 2,
+    "LastUpdatedDatetime": "09/22 08:34 AM"
   },
   "PSPSSummary": {
     "CustomerAfftectedCount": 0,
     "OutageCount": 0,
-    "LastUpdatedDatetime": "09/22 08:19 AM"
+    "LastUpdatedDatetime": "09/22 08:34 AM"
   },
   "CustomerProfile": null,
   "PseMap": [
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "RefName": "StartDate",
+            "Value": "09/22 08:27 AM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "RefName": "Customers impacted",
+            "Value": "4",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "RefName": "Status",
+            "Value": "Crew onsite",
+            "RefValue": "Repair crew onsite",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "RefName": "Cause",
+            "Value": "Planned Outage",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "RefName": "LastUpdated",
+            "Value": "09/22 08:30 AM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "RefName": "Est. Restoration time",
+            "Value": "09/22 04:00 PM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Outage ID",
+            "RefName": "OutageEventId",
+            "Value": "INC1135501196",
+            "RefValue": "",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.69367",
+          "Longitude": "-122.56027",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "OrderType": "Switching",
+          "Title": "Bainbridge Island",
+          "Id": "INC1135501196",
+          "PlannedOutage": true,
+          "FilterType": "Planned",
+          "IsHve": false,
+          "IsEPS": false
+        },
+        "CRCAttributes": null
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.69335",
+          "Longitude": "-122.56063"
+        },
+        {
+          "Latitude": "47.69422",
+          "Longitude": "-122.56048"
+        },
+        {
+          "Latitude": "47.69423",
+          "Longitude": "-122.56035"
+        },
+        {
+          "Latitude": "47.69349",
+          "Longitude": "-122.55977"
+        },
+        {
+          "Latitude": "47.69342",
+          "Longitude": "-122.55981"
+        },
+        {
+          "Latitude": "47.69330",
+          "Longitude": "-122.56055"
+        },
+        {
+          "Latitude": "47.69335",
+          "Longitude": "-122.56063"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.69330",
+          "Longitude": "-122.56063"
+        },
+        "Max": {
+          "Latitude": "47.69423",
+          "Longitude": "-122.55977"
+        }
+      }
+    },
     {
       "DataProvider": {
         "Attributes": [
@@ -50,7 +159,7 @@
           {
             "Name": "Last update",
             "RefName": "LastUpdated",
-            "Value": "09/22 08:15 AM",
+            "Value": "09/22 08:30 AM",
             "RefValue": "",
             "NoDisplay": false
           },
@@ -230,5 +339,5 @@
       }
     }
   ],
-  "LastUpdated": "2026-09-22T15:19:03.7973896+00:00"
+  "LastUpdated": "2026-09-22T15:34:09.8059968+00:00"
 }
