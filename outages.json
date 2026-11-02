@@ -1,21 +1,138 @@
 {
   "UnplannedOutageSummary": {
-    "CustomerAfftectedCount": 2,
-    "OutageCount": 1,
-    "LastUpdatedDatetime": "11/02 04:49 AM"
+    "CustomerAfftectedCount": 6,
+    "OutageCount": 2,
+    "LastUpdatedDatetime": "11/02 05:14 AM"
   },
   "PlannedOutageSummary": {
     "CustomerAfftectedCount": 0,
     "OutageCount": 0,
-    "LastUpdatedDatetime": "11/02 04:49 AM"
+    "LastUpdatedDatetime": "11/02 05:14 AM"
   },
   "PSPSSummary": {
     "CustomerAfftectedCount": 0,
     "OutageCount": 0,
-    "LastUpdatedDatetime": "11/02 04:49 AM"
+    "LastUpdatedDatetime": "11/02 05:14 AM"
   },
   "CustomerProfile": null,
   "PseMap": [
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "RefName": "StartDate",
+            "Value": "11/02 04:53 AM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "RefName": "Customers impacted",
+            "Value": "4",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "RefName": "Status",
+            "Value": "Outage reported",
+            "RefValue": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "RefName": "Cause",
+            "Value": "Under investigation",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "RefName": "LastUpdated",
+            "Value": "11/02 05:10 AM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "RefName": "Est. Restoration time",
+            "Value": "11/02 08:00 AM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Outage ID",
+            "RefName": "OutageEventId",
+            "Value": "INC1140135890",
+            "RefValue": "",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.58992",
+          "Longitude": "-122.14729",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "OrderType": "Outage",
+          "Title": "Bellevue",
+          "Id": "INC1140135890",
+          "PlannedOutage": false,
+          "FilterType": "Outage",
+          "IsHve": false,
+          "IsEPS": false
+        },
+        "CRCAttributes": null
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.58964",
+          "Longitude": "-122.14710"
+        },
+        {
+          "Latitude": "47.58964",
+          "Longitude": "-122.14748"
+        },
+        {
+          "Latitude": "47.58968",
+          "Longitude": "-122.14754"
+        },
+        {
+          "Latitude": "47.59016",
+          "Longitude": "-122.14753"
+        },
+        {
+          "Latitude": "47.59021",
+          "Longitude": "-122.14746"
+        },
+        {
+          "Latitude": "47.59021",
+          "Longitude": "-122.14711"
+        },
+        {
+          "Latitude": "47.59016",
+          "Longitude": "-122.14704"
+        },
+        {
+          "Latitude": "47.58968",
+          "Longitude": "-122.14704"
+        },
+        {
+          "Latitude": "47.58964",
+          "Longitude": "-122.14710"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.58964",
+          "Longitude": "-122.14754"
+        },
+        "Max": {
+          "Latitude": "47.59021",
+          "Longitude": "-122.14704"
+        }
+      }
+    },
     {
       "DataProvider": {
         "Attributes": [
@@ -50,7 +167,7 @@
           {
             "Name": "Last update",
             "RefName": "LastUpdated",
-            "Value": "11/02 04:45 AM",
+            "Value": "11/02 05:10 AM",
             "RefValue": "",
             "NoDisplay": false
           },
@@ -230,5 +347,5 @@
       }
     }
   ],
-  "LastUpdated": "2026-11-02T12:49:06.5150535+00:00"
+  "LastUpdated": "2026-11-02T13:14:03.7141576+00:00"
 }
