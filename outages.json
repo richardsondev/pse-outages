@@ -1,18 +1,18 @@
 {
   "UnplannedOutageSummary": {
-    "CustomerAfftectedCount": 7,
-    "OutageCount": 5,
-    "LastUpdatedDatetime": "11/03 09:29 PM"
+    "CustomerAfftectedCount": 10,
+    "OutageCount": 6,
+    "LastUpdatedDatetime": "11/03 09:49 PM"
   },
   "PlannedOutageSummary": {
     "CustomerAfftectedCount": 1,
     "OutageCount": 1,
-    "LastUpdatedDatetime": "11/03 09:29 PM"
+    "LastUpdatedDatetime": "11/03 09:49 PM"
   },
   "PSPSSummary": {
     "CustomerAfftectedCount": 0,
     "OutageCount": 0,
-    "LastUpdatedDatetime": "11/03 09:29 PM"
+    "LastUpdatedDatetime": "11/03 09:49 PM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -50,7 +50,7 @@
           {
             "Name": "Last update",
             "RefName": "LastUpdated",
-            "Value": "11/03 09:25 PM",
+            "Value": "11/03 09:45 PM",
             "RefValue": "",
             "NoDisplay": false
           },
@@ -152,14 +152,14 @@
           {
             "Name": "Cause",
             "RefName": "Cause",
-            "Value": "Under investigation",
+            "Value": "Equipment failure",
             "RefValue": "",
             "NoDisplay": false
           },
           {
             "Name": "Last update",
             "RefName": "LastUpdated",
-            "Value": "11/03 09:25 PM",
+            "Value": "11/03 09:45 PM",
             "RefValue": "",
             "NoDisplay": false
           },
@@ -372,7 +372,7 @@
           {
             "Name": "Last update",
             "RefName": "LastUpdated",
-            "Value": "11/03 09:25 PM",
+            "Value": "11/03 09:45 PM",
             "RefValue": "",
             "NoDisplay": false
           },
@@ -585,7 +585,7 @@
           {
             "Name": "Last update",
             "RefName": "LastUpdated",
-            "Value": "11/03 09:25 PM",
+            "Value": "11/03 09:45 PM",
             "RefValue": "",
             "NoDisplay": false
           },
@@ -784,8 +784,8 @@
           {
             "Name": "Status",
             "RefName": "Status",
-            "Value": "Crew assigned",
-            "RefValue": "Crew assigned",
+            "Value": "Crew onsite",
+            "RefValue": "Repair crew onsite",
             "NoDisplay": false
           },
           {
@@ -798,7 +798,7 @@
           {
             "Name": "Last update",
             "RefName": "LastUpdated",
-            "Value": "11/03 09:25 PM",
+            "Value": "11/03 09:45 PM",
             "RefValue": "",
             "NoDisplay": false
           },
@@ -983,6 +983,115 @@
           {
             "Name": "Start time",
             "RefName": "StartDate",
+            "Value": "11/03 09:28 PM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "RefName": "Customers impacted",
+            "Value": "3",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "RefName": "Status",
+            "Value": "Outage reported",
+            "RefValue": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "RefName": "Cause",
+            "Value": "Under investigation",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "RefName": "LastUpdated",
+            "Value": "11/03 09:45 PM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "RefName": "Est. Restoration time",
+            "Value": "11/04 12:30 AM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Outage ID",
+            "RefName": "OutageEventId",
+            "Value": "INC1140136211",
+            "RefValue": "",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "46.88816",
+          "Longitude": "-122.68585",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "OrderType": "Outage",
+          "Title": "Rainier",
+          "Id": "INC1140136211",
+          "PlannedOutage": false,
+          "FilterType": "Outage",
+          "IsHve": false,
+          "IsEPS": false
+        },
+        "CRCAttributes": null
+      },
+      "Polygon": [
+        {
+          "Latitude": "46.88802",
+          "Longitude": "-122.68553"
+        },
+        {
+          "Latitude": "46.88805",
+          "Longitude": "-122.68610"
+        },
+        {
+          "Latitude": "46.88811",
+          "Longitude": "-122.68615"
+        },
+        {
+          "Latitude": "46.88833",
+          "Longitude": "-122.68599"
+        },
+        {
+          "Latitude": "46.88835",
+          "Longitude": "-122.68588"
+        },
+        {
+          "Latitude": "46.88810",
+          "Longitude": "-122.68548"
+        },
+        {
+          "Latitude": "46.88802",
+          "Longitude": "-122.68553"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "46.88802",
+          "Longitude": "-122.68615"
+        },
+        "Max": {
+          "Latitude": "46.88835",
+          "Longitude": "-122.68548"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "RefName": "StartDate",
             "Value": "11/03 07:42 PM",
             "RefValue": "",
             "NoDisplay": false
@@ -1011,7 +1120,7 @@
           {
             "Name": "Last update",
             "RefName": "LastUpdated",
-            "Value": "11/03 09:25 PM",
+            "Value": "11/03 09:45 PM",
             "RefValue": "",
             "NoDisplay": false
           },
@@ -1191,5 +1300,5 @@
       }
     }
   ],
-  "LastUpdated": "2026-11-04T05:29:05.885434+00:00"
+  "LastUpdated": "2026-11-04T05:49:04.6481707+00:00"
 }
