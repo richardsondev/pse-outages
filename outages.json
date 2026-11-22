@@ -1,18 +1,18 @@
 {
   "UnplannedOutageSummary": {
-    "CustomerAfftectedCount": 2,
-    "OutageCount": 2,
-    "LastUpdatedDatetime": "11/22 01:09 PM"
+    "CustomerAfftectedCount": 5,
+    "OutageCount": 3,
+    "LastUpdatedDatetime": "11/22 01:29 PM"
   },
   "PlannedOutageSummary": {
     "CustomerAfftectedCount": 0,
     "OutageCount": 0,
-    "LastUpdatedDatetime": "11/22 01:09 PM"
+    "LastUpdatedDatetime": "11/22 01:29 PM"
   },
   "PSPSSummary": {
     "CustomerAfftectedCount": 0,
     "OutageCount": 0,
-    "LastUpdatedDatetime": "11/22 01:09 PM"
+    "LastUpdatedDatetime": "11/22 01:29 PM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -50,7 +50,7 @@
           {
             "Name": "Last update",
             "RefName": "LastUpdated",
-            "Value": "11/22 01:05 PM",
+            "Value": "11/22 01:25 PM",
             "RefValue": "",
             "NoDisplay": false
           },
@@ -263,7 +263,7 @@
           {
             "Name": "Last update",
             "RefName": "LastUpdated",
-            "Value": "11/22 01:05 PM",
+            "Value": "11/22 01:25 PM",
             "RefValue": "",
             "NoDisplay": false
           },
@@ -441,7 +441,116 @@
           "Longitude": "-122.06288"
         }
       }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "RefName": "StartDate",
+            "Value": "11/22 01:06 PM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "RefName": "Customers impacted",
+            "Value": "3",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "RefName": "Status",
+            "Value": "Outage reported",
+            "RefValue": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "RefName": "Cause",
+            "Value": "Under investigation",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "RefName": "LastUpdated",
+            "Value": "11/22 01:25 PM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "RefName": "Est. Restoration time",
+            "Value": "11/22 04:30 PM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Outage ID",
+            "RefName": "OutageEventId",
+            "Value": "INC1135510116",
+            "RefValue": "",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.61939",
+          "Longitude": "-122.05614",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "OrderType": "Outage",
+          "Title": "Sammamish",
+          "Id": "INC1135510116",
+          "PlannedOutage": false,
+          "FilterType": "Outage",
+          "IsHve": false,
+          "IsEPS": false
+        },
+        "CRCAttributes": null
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.61921",
+          "Longitude": "-122.05586"
+        },
+        {
+          "Latitude": "47.61925",
+          "Longitude": "-122.05625"
+        },
+        {
+          "Latitude": "47.61929",
+          "Longitude": "-122.05630"
+        },
+        {
+          "Latitude": "47.61960",
+          "Longitude": "-122.05639"
+        },
+        {
+          "Latitude": "47.61964",
+          "Longitude": "-122.05628"
+        },
+        {
+          "Latitude": "47.61928",
+          "Longitude": "-122.05580"
+        },
+        {
+          "Latitude": "47.61921",
+          "Longitude": "-122.05586"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.61921",
+          "Longitude": "-122.05639"
+        },
+        "Max": {
+          "Latitude": "47.61964",
+          "Longitude": "-122.05580"
+        }
+      }
     }
   ],
-  "LastUpdated": "2026-11-22T21:09:06.3249314+00:00"
+  "LastUpdated": "2026-11-22T21:29:10.8373723+00:00"
 }
