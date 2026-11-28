@@ -1,18 +1,18 @@
 {
   "UnplannedOutageSummary": {
-    "CustomerAfftectedCount": 2,
-    "OutageCount": 1,
-    "LastUpdatedDatetime": "11/28 12:14 AM"
+    "CustomerAfftectedCount": 18,
+    "OutageCount": 2,
+    "LastUpdatedDatetime": "11/28 12:29 AM"
   },
   "PlannedOutageSummary": {
     "CustomerAfftectedCount": 3,
     "OutageCount": 1,
-    "LastUpdatedDatetime": "11/28 12:14 AM"
+    "LastUpdatedDatetime": "11/28 12:29 AM"
   },
   "PSPSSummary": {
     "CustomerAfftectedCount": 0,
     "OutageCount": 0,
-    "LastUpdatedDatetime": "11/28 12:14 AM"
+    "LastUpdatedDatetime": "11/28 12:29 AM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -50,7 +50,7 @@
           {
             "Name": "Last update",
             "RefName": "LastUpdated",
-            "Value": "11/28 12:10 AM",
+            "Value": "11/28 12:25 AM",
             "RefValue": "",
             "NoDisplay": false
           },
@@ -243,6 +243,131 @@
           {
             "Name": "Start time",
             "RefName": "StartDate",
+            "Value": "11/28 12:19 AM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "RefName": "Customers impacted",
+            "Value": "16",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "RefName": "Status",
+            "Value": "Outage reported",
+            "RefValue": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "RefName": "Cause",
+            "Value": "Under investigation",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "RefName": "LastUpdated",
+            "Value": "11/28 12:25 AM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "RefName": "Est. Restoration time",
+            "Value": "11/28 03:30 AM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Outage ID",
+            "RefName": "OutageEventId",
+            "Value": "INC1135511728",
+            "RefValue": "",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.76268",
+          "Longitude": "-122.48935",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "OrderType": "Outage",
+          "Title": "Indianola",
+          "Id": "INC1135511728",
+          "PlannedOutage": false,
+          "FilterType": "Outage",
+          "IsHve": false,
+          "IsEPS": false
+        },
+        "CRCAttributes": null
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.75926",
+          "Longitude": "-122.48857"
+        },
+        {
+          "Latitude": "47.76335",
+          "Longitude": "-122.49272"
+        },
+        {
+          "Latitude": "47.76338",
+          "Longitude": "-122.49272"
+        },
+        {
+          "Latitude": "47.76524",
+          "Longitude": "-122.49191"
+        },
+        {
+          "Latitude": "47.76527",
+          "Longitude": "-122.49183"
+        },
+        {
+          "Latitude": "47.76473",
+          "Longitude": "-122.48703"
+        },
+        {
+          "Latitude": "47.76469",
+          "Longitude": "-122.48698"
+        },
+        {
+          "Latitude": "47.75977",
+          "Longitude": "-122.48704"
+        },
+        {
+          "Latitude": "47.75973",
+          "Longitude": "-122.48708"
+        },
+        {
+          "Latitude": "47.75924",
+          "Longitude": "-122.48849"
+        },
+        {
+          "Latitude": "47.75926",
+          "Longitude": "-122.48857"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.75924",
+          "Longitude": "-122.49272"
+        },
+        "Max": {
+          "Latitude": "47.76527",
+          "Longitude": "-122.48698"
+        }
+      }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "RefName": "StartDate",
             "Value": "11/24 10:06 AM",
             "RefValue": "",
             "NoDisplay": false
@@ -271,7 +396,7 @@
           {
             "Name": "Last update",
             "RefName": "LastUpdated",
-            "Value": "11/28 12:10 AM",
+            "Value": "11/28 12:25 AM",
             "RefValue": "",
             "NoDisplay": false
           },
@@ -347,5 +472,5 @@
       }
     }
   ],
-  "LastUpdated": "2026-11-28T08:14:08.1061312+00:00"
+  "LastUpdated": "2026-11-28T08:29:07.6531405+00:00"
 }
